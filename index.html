@@ -22,9 +22,11 @@
     body{padding:env(safe-area-inset-top) 0 calc(86px + env(safe-area-inset-bottom))}
     button,input,select{font:inherit}
     .wrap{max-width:760px;margin:auto;padding:14px}
-    .topbar{display:flex;align-items:flex-start;justify-content:space-between;padding:8px 2px 14px}
-    .brand{font-size:24px;font-weight:800;letter-spacing:-.4px}.subtle{font-size:12px;color:var(--muted);margin-top:4px}
-    .monthSel{border:1px solid var(--line);background:#fff;border-radius:13px;padding:10px 12px;color:var(--text)}
+    .topbar{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:12px;padding:10px 2px 16px}
+    .brandBlock{min-width:0}
+    .brand{font-size:23px;font-weight:820;letter-spacing:-.5px;white-space:nowrap;line-height:1.15}
+    .subtle{font-size:12px;color:var(--muted);margin-top:5px;white-space:nowrap}
+    .monthSel{width:148px;max-width:42vw;border:1px solid var(--line);background:#fff;border-radius:14px;padding:10px 32px 10px 12px;color:var(--text);font-size:15px;font-weight:600}
     .page{display:none}.page.active{display:block}
     .hero{background:#fff;border:1px solid var(--line);border-radius:24px;padding:20px;box-shadow:var(--shadow)}
     .eyebrow{font-size:12px;color:var(--muted)}.big{font-size:38px;font-weight:850;letter-spacing:-1.3px;margin:8px 0 4px}
@@ -54,14 +56,39 @@
     .budgetBox{background:#fff;border:1px solid var(--line);border-radius:20px;padding:15px}.budgetValue{font-size:27px;font-weight:800;margin:6px 0}.trend{width:100%;height:190px;background:#fff;border-radius:16px}
     .quickGrid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.quick{background:#fff;border:1px solid var(--line);border-radius:18px;padding:14px}.quick b{font-size:18px;display:block;margin-top:6px}
     .settingRow{display:grid;grid-template-columns:1fr 110px;gap:10px;align-items:center;padding:10px 0;border-bottom:1px solid var(--line)}.settingRow:last-child{border-bottom:0}.empty{text-align:center;color:var(--muted);font-size:13px;padding:18px}.historyCard{background:#fff;border:1px solid var(--line);border-radius:20px;padding:15px;margin-bottom:10px}.historyHead{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}.historyTotal{font-size:22px;font-weight:800}.historyGrid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px}.historyCell{background:#f8f9fb;border-radius:12px;padding:9px}.historyCell b{display:block;margin-top:3px}.milestone{position:relative;padding:11px 0 11px 18px;border-bottom:1px solid var(--line)}.milestone:last-child{border-bottom:0}.milestone:before{content:"";position:absolute;left:2px;top:17px;width:7px;height:7px;border-radius:50%;background:var(--accent)}.milestone b{display:block;font-size:13px;margin-bottom:3px}.inlineActions{display:flex;gap:7px;margin-top:9px}.textBtn{border:0;background:#f3f5f8;color:#536071;border-radius:10px;padding:7px 10px;font-size:11px}.textBtn.red{background:var(--red-soft);color:var(--red)}
-    @media(max-width:520px){.wrap{padding:12px}.stats{grid-template-columns:1fr 1fr}.stats .stat:last-child{grid-column:1/-1}.grid2{grid-template-columns:1fr}.allocationHero{align-items:flex-start}.donut{width:132px;height:132px}.row{grid-template-columns:1fr 122px}.big{font-size:34px}}
-  .lockOverlay{position:fixed;inset:0;background:#f6f7f9;z-index:9999;display:none;align-items:center;justify-content:center;padding:24px}.lockOverlay.show{display:flex}.lockCard{width:min(380px,100%);background:#fff;border:1px solid #e9ebef;border-radius:24px;padding:22px;box-shadow:0 16px 50px rgba(20,28,45,.12);text-align:center}.pinInput{font-size:24px;text-align:center;letter-spacing:8px}.lockMsg{font-size:12px;color:#d94b4b;margin-top:10px}</style>
+    @media(max-width:520px){
+      .wrap{padding:12px}
+      .topbar{gap:10px;padding-top:12px}
+      .brand{font-size:22px}
+      .subtle{font-size:11px}
+      .monthSel{width:142px;max-width:44vw;font-size:14px}
+      .stats{grid-template-columns:1fr 1fr}.stats .stat:last-child{grid-column:1/-1}
+      .grid2{grid-template-columns:1fr}.allocationHero{align-items:flex-start}.donut{width:132px;height:132px}
+      .row{grid-template-columns:minmax(0,1fr) 118px}
+      .big{font-size:34px}
+      .lockOverlay{padding-left:16px;padding-right:16px}
+      .lockCard{max-width:360px;padding:24px 18px}
+      .pinWrap{max-width:280px}
+    }
+    @media(max-width:360px){
+      .brand{font-size:20px}
+      .subtle{display:none}
+      .monthSel{width:132px;max-width:48vw}
+      .pinInput{letter-spacing:4px;font-size:20px}
+    }
+  .lockOverlay{position:fixed;inset:0;background:#f6f7f9;z-index:9999;display:none;align-items:center;justify-content:center;padding:calc(24px + env(safe-area-inset-top)) 20px calc(24px + env(safe-area-inset-bottom))}
+    .lockOverlay.show{display:flex}
+    .lockCard{width:100%;max-width:380px;min-width:0;overflow:hidden;background:#fff;border:1px solid #e9ebef;border-radius:26px;padding:24px 20px;box-shadow:0 16px 50px rgba(20,28,45,.12);text-align:center}
+    .lockCard h2{font-size:26px;line-height:1.2}
+    .pinWrap{width:100%;max-width:300px;margin:18px auto 0}
+    .pinInput{display:block;width:100%;max-width:100%;min-width:0;height:58px;margin:0;padding:10px 18px;border:1px solid #dfe3e8;border-radius:14px;font-size:22px;text-align:center;letter-spacing:6px;box-sizing:border-box}
+    .lockMsg{font-size:12px;color:#d94b4b;margin-top:10px;min-height:18px}</style>
 </head>
-<body><div id="lockOverlay" class="lockOverlay"><div class="lockCard"><div style="font-size:38px">🔒</div><h2 id="lockTitle" style="margin:10px 0 4px">资产笔记已锁定</h2><div id="lockDesc" class="mini">输入 6 位数字密码</div><input id="pinInput" class="pinInput" inputmode="numeric" maxlength="6" type="password" placeholder="••••••" style="margin-top:16px"><div class="btnRow" style="justify-content:center;margin-top:12px"><button id="pinAction" class="btn">解锁</button></div><div id="lockMsg" class="lockMsg"></div></div></div>
+<body><div id="lockOverlay" class="lockOverlay"><div class="lockCard"><div style="font-size:38px">🔒</div><h2 id="lockTitle" style="margin:10px 0 4px">资产笔记已锁定</h2><div id="lockDesc" class="mini">输入 6 位数字密码</div><div class="pinWrap"><input id="pinInput" class="pinInput" inputmode="numeric" maxlength="6" type="password" autocomplete="off" placeholder="••••••"></div><div class="btnRow" style="justify-content:center;margin-top:14px"><button id="pinAction" class="btn" style="min-width:104px">解锁</button></div><div id="lockMsg" class="lockMsg"></div></div></div>
 <div class="wrap">
   <div class="topbar">
-    <div><div class="brand">资产笔记</div><div class="subtle">每月一次，把钱看明白</div></div>
-    <select id="monthSelector" class="monthSel"></select>
+    <div class="brandBlock"><div class="brand">资产笔记</div><div class="subtle">每月一次，把钱看明白</div></div>
+    <select id="monthSelector" class="monthSel" aria-label="选择月份"></select>
   </div>
 
   <section id="home" class="page active">
@@ -185,7 +212,7 @@
     </div>
   </section>
 
-  <section id="settings" class="page"><div class="card"><div class="mini">当前程序版本：V8 · 细分类与隐私锁版</div></div>
+  <section id="settings" class="page"><div class="card"><div class="mini">当前程序版本：V9 · iPhone 布局修正版</div></div>
     <div class="card"><h3 style="margin-top:0">你的节奏</h3>
       <div class="settingRow"><label>发薪日</label><input id="payday" type="number" min="1" max="31"></div>
       <div class="settingRow"><label>公积金申请日</label><input id="fundday" type="number" min="1" max="31"></div>
