@@ -122,7 +122,7 @@
   </div>
   <div id="expenseBars" class="card"></div>
 </div>
-    <div class="section"><h3>固定 / 弹性</h3><div class="card"><div class="summaryRow"><span>固定类</span><b id="fixedSpend">¥0</b></div><div class="summaryRow"><span>弹性类</span><b id="flexSpend">¥0</b></div><div class="summaryRow"><span>给家里</span><b id="familySpend">¥0</b></div></div></div>
+    <div class="section"><h3>值得记住的支出</h3><div id="specialSpendList" class="card"></div></div><div class="section"><h3>固定 / 弹性</h3><div class="card"><div class="summaryRow"><span>固定类</span><b id="fixedSpend">¥0</b></div><div class="summaryRow"><span>弹性类</span><b id="flexSpend">¥0</b></div><div class="summaryRow"><span>给家里</span><b id="familySpend">¥0</b></div></div></div>
     <div class="section"><h3>年度消费时间序列</h3><div class="card"><canvas id="annualSpendChart" class="trend"></canvas><div id="annualSpendLegend" class="mini" style="margin-top:8px"></div></div></div>
     <div class="section"><h3>2024 / 2025 历史明细</h3><div id="annualHistoryCards"></div></div>
     <div class="section">
@@ -139,12 +139,21 @@
           </div>
         </div>
         <div class="formBlock">
-          <h4>② 只拆你真正想控制的四类</h4>
+          <h4>② 有意义的分类（可选）</h4>
+          <div class="mini" style="margin-bottom:8px">不要求你手工把每笔都拆开。月账单截图/文件交给我时，我会优先按这些类别整理；你自己只补充当月特别想长期追踪的项目。</div>
           <div class="rows">
             <div class="row"><label>房租</label><input id="fastRent" type="number" placeholder="0"></div>
             <div class="row"><label>给家里</label><input id="fastFamily" type="number" placeholder="0"></div>
-            <div class="row"><label>旅行 / 娱乐</label><input id="fastTravel" type="number" placeholder="0"></div>
-            <div class="row"><label>购物 / 大件</label><input id="fastShopping" type="number" placeholder="0"></div>
+            <div class="row"><label>旅行</label><input id="fastTravel" type="number" placeholder="0"></div>
+            <div class="row"><label>旅行名称</label><input id="fastTripName" type="text" placeholder="如：日本 / 新疆"></div>
+            <div class="row"><label>运动 / 健身</label><input id="fastSport" type="number" placeholder="0"></div>
+            <div class="row"><label>兴趣 / 文娱</label><input id="fastHobby" type="number" placeholder="看剧、演出、兴趣爱好"></div>
+            <div class="row"><label>个人成长</label><input id="fastGrowth" type="number" placeholder="课程、书、考试等"></div>
+            <div class="row"><label>购物 / 衣物</label><input id="fastShopping" type="number" placeholder="0"></div>
+            <div class="row"><label>电子产品</label><input id="fastElectronics" type="number" placeholder="0"></div>
+            <div class="row"><label>猫 / 宠物</label><input id="fastPet" type="number" placeholder="0"></div>
+            <div class="row"><label>保养 / 美容</label><input id="fastBeauty" type="number" placeholder="0"></div>
+            <div class="row"><label>社交 / 礼物</label><input id="fastSocial" type="number" placeholder="0"></div>
           </div>
         </div>
         <div class="formBlock"><h4>③ 工作垫付与月末负债（不算消费）</h4><div class="rows"><div class="row"><label>本月工作垫付</label><input id="fastWorkAdvance" type="number" placeholder="0"></div><div class="row"><label>本月收到报销</label><input id="fastReimbursement" type="number" placeholder="0"></div><div class="row"><label>信用卡未还</label><input id="fastCreditDebt" type="number" placeholder="0"></div><div class="row"><label>花呗 / 白条 / 月付未还</label><input id="fastBnplDebt" type="number" placeholder="0"></div></div><div class="mini">工作垫付形成“待报销款”资产；信用账户只记月末未还余额，还款不重复算消费。</div></div><div class="notice" id="fastSpendPreview"><b>本月总消费 ¥0</b><div class="mini">其余会自动归入“日常综合”，不用再拆吃饭、打车、咖啡等小项。</div></div>
@@ -176,7 +185,7 @@
     </div>
   </section>
 
-  <section id="settings" class="page">
+  <section id="settings" class="page"><div class="card"><div class="mini">当前程序版本：V8 · 细分类与隐私锁版</div></div>
     <div class="card"><h3 style="margin-top:0">你的节奏</h3>
       <div class="settingRow"><label>发薪日</label><input id="payday" type="number" min="1" max="31"></div>
       <div class="settingRow"><label>公积金申请日</label><input id="fundday" type="number" min="1" max="31"></div>
@@ -208,7 +217,7 @@
 <script>
 const LS_KEY='asset_note_v5';
 const baseIncomeCats=['税后工资','公积金','奖金','报销回款','其他收入'];
-const baseExpenseCats=['房租','给家里','餐饮/外卖','交通','购物','旅行/娱乐','健身/运动','猫/宠物','电子产品','保养/美容','医疗/体检','其他消费'];
+const baseExpenseCats=['房租','给家里','餐饮/外卖','交通','旅行','运动/健身','兴趣/文娱','个人成长','购物/衣物','电子产品','猫/宠物','保养/美容','医疗/体检','社交/礼物','日常综合','其他消费'];
 let incomeCats=[...baseIncomeCats], expenseCats=[...baseExpenseCats];
 const assetTypes=['现金','定期/低风险','偏债/稳健基金','黄金','宽基股票','科技/成长','新能源/主题','个股','其他'];
 const investTypes=['宽基股票','科技/成长','新能源/主题','个股','黄金'],safeTypes=['现金','定期/低风险','偏债/稳健基金'];
@@ -362,7 +371,8 @@ function renderAllocation(){
  document.getElementById('allocationAdvice').innerHTML=msgs.map(x=>`<div class="notice ${x.kind}"><b>${x.title}</b><div class="mini">${x.text}</div></div>`).join('')+rebal;
  renderInvestmentHistory();
 }
-function renderSpending(){const ym=ensureSelected(),m=state.months[ym],exp=totalExpense(m),year=ym.slice(0,4),yexp=monthsSorted().filter(x=>x.startsWith(year)).reduce((a,x)=>a+totalExpense(state.months[x]),0),pace=state.settings.annualSpendTarget/12;document.getElementById('spendMonth').textContent=fmt(exp);document.getElementById('spendYear').textContent=fmt(yexp);document.getElementById('spendMonthSub').textContent=`月均目标约 ${fmt(pace)}`;document.getElementById('spendYearSub').textContent=`年度目标 ${fmt(state.settings.annualSpendTarget)} · 已用 ${(yexp/state.settings.annualSpendTarget*100).toFixed(1)}%`;const entries=Object.entries(m?.expense||{}).filter(([k,v])=>v>0).sort((a,b)=>b[1]-a[1]),denom=Math.max(exp,1);document.getElementById('expenseBars').innerHTML=entries.map(([k,v])=>`<div class="barGroup"><div class="barMeta"><span>${k}</span><b>${fmt(v)} · ${(v/denom*100).toFixed(1)}%</b></div><div class="barTrack"><i style="width:${v/denom*100}%"></i></div></div>`).join('')||'<div class="empty">本月还没有消费记录</div>';const fixedCats=['房租','餐饮/外卖','交通','医疗/体检'],familyCats=['给家里'],fixed=entries.filter(([k])=>fixedCats.includes(k)).reduce((a,[k,v])=>a+v,0),family=entries.filter(([k])=>familyCats.includes(k)).reduce((a,[k,v])=>a+v,0),flex=Math.max(0,exp-fixed-family);document.getElementById('fixedSpend').textContent=fmt(fixed);document.getElementById('familySpend').textContent=fmt(family);document.getElementById('flexSpend').textContent=fmt(flex);let advice=[];if(exp>pace*1.2)advice.push({kind:'warn',title:'本月消费高于目标节奏',text:'先看是否有一次性旅行、礼物或大件支出，不要机械压缩房租和必要生活。'});const shopping=(m?.expense||{})['购物']||0,travel=(m?.expense||{})['旅行/娱乐']||0,electronics=(m?.expense||{})['电子产品']||0;if(shopping+travel+electronics>exp*.35&&exp>0)advice.push({kind:'info',title:'弹性消费占比较高',text:'购物 + 旅行/娱乐 + 电子产品超过本月消费的 35%，这三类最适合做年度预算管理。'});if(!advice.length)advice.push({kind:'good',title:'消费结构暂未触发提醒',text:'继续按月记录即可，比逐笔记账更容易长期坚持。'});document.getElementById('spendAdvice').innerHTML=advice.map(x=>`<div class="notice ${x.kind}"><b>${x.title}</b><div class="mini">${x.text}</div></div>`).join('');renderAnnualHistory()}
+function renderSpending(){const ym=ensureSelected(),m=state.months[ym],exp=totalExpense(m),year=ym.slice(0,4),yexp=monthsSorted().filter(x=>x.startsWith(year)).reduce((a,x)=>a+totalExpense(state.months[x]),0),pace=state.settings.annualSpendTarget/12;document.getElementById('spendMonth').textContent=fmt(exp);document.getElementById('spendYear').textContent=fmt(yexp);document.getElementById('spendMonthSub').textContent=`月均目标约 ${fmt(pace)}`;document.getElementById('spendYearSub').textContent=`年度目标 ${fmt(state.settings.annualSpendTarget)} · 已用 ${(yexp/state.settings.annualSpendTarget*100).toFixed(1)}%`;const entries=Object.entries(m?.expense||{}).filter(([k,v])=>v>0).sort((a,b)=>b[1]-a[1]),denom=Math.max(exp,1);document.getElementById('expenseBars').innerHTML=entries.map(([k,v])=>`<div class="barGroup"><div class="barMeta"><span>${k}</span><b>${fmt(v)} · ${(v/denom*100).toFixed(1)}%</b></div><div class="barTrack"><i style="width:${v/denom*100}%"></i></div></div>`).join('')||'<div class="empty">本月还没有消费记录</div>';const fixedCats=['房租','餐饮/外卖','交通','医疗/体检'],familyCats=['给家里'],fixed=entries.filter(([k])=>fixedCats.includes(k)).reduce((a,[k,v])=>a+v,0),family=entries.filter(([k])=>familyCats.includes(k)).reduce((a,[k,v])=>a+v,0),flex=Math.max(0,exp-fixed-family);document.getElementById('fixedSpend').textContent=fmt(fixed);document.getElementById('familySpend').textContent=fmt(family);document.getElementById('flexSpend').textContent=fmt(flex);let advice=[];if(exp>pace*1.2)advice.push({kind:'warn',title:'本月消费高于目标节奏',text:'先看是否有一次性旅行、礼物或大件支出，不要机械压缩房租和必要生活。'});const shopping=(m?.expense||{})['购物']||0,travel=(m?.expense||{})['旅行/娱乐']||0,electronics=(m?.expense||{})['电子产品']||0;if(shopping+travel+electronics>exp*.35&&exp>0)advice.push({kind:'info',title:'弹性消费占比较高',text:'购物 + 旅行/娱乐 + 电子产品超过本月消费的 35%，这三类最适合做年度预算管理。'});if(!advice.length)advice.push({kind:'good',title:'消费结构暂未触发提醒',text:'继续按月记录即可，比逐笔记账更容易长期坚持。'});const special=document.getElementById('specialSpendList');if(special){const ss=(m?.specialSpends||[]);special.innerHTML=ss.length?ss.map(x=>`<div class="summaryRow"><span><b style="font-size:13px">${x.kind} · ${x.name}</b></span><b>${fmt(x.amount)}</b></div>`).join(''):'<div class="empty">旅行、课程、兴趣项目等可以留下单独记录</div>';}
+document.getElementById('spendAdvice').innerHTML=advice.map(x=>`<div class="notice ${x.kind}"><b>${x.title}</b><div class="mini">${x.text}</div></div>`).join('');renderAnnualHistory()}
 function renderAnnualHistory(){
  const h=state.annualHistory||{},years=Object.keys(h).sort(),cards=document.getElementById('annualHistoryCards');
  cards.innerHTML=years.map(y=>{
@@ -395,14 +405,14 @@ function fastSpendGross(){return ['fastAlipay','fastWechat','fastCard','fastOthe
 function fastSpendTotal(){return Math.max(0,fastSpendGross()-Number(document.getElementById('fastWorkAdvance')?.value||0))}
 function updateFastSpendPreview(){
  const total=fastSpendTotal();
- const keys=['fastRent','fastFamily','fastTravel','fastShopping'];
+ const keys=['fastRent','fastFamily','fastTravel','fastSport','fastHobby','fastGrowth','fastShopping','fastElectronics','fastPet','fastBeauty','fastSocial'];
  const keyTotal=keys.reduce((a,id)=>a+Number(document.getElementById(id)?.value||0),0);
  const daily=Math.max(0,total-keyTotal);
  const el=document.getElementById('fastSpendPreview');
  if(el)el.innerHTML=`<b>本月个人消费 ${fmt(total)}</b><div class="mini">支付渠道流水 ${fmt(fastSpendGross())} · 工作垫付 ${fmt(Number(document.getElementById('fastWorkAdvance')?.value||0))} · 重点分类 ${fmt(keyTotal)} · 日常综合 ${fmt(daily)}。</div>`;
 }
 function clearFastSpend(){
- ['fastAlipay','fastWechat','fastCard','fastOther','fastRent','fastFamily','fastTravel','fastShopping','fastWorkAdvance','fastReimbursement','fastCreditDebt','fastBnplDebt'].forEach(id=>{const e=document.getElementById(id);if(e)e.value=''});
+ ['fastAlipay','fastWechat','fastCard','fastOther','fastRent','fastFamily','fastTravel','fastTripName','fastSport','fastHobby','fastGrowth','fastShopping','fastElectronics','fastPet','fastBeauty','fastSocial','fastWorkAdvance','fastReimbursement','fastCreditDebt','fastBnplDebt'].forEach(id=>{const e=document.getElementById(id);if(e)e.value=''});
  updateFastSpendPreview();
 }
 function saveFastSpend(){
@@ -413,18 +423,38 @@ function saveFastSpend(){
  const rent=Number(document.getElementById('fastRent').value||0);
  const family=Number(document.getElementById('fastFamily').value||0);
  const travel=Number(document.getElementById('fastTravel').value||0);
+ const tripName=(document.getElementById('fastTripName').value||'').trim();
+ const sport=Number(document.getElementById('fastSport').value||0);
+ const hobby=Number(document.getElementById('fastHobby').value||0);
+ const growth=Number(document.getElementById('fastGrowth').value||0);
  const shopping=Number(document.getElementById('fastShopping').value||0);
- const keyTotal=rent+family+travel+shopping;
+ const electronics=Number(document.getElementById('fastElectronics').value||0);
+ const pet=Number(document.getElementById('fastPet').value||0);
+ const beauty=Number(document.getElementById('fastBeauty').value||0);
+ const social=Number(document.getElementById('fastSocial').value||0);
+ const keyTotal=rent+family+travel+sport+hobby+growth+shopping+electronics+pet+beauty+social;
  if(total<=0)return alert('请先填本月支付渠道总消费');
- if(keyTotal>total)return alert('四个重点分类合计超过总消费，请检查是否重复统计');
+ if(keyTotal>total)return alert('已分类金额超过个人总消费，请检查是否重复统计');
  m.expense=m.expense||{};
  m.expense['房租']=rent;
  m.expense['给家里']=family;
- m.expense['旅行/娱乐']=travel;
- m.expense['购物']=shopping;
+ m.expense['旅行']=travel;
+ m.expense['运动/健身']=sport;
+ m.expense['兴趣/文娱']=hobby;
+ m.expense['个人成长']=growth;
+ m.expense['购物/衣物']=shopping;
+ m.expense['电子产品']=electronics;
+ m.expense['猫/宠物']=pet;
+ m.expense['保养/美容']=beauty;
+ m.expense['社交/礼物']=social;
  m.expense['日常综合']=Math.max(0,total-keyTotal);
- // Zero the granular categories that would otherwise double-count the residual.
- ['餐饮/外卖','交通','健身/运动','猫/宠物','电子产品','保养/美容','医疗/体检','其他消费'].forEach(k=>m.expense[k]=0);
+ if(travel>0&&tripName){
+   m.specialSpends=m.specialSpends||[];
+   m.specialSpends=m.specialSpends.filter(x=>!(x.kind==='旅行'&&x.name===tripName));
+   m.specialSpends.push({month:ym,kind:'旅行',name:tripName,amount:travel});
+ }
+ // Zero legacy fields that would otherwise double-count.
+ ['旅行/娱乐','健身/运动','购物'].forEach(k=>m.expense[k]=0);
  m.fastSpend={alipay:Number(document.getElementById('fastAlipay').value||0),wechat:Number(document.getElementById('fastWechat').value||0),card:Number(document.getElementById('fastCard').value||0),other:Number(document.getElementById('fastOther').value||0)};
  const advance=Number(document.getElementById('fastWorkAdvance').value||0),reimb=Number(document.getElementById('fastReimbursement').value||0),creditDebt=Number(document.getElementById('fastCreditDebt').value||0),bnplDebt=Number(document.getElementById('fastBnplDebt').value||0);
  m.fastSpend.workAdvance=advance;m.fastSpend.reimbursement=reimb;m.fastSpend.creditDebt=creditDebt;m.fastSpend.bnplDebt=bnplDebt;m.debt=creditDebt+bnplDebt;
@@ -438,7 +468,7 @@ function switchPage(p){document.querySelectorAll('.page').forEach(x=>x.classList
 function saveEdit(){const ym=document.getElementById('editMonth').value||ymNow();state.months[ym]={month:ym,income:collectRows('incomeRows'),expense:collectRows('expenseRows'),assets:collectAssets(),debt:Number(document.getElementById('debt').value||0),adjustment:Number(document.getElementById('adjustment').value||0),updatedAt:new Date().toISOString()};save();refreshMonthSelector(ym);renderAll();alert('已保存 '+ym+' 的月度快照')}
 function download(name,text,type='application/json'){const b=new Blob([text],{type}),a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)}
 document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>switchPage(b.dataset.page));
-['fastAlipay','fastWechat','fastCard','fastOther','fastRent','fastFamily','fastTravel','fastShopping','fastWorkAdvance','fastReimbursement','fastCreditDebt','fastBnplDebt'].forEach(id=>{const e=document.getElementById(id);if(e)e.oninput=updateFastSpendPreview});
+['fastAlipay','fastWechat','fastCard','fastOther','fastRent','fastFamily','fastTravel','fastTripName','fastSport','fastHobby','fastGrowth','fastShopping','fastElectronics','fastPet','fastBeauty','fastSocial','fastWorkAdvance','fastReimbursement','fastCreditDebt','fastBnplDebt'].forEach(id=>{const e=document.getElementById(id);if(e)e.oninput=updateFastSpendPreview});
 document.getElementById('saveFastSpend').onclick=saveFastSpend;
 document.getElementById('clearFastSpend').onclick=clearFastSpend;
 document.getElementById('addIncomeCat').onclick=()=>addCustomCat('income');document.getElementById('addTrade').onclick=addTradeRecord;
