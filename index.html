@@ -222,7 +222,7 @@
     </div>
   </section>
 
-  <section id="settings" class="page"><div class="card"><div class="mini">当前程序版本：V14 · 购买决策与专项记账版</div></div>
+  <section id="settings" class="page"><div class="card"><div class="mini">当前程序版本：V15 · 口述决策与滚存预算版</div></div>
     <div class="card"><h3 style="margin-top:0">你的节奏</h3>
       <div class="settingRow"><label>发薪日</label><input id="payday" type="number" min="1" max="31"></div>
       <div class="settingRow"><label>公积金申请日</label><input id="fundday" type="number" min="1" max="31"></div>
@@ -430,7 +430,7 @@ function renderAllocation(){
  document.querySelectorAll('.deleteAssetBtn').forEach(b=>b.onclick=()=>{
    if(!m||!confirm('从本月快照删除“'+b.dataset.name+'”？'))return;
    m.assets=(m.assets||[]).filter(a=>a.name!==b.dataset.name);
-   save();document.getElementById('ledgerAdd').onclick=addLedgerEntry;document.getElementById('buyCheck').onclick=purchaseBudgetCheck;document.getElementById('buyAskAi').onclick=askPurchaseAI;document.getElementById('aiFab').onclick=openAiSheet;
+   save();document.getElementById('ledgerAdd').onclick=addLedgerEntry;document.getElementById('voiceStart').onclick=startVoiceNeed;document.getElementById('voiceAnalyze').onclick=analyzeVoiceNeed;document.getElementById('buyCheck').onclick=purchaseBudgetCheck;document.getElementById('buyAskAi').onclick=askPurchaseAI;document.getElementById('aiFab').onclick=openAiSheet;
 document.getElementById('aiClose').onclick=()=>document.getElementById('aiSheet').classList.remove('show');
 document.getElementById('aiSheet').onclick=e=>{if(e.target.id==='aiSheet')document.getElementById('aiSheet').classList.remove('show')};
 document.getElementById('aiCopy').onclick=async()=>{try{await navigator.clipboard.writeText(aiContextText());alert('本页摘要已复制')}catch(e){alert('复制失败，请长按页面信息复制')}};
@@ -486,8 +486,8 @@ function renderBudgetLedger(){
  const spendCfg=cfg.filter(x=>x.mode!=='save');
  sum.innerHTML=spendCfg.length?'<div class="ledgerGrid">'+spendCfg.map(c=>{
    const used=rows.filter(r=>r.month===ym&&r.category===c.name).reduce((a,r)=>a+Number(r.amount||0),0);
-   const budget=Number(c.monthlyBudget||0), remain=budget?budget-used:null,pct=budget?Math.min(100,used/budget*100):0;
-   return `<div class="ledgerBudget"><div class="eyebrow">${c.name}</div><b>${fmt(used)}${budget?' / '+fmt(budget):''}</b><div class="mini">${budget?(remain>=0?'还可用 '+fmt(remain):'超出 '+fmt(-remain)):'仅记录 · 暂无上限'}</div>${budget?`<div class="tinyProgress"><i style="width:${pct}%"></i></div>`:''}</div>`
+   const budget=Number(c.monthlyBudget||0), monthNo=Number(ym.slice(5,7)), ytdUsed=rows.filter(r=>r.month?.startsWith(ym.slice(0,4))&&r.month<=ym&&r.category===c.name).reduce((a,r)=>a+Number(r.amount||0),0), allowance=c.rollover?budget*monthNo:budget, relevantUsed=c.rollover?ytdUsed:used, remain=budget?allowance-relevantUsed:null,pct=budget?Math.min(100,relevantUsed/allowance*100):0;
+   return `<div class="ledgerBudget"><div class="eyebrow">${c.name}</div><b>${fmt(used)}${budget?' / '+fmt(budget):''}</b><div class="mini">${budget?(remain>=0?(c.rollover?'累计还可用 ':'还可用 ')+fmt(remain):'超出 '+fmt(-remain)):'仅记录 · 暂无上限'}</div>${budget?`<div class="tinyProgress"><i style="width:${pct}%"></i></div>`:''}</div>`
  }).join('')+'</div>':'<div class="empty">导入预算配置后，这里会显示本月已花和剩余额度</div>';
  const opts=cfg.map(x=>`<option value="${x.name}">${x.name}</option>`).join('');
  const lc=document.getElementById('ledgerCategory'),bc=document.getElementById('buyCategory');if(lc)lc.innerHTML=opts;if(bc)bc.innerHTML=opts;
@@ -500,6 +500,26 @@ function addLedgerEntry(){
  state.discretionaryLedger=state.discretionaryLedger||[];
  state.discretionaryLedger.push({date,month:date.slice(0,7),category,amount,note});
  save();document.getElementById('ledgerAmount').value='';document.getElementById('ledgerNote').value='';renderBudgetLedger();renderSpending();
+}
+
+let voiceRecognition=null;
+function startVoiceNeed(){
+ const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
+ const ta=document.getElementById('voiceNeed');
+ if(!SR){ta.focus();alert('当前网页环境没有开放语音识别。请点输入框，再用 iPhone 键盘上的麦克风直接口述。');return}
+ try{
+   voiceRecognition=new SR();voiceRecognition.lang='zh-CN';voiceRecognition.continuous=true;voiceRecognition.interimResults=true;
+   let finalText=ta.value?ta.value+' ':'';
+   voiceRecognition.onresult=e=>{let interim='';for(let i=e.resultIndex;i<e.results.length;i++){const t=e.results[i][0].transcript;if(e.results[i].isFinal)finalText+=t;else interim+=t}ta.value=finalText+interim};
+   voiceRecognition.onerror=()=>{ta.focus()};
+   voiceRecognition.start();document.getElementById('voiceStart').textContent='■ 停止口述';
+   document.getElementById('voiceStart').onclick=()=>{voiceRecognition.stop();document.getElementById('voiceStart').textContent='🎙 开始口述';document.getElementById('voiceStart').onclick=startVoiceNeed};
+ }catch(e){ta.focus()}
+}
+async function analyzeVoiceNeed(){
+ const text=document.getElementById('voiceNeed').value.trim();if(!text)return alert('先口述或输入你的需求');
+ const prompt=`这是我在资产笔记里口述的一笔潜在消费/购买需求。请先把我的自然语言拆成结构化信息，再结合我的财务背景分析。不要只给“买/不买”的结论。\n\n请按以下结构回答：\n1. 我真正想解决的问题\n2. 候选购买/消费是什么\n3. 预算或价格（没说就标“待补”）\n4. 预计使用频率\n5. 紧迫程度：必须/改善型/纯想要\n6. 已有替代方案\n7. 不买或延迟的代价\n8. 买了会挤占哪个资金桶\n9. 每次使用成本/长期成本（信息足够时计算）\n10. 建议下一步：买、先试/租、等一等、或补什么信息后再决定\n\n我的口述：${text}\n\n${aiContextText()}`;
+ try{await navigator.clipboard.writeText(prompt);alert('口述内容已整理成分析问题并复制。打开 ChatGPT 后直接粘贴即可。');window.open('https://chatgpt.com/','_blank')}catch(e){alert('复制失败，请手动复制口述内容')}
 }
 function purchaseBudgetCheck(){
  const item=document.getElementById('buyItem').value.trim(),price=Number(document.getElementById('buyPrice').value||0),cat=document.getElementById('buyCategory').value,ym=budgetMonthKey();
