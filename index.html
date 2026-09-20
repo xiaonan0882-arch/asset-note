@@ -115,7 +115,7 @@
       <div class="quick"><div class="eyebrow">可投资资产</div><b id="riskAssets">¥0</b><div class="mini">宽基 + 主题 + 个股</div></div>
       <div class="quick"><div class="eyebrow">安全垫完成度</div><b id="emergencyPct">0%</b><div class="mini" id="emergencyText">目标 ¥60,000</div></div>
     </div>
-    <div class="section"><h3>账户与负债</h3><div id="accountOverview" class="card"></div></div>\n    <div class="section"><h3>资金执行</h3><div id="cashflowPlanCard" class="card"></div></div>\n    <div class="section"><h3>目标资金</h3><div id="sinkingFundsCard" class="card"></div></div><div class="section"><h3>净资产趋势</h3><div class="card"><canvas id="trend" class="trend"></canvas></div></div>
+    <div class="section"><h3>账户与负债</h3><div id="accountOverview" class="card"></div></div><div class="section"><h3>资金执行</h3><div id="cashflowPlanCard" class="card"></div></div><div class="section"><h3>目标资金</h3><div id="sinkingFundsCard" class="card"></div></div><div class="section"><h3>净资产趋势</h3><div class="card"><canvas id="trend" class="trend"></canvas></div></div>
     <div class="section"><h3>你的资金节点</h3><div id="milestoneList" class="card"></div></div>
     <div class="section"><h3>收入与生活基线</h3><div id="profileCard" class="card"></div></div>
     <div class="section"><h3>今天要不要动</h3><div id="homeAdvice" class="card"></div></div>
@@ -199,7 +199,7 @@
     </div>
   </section>
 
-  <section id="settings" class="page"><div class="card"><div class="mini">当前程序版本：V20.4 · 独立恢复页版</div></div>
+  <section id="settings" class="page"><div class="card"><div class="mini">当前程序版本：V21 · 稳定版</div></div>
     <div class="card"><h3 style="margin-top:0">你的节奏</h3>
       <div class="settingRow"><label>发薪日</label><input id="payday" type="number" min="1" max="31"></div>
       <div class="settingRow"><label>公积金申请日</label><input id="fundday" type="number" min="1" max="31"></div>
@@ -242,6 +242,15 @@ const defaultTargets={'定期/低风险':35,'偏债/稳健基金':18,'宽基股�
 function starterState(){return {months:{},settings:{...defaultSettings},targets:{...defaultTargets},customIncomeCats:[],customExpenseCats:[],annualHistory:{},milestones:[],fundMonthly2026:[],fundSepDetail:[],tradeHistory:[],accounts:[],annualSpecialSpending:{},spendingInsights:[],cashflowPlan:null,cashflowAnalysis:null,budgetConfig:[],discretionaryLedger:[],sinkingFunds:[],recurringSubscriptions:[],spendingStrategy:[],travelPlans:[],familyPlan:null}}
 function load(){try{const s=JSON.parse(localStorage.getItem(LS_KEY));if(s){s.settings={...defaultSettings,...(s.settings||{})};s.targets={...defaultTargets,...(s.targets||{})};s.customIncomeCats=s.customIncomeCats||[];s.customExpenseCats=s.customExpenseCats||[];if(!s.annualHistory)s.annualHistory=starterState().annualHistory;if(!s.milestones)s.milestones=starterState().milestones;if(!s.fundMonthly2026)s.fundMonthly2026=starterState().fundMonthly2026;if(!s.fundSepDetail)s.fundSepDetail=starterState().fundSepDetail;if(!s.tradeHistory)s.tradeHistory=starterState().tradeHistory;return s}}catch(e){}return starterState()}
 let state=load();
+function normalizeState(){
+ if(!state||typeof state!=='object')state=starterState();
+ if(!state.months||typeof state.months!=='object')state.months={};
+ const keys=Object.keys(state.months).sort();
+ if(!state.currentMonth||!state.months[state.currentMonth]) state.currentMonth=keys.length?keys[keys.length-1]:'2026-09';
+ if(!state.settings)state.settings={...defaultSettings};
+ if(!state.targets)state.targets={...defaultTargets};
+}
+normalizeState();
 function syncCats(){incomeCats=[...baseIncomeCats,...(state.customIncomeCats||[])];expenseCats=[...baseExpenseCats,...(state.customExpenseCats||[])]}
 syncCats();
 const fmt=n=>'¥'+Math.round(Number(n||0)).toLocaleString('zh-CN'),fmt2=n=>'¥'+Number(n||0).toLocaleString('zh-CN',{minimumFractionDigits:2,maximumFractionDigits:2}),sum=o=>Object.values(o||{}).reduce((a,b)=>a+Number(b||0),0);
@@ -323,7 +332,7 @@ function renderCashflowPlan(){
  </div>
  <div class="progress" style="margin-top:12px"><i style="width:${pct}%"></i></div>
  <div class="mini" style="margin-top:6px">自由现金目标完成度 ${pct.toFixed(0)}%</div>
- ${(p.virtualBuckets||[]).length?`<div style="margin-top:12px"><div class="eyebrow">虚拟资金桶（不要求真的转账）</div>${(p.virtualBuckets||[]).map(x=>`<div class="summaryRow"><span>${x.name}<div class="mini">${x.rule||''}</div></span><b>${x.amount!==undefined?fmt(x.amount):'—'}</b></div>`).join('')}</div>`:''}\n <div style="margin-top:12px">${(p.monthly||[]).map(x=>`<div class="summaryRow"><span>${x.label}<div class="mini">${x.note||''}</div></span><b>${fmt(x.amount)}</b></div>`).join('')}</div>
+ ${(p.virtualBuckets||[]).length?`<div style="margin-top:12px"><div class="eyebrow">虚拟资金桶（不要求真的转账）</div>${(p.virtualBuckets||[]).map(x=>`<div class="summaryRow"><span>${x.name}<div class="mini">${x.rule||''}</div></span><b>${x.amount!==undefined?fmt(x.amount):'—'}</b></div>`).join('')}</div>`:''}<div style="margin-top:12px">${(p.monthly||[]).map(x=>`<div class="summaryRow"><span>${x.label}<div class="mini">${x.note||''}</div></span><b>${fmt(x.amount)}</b></div>`).join('')}</div>
  ${(p.earmarks||[]).map(x=>`<div class="ruleBox"><strong>${x.name}：${fmt(x.current)}</strong><div class="mini">${x.rule||''}</div></div>`).join('')}
  ${(p.rules||[]).map(x=>`<div class="notice ${x.kind||'info'}"><b>${x.title}</b><div class="mini">${x.text}</div></div>`).join('')}
  `;
@@ -736,6 +745,7 @@ document.getElementById('quickAddInvest').onclick=()=>{
   state.travelPlans=d.travelPlans||[];
   state.familyPlan=d.familyPlan||null;
   syncCats();
+  normalizeState();
   save();
   refreshMonthSelector();
   renderAll();
