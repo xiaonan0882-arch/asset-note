@@ -233,7 +233,18 @@
 <script>
 const LS_KEY='asset_note_v5';
 const IS_STANDALONE=(window.matchMedia&&window.matchMedia('(display-mode: standalone)').matches)||window.navigator.standalone===true;
-if(IS_STANDALONE&&!localStorage.getItem(LS_KEY)&&!location.pathname.endsWith('/restore.html')){
+function hasUsableSavedData(){
+ try{
+  const raw=JSON.parse(localStorage.getItem(LS_KEY)||'null');
+  if(!raw||!raw.months)return false;
+  return Object.values(raw.months).some(m=>{
+   const income=Object.values((m&&m.income)||{}).reduce((a,b)=>a+(Number(b)||0),0);
+   const assets=((m&&m.assets)||[]).reduce((a,x)=>a+(Number(x&&x.value)||0),0);
+   return income>0||assets>0;
+  });
+ }catch(e){return false}
+}
+if(IS_STANDALONE&&!hasUsableSavedData()&&!location.pathname.endsWith('/restore.html')){
   location.replace('./restore.html?from=installed');
 }
 const baseIncomeCats=['税后工资','公积金','奖金','其他收入'];
