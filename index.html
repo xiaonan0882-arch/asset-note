@@ -126,6 +126,8 @@
       <div style="position:relative"><div id="donut" class="donut"></div><div class="donutCenter"><span class="eyebrow">配置资产</span><b id="investTotal">¥0</b></div></div>
       <div id="legend" class="legend"></div>
     </div><div id="allocationMonthNote" class="mini" style="margin-top:10px"></div></div>
+    <div class="section"><h3>月末投资持仓</h3><div id="investmentMonthSummary" class="card"></div></div>
+    <div class="section"><h3>投资持仓趋势</h3><div id="investmentHistoryTrend" class="card"></div></div>
     <div class="section">
   <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:9px">
     <h3 style="margin:0">配置明细</h3><button class="btn secondary" id="quickAddInvest">＋ 新增投资</button>
@@ -206,7 +208,7 @@
     </div>
   </section>
 
-  <section id="settings" class="page"><div class="card"><div class="mini">当前程序版本：V22 · 月度可编辑版</div></div>
+  <section id="settings" class="page"><div class="card"><div class="mini">当前程序版本：V23 · 投资月末重建版</div></div>
     <div class="card"><h3 style="margin-top:0">你的节奏</h3>
       <div class="settingRow"><label>发薪日</label><input id="payday" type="number" min="1" max="31"></div>
       <div class="settingRow"><label>公积金申请日</label><input id="fundday" type="number" min="1" max="31"></div>
@@ -262,8 +264,8 @@ const investTypes=['宽基股票','科技/成长','新能源/主题','个股','�
 function allocationLabel(type){return ({'定期/低风险':'定期 / 低风险','偏债/稳健基金':'基金 · 偏债/稳健','宽基股票':'基金 · 宽基','科技/成长':'基金 · 科技/成长','新能源/主题':'基金 · 新能源/主题','个股':'个股','黄金':'黄金'})[type]||type}
 const defaultSettings={payday:10,fundday:1,emergencyTarget:0,annualSpendTarget:0,singleMax:5,themeMax:8,techMax:15,monthlyRent:0,currentPackage:0,stayPackageMin:0,stayPackageMax:0,switchPackage:0};
 const defaultTargets={'定期/低风险':35,'偏债/稳健基金':18,'宽基股票':20,'黄金':6,'科技/成长':5,'新能源/主题':6,'个股':5,'现金':5};
-function starterState(){return {months:{},settings:{...defaultSettings},targets:{...defaultTargets},customIncomeCats:[],customExpenseCats:[],annualHistory:{},milestones:[],fundMonthly2026:[],fundSepDetail:[],tradeHistory:[],accounts:[],annualSpecialSpending:{},spendingInsights:[],cashflowPlan:null,cashflowAnalysis:null,budgetConfig:[],discretionaryLedger:[],sinkingFunds:[],recurringSubscriptions:[],spendingStrategy:[],travelPlans:[],familyPlan:null}}
-function load(){try{const s=JSON.parse(localStorage.getItem(LS_KEY));if(s){s.settings={...defaultSettings,...(s.settings||{})};s.targets={...defaultTargets,...(s.targets||{})};s.customIncomeCats=s.customIncomeCats||[];s.customExpenseCats=s.customExpenseCats||[];if(!s.annualHistory)s.annualHistory=starterState().annualHistory;if(!s.milestones)s.milestones=starterState().milestones;if(!s.fundMonthly2026)s.fundMonthly2026=starterState().fundMonthly2026;if(!s.fundSepDetail)s.fundSepDetail=starterState().fundSepDetail;if(!s.tradeHistory)s.tradeHistory=starterState().tradeHistory;return s}}catch(e){}return starterState()}
+function starterState(){return {months:{},settings:{...defaultSettings},targets:{...defaultTargets},customIncomeCats:[],customExpenseCats:[],annualHistory:{},milestones:[],fundMonthly2026:[],fundSepDetail:[],tradeHistory:[],accounts:[],annualSpecialSpending:{},spendingInsights:[],cashflowPlan:null,cashflowAnalysis:null,budgetConfig:[],discretionaryLedger:[],sinkingFunds:[],recurringSubscriptions:[],spendingStrategy:[],travelPlans:[],familyPlan:null,investmentMonthlyHistory:{}}}
+function load(){try{const s=JSON.parse(localStorage.getItem(LS_KEY));if(s){s.settings={...defaultSettings,...(s.settings||{})};s.targets={...defaultTargets,...(s.targets||{})};s.customIncomeCats=s.customIncomeCats||[];s.customExpenseCats=s.customExpenseCats||[];if(!s.annualHistory)s.annualHistory=starterState().annualHistory;if(!s.milestones)s.milestones=starterState().milestones;if(!s.fundMonthly2026)s.fundMonthly2026=starterState().fundMonthly2026;if(!s.fundSepDetail)s.fundSepDetail=starterState().fundSepDetail;if(!s.tradeHistory)s.tradeHistory=starterState().tradeHistory;if(!s.investmentMonthlyHistory)s.investmentMonthlyHistory={};return s}}catch(e){}return starterState()}
 let state=load();
 function normalizeState(){
  if(!state||typeof state!=='object')state=starterState();
@@ -271,7 +273,7 @@ function normalizeState(){
  const keys=Object.keys(state.months).sort();
  if(!state.currentMonth||!state.months[state.currentMonth]) state.currentMonth=keys.length?keys[keys.length-1]:'2026-09';
  if(!state.settings)state.settings={...defaultSettings};
- if(!state.targets)state.targets={...defaultTargets};
+ if(!state.targets)state.targets={...defaultTargets};if(!state.investmentMonthlyHistory)state.investmentMonthlyHistory={};
 }
 normalizeState();
 function syncCats(){incomeCats=[...baseIncomeCats,...(state.customIncomeCats||[])];expenseCats=[...baseExpenseCats,...(state.customExpenseCats||[])]}
@@ -399,8 +401,42 @@ function addTradeRecord(){
  const price=Number(prompt('成交价')||0),qty=Number(prompt('数量')||0);
  state.tradeHistory=state.tradeHistory||[];state.tradeHistory.push({date,name,side,price,qty});save();renderInvestmentHistory();
 }
+
+function investmentHistoryFor(ym){return (state.investmentMonthlyHistory||{})[ym]||null}
+function allocationAssetsFor(ym,m){
+ const actual=(m&&m.assets||[]).filter(a=>allocationTypes.includes(a.type)&&Number(a.amount||0)>0);
+ if(actual.length)return {assets:actual,mode:'actual'};
+ const h=investmentHistoryFor(ym);
+ if(h&&Array.isArray(h.components)&&h.components.length){
+   return {assets:h.components.map(x=>({name:x.name,type:x.type,amount:Number(x.value||0),cost:Number(x.cost||0),confidence:x.confidence||'',source:x.source||''})),mode:'reconstructed'};
+ }
+ return {assets:[],mode:'none'};
+}
+
+function renderInvestmentHistoryTrend(){
+ const box=document.getElementById('investmentHistoryTrend');if(!box)return;
+ const keys=[...new Set([...Object.keys(state.investmentMonthlyHistory||{}),...Object.keys(state.months||{})])].sort();
+ const vals=keys.map(ym=>{const p=allocationAssetsFor(ym,state.months[ym]);return {ym,total:p.assets.reduce((a,x)=>a+Number(x.amount||0),0),mode:p.mode}}).filter(x=>x.total>0);
+ if(!vals.length){box.innerHTML='<div class="empty">暂无投资月末数据</div>';return}
+ box.innerHTML='<div class="historyGrid">'+vals.slice(-6).map(x=>'<div class="historyCell"><span class="mini">'+x.ym.slice(5)+'月 · '+(x.mode==='actual'?'实盘':'重建')+'</span><b>'+fmt(x.total)+'</b></div>').join('')+'</div>';
+}
+function renderInvestmentMonthSummary(ym,m){
+ const box=document.getElementById('investmentMonthSummary');if(!box)return;
+ const pack=allocationAssetsFor(ym,m),h=investmentHistoryFor(ym);
+ if(!pack.assets.length){box.innerHTML='<div class="empty">这个月还没有可重建的投资持仓</div>';return}
+ const total=pack.assets.reduce((a,x)=>a+Number(x.amount||0),0);
+ const actual=pack.mode==='actual';
+ const tag=actual?'实盘快照':'公开市场重建';
+ const note=actual?'来自你当月实际持仓截图/余额。':(h&&h.note)||'按当月持仓数量 × 月末最后一个有效净值/收盘价重建；不含无法从交易记录确认的券商闲置现金。';
+ box.innerHTML='<div class="historyHead"><div><div class="eyebrow">'+ym.replace('-','年')+'月 · '+tag+'</div><div class="historyTotal">'+fmt2(total)+'</div></div><span class="pill '+(actual?'ok':'info')+'">'+tag+'</span></div>'+
+ '<div class="mini" style="margin:8px 0 10px">'+escapeHtml(note)+'</div>'+
+ pack.assets.sort((a,b)=>b.amount-a.amount).map(x=>{
+   const c=x.confidence?(' · '+x.confidence):'';
+   return '<div class="summaryRow"><span><b>'+escapeHtml(x.name)+'</b><div class="mini">'+escapeHtml(allocationLabel(x.type))+c+'</div></span><b>'+fmt2(x.amount)+'</b></div>'
+ }).join('');
+}
 function renderAllocation(){
- const ym=ensureSelected(),m=state.months[ym],g=groupAssets(m);const monthNote=document.getElementById('allocationMonthNote');if(monthNote)monthNote.textContent=(m&&(m.assets||[]).length)?`${ym.slice(0,4)}年${Number(ym.slice(5,7))}月资产快照 · 含定期/稳健基金，不含日常现金`:`${ym.slice(0,4)}年${Number(ym.slice(5,7))}月尚未录入资产余额；下方交易复盘仍可按月查看`;
+ const ym=ensureSelected(),m=state.months[ym],pack=allocationAssetsFor(ym,m),synthetic={...(m||seedMonthStruct(ym)),assets:pack.assets},g=groupAssets(synthetic);const monthNote=document.getElementById('allocationMonthNote');if(monthNote)monthNote.textContent=pack.mode==='actual'?`${ym.slice(0,4)}年${Number(ym.slice(5,7))}月实盘投资快照 · 含定期/稳健基金，不含日常现金`:pack.mode==='reconstructed'?`${ym.slice(0,4)}年${Number(ym.slice(5,7))}月按公开市场月末价格重建 · 不含无法确认的券商闲置现金`:`${ym.slice(0,4)}年${Number(ym.slice(5,7))}月暂无可重建投资持仓`;
  const investTotal=Object.entries(g).filter(([k])=>allocationTypes.includes(k)).reduce((a,[k,v])=>a+v,0);
  document.getElementById('investTotal').textContent=fmt(investTotal);
  const donut=document.getElementById('donut'),legend=document.getElementById('legend');
@@ -417,8 +453,8 @@ function renderAllocation(){
    donut.style.background=`conic-gradient(${parts.join(',')})`;
    legend.innerHTML=rows.join('');
  }
- const nw=Math.max(net(m),1);
- const assets=(m?.assets||[]).filter(a=>Number(a.amount||0)>0).sort((a,b)=>b.amount-a.amount);
+ const nw=Math.max(investTotal,1);
+ const assets=pack.assets.filter(a=>Number(a.amount||0)>0).sort((a,b)=>b.amount-a.amount);
  document.getElementById('allocationDetail').innerHTML=assets.map((a,idx)=>{
    const hasCost=Number(a.cost||0)>0;
    const pnl=hasCost?Number(a.amount)-Number(a.cost):0;
@@ -430,10 +466,7 @@ function renderAllocation(){
      </div>
      ${hasCost?`<div class="mini" style="margin-top:7px">成本 ${fmt(a.cost)} · <span class="${pnl>=0?'green':'red'}">累计 ${pnl>=0?'+':''}${fmt(pnl)} (${pnlPct>=0?'+':''}${pnlPct.toFixed(1)}%)</span></div>`:''}
      <div class="progress"><i style="width:${Math.min(100,a.amount/nw*100)}%;background:${colorFor(a.type)}"></i></div>
-     <div class="inlineActions">
-       <button class="textBtn editAssetBtn" data-name="${escapeHtml(a.name)}">编辑</button>
-       <button class="textBtn red deleteAssetBtn" data-name="${escapeHtml(a.name)}">－ 删除</button>
-     </div>
+     ${pack.mode==='actual'?'<div class="inlineActions"><button class="textBtn editAssetBtn" data-name="'+escapeHtml(a.name)+'">编辑</button><button class="textBtn red deleteAssetBtn" data-name="'+escapeHtml(a.name)+'">－ 删除</button></div>':'<div class="mini" style="margin-top:7px">历史重建值 · 如需修正请更新交易/份额数据</div>'}
    </div>`
  }).join('')||'<div class="empty">本月还没有资产快照</div>';
 
@@ -450,11 +483,12 @@ function renderAllocation(){
    save();renderAllocation();renderHome();
  });
 
+ renderInvestmentMonthSummary(ym,m);renderInvestmentHistoryTrend();
  document.getElementById('targetRows').innerHTML=Object.entries(state.targets).map(([k,v])=>`<div class="targetRow"><label>${k}</label><input type="number" data-target="${k}" value="${v}"></div>`).join('');
- const msgs=riskMessages(m);
+ const msgs=riskMessages(synthetic);
  let rebal='';
  if(m){
-   const ga=groupAssets(m);
+   const ga=groupAssets(synthetic);
    Object.entries(state.targets).forEach(([k,target])=>{
      const now=(ga[k]||0)/nw*100,delta=now-target;
      if(Math.abs(delta)>=5)rebal+=`<div class="notice ${delta>0?'warn':'info'}"><b>${k}${delta>0?'偏高':'偏低'} ${Math.abs(delta).toFixed(1)}pct</b><div class="mini">当前 ${now.toFixed(1)}%，目标 ${target}%。优先用新增资金纠偏，而不是频繁卖出。</div></div>`;
@@ -765,7 +799,7 @@ document.getElementById('quickAddInvest').onclick=()=>{
   state.recurringSubscriptions=d.recurringSubscriptions||[];
   state.spendingStrategy=d.spendingStrategy||[];
   state.travelPlans=d.travelPlans||[];
-  state.familyPlan=d.familyPlan||null;
+  state.familyPlan=d.familyPlan||null;state.investmentMonthlyHistory=d.investmentMonthlyHistory||{};
   syncCats();
   normalizeState();
   save();
