@@ -232,6 +232,10 @@
 
 <script>
 const LS_KEY='asset_note_v5';
+const IS_STANDALONE=(window.matchMedia&&window.matchMedia('(display-mode: standalone)').matches)||window.navigator.standalone===true;
+if(IS_STANDALONE&&!localStorage.getItem(LS_KEY)&&!location.pathname.endsWith('/restore.html')){
+  location.replace('./restore.html?from=installed');
+}
 const baseIncomeCats=['税后工资','公积金','奖金','其他收入'];
 const baseExpenseCats=['住房','给家里','日常生活','旅游','运动活动','运动装备','猫/宠物','兴趣/文娱','大额购物/奢侈品','医疗','其他消费'];
 let incomeCats=[...baseIncomeCats], expenseCats=[...baseExpenseCats];
