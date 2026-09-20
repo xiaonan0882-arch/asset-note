@@ -208,7 +208,7 @@
     </div>
   </section>
 
-  <section id="settings" class="page"><div class="card"><div class="mini">当前程序版本：V23 · 投资月末重建版</div></div>
+  <section id="settings" class="page"><div class="card"><div class="mini">当前程序版本：V24 · 券商净资产校正版</div></div>
     <div class="card"><h3 style="margin-top:0">你的节奏</h3>
       <div class="settingRow"><label>发薪日</label><input id="payday" type="number" min="1" max="31"></div>
       <div class="settingRow"><label>公积金申请日</label><input id="fundday" type="number" min="1" max="31"></div>
@@ -428,8 +428,10 @@ function renderInvestmentMonthSummary(ym,m){
  const actual=pack.mode==='actual';
  const tag=actual?'实盘快照':'公开市场重建';
  const note=actual?'来自你当月实际持仓截图/余额。':(h&&h.note)||'按当月持仓数量 × 月末最后一个有效净值/收盘价重建；不含无法从交易记录确认的券商闲置现金。';
+ const brokerage=h&&h.brokerageAccount;
+ const brokerageLine=brokerage?'<div class="notice info" style="margin:8px 0"><b>盈立证券净资产 '+fmt2(brokerage.netAsset)+'</b><div class="mini">'+escapeHtml(brokerage.date||'')+' · 当月累计收益 '+(brokerage.monthPnl>=0?'+':'')+fmt2(brokerage.monthPnl)+'</div></div>':'';
  box.innerHTML='<div class="historyHead"><div><div class="eyebrow">'+ym.replace('-','年')+'月 · '+tag+'</div><div class="historyTotal">'+fmt2(total)+'</div></div><span class="pill '+(actual?'ok':'info')+'">'+tag+'</span></div>'+
- '<div class="mini" style="margin:8px 0 10px">'+escapeHtml(note)+'</div>'+
+ '<div class="mini" style="margin:8px 0 10px">'+escapeHtml(note)+'</div>'+brokerageLine+
  pack.assets.sort((a,b)=>b.amount-a.amount).map(x=>{
    const c=x.confidence?(' · '+x.confidence):'';
    return '<div class="summaryRow"><span><b>'+escapeHtml(x.name)+'</b><div class="mini">'+escapeHtml(allocationLabel(x.type))+c+'</div></span><b>'+fmt2(x.amount)+'</b></div>'
