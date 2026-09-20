@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>资产笔记 · 数据恢复</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f5f7fa;color:#111;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",Arial,sans-serif}
+.wrap{max-width:560px;margin:0 auto;padding:calc(28px + env(safe-area-inset-top)) 20px 40px}
+.card{background:#fff;border-radius:24px;padding:24px;box-shadow:0 10px 35px rgba(20,35,60,.08)}
+h1{font-size:28px;margin:0 0 8px}.sub{color:#7c8798;line-height:1.6;margin-bottom:24px}
+input[type=file]{display:block;width:100%;padding:18px 12px;border:1px solid #d8dee8;border-radius:16px;background:#f8fafc;font-size:16px}
+.status{margin-top:18px;padding:16px;border-radius:16px;background:#f4f7fb;color:#526071;line-height:1.6;min-height:56px}
+.ok{background:#eaf8f2;color:#08795e}.err{background:#fff0f0;color:#c33}
+button{width:100%;border:0;border-radius:16px;padding:16px;font-size:17px;font-weight:700;margin-top:14px;background:#246bfe;color:#fff}
+.small{font-size:13px;color:#8a94a5;margin-top:18px;line-height:1.6}
+</style>
+</head>
+<body><div class="wrap"><div class="card">
+<h1>资产笔记数据恢复</h1>
+<div class="sub">这是独立导入页，不运行资产笔记的其他代码。选择完整 JSON 后，会直接写入本机 Safari 的资产笔记数据，再打开 App。</div>
+<input id="file" type="file" accept=".json,application/json,text/plain">
+<div id="status" class="status">等待选择 V20 完整数据包…</div>
+<button id="openApp" type="button" style="display:none">打开资产笔记</button>
+<div class="small">数据只写入当前浏览器的 localStorage；这个页面不会把你的财务 JSON 上传到 GitHub 或服务器。</div>
+</div></div>
+<script>
+(function(){
+ const input=document.getElementById('file'), status=document.getElementById('status'), btn=document.getElementById('openApp');
+ function show(msg,cls){status.className='status '+(cls||'');status.textContent=msg}
+ input.addEventListener('change',function(){
+   const f=input.files&&input.files[0];
+   if(!f){show('没有选择文件。','err');return}
+   show('已选择 '+f.name+'，正在读取…');
+   const reader=new FileReader();
+   reader.onerror=function(){show('读取失败：Safari 没有成功读取这个文件。','err')};
+   reader.onload=function(){
+     try{
+       const d=JSON.parse(String(reader.result||''));
+       if(!d||typeof d!=='object'||!d.months) throw new Error('文件缺少 months，不是完整恢复包');
+       const count=Object.keys(d.months||{}).length;
+       localStorage.setItem('asset_note_v5',JSON.stringify(d));
+       const verify=localStorage.getItem('asset_note_v5');
+       if(!verify) throw new Error('写入本机存储失败');
+       const check=JSON.parse(verify);
+       if(!check.months||Object.keys(check.months).length!==count) throw new Error('写入后校验失败');
+       show('✓ 导入成功：'+count+' 个月数据已写入本机。现在点下面按钮打开资产笔记。','ok');
+       btn.style.display='block';
+     }catch(e){show('导入失败：'+(e&&e.message?e.message:'未知错误'),'err')}
+   };
+   reader.readAsText(f);
+ });
+ btn.addEventListener('click',function(){location.href='./v20-3.html?restored=1'});
+})();
+</script></body></html>
