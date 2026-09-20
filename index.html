@@ -82,7 +82,15 @@
     .lockCard h2{font-size:26px;line-height:1.2}
     .pinWrap{width:100%;max-width:300px;margin:18px auto 0}
     .pinInput{display:block;width:100%;max-width:100%;min-width:0;height:58px;margin:0;padding:10px 18px;border:1px solid #dfe3e8;border-radius:14px;font-size:22px;text-align:center;letter-spacing:6px;box-sizing:border-box}
-    .lockMsg{font-size:12px;color:#d94b4b;margin-top:10px;min-height:18px}</style>
+    .lockMsg{font-size:12px;color:#d94b4b;margin-top:10px;min-height:18px}
+    .aiFab{position:fixed;right:16px;bottom:calc(82px + env(safe-area-inset-bottom));z-index:80;border:0;border-radius:999px;background:#111;color:#fff;padding:10px 14px;font-weight:800;box-shadow:0 8px 24px rgba(0,0,0,.18);display:flex;align-items:center;gap:6px}
+    .aiSheet{position:fixed;inset:0;z-index:120;display:none;background:rgba(0,0,0,.34);align-items:flex-end}
+    .aiSheet.show{display:flex}
+    .aiPanel{width:100%;max-height:78vh;overflow:auto;background:#fff;border-radius:24px 24px 0 0;padding:18px 16px calc(22px + env(safe-area-inset-bottom))}
+    .aiHandle{width:42px;height:5px;border-radius:99px;background:#d9dde3;margin:0 auto 14px}
+    .aiPrompt{width:100%;text-align:left;border:1px solid var(--line);background:#f8f9fb;border-radius:14px;padding:12px;margin-top:8px;font-size:13px}
+    .aiActions{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:12px}
+    </style>
 </head>
 <body><div id="lockOverlay" class="lockOverlay"><div class="lockCard"><div style="font-size:38px">🔒</div><h2 id="lockTitle" style="margin:10px 0 4px">资产笔记已锁定</h2><div id="lockDesc" class="mini">输入 6 位数字密码</div><div class="pinWrap"><input id="pinInput" class="pinInput" inputmode="numeric" maxlength="6" type="password" autocomplete="off" placeholder="••••••"></div><div class="btnRow" style="justify-content:center;margin-top:14px"><button id="pinAction" class="btn" style="min-width:104px">解锁</button></div><div id="lockMsg" class="lockMsg"></div></div></div>
 <div class="wrap">
@@ -212,7 +220,7 @@
     </div>
   </section>
 
-  <section id="settings" class="page"><div class="card"><div class="mini">当前程序版本：V11 · 资金执行与专项预算版</div></div>
+  <section id="settings" class="page"><div class="card"><div class="mini">当前程序版本：V12 · AI助手与资金执行版</div></div>
     <div class="card"><h3 style="margin-top:0">你的节奏</h3>
       <div class="settingRow"><label>发薪日</label><input id="payday" type="number" min="1" max="31"></div>
       <div class="settingRow"><label>公积金申请日</label><input id="fundday" type="number" min="1" max="31"></div>
@@ -420,7 +428,12 @@ function renderAllocation(){
  document.querySelectorAll('.deleteAssetBtn').forEach(b=>b.onclick=()=>{
    if(!m||!confirm('从本月快照删除“'+b.dataset.name+'”？'))return;
    m.assets=(m.assets||[]).filter(a=>a.name!==b.dataset.name);
-   save();renderAll();
+   save();document.getElementById('aiFab').onclick=openAiSheet;
+document.getElementById('aiClose').onclick=()=>document.getElementById('aiSheet').classList.remove('show');
+document.getElementById('aiSheet').onclick=e=>{if(e.target.id==='aiSheet')document.getElementById('aiSheet').classList.remove('show')};
+document.getElementById('aiCopy').onclick=async()=>{try{await navigator.clipboard.writeText(aiContextText());alert('本页摘要已复制')}catch(e){alert('复制失败，请长按页面信息复制')}};
+document.getElementById('aiOpen').onclick=()=>window.open('https://chatgpt.com/','_blank');
+renderAll();
  });
 
  document.getElementById('targetRows').innerHTML=Object.entries(state.targets).map(([k,v])=>`<div class="targetRow"><label>${k}</label><input type="number" data-target="${k}" value="${v}"></div>`).join('');
@@ -542,6 +555,42 @@ function saveFastSpend(){
  save();renderAll();alert('已完成 '+ym+' 极速月结');
 }
 function renderSettings(){const s=state.settings;['payday','fundday','emergencyTarget','annualSpendTarget','singleMax','themeMax','techMax','monthlyRent','currentPackage','stayPackageMin','stayPackageMax','switchPackage'].forEach(k=>document.getElementById(k).value=s[k])}
+
+function activePageName(){
+ const p=document.querySelector('.page.active')?.id||'home';
+ return p;
+}
+function aiPromptsFor(page){
+ const map={
+  home:['根据我的当前账户、短期负债和待报销，判断这个月还能投多少钱','帮我检查“自由现金、旅游专项、信用卡”是否分配合理','如果本月有大额支出，我应该从哪个资金桶支付'],
+  allocation:['分析我的资产配置是否过度集中科技/主题','根据成本和当前市值，解释哪些持仓是主要拖累','如果新增一笔资金，如何在不追高的情况下分配'],
+  spending:['分析今年重点消费与2024/2025相比发生了什么变化','我发一张账单截图，帮我去重并归类到年度消费','帮我判断哪些消费提升了长期生活品质，哪些只是一次性体验'],
+  update:['根据本月截图帮我生成资产笔记月度增量','检查我这次更新还缺哪些账户余额/交易','帮我把旅游、运动、大额购物记录进正确年份和分类'],
+  settings:['解释当前资金规则和目标是什么意思','帮我检查数据隐私和备份方式','我想调整分类或目标，请给我最少改动方案']
+ };
+ return map[page]||map.home;
+}
+function aiContextText(){
+ const page=activePageName(), ym=ensureSelected(), m=state.months?.[ym];
+ const accts=state.accounts||[];
+ const liquid=accts.filter(a=>a.kind==='asset').reduce((x,a)=>x+Number(a.balance||0),0);
+ const recv=accts.filter(a=>a.kind==='receivable').reduce((x,a)=>x+Number(a.balance||0),0);
+ const debt=accts.filter(a=>a.kind==='liability').reduce((x,a)=>x+Number(a.balance||0),0);
+ const specials=state.annualSpecialSpending?.['2026']?.categories||{};
+ let parts=[`资产笔记当前页面：${page}；选择月份：${ym}。`];
+ if(page==='home')parts.push(`账户流动资产约${fmt(liquid)}，待报销${fmt(recv)}，短期负债${fmt(debt)}。`);
+ if(page==='allocation'&&m)parts.push(`当前月资产快照：${(m.assets||[]).map(a=>a.name+' '+fmt(a.amount)).join('；')}。`);
+ if(page==='spending')parts.push(`2026已单独分类重点支出：${Object.entries(specials).map(([k,v])=>k+' '+fmt(v)).join('；')}。普通日常消费尚未补齐。`);
+ if(page==='update')parts.push('请优先告诉我还需要补哪些数据，而不是要求逐笔记账。');
+ return parts.join('\n');
+}
+function openAiSheet(){
+ const page=activePageName();
+ document.getElementById('aiPageHint').textContent={home:'现金流与资金执行',allocation:'投资配置与收益',spending:'消费分析与分类',update:'月度更新与数据整理',settings:'规则、备份与隐私'}[page]||'财务问答';
+ document.getElementById('aiPromptList').innerHTML=aiPromptsFor(page).map(x=>`<button class="aiPrompt">${x}</button>`).join('');
+ document.querySelectorAll('.aiPrompt').forEach(b=>b.onclick=async()=>{try{await navigator.clipboard.writeText(b.textContent+'\n\n'+aiContextText());alert('问题和本页摘要已复制，打开 ChatGPT 后粘贴即可')}catch(e){alert('复制失败，请长按复制')}})
+ document.getElementById('aiSheet').classList.add('show');
+}
 function renderAll(){renderHome();renderAllocation();renderSpending();renderSettings()}
 function switchPage(p){document.querySelectorAll('.page').forEach(x=>x.classList.remove('active'));document.getElementById(p).classList.add('active');document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x.dataset.page===p));if(p==='update')loadEditMonth(ensureSelected());if(p==='allocation')renderAllocation();if(p==='spending')renderSpending();if(p==='settings')renderSettings();window.scrollTo({top:0,behavior:'smooth'})}
 function saveEdit(){const ym=document.getElementById('editMonth').value||ymNow();state.months[ym]={month:ym,income:collectRows('incomeRows'),expense:collectRows('expenseRows'),assets:collectAssets(),debt:Number(document.getElementById('debt').value||0),adjustment:Number(document.getElementById('adjustment').value||0),updatedAt:new Date().toISOString()};save();refreshMonthSelector(ym);renderAll();alert('已保存 '+ym+' 的月度快照')}
