@@ -149,6 +149,32 @@
   </section>
 
   <section id="spending" class="page">
+    <div class="section" style="margin-top:0"><h3>专项记账</h3><div class="card">
+      <div id="budgetLedgerSummary"></div>
+      <div class="formBlock" style="margin-top:12px"><h4>记一笔</h4><div class="ledgerForm">
+        <div><label class="mini">日期</label><input id="ledgerDate" type="date"></div>
+        <div><label class="mini">分类</label><select id="ledgerCategory"></select></div>
+        <div><label class="mini">金额</label><input id="ledgerAmount" type="number" placeholder="0"></div>
+        <div><label class="mini">名称</label><input id="ledgerNote" type="text" placeholder="如：攀岩 / 新疆机票"></div>
+        <button id="ledgerAdd" class="btn full">保存这笔支出</button>
+      </div></div><div id="ledgerRecent"></div>
+    </div></div>
+    <div class="section"><h3>买之前问 AI</h3><div class="card">
+      <div class="mini">直接把纠结说出来，我会替你拆成必要性、使用频率、替代方案、机会成本和资金桶。</div>
+      <textarea id="voiceNeed" rows="4" style="width:100%;margin-top:10px" placeholder="例如：我家30平养猫，猫毛很多，扫地机器人贵，我在考虑手持吸尘器……"></textarea>
+      <div class="btnRow" style="margin-top:8px"><button id="voiceStart" class="btn secondary">🎙 开始口述</button><button id="voiceAnalyze" class="btn">AI 帮我拆解并分析</button></div>
+      <div class="ledgerForm" style="margin-top:12px">
+        <div><label class="mini">想买什么</label><input id="buyItem" type="text"></div>
+        <div><label class="mini">价格</label><input id="buyPrice" type="number"></div>
+        <div><label class="mini">分类</label><select id="buyCategory"></select></div>
+        <div><label class="mini">预计使用</label><select id="buyFrequency"><option>每天</option><option>每周</option><option>每月</option><option>偶尔</option></select></div>
+        <div class="full"><label class="mini">购买原因</label><input id="buyReason" type="text"></div>
+        <button id="buyCheck" class="btn secondary">先看预算</button><button id="buyAskAi" class="btn">问 AI</button>
+      </div><div id="buyDecisionResult"></div>
+    </div></div>
+    <div class="section"><h3>年度重点支出</h3><div id="annualSpecialSummary" class="card"></div></div>
+    <div class="section"><h3>现金流反推</h3><div id="cashflowAnalysisCard" class="card"></div></div>
+    <div class="section"><h3>三年消费对比</h3><div id="yearCompareCard" class="card"></div></div>
     <div class="section" style="margin-top:0"><h3>年度重点支出</h3><div id="annualSpecialSummary" class="card"></div></div>\n    <div class="section"><h3>三年消费对比</h3><div id="yearCompareCard" class="card"></div></div>\n    <div class="grid2">
       <div class="budgetBox"><div class="eyebrow">本月消费</div><div id="spendMonth" class="budgetValue">¥0</div><div id="spendMonthSub" class="mini">—</div></div>
       <div class="budgetBox"><div class="eyebrow">全年累计消费</div><div id="spendYear" class="budgetValue">¥0</div><div id="spendYearSub" class="mini">—</div></div>
@@ -222,7 +248,7 @@
     </div>
   </section>
 
-  <section id="settings" class="page"><div class="card"><div class="mini">当前程序版本：V15 · 口述决策与滚存预算版</div></div>
+  <section id="settings" class="page"><div class="card"><div class="mini">当前程序版本：V15.1 · 交互修复版</div></div>
     <div class="card"><h3 style="margin-top:0">你的节奏</h3>
       <div class="settingRow"><label>发薪日</label><input id="payday" type="number" min="1" max="31"></div>
       <div class="settingRow"><label>公积金申请日</label><input id="fundday" type="number" min="1" max="31"></div>
@@ -243,6 +269,8 @@
   </section>
 </div>
 
+<button id="aiFab" class="aiFab">✦ 问 AI</button>
+<div id="aiSheet" class="aiSheet"><div class="aiPanel"><div style="display:flex;justify-content:space-between;align-items:center"><div><b style="font-size:18px">AI 财务助手</b><div id="aiPageHint" class="mini"></div></div><button id="aiClose" class="textBtn">关闭</button></div><div id="aiPromptList"></div><div class="aiActions"><button id="aiCopy" class="btn secondary">复制本页摘要</button><button id="aiOpen" class="btn">打开 ChatGPT</button></div></div></div>
 <nav class="nav"><div class="navIn">
   <button class="tab active" data-page="home"><span class="ico">⌂</span><span>首页</span></button>
   <button class="tab" data-page="allocation"><span class="ico">◔</span><span>投资配置</span></button>
@@ -318,13 +346,13 @@ function renderAccountOverview(){
  const assets=accts.filter(a=>a.kind!=='liability').reduce((s,a)=>s+Number(a.balance||0),0);
  const debts=accts.filter(a=>a.kind==='liability').reduce((s,a)=>s+Number(a.balance||0),0);
  const receivable=accts.filter(a=>a.kind==='receivable').reduce((s,a)=>s+Number(a.balance||0),0);
- box.innerHTML=\`<div class="accountGrid">
-   <div class="accountCard"><div class="eyebrow">现金 / 钱包 / 银行</div><div class="amt">\${fmt(assets-receivable)}</div></div>
-   <div class="accountCard"><div class="eyebrow">待报销</div><div class="amt">\${fmt(receivable)}</div></div>
-   <div class="accountCard"><div class="eyebrow">信用 / 月付负债</div><div class="amt red">-\${fmt(debts)}</div></div>
-   <div class="accountCard"><div class="eyebrow">账户净额</div><div class="amt">\${fmt(assets-debts)}</div></div>
+ box.innerHTML=`<div class="accountGrid">
+   <div class="accountCard"><div class="eyebrow">现金 / 钱包 / 银行</div><div class="amt">${fmt(assets-receivable)}</div></div>
+   <div class="accountCard"><div class="eyebrow">待报销</div><div class="amt">${fmt(receivable)}</div></div>
+   <div class="accountCard"><div class="eyebrow">信用 / 月付负债</div><div class="amt red">-${fmt(debts)}</div></div>
+   <div class="accountCard"><div class="eyebrow">账户净额</div><div class="amt">${fmt(assets-debts)}</div></div>
  </div>
- <div style="margin-top:10px">\${accts.map(a=>\`<div class="summaryRow"><span><b style="font-size:13px">\${a.name}</b><div class="mini">\${a.purpose||a.type||''}</div></span><b class="\${a.kind==='liability'?'red':''}">\${a.kind==='liability'?'-':''}\${fmt(a.balance)}</b></div>\`).join('')}</div>\`;
+ <div style="margin-top:10px">${accts.map(a=>`<div class="summaryRow"><span><b style="font-size:13px">${a.name}</b><div class="mini">${a.purpose||a.type||''}</div></span><b class="${a.kind==='liability'?'red':''}">${a.kind==='liability'?'-':''}${fmt(a.balance)}</b></div>`).join('')}</div>`;
 }
 function renderCashflowPlan(){
  const box=document.getElementById('cashflowPlanCard');if(!box)return;
@@ -337,17 +365,17 @@ function renderCashflowPlan(){
  const freeNow=liquid-debt-earmark;
  const freeAfter=freeNow+receivable;
  const pct=Math.max(0,Math.min(100,freeAfter/Number(p.freeCashTarget||1)*100));
- box.innerHTML=\`
+ box.innerHTML=`
  <div class="planGrid">
-   <div class="planItem"><div class="eyebrow">自由现金</div><b>\${fmt(Math.max(0,freeNow))}</b><div class="mini">扣除短期负债与专项资金后</div></div>
-   <div class="planItem"><div class="eyebrow">报销到账后</div><b>\${fmt(Math.max(0,freeAfter))}</b><div class="mini">目标 \${fmt(p.freeCashTarget)}</div></div>
+   <div class="planItem"><div class="eyebrow">自由现金</div><b>${fmt(Math.max(0,freeNow))}</b><div class="mini">扣除短期负债与专项资金后</div></div>
+   <div class="planItem"><div class="eyebrow">报销到账后</div><b>${fmt(Math.max(0,freeAfter))}</b><div class="mini">目标 ${fmt(p.freeCashTarget)}</div></div>
  </div>
- <div class="progress" style="margin-top:12px"><i style="width:\${pct}%"></i></div>
- <div class="mini" style="margin-top:6px">自由现金目标完成度 \${pct.toFixed(0)}%</div>
- \${(p.virtualBuckets||[]).length?`<div style="margin-top:12px"><div class="eyebrow">虚拟资金桶（不要求真的转账）</div>${(p.virtualBuckets||[]).map(x=>`<div class="summaryRow"><span>${x.name}<div class="mini">${x.rule||''}</div></span><b>${x.amount!==undefined?fmt(x.amount):'—'}</b></div>`).join('')}</div>`:''}\n <div style="margin-top:12px">\${(p.monthly||[]).map(x=>\`<div class="summaryRow"><span>\${x.label}<div class="mini">\${x.note||''}</div></span><b>\${fmt(x.amount)}</b></div>\`).join('')}</div>
- \${(p.earmarks||[]).map(x=>\`<div class="ruleBox"><strong>\${x.name}：\${fmt(x.current)}</strong><div class="mini">\${x.rule||''}</div></div>\`).join('')}
- \${(p.rules||[]).map(x=>\`<div class="notice \${x.kind||'info'}"><b>\${x.title}</b><div class="mini">\${x.text}</div></div>\`).join('')}
- \`;
+ <div class="progress" style="margin-top:12px"><i style="width:${pct}%"></i></div>
+ <div class="mini" style="margin-top:6px">自由现金目标完成度 ${pct.toFixed(0)}%</div>
+ ${(p.virtualBuckets||[]).length?`<div style="margin-top:12px"><div class="eyebrow">虚拟资金桶（不要求真的转账）</div>${(p.virtualBuckets||[]).map(x=>`<div class="summaryRow"><span>${x.name}<div class="mini">${x.rule||''}</div></span><b>${x.amount!==undefined?fmt(x.amount):'—'}</b></div>`).join('')}</div>`:''}\n <div style="margin-top:12px">${(p.monthly||[]).map(x=>`<div class="summaryRow"><span>${x.label}<div class="mini">${x.note||''}</div></span><b>${fmt(x.amount)}</b></div>`).join('')}</div>
+ ${(p.earmarks||[]).map(x=>`<div class="ruleBox"><strong>${x.name}：${fmt(x.current)}</strong><div class="mini">${x.rule||''}</div></div>`).join('')}
+ ${(p.rules||[]).map(x=>`<div class="notice ${x.kind||'info'}"><b>${x.title}</b><div class="mini">${x.text}</div></div>`).join('')}
+ `;
 }
 function renderHome(){const ym=ensureSelected(),m=state.months[ym],prev=state.months[previousMonth(ym)],nw=net(m),pnw=net(prev),inc=totalIncome(m),exp=totalExpense(m);document.getElementById('networth').textContent=(m&&m.snapshotIncomplete)?'未记录':fmt(nw);document.getElementById('incomeStat').textContent=fmt(inc);document.getElementById('expenseStat').textContent=fmt(exp);document.getElementById('savingStat').textContent=inc>0?((inc-exp)/inc*100).toFixed(1)+'%':'—';const mom=document.getElementById('mom');if(prev){const d=nw-pnw;mom.textContent=`较上月 ${d>=0?'+':''}${fmt(d)}`;mom.className='delta '+(d>=0?'green':'red')}else{mom.textContent='还没有上月数据';mom.className='delta subtle'}renderCalendarHints();renderAccountOverview();renderCashflowPlan();const invest=(m?.assets||[]).filter(a=>investTypes.includes(a.type)).reduce((x,a)=>x+Number(a.amount||0),0),safe=(m?.assets||[]).filter(a=>safeTypes.includes(a.type)).reduce((x,a)=>x+Number(a.amount||0),0);document.getElementById('riskAssets').textContent=fmt(invest);const ep=Math.min(999,state.settings.emergencyTarget?safe/state.settings.emergencyTarget*100:0);document.getElementById('emergencyPct').textContent=ep.toFixed(0)+'%';document.getElementById('emergencyText').textContent=`${fmt(safe)} / 目标 ${fmt(state.settings.emergencyTarget)}`;drawTrend();const msgs=riskMessages(m);
 document.getElementById('milestoneList').innerHTML=(state.milestones||[]).slice().reverse().map(x=>`<div class="milestone"><b>${x.date} · ${x.title}</b><div class="mini">${x.text}</div></div>`).join('');
@@ -454,28 +482,28 @@ renderAll();
 function renderCashflowAnalysis(){
  const box=document.getElementById('cashflowAnalysisCard');if(!box)return;
  const a=state.cashflowAnalysis;if(!a){box.innerHTML='<div class="empty">补齐收入、投资和重点支出后，会反推出未分类日常开销</div>';return}
- box.innerHTML=\`<div class="historyGrid">
-   <div class="historyCell"><span class="mini">现金流入</span><b>\${fmt(a.income||0)}</b></div>
-   <div class="historyCell"><span class="mini">投资本金</span><b>-\${fmt(a.investmentPrincipal||0)}</b></div>
-   <div class="historyCell"><span class="mini">已分类大项</span><b>-\${fmt(a.knownLargeSpending||0)}</b></div>
-   <div class="historyCell"><span class="mini">粗略剩余</span><b>\${fmt(a.grossResidual||0)}</b></div>
+ box.innerHTML=`<div class="historyGrid">
+   <div class="historyCell"><span class="mini">现金流入</span><b>${fmt(a.income||0)}</b></div>
+   <div class="historyCell"><span class="mini">投资本金</span><b>-${fmt(a.investmentPrincipal||0)}</b></div>
+   <div class="historyCell"><span class="mini">已分类大项</span><b>-${fmt(a.knownLargeSpending||0)}</b></div>
+   <div class="historyCell"><span class="mini">粗略剩余</span><b>${fmt(a.grossResidual||0)}</b></div>
  </div>
- <div class="notice info" style="margin-top:10px"><b>较合理的日常/未分类支出估算：\${fmt(a.refinedResidual||0)}</b><div class="mini">约 \${fmt(a.monthlyEquivalent||0)}/月。已再扣除当前仍留在手上的净流动资产，因此比“现金流入直接相减”更接近实际消费，但仍是估算。</div></div>
- <div class="mini" style="margin-top:8px">\${a.note||''}</div>\`;
+ <div class="notice info" style="margin-top:10px"><b>较合理的日常/未分类支出估算：${fmt(a.refinedResidual||0)}</b><div class="mini">约 ${fmt(a.monthlyEquivalent||0)}/月。已再扣除当前仍留在手上的净流动资产，因此比“现金流入直接相减”更接近实际消费，但仍是估算。</div></div>
+ <div class="mini" style="margin-top:8px">${a.note||''}</div>`;
 }
 function renderAnnualSpecial(){
  const box=document.getElementById('annualSpecialSummary'),cmp=document.getElementById('yearCompareCard');
  if(!box||!cmp)return;
  const data=state.annualSpecialSpending||{}, y=data['2026']||{};
  const cats=y.categories||{}, total=Object.values(cats).reduce((s,v)=>s+Number(v||0),0);
- box.innerHTML=Object.keys(cats).length?\`<div class="historyHead"><div><div class="eyebrow">2026 已单独记录</div><div class="historyTotal">\${fmt(total)}</div></div><div class="mini">普通日常消费尚未补全<br>这里不是全年总消费</div></div>
- <div class="historyGrid">\${Object.entries(cats).sort((a,b)=>b[1]-a[1]).map(([k,v])=>\`<div class="historyCell"><span class="mini">\${k}</span><b>\${fmt(v)}</b></div>\`).join('')}</div>
- \${(y.items||[]).length?\`<div style="margin-top:10px">\${(y.items||[]).map(x=>\`<span class="specialTag">\${x.label} \${fmt(x.amount)}</span>\`).join('')}</div>\`:''}\`:'<div class="empty">把旅行、运动、兴趣和大额购物发给我后，会汇总在这里</div>';
+ box.innerHTML=Object.keys(cats).length?`<div class="historyHead"><div><div class="eyebrow">2026 已单独记录</div><div class="historyTotal">${fmt(total)}</div></div><div class="mini">普通日常消费尚未补全<br>这里不是全年总消费</div></div>
+ <div class="historyGrid">${Object.entries(cats).sort((a,b)=>b[1]-a[1]).map(([k,v])=>`<div class="historyCell"><span class="mini">${k}</span><b>${fmt(v)}</b></div>`).join('')}</div>
+ ${(y.items||[]).length?`<div style="margin-top:10px">${(y.items||[]).map(x=>`<span class="specialTag">${x.label} ${fmt(x.amount)}</span>`).join('')}</div>`:''}`:'<div class="empty">把旅行、运动、兴趣和大额购物发给我后，会汇总在这里</div>';
  const h=state.annualHistory||{};
  const v24=h['2024']?.adjustedConsumption||0,v25=h['2025']?.adjustedConsumption||0;
- cmp.innerHTML=\`<div class="yearCompare"><div class="yearPill"><span class="mini">2024生活消费</span><b>\${v24?fmt(v24):'—'}</b></div><div class="yearPill"><span class="mini">2025生活消费</span><b>\${v25?fmt(v25):'—'}</b></div><div class="yearPill"><span class="mini">2026已分类</span><b>\${total?fmt(total):'—'}</b></div></div>
+ cmp.innerHTML=`<div class="yearCompare"><div class="yearPill"><span class="mini">2024生活消费</span><b>${v24?fmt(v24):'—'}</b></div><div class="yearPill"><span class="mini">2025生活消费</span><b>${v25?fmt(v25):'—'}</b></div><div class="yearPill"><span class="mini">2026已分类</span><b>${total?fmt(total):'—'}</b></div></div>
  <div class="mini" style="margin-top:10px">2026目前只统计你单独摘出的重点支出，不能直接和前两年全年总消费比较。年底补齐各App年度账单后再形成完整同比。</div>
- \${(state.spendingInsights||[]).map(x=>\`<div class="notice \${x.kind||'info'}"><b>\${x.title}</b><div class="mini">\${x.text}</div></div>\`).join('')}\`;
+ ${(state.spendingInsights||[]).map(x=>`<div class="notice ${x.kind||'info'}"><b>${x.title}</b><div class="mini">${x.text}</div></div>`).join('')}`;
 }
 
 function budgetMonthKey(){return ensureSelected().slice(0,7)}
@@ -692,6 +720,17 @@ document.getElementById('setupPin').onclick=()=>showLock('setup');document.getEl
 document.addEventListener('visibilitychange',()=>{if(document.hidden&&localStorage.getItem(PIN_HASH_KEY))sessionStorage.removeItem('asset_note_unlocked');if(!document.hidden&&localStorage.getItem(PIN_HASH_KEY)&&!sessionStorage.getItem('asset_note_unlocked'))showLock('unlock')});
 if(localStorage.getItem(PIN_HASH_KEY)&&!sessionStorage.getItem('asset_note_unlocked'))showLock('unlock');
 
+/* V15_GLOBAL_BINDINGS */
+var _el;
+_el=document.getElementById('ledgerAdd');if(_el)_el.onclick=addLedgerEntry;
+_el=document.getElementById('voiceStart');if(_el)_el.onclick=startVoiceNeed;
+_el=document.getElementById('voiceAnalyze');if(_el)_el.onclick=analyzeVoiceNeed;
+_el=document.getElementById('buyCheck');if(_el)_el.onclick=purchaseBudgetCheck;
+_el=document.getElementById('buyAskAi');if(_el)_el.onclick=askPurchaseAI;
+_el=document.getElementById('aiFab');if(_el)_el.onclick=openAiSheet;
+_el=document.getElementById('aiClose');if(_el)_el.onclick=function(){document.getElementById('aiSheet').classList.remove('show')};
+_el=document.getElementById('aiCopy');if(_el)_el.onclick=async function(){try{await navigator.clipboard.writeText(aiContextText());alert('本页摘要已复制')}catch(e){alert('复制失败')}};
+_el=document.getElementById('aiOpen');if(_el)_el.onclick=function(){window.open('https://chatgpt.com/','_blank')};
 refreshMonthSelector();loadEditMonth(ensureSelected());renderAll();if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js').catch(()=>{});
 </script>
 </body>
