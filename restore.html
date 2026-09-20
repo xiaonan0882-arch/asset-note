@@ -38,7 +38,9 @@ button{width:100%;border:0;border-radius:16px;padding:16px;font-size:17px;font-w
      try{
        const d=JSON.parse(String(reader.result||''));
        if(!d||typeof d!=='object'||!d.months) throw new Error('文件缺少 months，不是完整恢复包');
-       const count=Object.keys(d.months||{}).length;
+       const monthKeys=Object.keys(d.months||{}).sort();
+       if(!d.currentMonth||!d.months[d.currentMonth])d.currentMonth=monthKeys.length?monthKeys[monthKeys.length-1]:'2026-09';
+       const count=monthKeys.length;
        localStorage.setItem('asset_note_v5',JSON.stringify(d));
        const verify=localStorage.getItem('asset_note_v5');
        if(!verify) throw new Error('写入本机存储失败');
@@ -50,6 +52,6 @@ button{width:100%;border:0;border-radius:16px;padding:16px;font-size:17px;font-w
    };
    reader.readAsText(f);
  });
- btn.addEventListener('click',function(){location.href='./v20-3.html?restored=1'});
+ btn.addEventListener('click',function(){location.href='./v21.html?restored=1'});
 })();
 </script></body></html>
