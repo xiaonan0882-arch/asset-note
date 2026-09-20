@@ -115,7 +115,7 @@
       <div class="quick"><div class="eyebrow">可投资资产</div><b id="riskAssets">¥0</b><div class="mini">宽基 + 主题 + 个股</div></div>
       <div class="quick"><div class="eyebrow">安全垫完成度</div><b id="emergencyPct">0%</b><div class="mini" id="emergencyText">目标 ¥60,000</div></div>
     </div>
-    <div class="section"><h3>账户与负债</h3><div id="accountOverview" class="card"></div></div>\n    <div class="section"><h3>资金执行</h3><div id="cashflowPlanCard" class="card"></div></div>\n    <div class="section"><h3>净资产趋势</h3><div class="card"><canvas id="trend" class="trend"></canvas></div></div>
+    <div class="section"><h3>账户与负债</h3><div id="accountOverview" class="card"></div></div>\n    <div class="section"><h3>资金执行</h3><div id="cashflowPlanCard" class="card"></div></div>\n    <div class="section"><h3>目标资金</h3><div id="sinkingFundsCard" class="card"></div></div><div class="section"><h3>净资产趋势</h3><div class="card"><canvas id="trend" class="trend"></canvas></div></div>
     <div class="section"><h3>你的资金节点</h3><div id="milestoneList" class="card"></div></div>
     <div class="section"><h3>收入与生活基线</h3><div id="profileCard" class="card"></div></div>
     <div class="section"><h3>今天要不要动</h3><div id="homeAdvice" class="card"></div></div>
@@ -149,9 +149,11 @@
   </section>
 
   <section id="spending" class="page">
-    <div class="section" style="margin-top:0"><h3>专项记账</h3><div class="card">
+    <div class="section" style="margin-top:0"><h3>年度重点支出</h3><div id="annualSpecialSummary" class="card"></div></div>
+    <div class="section"><h3>三年分类对比</h3><div id="yearCategoryCompare" class="card"></div></div>
+    <div class="section"><h3>专项记账</h3><div class="card">
       <div id="budgetLedgerSummary"></div>
-      <div class="formBlock" style="margin-top:12px"><h4>记一笔</h4><div class="ledgerForm">
+      <div class="formBlock" style="margin-top:12px"><h4>记一笔值得单独追踪的支出</h4><div class="ledgerForm">
         <div><label class="mini">日期</label><input id="ledgerDate" type="date"></div>
         <div><label class="mini">分类</label><select id="ledgerCategory"></select></div>
         <div><label class="mini">金额</label><input id="ledgerAmount" type="number" placeholder="0"></div>
@@ -160,8 +162,8 @@
       </div></div><div id="ledgerRecent"></div>
     </div></div>
     <div class="section"><h3>买之前问 AI</h3><div class="card">
-      <div class="mini">直接把纠结说出来，我会替你拆成必要性、使用频率、替代方案、机会成本和资金桶。</div>
-      <textarea id="voiceNeed" rows="4" style="width:100%;margin-top:10px" placeholder="例如：我家30平养猫，猫毛很多，扫地机器人贵，我在考虑手持吸尘器……"></textarea>
+      <div class="mini">不用自己拆字段。直接把纠结口述出来，我会整理成必要性、使用频率、替代方案、机会成本和资金影响。</div>
+      <textarea id="voiceNeed" rows="4" style="width:100%;margin-top:10px" placeholder="例如：手机有点卡但还能用，相机想买但频率可能不高……"></textarea>
       <div class="btnRow" style="margin-top:8px"><button id="voiceStart" class="btn secondary">🎙 开始口述</button><button id="voiceAnalyze" class="btn">AI 帮我拆解并分析</button></div>
       <div class="ledgerForm" style="margin-top:12px">
         <div><label class="mini">想买什么</label><input id="buyItem" type="text"></div>
@@ -172,58 +174,7 @@
         <button id="buyCheck" class="btn secondary">先看预算</button><button id="buyAskAi" class="btn">问 AI</button>
       </div><div id="buyDecisionResult"></div>
     </div></div>
-    <div class="section"><h3>年度重点支出</h3><div id="annualSpecialSummary" class="card"></div></div>
     <div class="section"><h3>现金流反推</h3><div id="cashflowAnalysisCard" class="card"></div></div>
-    <div class="section"><h3>三年消费对比</h3><div id="yearCompareCard" class="card"></div></div>
-    <div class="section" style="margin-top:0"><h3>年度重点支出</h3><div id="annualSpecialSummary" class="card"></div></div>\n    <div class="section"><h3>三年消费对比</h3><div id="yearCompareCard" class="card"></div></div>\n    <div class="grid2">
-      <div class="budgetBox"><div class="eyebrow">本月消费</div><div id="spendMonth" class="budgetValue">¥0</div><div id="spendMonthSub" class="mini">—</div></div>
-      <div class="budgetBox"><div class="eyebrow">全年累计消费</div><div id="spendYear" class="budgetValue">¥0</div><div id="spendYearSub" class="mini">—</div></div>
-    </div>
-    <div class="section">
-  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:9px">
-    <h3 style="margin:0">本月消费结构</h3><button class="btn secondary" id="quickAddExpense">＋ 新增分类</button>
-  </div>
-  <div id="expenseBars" class="card"></div>
-</div>
-    <div class="section"><h3>值得记住的支出</h3><div id="specialSpendList" class="card"></div></div><div class="section"><h3>固定 / 弹性</h3><div class="card"><div class="summaryRow"><span>固定类</span><b id="fixedSpend">¥0</b></div><div class="summaryRow"><span>弹性类</span><b id="flexSpend">¥0</b></div><div class="summaryRow"><span>给家里</span><b id="familySpend">¥0</b></div></div></div>
-    <div class="section"><h3>年度消费时间序列</h3><div class="card"><canvas id="annualSpendChart" class="trend"></canvas><div id="annualSpendLegend" class="mini" style="margin-top:8px"></div></div></div>
-    <div class="section"><h3>2024 / 2025 历史明细</h3><div id="annualHistoryCards"></div></div>
-    <div class="section">
-      <h3>极速月结</h3>
-      <div class="card">
-        <div class="notice info"><b>不用逐笔记账</b><div class="mini">每月只看一次支付渠道账单。支付宝/微信记各自“实际消费”；银行卡只记直接刷卡消费，不要把信用卡还款再算一次。淘宝、美团等如果已经通过支付宝/微信付款，也不要重复相加。</div></div>
-        <div class="formBlock" style="margin-top:12px">
-          <h4>① 本月支付渠道总消费</h4>
-          <div class="rows">
-            <div class="row"><label>支付宝</label><input id="fastAlipay" type="number" placeholder="0"></div>
-            <div class="row"><label>微信支付</label><input id="fastWechat" type="number" placeholder="0"></div>
-            <div class="row"><label>银行卡直接消费</label><input id="fastCard" type="number" placeholder="0"></div>
-            <div class="row"><label>现金 / 其他</label><input id="fastOther" type="number" placeholder="0"></div>
-          </div>
-        </div>
-        <div class="formBlock">
-          <h4>② 有意义的分类（可选）</h4>
-          <div class="mini" style="margin-bottom:8px">不要求你手工把每笔都拆开。月账单截图/文件交给我时，我会优先按这些类别整理；你自己只补充当月特别想长期追踪的项目。</div>
-          <div class="rows">
-            <div class="row"><label>房租</label><input id="fastRent" type="number" placeholder="0"></div>
-            <div class="row"><label>给家里</label><input id="fastFamily" type="number" placeholder="0"></div>
-            <div class="row"><label>旅行</label><input id="fastTravel" type="number" placeholder="0"></div>
-            <div class="row"><label>旅行名称</label><input id="fastTripName" type="text" placeholder="如：日本 / 新疆"></div>
-            <div class="row"><label>运动 / 健身</label><input id="fastSport" type="number" placeholder="0"></div>
-            <div class="row"><label>兴趣 / 文娱</label><input id="fastHobby" type="number" placeholder="看剧、演出、兴趣爱好"></div>
-            <div class="row"><label>个人成长</label><input id="fastGrowth" type="number" placeholder="课程、书、考试等"></div>
-            <div class="row"><label>购物 / 衣物</label><input id="fastShopping" type="number" placeholder="0"></div>
-            <div class="row"><label>电子产品</label><input id="fastElectronics" type="number" placeholder="0"></div>
-            <div class="row"><label>猫 / 宠物</label><input id="fastPet" type="number" placeholder="0"></div>
-            <div class="row"><label>保养 / 美容</label><input id="fastBeauty" type="number" placeholder="0"></div>
-            <div class="row"><label>社交 / 礼物</label><input id="fastSocial" type="number" placeholder="0"></div>
-          </div>
-        </div>
-        <div class="formBlock"><h4>③ 工作垫付与月末负债（不算消费）</h4><div class="rows"><div class="row"><label>本月工作垫付</label><input id="fastWorkAdvance" type="number" placeholder="0"></div><div class="row"><label>本月收到报销</label><input id="fastReimbursement" type="number" placeholder="0"></div><div class="row"><label>信用卡未还</label><input id="fastCreditDebt" type="number" placeholder="0"></div><div class="row"><label>花呗 / 白条 / 月付未还</label><input id="fastBnplDebt" type="number" placeholder="0"></div></div><div class="mini">工作垫付形成“待报销款”资产；信用账户只记月末未还余额，还款不重复算消费。</div></div><div class="notice" id="fastSpendPreview"><b>本月总消费 ¥0</b><div class="mini">其余会自动归入“日常综合”，不用再拆吃饭、打车、咖啡等小项。</div></div>
-        <div class="btnRow" style="margin-top:10px"><button class="btn" id="saveFastSpend">保存到当前月份</button><button class="btn secondary" id="clearFastSpend">清空输入</button></div>
-      </div>
-    </div>
-    <div class="section"><h3>消费建议</h3><div id="spendAdvice" class="card"></div></div>
   </section>
 
   <section id="update" class="page">
@@ -248,7 +199,7 @@
     </div>
   </section>
 
-  <section id="settings" class="page"><div class="card"><div class="mini">当前程序版本：V15.1 · 交互修复版</div></div>
+  <section id="settings" class="page"><div class="card"><div class="mini">当前程序版本：V16 · 数据恢复与消费重构版</div></div>
     <div class="card"><h3 style="margin-top:0">你的节奏</h3>
       <div class="settingRow"><label>发薪日</label><input id="payday" type="number" min="1" max="31"></div>
       <div class="settingRow"><label>公积金申请日</label><input id="fundday" type="number" min="1" max="31"></div>
@@ -281,14 +232,14 @@
 
 <script>
 const LS_KEY='asset_note_v5';
-const baseIncomeCats=['税后工资','公积金','奖金','报销回款','其他收入'];
-const baseExpenseCats=['房租','给家里','餐饮/外卖','交通','旅行','运动/健身','兴趣/文娱','个人成长','购物/衣物','电子产品','猫/宠物','保养/美容','医疗/体检','社交/礼物','日常综合','其他消费'];
+const baseIncomeCats=['税后工资','公积金','奖金','其他收入'];
+const baseExpenseCats=['住房','给家里','日常生活','旅游','运动活动','运动装备','猫/宠物','兴趣/文娱','大额购物/奢侈品','医疗','其他消费'];
 let incomeCats=[...baseIncomeCats], expenseCats=[...baseExpenseCats];
 const assetTypes=['现金','定期/低风险','偏债/稳健基金','黄金','宽基股票','科技/成长','新能源/主题','个股','其他'];
 const investTypes=['宽基股票','科技/成长','新能源/主题','个股','黄金'],safeTypes=['现金','定期/低风险','偏债/稳健基金'];
 const defaultSettings={payday:10,fundday:1,emergencyTarget:0,annualSpendTarget:0,singleMax:5,themeMax:8,techMax:15,monthlyRent:0,currentPackage:0,stayPackageMin:0,stayPackageMax:0,switchPackage:0};
 const defaultTargets={'定期/低风险':35,'偏债/稳健基金':18,'宽基股票':20,'黄金':6,'科技/成长':5,'新能源/主题':6,'个股':5,'现金':5};
-function starterState(){return {months:{},settings:{...defaultSettings},targets:{...defaultTargets},customIncomeCats:[],customExpenseCats:[],annualHistory:{},milestones:[],fundMonthly2026:[],fundSepDetail:[],tradeHistory:[],accounts:[],annualSpecialSpending:{},spendingInsights:[],cashflowPlan:null,cashflowAnalysis:null,budgetConfig:[],discretionaryLedger:[]}}
+function starterState(){return {months:{},settings:{...defaultSettings},targets:{...defaultTargets},customIncomeCats:[],customExpenseCats:[],annualHistory:{},milestones:[],fundMonthly2026:[],fundSepDetail:[],tradeHistory:[],accounts:[],annualSpecialSpending:{},spendingInsights:[],cashflowPlan:null,cashflowAnalysis:null,budgetConfig:[],discretionaryLedger:[],sinkingFunds:[]}}
 function load(){try{const s=JSON.parse(localStorage.getItem(LS_KEY));if(s){s.settings={...defaultSettings,...(s.settings||{})};s.targets={...defaultTargets,...(s.targets||{})};s.customIncomeCats=s.customIncomeCats||[];s.customExpenseCats=s.customExpenseCats||[];if(!s.annualHistory)s.annualHistory=starterState().annualHistory;if(!s.milestones)s.milestones=starterState().milestones;if(!s.fundMonthly2026)s.fundMonthly2026=starterState().fundMonthly2026;if(!s.fundSepDetail)s.fundSepDetail=starterState().fundSepDetail;if(!s.tradeHistory)s.tradeHistory=starterState().tradeHistory;return s}}catch(e){}return starterState()}
 let state=load();
 function syncCats(){incomeCats=[...baseIncomeCats,...(state.customIncomeCats||[])];expenseCats=[...baseExpenseCats,...(state.customExpenseCats||[])]}
@@ -377,7 +328,13 @@ function renderCashflowPlan(){
  ${(p.rules||[]).map(x=>`<div class="notice ${x.kind||'info'}"><b>${x.title}</b><div class="mini">${x.text}</div></div>`).join('')}
  `;
 }
-function renderHome(){const ym=ensureSelected(),m=state.months[ym],prev=state.months[previousMonth(ym)],nw=net(m),pnw=net(prev),inc=totalIncome(m),exp=totalExpense(m);document.getElementById('networth').textContent=(m&&m.snapshotIncomplete)?'未记录':fmt(nw);document.getElementById('incomeStat').textContent=fmt(inc);document.getElementById('expenseStat').textContent=fmt(exp);document.getElementById('savingStat').textContent=inc>0?((inc-exp)/inc*100).toFixed(1)+'%':'—';const mom=document.getElementById('mom');if(prev){const d=nw-pnw;mom.textContent=`较上月 ${d>=0?'+':''}${fmt(d)}`;mom.className='delta '+(d>=0?'green':'red')}else{mom.textContent='还没有上月数据';mom.className='delta subtle'}renderCalendarHints();renderAccountOverview();renderCashflowPlan();const invest=(m?.assets||[]).filter(a=>investTypes.includes(a.type)).reduce((x,a)=>x+Number(a.amount||0),0),safe=(m?.assets||[]).filter(a=>safeTypes.includes(a.type)).reduce((x,a)=>x+Number(a.amount||0),0);document.getElementById('riskAssets').textContent=fmt(invest);const ep=Math.min(999,state.settings.emergencyTarget?safe/state.settings.emergencyTarget*100:0);document.getElementById('emergencyPct').textContent=ep.toFixed(0)+'%';document.getElementById('emergencyText').textContent=`${fmt(safe)} / 目标 ${fmt(state.settings.emergencyTarget)}`;drawTrend();const msgs=riskMessages(m);
+function renderSinkingFunds(){
+ const box=document.getElementById('sinkingFundsCard');if(!box)return;
+ const funds=state.sinkingFunds||[];
+ if(!funds.length){box.innerHTML='<div class="empty">暂无目标资金</div>';return}
+ box.innerHTML=funds.map(f=>{const target=Number(f.target||0),cur=Number(f.current||0),pct=target?Math.min(100,cur/target*100):0;return '<div class="planItem" style="margin-bottom:9px"><div class="eyebrow">'+escapeHtml(f.name)+'</div><b>'+fmt(cur)+' / '+fmt(target)+'</b><div class="mini">'+escapeHtml(f.priority||'')+' · 每月计划 '+fmt(f.monthlyContribution||0)+'</div><div class="tinyProgress"><i style="width:'+pct+'%"></i></div><div class="mini" style="margin-top:7px">'+escapeHtml(f.note||'')+'</div></div>'}).join('');
+}
+function renderHome(){const ym=ensureSelected(),m=state.months[ym],prev=state.months[previousMonth(ym)],nw=net(m),pnw=net(prev),inc=totalIncome(m),exp=totalExpense(m);document.getElementById('networth').textContent=(m&&m.snapshotIncomplete)?'未记录':fmt(nw);document.getElementById('incomeStat').textContent=fmt(inc);document.getElementById('expenseStat').textContent=fmt(exp);document.getElementById('savingStat').textContent=inc>0?((inc-exp)/inc*100).toFixed(1)+'%':'—';const mom=document.getElementById('mom');if(prev){const d=nw-pnw;mom.textContent=`较上月 ${d>=0?'+':''}${fmt(d)}`;mom.className='delta '+(d>=0?'green':'red')}else{mom.textContent='还没有上月数据';mom.className='delta subtle'}renderCalendarHints();renderAccountOverview();renderCashflowPlan();renderSinkingFunds();const invest=(m?.assets||[]).filter(a=>investTypes.includes(a.type)).reduce((x,a)=>x+Number(a.amount||0),0),safe=(m?.assets||[]).filter(a=>safeTypes.includes(a.type)).reduce((x,a)=>x+Number(a.amount||0),0);document.getElementById('riskAssets').textContent=fmt(invest);const ep=Math.min(999,state.settings.emergencyTarget?safe/state.settings.emergencyTarget*100:0);document.getElementById('emergencyPct').textContent=ep.toFixed(0)+'%';document.getElementById('emergencyText').textContent=`${fmt(safe)} / 目标 ${fmt(state.settings.emergencyTarget)}`;drawTrend();const msgs=riskMessages(m);
 document.getElementById('milestoneList').innerHTML=(state.milestones||[]).slice().reverse().map(x=>`<div class="milestone"><b>${x.date} · ${x.title}</b><div class="mini">${x.text}</div></div>`).join('');
 const ps=state.settings;document.getElementById('profileCard').innerHTML=`<div class="summaryRow"><span>当前年总包</span><b>${fmt(ps.currentPackage)}</b></div><div class="summaryRow"><span>未来两年（不跳槽）</span><b>${fmt(ps.stayPackageMin)}–${fmt(ps.stayPackageMax)}</b></div><div class="summaryRow"><span>跳槽目标</span><b>${fmt(ps.switchPackage)}</b></div><div class="summaryRow"><span>当前月租</span><b>${fmt(ps.monthlyRent)}</b></div>`;
 document.getElementById('homeAdvice').innerHTML=msgs.slice(0,2).map(x=>`<div class="notice ${x.kind}"><b>${x.title}</b><div class="mini">${x.text}</div></div>`).join('')}
@@ -492,20 +449,27 @@ function renderCashflowAnalysis(){
  <div class="mini" style="margin-top:8px">${a.note||''}</div>`;
 }
 function renderAnnualSpecial(){
- const box=document.getElementById('annualSpecialSummary'),cmp=document.getElementById('yearCompareCard');
+ const box=document.getElementById('annualSpecialSummary'),cmp=document.getElementById('yearCategoryCompare');
  if(!box||!cmp)return;
- const data=state.annualSpecialSpending||{}, y=data['2026']||{};
- const cats=y.categories||{}, total=Object.values(cats).reduce((s,v)=>s+Number(v||0),0);
- box.innerHTML=Object.keys(cats).length?`<div class="historyHead"><div><div class="eyebrow">2026 已单独记录</div><div class="historyTotal">${fmt(total)}</div></div><div class="mini">普通日常消费尚未补全<br>这里不是全年总消费</div></div>
- <div class="historyGrid">${Object.entries(cats).sort((a,b)=>b[1]-a[1]).map(([k,v])=>`<div class="historyCell"><span class="mini">${k}</span><b>${fmt(v)}</b></div>`).join('')}</div>
- ${(y.items||[]).length?`<div style="margin-top:10px">${(y.items||[]).map(x=>`<span class="specialTag">${x.label} ${fmt(x.amount)}</span>`).join('')}</div>`:''}`:'<div class="empty">把旅行、运动、兴趣和大额购物发给我后，会汇总在这里</div>';
- const h=state.annualHistory||{};
- const v24=h['2024']?.adjustedConsumption||0,v25=h['2025']?.adjustedConsumption||0;
- cmp.innerHTML=`<div class="yearCompare"><div class="yearPill"><span class="mini">2024生活消费</span><b>${v24?fmt(v24):'—'}</b></div><div class="yearPill"><span class="mini">2025生活消费</span><b>${v25?fmt(v25):'—'}</b></div><div class="yearPill"><span class="mini">2026已分类</span><b>${total?fmt(total):'—'}</b></div></div>
- <div class="mini" style="margin-top:10px">2026目前只统计你单独摘出的重点支出，不能直接和前两年全年总消费比较。年底补齐各App年度账单后再形成完整同比。</div>
- ${(state.spendingInsights||[]).map(x=>`<div class="notice ${x.kind||'info'}"><b>${x.title}</b><div class="mini">${x.text}</div></div>`).join('')}`;
+ const y26=(state.annualSpecialSpending||{})['2026']||{},c26=y26.categories||{};
+ const total=Object.values(c26).reduce((a,b)=>a+Number(b||0),0);
+ box.innerHTML=Object.keys(c26).length
+  ? '<div class="historyHead"><div><div class="eyebrow">2026截至目前 · 已分类重点支出</div><div class="historyTotal">'+fmt(total)+'</div></div><div class="mini">普通日常尚未补齐</div></div><div class="historyGrid">'+Object.entries(c26).sort((a,b)=>b[1]-a[1]).map(([k,v])=>'<div class="historyCell"><span class="mini">'+escapeHtml(k)+'</span><b>'+fmt(v)+'</b></div>').join('')+'</div>'
+  : '<div class="empty">导入完整数据后显示</div>';
+ const h=state.annualHistory||{},c24=(h['2024']||{}).categories||{},c25=(h['2025']||{}).categories||{};
+ const rows=[
+  ['住房',c24['房租'],c25['房租'],c26['住房（房租+水电）']],
+  ['给家里',c24['给家里'],c25['给家里'],c26['给家里']],
+  ['运动',c24['健身'],Number(c25['健身']||0)+Number(c25['游泳']||0),c26['运动/健身']],
+  ['旅游',null,c25['玩/娱乐'],c26['旅游']],
+  ['猫/宠物',null,c25['猫'],c26['猫/宠物']],
+  ['购物/大件',c24['购物'],Number(c25['购物']||0)+Number(c25['电子产品']||0),c26['包包/奢侈品']]
+ ];
+ cmp.innerHTML='<div class="mini" style="margin-bottom:8px">2026为截至目前；“—”表示没有可比的独立口径，不按0处理。2024的“玩/娱乐”未确认全部为旅游，因此不强行并入旅游。</div>'+
+  '<div class="summaryRow"><span><b>类别</b></span><span class="mini">2024　｜　2025　｜　2026 YTD</span></div>'+
+  rows.map(r=>'<div class="summaryRow"><span><b style="font-size:13px">'+r[0]+'</b></span><span style="font-size:12px;text-align:right">'+(r[1]==null?'—':fmt(r[1]))+'　｜　'+(r[2]==null?'—':fmt(r[2]))+'　｜　'+(r[3]==null?'—':fmt(r[3]))+'</span></div>').join('')+
+  '<div class="notice info"><b>可比结论</b><div class="mini">住房今年明显上升；运动支出下降；旅游截至目前已超过2025全年；给家里的金额今年截至目前低于2024/2025全年。购物/大件口径仍不完整，年底用年度账单再统一。</div></div>';
 }
-
 function budgetMonthKey(){return ensureSelected().slice(0,7)}
 function renderBudgetLedger(){
  const sum=document.getElementById('budgetLedgerSummary'),recent=document.getElementById('ledgerRecent');
@@ -563,8 +527,7 @@ async function askPurchaseAI(){
  const prompt=`我在资产笔记里准备决定一笔大额支出。请结合我的资金计划，不要只回答“买/不买”，而是分析必要性、使用频率、每次使用成本、替代方案、延迟购买的代价，以及这笔钱会挤占哪个资金桶。\n商品：${item}\n价格：${price}元\n分类：${cat}\n预计使用频率：${freq}\n购买原因/现有问题：${reason||'未填写'}\n\n${aiContextText()}`;
  try{await navigator.clipboard.writeText(prompt);alert('购买决策问题已复制。接下来打开 ChatGPT 粘贴即可。');window.open('https://chatgpt.com/','_blank')}catch(e){alert('复制失败，请手动复制')}
 }
-function renderSpending(){renderAnnualSpecial();renderCashflowAnalysis();renderBudgetLedger();const ym=ensureSelected(),m=state.months[ym],exp=totalExpense(m),year=ym.slice(0,4),yexp=monthsSorted().filter(x=>x.startsWith(year)).reduce((a,x)=>a+totalExpense(state.months[x]),0),pace=state.settings.annualSpendTarget/12;document.getElementById('spendMonth').textContent=fmt(exp);document.getElementById('spendYear').textContent=fmt(yexp);document.getElementById('spendMonthSub').textContent=`月均目标约 ${fmt(pace)}`;document.getElementById('spendYearSub').textContent=`年度目标 ${fmt(state.settings.annualSpendTarget)} · 已用 ${(yexp/state.settings.annualSpendTarget*100).toFixed(1)}%`;const entries=Object.entries(m?.expense||{}).filter(([k,v])=>v>0).sort((a,b)=>b[1]-a[1]),denom=Math.max(exp,1);document.getElementById('expenseBars').innerHTML=entries.map(([k,v])=>`<div class="barGroup"><div class="barMeta"><span>${k}</span><b>${fmt(v)} · ${(v/denom*100).toFixed(1)}%</b></div><div class="barTrack"><i style="width:${v/denom*100}%"></i></div></div>`).join('')||'<div class="empty">本月还没有消费记录</div>';const fixedCats=['房租','餐饮/外卖','交通','医疗/体检'],familyCats=['给家里'],fixed=entries.filter(([k])=>fixedCats.includes(k)).reduce((a,[k,v])=>a+v,0),family=entries.filter(([k])=>familyCats.includes(k)).reduce((a,[k,v])=>a+v,0),flex=Math.max(0,exp-fixed-family);document.getElementById('fixedSpend').textContent=fmt(fixed);document.getElementById('familySpend').textContent=fmt(family);document.getElementById('flexSpend').textContent=fmt(flex);let advice=[];if(exp>pace*1.2)advice.push({kind:'warn',title:'本月消费高于目标节奏',text:'先看是否有一次性旅行、礼物或大件支出，不要机械压缩房租和必要生活。'});const shopping=(m?.expense||{})['购物']||0,travel=(m?.expense||{})['旅行/娱乐']||0,electronics=(m?.expense||{})['电子产品']||0;if(shopping+travel+electronics>exp*.35&&exp>0)advice.push({kind:'info',title:'弹性消费占比较高',text:'购物 + 旅行/娱乐 + 电子产品超过本月消费的 35%，这三类最适合做年度预算管理。'});if(!advice.length)advice.push({kind:'good',title:'消费结构暂未触发提醒',text:'继续按月记录即可，比逐笔记账更容易长期坚持。'});const special=document.getElementById('specialSpendList');if(special){const ss=(m?.specialSpends||[]);special.innerHTML=ss.length?ss.map(x=>`<div class="summaryRow"><span><b style="font-size:13px">${x.kind} · ${x.name}</b></span><b>${fmt(x.amount)}</b></div>`).join(''):'<div class="empty">旅行、课程、兴趣项目等可以留下单独记录</div>';}
-document.getElementById('spendAdvice').innerHTML=advice.map(x=>`<div class="notice ${x.kind}"><b>${x.title}</b><div class="mini">${x.text}</div></div>`).join('');renderAnnualHistory()}
+function renderSpending(){renderAnnualSpecial();renderCashflowAnalysis();renderBudgetLedger()}
 function renderAnnualHistory(){
  const h=state.annualHistory||{},years=Object.keys(h).sort(),cards=document.getElementById('annualHistoryCards');
  cards.innerHTML=years.map(y=>{
@@ -709,7 +672,7 @@ document.getElementById('quickAddInvest').onclick=()=>{
    wireRemove();
    document.querySelector('#assetList .assetItem:last-child').scrollIntoView({behavior:'smooth',block:'center'});
  },80);
-};document.getElementById('monthSelector').onchange=()=>renderAll();document.getElementById('editMonth').onchange=e=>loadEditMonth(e.target.value);document.getElementById('addAsset').onclick=()=>{document.getElementById('assetList').insertAdjacentHTML('beforeend',assetTemplate({type:'其他'}));wireRemove()};document.getElementById('copyPrev').onclick=()=>{const ym=document.getElementById('editMonth').value||ymNow(),p=state.months[previousMonth(ym)];if(!p){alert('没有找到上月快照');return}const m=seedMonthStruct(ym);m.assets=JSON.parse(JSON.stringify(p.assets||[]));m.debt=p.debt||0;state.months[ym]=m;save();loadEditMonth(ym)};document.getElementById('clearMonth').onclick=()=>{const ym=document.getElementById('editMonth').value||ymNow();if(confirm('清空 '+ym+' 当前编辑内容？')){delete state.months[ym];save();loadEditMonth(ym);refreshMonthSelector(ym);renderAll()}};document.getElementById('saveMonth').onclick=saveEdit;document.getElementById('saveTargets').onclick=()=>{document.querySelectorAll('[data-target]').forEach(i=>state.targets[i.dataset.target]=Number(i.value||0));save();renderAllocation();alert('目标配置已保存')};document.getElementById('saveSettings').onclick=()=>{['payday','fundday','emergencyTarget','annualSpendTarget','singleMax','themeMax','techMax','monthlyRent','currentPackage','stayPackageMin','stayPackageMax','switchPackage'].forEach(k=>state.settings[k]=Number(document.getElementById(k).value||defaultSettings[k]));save();renderAll();alert('设置已保存')};document.getElementById('exportJson').onclick=()=>download('资产笔记备份_'+new Date().toISOString().slice(0,10)+'.json',JSON.stringify(state,null,2));document.getElementById('exportCsv').onclick=()=>{const rows=[['月份','净资产','收入','消费','负债','其他净流入','资产名称','资产类型','资产金额']];monthsSorted().forEach(ym=>{const m=state.months[ym];if((m.assets||[]).length)m.assets.forEach(a=>rows.push([ym,net(m),totalIncome(m),totalExpense(m),m.debt||0,m.adjustment||0,a.name,a.type,a.amount||0]));else rows.push([ym,net(m),totalIncome(m),totalExpense(m),m.debt||0,m.adjustment||0,'','',''])});const esc=v=>`"${String(v??'').replaceAll('"','""')}"`;download('资产笔记_'+new Date().toISOString().slice(0,10)+'.csv','\ufeff'+rows.map(r=>r.map(esc).join(',')).join('\n'),'text/csv;charset=utf-8')};document.getElementById('importFile').onchange=e=>{const f=e.target.files[0];if(!f)return;const r=new FileReader();r.onload=()=>{try{const d=JSON.parse(r.result);if(!d.months)throw new Error();state=d;state.settings={...defaultSettings,...(d.settings||{})};state.targets={...defaultTargets,...(d.targets||{})};state.customIncomeCats=d.customIncomeCats||[];state.customExpenseCats=d.customExpenseCats||[];state.annualHistory=d.annualHistory||starterState().annualHistory;state.milestones=d.milestones||starterState().milestones;state.fundMonthly2026=d.fundMonthly2026||starterState().fundMonthly2026;state.fundSepDetail=d.fundSepDetail||starterState().fundSepDetail;state.tradeHistory=d.tradeHistory||starterState().tradeHistory;state.accounts=d.accounts||state.accounts||[];state.annualSpecialSpending=d.annualSpecialSpending||state.annualSpecialSpending||{};state.spendingInsights=d.spendingInsights||state.spendingInsights||[];state.cashflowPlan=d.cashflowPlan||state.cashflowPlan||null;state.cashflowAnalysis=d.cashflowAnalysis||state.cashflowAnalysis||null;state.budgetConfig=d.budgetConfig||state.budgetConfig||[];state.discretionaryLedger=d.discretionaryLedger||state.discretionaryLedger||[];syncCats();save();refreshMonthSelector();renderAll();alert('导入成功')}catch(err){alert('导入失败：文件格式不正确')}};r.readAsText(f)};document.getElementById('patchFile').onchange=e=>{const f=e.target.files[0];if(!f)return;const r=new FileReader();r.onload=()=>{try{const d=JSON.parse(r.result);if(!d.months&&!d.tradeHistory&&!d.fundMonthly2026)throw new Error();state.months=state.months||{};Object.entries(d.months||{}).forEach(([ym,m])=>{state.months[ym]={...(state.months[ym]||seedMonthStruct(ym)),...m,income:{...((state.months[ym]||{}).income||{}),...(m.income||{})},expense:{...((state.months[ym]||{}).expense||{}),...(m.expense||{})},assets:m.assets!==undefined?m.assets:((state.months[ym]||{}).assets||[])}});if(d.tradeHistory){const key=x=>[x.date,x.name,x.side,x.price,x.qty].join('|');const map=new Map((state.tradeHistory||[]).map(x=>[key(x),x]));d.tradeHistory.forEach(x=>map.set(key(x),x));state.tradeHistory=[...map.values()].sort((a,b)=>a.date.localeCompare(b.date))}if(d.fundMonthly2026)state.fundMonthly2026=d.fundMonthly2026;if(d.annualHistory)state.annualHistory={...(state.annualHistory||{}),...d.annualHistory};if(d.accounts)state.accounts=d.accounts;if(d.annualSpecialSpending)state.annualSpecialSpending={...(state.annualSpecialSpending||{}),...d.annualSpecialSpending};if(d.spendingInsights)state.spendingInsights=d.spendingInsights;if(d.cashflowPlan)state.cashflowPlan=d.cashflowPlan;if(d.cashflowAnalysis)state.cashflowAnalysis=d.cashflowAnalysis;if(d.budgetConfig)state.budgetConfig=d.budgetConfig;if(d.discretionaryLedger)state.discretionaryLedger=[...(state.discretionaryLedger||[]),...d.discretionaryLedger];save();refreshMonthSelector();renderAll();alert('月度增量已合并')}catch(err){alert('增量文件格式不正确')}};r.readAsText(f)};document.getElementById('resetAll').onclick=()=>{if(confirm('确定清空全部本地数据？此操作不可恢复。')){localStorage.removeItem(LS_KEY);state=load();refreshMonthSelector();renderAll()}};
+};document.getElementById('monthSelector').onchange=()=>renderAll();document.getElementById('editMonth').onchange=e=>loadEditMonth(e.target.value);document.getElementById('addAsset').onclick=()=>{document.getElementById('assetList').insertAdjacentHTML('beforeend',assetTemplate({type:'其他'}));wireRemove()};document.getElementById('copyPrev').onclick=()=>{const ym=document.getElementById('editMonth').value||ymNow(),p=state.months[previousMonth(ym)];if(!p){alert('没有找到上月快照');return}const m=seedMonthStruct(ym);m.assets=JSON.parse(JSON.stringify(p.assets||[]));m.debt=p.debt||0;state.months[ym]=m;save();loadEditMonth(ym)};document.getElementById('clearMonth').onclick=()=>{const ym=document.getElementById('editMonth').value||ymNow();if(confirm('清空 '+ym+' 当前编辑内容？')){delete state.months[ym];save();loadEditMonth(ym);refreshMonthSelector(ym);renderAll()}};document.getElementById('saveMonth').onclick=saveEdit;document.getElementById('saveTargets').onclick=()=>{document.querySelectorAll('[data-target]').forEach(i=>state.targets[i.dataset.target]=Number(i.value||0));save();renderAllocation();alert('目标配置已保存')};document.getElementById('saveSettings').onclick=()=>{['payday','fundday','emergencyTarget','annualSpendTarget','singleMax','themeMax','techMax','monthlyRent','currentPackage','stayPackageMin','stayPackageMax','switchPackage'].forEach(k=>state.settings[k]=Number(document.getElementById(k).value||defaultSettings[k]));save();renderAll();alert('设置已保存')};document.getElementById('exportJson').onclick=()=>download('资产笔记备份_'+new Date().toISOString().slice(0,10)+'.json',JSON.stringify(state,null,2));document.getElementById('exportCsv').onclick=()=>{const rows=[['月份','净资产','收入','消费','负债','其他净流入','资产名称','资产类型','资产金额']];monthsSorted().forEach(ym=>{const m=state.months[ym];if((m.assets||[]).length)m.assets.forEach(a=>rows.push([ym,net(m),totalIncome(m),totalExpense(m),m.debt||0,m.adjustment||0,a.name,a.type,a.amount||0]));else rows.push([ym,net(m),totalIncome(m),totalExpense(m),m.debt||0,m.adjustment||0,'','',''])});const esc=v=>`"${String(v??'').replaceAll('"','""')}"`;download('资产笔记_'+new Date().toISOString().slice(0,10)+'.csv','\ufeff'+rows.map(r=>r.map(esc).join(',')).join('\n'),'text/csv;charset=utf-8')};document.getElementById('importFile').onchange=e=>{const f=e.target.files[0];if(!f)return;const r=new FileReader();r.onload=()=>{try{const d=JSON.parse(r.result);if(!d.months)throw new Error();state=d;state.settings={...defaultSettings,...(d.settings||{})};state.targets={...defaultTargets,...(d.targets||{})};state.customIncomeCats=d.customIncomeCats||[];state.customExpenseCats=d.customExpenseCats||[];state.annualHistory=d.annualHistory||starterState().annualHistory;state.milestones=d.milestones||starterState().milestones;state.fundMonthly2026=d.fundMonthly2026||starterState().fundMonthly2026;state.fundSepDetail=d.fundSepDetail||starterState().fundSepDetail;state.tradeHistory=d.tradeHistory||starterState().tradeHistory;state.accounts=d.accounts||state.accounts||[];state.annualSpecialSpending=d.annualSpecialSpending||state.annualSpecialSpending||{};state.spendingInsights=d.spendingInsights||state.spendingInsights||[];state.cashflowPlan=d.cashflowPlan||state.cashflowPlan||null;state.cashflowAnalysis=d.cashflowAnalysis||state.cashflowAnalysis||null;state.budgetConfig=d.budgetConfig||state.budgetConfig||[];state.discretionaryLedger=d.discretionaryLedger||state.discretionaryLedger||[];state.sinkingFunds=d.sinkingFunds||state.sinkingFunds||[];syncCats();save();refreshMonthSelector();renderAll();alert('导入成功')}catch(err){alert('导入失败：文件格式不正确')}};r.readAsText(f)};document.getElementById('patchFile').onchange=e=>{const f=e.target.files[0];if(!f)return;const r=new FileReader();r.onload=()=>{try{const d=JSON.parse(r.result);if(!d.months&&!d.tradeHistory&&!d.fundMonthly2026)throw new Error();state.months=state.months||{};Object.entries(d.months||{}).forEach(([ym,m])=>{state.months[ym]={...(state.months[ym]||seedMonthStruct(ym)),...m,income:{...((state.months[ym]||{}).income||{}),...(m.income||{})},expense:{...((state.months[ym]||{}).expense||{}),...(m.expense||{})},assets:m.assets!==undefined?m.assets:((state.months[ym]||{}).assets||[])}});if(d.tradeHistory){const key=x=>[x.date,x.name,x.side,x.price,x.qty].join('|');const map=new Map((state.tradeHistory||[]).map(x=>[key(x),x]));d.tradeHistory.forEach(x=>map.set(key(x),x));state.tradeHistory=[...map.values()].sort((a,b)=>a.date.localeCompare(b.date))}if(d.fundMonthly2026)state.fundMonthly2026=d.fundMonthly2026;if(d.annualHistory)state.annualHistory={...(state.annualHistory||{}),...d.annualHistory};if(d.accounts)state.accounts=d.accounts;if(d.annualSpecialSpending)state.annualSpecialSpending={...(state.annualSpecialSpending||{}),...d.annualSpecialSpending};if(d.spendingInsights)state.spendingInsights=d.spendingInsights;if(d.cashflowPlan)state.cashflowPlan=d.cashflowPlan;if(d.cashflowAnalysis)state.cashflowAnalysis=d.cashflowAnalysis;if(d.budgetConfig)state.budgetConfig=d.budgetConfig;if(d.discretionaryLedger)state.discretionaryLedger=[...(state.discretionaryLedger||[]),...d.discretionaryLedger];if(d.sinkingFunds)state.sinkingFunds=d.sinkingFunds;save();refreshMonthSelector();renderAll();alert('月度增量已合并')}catch(err){alert('增量文件格式不正确')}};r.readAsText(f)};document.getElementById('resetAll').onclick=()=>{if(confirm('确定清空全部本地数据？此操作不可恢复。')){localStorage.removeItem(LS_KEY);state=load();refreshMonthSelector();renderAll()}};
 const PIN_HASH_KEY='asset_note_pin_hash_v1';
 async function pinHash(pin){const buf=await crypto.subtle.digest('SHA-256',new TextEncoder().encode('asset-note:'+pin));return [...new Uint8Array(buf)].map(b=>b.toString(16).padStart(2,'0')).join('')}
 function showLock(mode='unlock'){const o=document.getElementById('lockOverlay'),t=document.getElementById('lockTitle'),d=document.getElementById('lockDesc'),a=document.getElementById('pinAction'),i=document.getElementById('pinInput'),m=document.getElementById('lockMsg');o.classList.add('show');i.value='';m.textContent='';if(mode==='setup'){t.textContent='设置隐私密码';d.textContent='设置 6 位数字密码';a.textContent='保存密码';a.dataset.mode='setup'}else{t.textContent='资产笔记已锁定';d.textContent='输入 6 位数字密码';a.textContent='解锁';a.dataset.mode='unlock'}setTimeout(()=>i.focus(),100)}
