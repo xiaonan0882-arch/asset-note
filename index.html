@@ -39,7 +39,7 @@
     .notice.good{background:var(--green-soft);border-color:#d4f0e6}.notice.warn{background:var(--orange-soft);border-color:#f9e3b8}.notice.bad{background:var(--red-soft);border-color:#f5d3d3}.notice.info{background:var(--accent-soft);border-color:#d6e3ff}
     .summaryRow{display:flex;align-items:center;justify-content:space-between;padding:11px 0;border-bottom:1px solid var(--line)}.summaryRow:last-child{border-bottom:0}
     .nav{position:fixed;left:0;right:0;bottom:0;background:rgba(255,255,255,.96);backdrop-filter:blur(20px);border-top:1px solid var(--line);padding:7px 8px calc(7px + env(safe-area-inset-bottom));z-index:20}
-    .navIn{max-width:760px;margin:auto;display:grid;grid-template-columns:repeat(5,1fr)}.tab{border:0;background:none;color:#949cab;font-size:10px;display:flex;flex-direction:column;gap:4px;align-items:center;padding:7px 0}.tab .ico{font-size:20px;line-height:1}.tab.active{color:var(--accent);font-weight:650}
+    .navIn{max-width:760px;margin:auto;display:grid;grid-template-columns:repeat(6,1fr)}.tab{border:0;background:none;color:#949cab;font-size:10px;display:flex;flex-direction:column;gap:4px;align-items:center;padding:7px 0}.tab .ico{font-size:20px;line-height:1}.tab.active{color:var(--accent);font-weight:650}
     .allocationHero{display:flex;align-items:center;gap:20px}.donut{width:148px;height:148px;border-radius:50%;position:relative;flex:none;background:#edf0f4}.donut:after{content:"";position:absolute;inset:24px;background:#fff;border-radius:50%}
     .donutCenter{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column;z-index:2;pointer-events:none}.donutCenter b{font-size:18px}
     .legend{flex:1;display:grid;gap:8px}.legendLabel{display:flex;align-items:center;gap:7px}.legendSwatch{width:10px;height:10px;border-radius:50%;display:inline-block;flex:0 0 auto}.legendRow{display:flex;justify-content:space-between;gap:12px;font-size:13px}.legendRow span:first-child{color:#626b79}
@@ -92,7 +92,11 @@
     .aiActions{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:12px}
     
     .ledgerGrid{display:grid;grid-template-columns:repeat(2,1fr);gap:9px}.ledgerBudget{background:#f8f9fb;border-radius:15px;padding:12px}.ledgerBudget b{font-size:18px;display:block;margin-top:4px}.ledgerForm{display:grid;grid-template-columns:1fr 1fr;gap:9px}.ledgerForm .full{grid-column:1/-1}.decisionResult{margin-top:10px;padding:12px;border-radius:14px;background:#f8f9fb}.tinyProgress{height:7px;border-radius:99px;background:#e8ebf0;overflow:hidden;margin-top:7px}.tinyProgress i{display:block;height:100%;background:#111;border-radius:99px}
-    </style>
+    
+    .researchFilters{display:flex;gap:7px;overflow:auto;padding-bottom:4px;-webkit-overflow-scrolling:touch}.researchFilters button{white-space:nowrap;border:1px solid var(--line);background:#fff;border-radius:999px;padding:7px 11px;font-size:12px;color:#667080}.researchFilters button.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+    .researchItem{padding:13px 0;border-bottom:1px solid var(--line)}.researchItem:last-child{border-bottom:0}.researchMeta{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin-bottom:6px}.researchTag{font-size:11px;padding:3px 7px;border-radius:999px;background:#f1f4f8;color:#596273}.researchTitle{font-size:15px;font-weight:760;line-height:1.4}.researchSummary{font-size:13px;line-height:1.55;color:#515b6a;margin-top:6px}.researchWhy{font-size:12px;line-height:1.5;color:#246bfe;margin-top:7px}.researchLink{font-size:12px;color:#246bfe;text-decoration:none}.researchGrid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.researchKpi{padding:12px;border-radius:16px;background:#f7f9fc}.researchKpi b{display:block;margin-top:4px;font-size:15px}
+    @media(max-width:390px){.tab{font-size:9px}.tab .ico{font-size:18px}.researchGrid{grid-template-columns:1fr}}
+  </style>
 </head>
 <body><div id="lockOverlay" class="lockOverlay"><div class="lockCard"><div style="font-size:38px">🔒</div><h2 id="lockTitle" style="margin:10px 0 4px">资产笔记已锁定</h2><div id="lockDesc" class="mini">输入 6 位数字密码</div><div class="pinWrap"><input id="pinInput" class="pinInput" inputmode="numeric" maxlength="6" type="password" autocomplete="off" placeholder="••••••"></div><div class="btnRow" style="justify-content:center;margin-top:14px"><button id="pinAction" class="btn" style="min-width:104px">解锁</button></div><div id="lockMsg" class="lockMsg"></div></div></div>
 <div class="wrap">
@@ -111,6 +115,7 @@
       </div>
     </div>
     <div class="section"><h3>本月提醒</h3><div id="calendarHints" class="card"></div></div>
+    <div class="section"><h3>今日市场</h3><div id="homeResearch" class="card"><div class="mini">正在加载今日热点…</div></div></div>
     <div class="section quickGrid">
       <div class="quick"><div class="eyebrow">可投资资产</div><b id="riskAssets">¥0</b><div class="mini">宽基 + 主题 + 个股</div></div>
       <div class="quick"><div class="eyebrow">安全垫完成度</div><b id="emergencyPct">0%</b><div class="mini" id="emergencyText">目标 ¥60,000</div></div>
@@ -186,6 +191,22 @@
     <div class="section"><h3>现金流反推</h3><div id="cashflowAnalysisCard" class="card"></div></div>
   </section>
 
+  <section id="research" class="page">
+    <div class="section" style="margin-top:0"><div class="card">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:12px"><div><div class="eyebrow">每日自动更新</div><h2 style="font-size:24px;margin:4px 0 3px">市场研究</h2><div id="researchAsOf" class="mini">正在加载…</div></div><button id="researchRefresh" class="btn secondary" style="padding:8px 11px;font-size:12px">刷新</button></div>
+      <div style="margin-top:14px" class="researchFilters" id="themeFilters"></div>
+      <div style="margin-top:8px" class="researchFilters" id="regionFilters"></div>
+    </div></div>
+    <div class="section"><h3>今天最值得看</h3><div id="researchList" class="card"><div class="mini">正在获取公开市场信息…</div></div></div>
+    <div class="section"><h3>对我的组合意味着什么</h3><div id="personalMarketAdvice" class="card"></div></div>
+    <div class="section"><h3>观点训练</h3><div class="card">
+      <div class="mini">每天尽量回答：①变量变了什么 ②影响谁的收入/成本/估值 ③市场预期是否已计价 ④什么数据能证伪我的观点。</div>
+      <textarea id="researchNote" rows="7" style="width:100%;margin-top:12px" placeholder="今天的一句话观点：&#10;核心证据：&#10;可能的反例：&#10;接下来验证指标："></textarea>
+      <div class="btnRow" style="margin-top:9px"><button id="saveResearchNote" class="btn secondary">保存今天观点</button><button id="researchAskAi" class="btn">让 AI 帮我推演</button></div>
+      <div id="researchNoteStatus" class="mini" style="margin-top:7px"></div>
+    </div></div>
+  </section>
+
   <section id="update" class="page">
     <div class="card">
       <div class="formBlock"><h4>更新月份</h4><div class="row"><label>月份</label><input id="editMonth" type="month"></div><div class="btnRow" style="margin-top:10px"><button class="btn secondary" id="copyPrev">沿用上月资产</button><button class="btn secondary" id="clearMonth">清空本月</button></div></div>
@@ -208,7 +229,7 @@
     </div>
   </section>
 
-  <section id="settings" class="page"><div class="card"><div class="mini">当前程序版本：V24 · 券商净资产校正版</div></div>
+  <section id="settings" class="page"><div class="card"><div class="mini">当前程序版本：V25 · 每日研究版</div></div>
     <div class="card"><h3 style="margin-top:0">你的节奏</h3>
       <div class="settingRow"><label>发薪日</label><input id="payday" type="number" min="1" max="31"></div>
       <div class="settingRow"><label>公积金申请日</label><input id="fundday" type="number" min="1" max="31"></div>
@@ -235,6 +256,7 @@
   <button class="tab active" data-page="home"><span class="ico">⌂</span><span>首页</span></button>
   <button class="tab" data-page="allocation"><span class="ico">◔</span><span>投资配置</span></button>
   <button class="tab" data-page="spending"><span class="ico">▥</span><span>消费分析</span></button>
+  <button class="tab" data-page="research"><span class="ico">◎</span><span>每日研究</span></button>
   <button class="tab" data-page="update"><span class="ico">＋</span><span>月度更新</span></button>
   <button class="tab" data-page="settings"><span class="ico">⚙︎</span><span>设置</span></button>
 </div></nav>
@@ -736,6 +758,73 @@ function aiPromptsFor(page){
  };
  return map[page]||map.home;
 }
+
+let marketBrief={asOf:null,items:[]},researchTheme='全部',researchRegion='全部';
+const themeOrder=['全部','科技','宏观','消费','周期'],regionOrder=['全部','中国','美国','日韩','全球'];
+function briefWhy(x){
+ if(x.why)return x.why;
+ return ({'科技':'重点判断产业趋势能否兑现到收入、利润与估值，而不是只看技术叙事。','宏观':'重点观察利率、汇率、通胀与流动性如何改变估值和资金成本。','消费':'重点区分总量与结构，观察客流、客单、渠道和份额。','周期':'重点沿供给—库存—价格—利润链条判断景气位置。'})[x.theme]||'把事件拆成盈利、估值和预期三个层次。';
+}
+function briefDateLabel(v){if(!v)return '';try{return new Date(v).toLocaleDateString('zh-CN',{month:'numeric',day:'numeric'})}catch(e){return String(v).slice(0,10)}}
+async function loadMarketBrief(force=false){
+ const home=document.getElementById('homeResearch');
+ try{
+  const res=await fetch('./data/daily-brief.json?t='+(force?Date.now():Math.floor(Date.now()/3600000)),{cache:'no-store'});
+  if(!res.ok)throw new Error('HTTP '+res.status);
+  marketBrief=await res.json();renderResearch();renderHomeResearch();
+ }catch(e){
+  if(home)home.innerHTML='<div class="notice warn"><b>今日热点暂时没有刷新成功</b><div class="mini">你的财务数据不受影响。稍后点“每日研究 → 刷新”即可。</div></div>';
+  const list=document.getElementById('researchList');if(list)list.innerHTML='<div class="empty">公开市场数据暂时不可用。</div>';
+ }
+}
+function renderFilterButtons(){
+ const tf=document.getElementById('themeFilters'),rf=document.getElementById('regionFilters');if(!tf||!rf)return;
+ tf.innerHTML=themeOrder.map(x=>'<button class="'+(x===researchTheme?'active':'')+'" data-theme="'+x+'">'+x+'</button>').join('');
+ rf.innerHTML=regionOrder.map(x=>'<button class="'+(x===researchRegion?'active':'')+'" data-region="'+x+'">'+x+'</button>').join('');
+ tf.querySelectorAll('button').forEach(b=>b.onclick=()=>{researchTheme=b.dataset.theme;renderResearch()});
+ rf.querySelectorAll('button').forEach(b=>b.onclick=()=>{researchRegion=b.dataset.region;renderResearch()});
+}
+function filteredBriefItems(){return (marketBrief.items||[]).filter(x=>(researchTheme==='全部'||x.theme===researchTheme)&&(researchRegion==='全部'||x.region===researchRegion))}
+function researchItemHtml(x){
+ return '<div class="researchItem"><div class="researchMeta"><span class="researchTag">'+escapeHtml(x.theme||'')+'</span><span class="researchTag">'+escapeHtml(x.region||'')+'</span><span class="mini">'+escapeHtml(briefDateLabel(x.publishedAt))+' · '+escapeHtml(x.source||'')+'</span></div><div class="researchTitle">'+escapeHtml(x.title||'')+'</div>'+(x.summary?'<div class="researchSummary">'+escapeHtml(x.summary)+'</div>':'')+'<div class="researchWhy">研究提示：'+escapeHtml(briefWhy(x))+'</div>'+(x.url?'<div style="margin-top:7px"><a class="researchLink" href="'+escapeHtml(x.url)+'" target="_blank" rel="noopener">查看原文 ↗</a></div>':'')+'</div>';
+}
+function latestInvestmentPack(){
+ const keys=Object.keys(state.months||{}).sort(),ym=state.currentMonth||keys[keys.length-1]||'2026-09';
+ return {ym,pack:allocationAssetsFor(ym,state.months[ym])};
+}
+function personalAdviceFromBrief(){
+ const {ym,pack}=latestInvestmentPack(),assets=pack.assets||[],total=assets.reduce((a,x)=>a+Number(x.amount||0),0)||1;
+ const pct=t=>assets.filter(x=>x.type===t).reduce((a,x)=>a+Number(x.amount||0),0)/total*100;
+ const tech=pct('科技/成长'),energy=pct('新能源/主题'),gold=pct('黄金'),single=pct('个股'),safe=pct('定期/低风险')+pct('偏债/稳健基金');
+ const titles=(marketBrief.items||[]).map(x=>x.title+' '+(x.summary||'')).join(' ');
+ const hawkish=/加息|rate hike|interest rate|yield|通胀|inflation|Federal Reserve|央行/i.test(titles),oil=/oil|crude|Hormuz|原油|油价|航煤|energy/i.test(titles),ai=/AI|chip|semiconductor|芯片|机器人|科技/i.test(titles);
+ let rows=['<div class="researchGrid"><div class="researchKpi"><span class="mini">'+ym+' 配置</span><b>科技 '+tech.toFixed(1)+'% · 个股 '+single.toFixed(1)+'%</b></div><div class="researchKpi"><span class="mini">防守资产</span><b>定期/稳健 '+safe.toFixed(1)+'% · 黄金 '+gold.toFixed(1)+'%</b></div></div>'];
+ if(hawkish&&tech>0)rows.push('<div class="notice warn"><b>利率重新上行，对成长估值不友好</b><div class="mini">你当前科技/成长约 '+tech.toFixed(1)+'%。热点用于观察，不把单日反弹当作加仓理由；新增资金优先分批，而不是用杠杆追回之前的亏损。</div></div>');
+ if(ai&&tech>0)rows.push('<div class="notice info"><b>AI仍是产业主线，但要拆成“需求—盈利—估值”</b><div class="mini">只有订单、资本开支和利润兑现能跟上估值时，产业利好才真正有效。你已有科技敞口，先找预期差。</div></div>');
+ if(oil&&energy>0)rows.push('<div class="notice info"><b>油价波动不等于新能源基金必涨</b><div class="mini">你当前新能源/主题约 '+energy.toFixed(1)+'%。地缘冲突会同时影响通胀、利率和传统能源现金流，新能源仍要看行业供需、盈利和估值。</div></div>');
+ if(gold>0&&hawkish)rows.push('<div class="notice info"><b>黄金同时受地缘风险与高利率拉扯</b><div class="mini">你当前黄金约 '+gold.toFixed(1)+'%。维持配置型思路，不因为单一宏观事件追涨杀跌。</div></div>');
+ rows.push('<div class="notice good"><b>你的固定规则</b><div class="mini">每日新闻不会自动触发交易。先看仓位是否越过自己的上限，再看基本面是否真的变化；不使用三倍杠杆ETF做“翻本交易”。</div></div>');
+ return rows.join('');
+}
+function renderResearch(){
+ const as=document.getElementById('researchAsOf'),list=document.getElementById('researchList'),adv=document.getElementById('personalMarketAdvice');if(!list)return;
+ renderFilterButtons();
+ if(as)as.textContent=marketBrief.asOf?'数据更新：'+new Date(marketBrief.asOf).toLocaleString('zh-CN'):'等待更新';
+ const arr=filteredBriefItems();list.innerHTML=arr.length?arr.map(researchItemHtml).join(''):'<div class="empty">这个筛选暂时没有热点。</div>';
+ if(adv)adv.innerHTML=personalAdviceFromBrief();
+ const date=new Date().toISOString().slice(0,10),note=localStorage.getItem('asset_note_research_note_'+date)||'';
+ const ta=document.getElementById('researchNote');if(ta&&!ta.value)ta.value=note;
+}
+function renderHomeResearch(){
+ const box=document.getElementById('homeResearch');if(!box)return;const arr=(marketBrief.items||[]).slice(0,3);
+ if(!arr.length){box.innerHTML='<div class="mini">今日热点等待更新。</div>';return}
+ box.innerHTML=arr.map(x=>'<div style="padding:8px 0;border-bottom:1px solid var(--line)"><div class="mini">'+escapeHtml(x.theme)+' · '+escapeHtml(x.region)+'</div><b style="font-size:13px">'+escapeHtml(x.title)+'</b></div>').join('')+'<button class="btn secondary" id="openResearchFromHome" style="margin-top:10px">查看今日研究</button>';
+ const b=document.getElementById('openResearchFromHome');if(b)b.onclick=()=>switchPage('research');
+}
+function buildResearchAiText(){
+ const headlines=filteredBriefItems().slice(0,8).map((x,i)=>(i+1)+'. ['+x.theme+'/'+x.region+'] '+x.title).join('\n'),note=document.getElementById('researchNote')?.value||'';
+ return '请作为我的研究助手，基于以下今日热点和我的个人投资组合，帮我形成观点。请按：事实→核心变量→受益/受损资产→市场是否已计价→反例→后续验证指标。不要因为单条新闻直接给出追涨杀跌建议。\n\n今日热点：\n'+headlines+'\n\n我的草稿：\n'+note+'\n\n'+aiContextText();
+}
 function aiContextText(){
  const page=activePageName(), ym=ensureSelected(), m=state.months?.[ym];
  const accts=state.accounts||[];
@@ -747,18 +836,18 @@ function aiContextText(){
  if(page==='home')parts.push(`账户流动资产约${fmt(liquid)}，待报销${fmt(recv)}，短期负债${fmt(debt)}。`);
  if(page==='allocation'&&m)parts.push(`当前月资产快照：${(m.assets||[]).map(a=>a.name+' '+fmt(a.amount)).join('；')}。`);
  if(page==='spending')parts.push(`2026已单独分类重点支出：${Object.entries(specials).map(([k,v])=>k+' '+fmt(v)).join('；')}。普通日常消费尚未补齐。`);
- if(page==='update')parts.push('请优先告诉我还需要补哪些数据，而不是要求逐笔记账。');
+ if(page==='update')parts.push('请优先告诉我还需要补哪些数据，而不是要求逐笔记账。');if(page==='research')parts.push('请把今日热点拆成事实、核心变量、盈利影响、估值影响、预期差和验证指标，不要把新闻直接等同于交易信号。');
  return parts.join('\n');
 }
 function openAiSheet(){
  const page=activePageName();
- document.getElementById('aiPageHint').textContent={home:'现金流与资金执行',allocation:'投资配置与收益',spending:'消费分析与分类',update:'月度更新与数据整理',settings:'规则、备份与隐私'}[page]||'财务问答';
+ document.getElementById('aiPageHint').textContent={home:'现金流与资金执行',allocation:'投资配置与收益',spending:'消费分析与分类',update:'月度更新与数据整理',settings:'规则、备份与隐私',research:'市场热点与观点训练'}[page]||'财务问答';
  document.getElementById('aiPromptList').innerHTML=aiPromptsFor(page).map(x=>`<button class="aiPrompt">${x}</button>`).join('');
  document.querySelectorAll('.aiPrompt').forEach(b=>b.onclick=async()=>{try{await navigator.clipboard.writeText(b.textContent+'\n\n'+aiContextText());alert('问题和本页摘要已复制，打开 ChatGPT 后粘贴即可')}catch(e){alert('复制失败，请长按复制')}})
  document.getElementById('aiSheet').classList.add('show');
 }
-function renderAll(){renderHome();renderAllocation();renderSpending();renderSettings()}
-function switchPage(p){document.querySelectorAll('.page').forEach(x=>x.classList.remove('active'));document.getElementById(p).classList.add('active');document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x.dataset.page===p));if(p==='update')loadEditMonth(ensureSelected());if(p==='allocation')renderAllocation();if(p==='spending')renderSpending();if(p==='settings')renderSettings();window.scrollTo({top:0,behavior:'smooth'})}
+function renderAll(){renderHome();renderAllocation();renderSpending();renderSettings();renderHomeResearch();if(document.getElementById('research').classList.contains('active'))renderResearch()}
+function switchPage(p){document.querySelectorAll('.page').forEach(x=>x.classList.remove('active'));document.getElementById(p).classList.add('active');document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x.dataset.page===p));if(p==='update')loadEditMonth(ensureSelected());if(p==='allocation')renderAllocation();if(p==='spending')renderSpending();if(p==='settings')renderSettings();if(p==='research'){renderResearch();loadMarketBrief(false)}window.scrollTo({top:0,behavior:'smooth'})}
 function saveEdit(){const ym=document.getElementById('editMonth').value||ymNow();state.months[ym]={month:ym,income:collectRows('incomeRows'),expense:collectRows('expenseRows'),assets:collectAssets(),debt:Number(document.getElementById('debt').value||0),adjustment:Number(document.getElementById('adjustment').value||0),updatedAt:new Date().toISOString()};save();refreshMonthSelector(ym);renderAll();alert('已保存 '+ym+' 的月度快照')}
 function download(name,text,type='application/json'){const b=new Blob([text],{type}),a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)}
 document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>switchPage(b.dataset.page));
@@ -834,11 +923,14 @@ _el=document.getElementById('voiceStart');if(_el)_el.onclick=startVoiceNeed;
 _el=document.getElementById('voiceAnalyze');if(_el)_el.onclick=analyzeVoiceNeed;
 _el=document.getElementById('buyCheck');if(_el)_el.onclick=purchaseBudgetCheck;
 _el=document.getElementById('buyAskAi');if(_el)_el.onclick=askPurchaseAI;
+_el=document.getElementById('researchRefresh');if(_el)_el.onclick=function(){loadMarketBrief(true)};
+_el=document.getElementById('saveResearchNote');if(_el)_el.onclick=function(){const date=new Date().toISOString().slice(0,10),v=document.getElementById('researchNote').value;localStorage.setItem('asset_note_research_note_'+date,v);document.getElementById('researchNoteStatus').textContent='已保存在本机 · '+new Date().toLocaleTimeString('zh-CN',{hour:'2-digit',minute:'2-digit'})};
+_el=document.getElementById('researchAskAi');if(_el)_el.onclick=async function(){const txt=buildResearchAiText();try{await navigator.clipboard.writeText(txt)}catch(e){}window.open('https://chatgpt.com/','_blank')};
 _el=document.getElementById('aiFab');if(_el)_el.onclick=openAiSheet;
 _el=document.getElementById('aiClose');if(_el)_el.onclick=function(){document.getElementById('aiSheet').classList.remove('show')};
 _el=document.getElementById('aiCopy');if(_el)_el.onclick=async function(){try{await navigator.clipboard.writeText(aiContextText());alert('本页摘要已复制')}catch(e){alert('复制失败')}};
 _el=document.getElementById('aiOpen');if(_el)_el.onclick=function(){window.open('https://chatgpt.com/','_blank')};
-refreshMonthSelector(state.currentMonth);loadEditMonth(ensureSelected());renderAll();if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js').catch(()=>{});
+refreshMonthSelector(state.currentMonth);loadEditMonth(ensureSelected());renderAll();loadMarketBrief(false);if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js').catch(()=>{});
 </script>
 </body>
 </html>
