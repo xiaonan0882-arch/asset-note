@@ -1,0 +1,106 @@
+{
+  "asOf": "2026-09-21T14:00:00+08:00",
+  "title": "每日市场研究",
+  "items": [
+    {
+      "theme": "科技",
+      "region": "全球",
+      "title": "AI芯片需求继续支撑亚洲科技股，韩国科技股走强",
+      "summary": "亚洲市场受AI芯片需求支撑，韩国股市上涨；同时全球债券收益率仍处高位，科技估值面临利率约束。",
+      "why": "科技主线仍强，但“盈利兑现 vs 估值压缩”会同时发生，不能只看产业趋势。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-21/",
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "中国收紧人形机器人IPO审核，商业化质量重要性上升",
+      "summary": "监管层提高对人形机器人上市项目的审核标准，重点关注真实需求、收入质量与估值。",
+      "why": "从“讲故事”转向“看商业化”，对高估值科技主题是重要风格信号。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/business/finance/china-slows-humanoid-robot-ipo-rush-hype-outruns-reality-2026-09-21/",
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "theme": "科技",
+      "region": "日韩",
+      "title": "韩国出口受AI芯片驱动，半导体已占出口较高比重",
+      "summary": "韩国年内出口刷新纪录，AI芯片和存储器成为核心拉动项。",
+      "why": "韩国是观察全球AI资本开支、存储价格和半导体景气的高频窗口。",
+      "source": "Reuters",
+      "url": "https://www.investing.com/news/economic-indicators/south-korea-exports-surpass-fullyear-record-hit-7094-billion-ytd-4890167",
+      "publishedAt": "2026-09-05"
+    },
+    {
+      "theme": "宏观",
+      "region": "美国",
+      "title": "美联储加息25bp至3.75%-4.00%",
+      "summary": "美联储9月16日上调政策利率，强调通胀仍偏高、经济活动稳健。",
+      "why": "更高利率直接影响成长股估值、黄金机会成本、美元和全球流动性。",
+      "source": "Federal Reserve",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+      "publishedAt": "2026-09-16"
+    },
+    {
+      "theme": "宏观",
+      "region": "日韩",
+      "title": "日本央行将政策利率提高至1.25%",
+      "summary": "日本央行将政策利率升至31年高位，政策重心从推动通胀转向防止通胀过冲。",
+      "why": "日本利率上行会影响日元、全球资金回流与跨市场估值。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/asia-pacific/bank-japan-set-raise-interest-rates-31-year-high-2026-09-17/",
+      "publishedAt": "2026-09-18"
+    },
+    {
+      "theme": "宏观",
+      "region": "中国",
+      "title": "中国内需偏弱、工业和出口相对更强",
+      "summary": "8月社零同比增长0.4%，而工业产出和高科技出口表现更强，经济结构分化明显。",
+      "why": "消费复苏仍需看收入与信心，而制造和科技出口更强，资产表现可能继续分化。",
+      "source": "NBS / Reuters",
+      "url": "https://www.stats.gov.cn/english/PressRelease/202609/t20260916_1965341.html",
+      "publishedAt": "2026-09-16"
+    },
+    {
+      "theme": "消费",
+      "region": "中国",
+      "title": "1-8月社零同比+1.1%，餐饮收入同比+2.4%",
+      "summary": "服务消费仍相对强于商品消费，线上服务零售增速也高于整体。",
+      "why": "对茶饮、餐饮、旅游和本地生活研究，应更关注结构性份额变化，而不是只看总量。",
+      "source": "NBS",
+      "url": "https://www.stats.gov.cn/english/PressRelease/202609/t20260916_1965341.html",
+      "publishedAt": "2026-09-16"
+    },
+    {
+      "theme": "消费",
+      "region": "全球",
+      "title": "全球奢侈品需求分化，美国年轻消费者支撑部分品牌",
+      "summary": "部分美国传统品牌凭借年轻消费者实现增长，但全球奢侈品需求仍受旅游与宏观环境扰动。",
+      "why": "奢侈品要区分品牌势能、客群结构与地区暴露，不能只看行业总盘。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/business/retail-consumer/new-york-fashion-week-leans-into-american-legacy-brand-revival-2026-09-03/",
+      "publishedAt": "2026-09-03"
+    },
+    {
+      "theme": "周期",
+      "region": "全球",
+      "title": "霍尔木兹海峡运输受扰，但中东原油流量暂未完全中断",
+      "summary": "海峡船舶通行明显减少，但沙特出口回升，油价在高位波动。",
+      "why": "油价同时影响通胀、央行政策、化工运输成本和新能源相对吸引力。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/middle-east/vessels-trickle-through-strait-hormuz-mideast-tension-persists-2026-09-21/",
+      "publishedAt": "2026-09-21"
+    },
+    {
+      "theme": "周期",
+      "region": "全球",
+      "title": "欧洲四季度航煤仍面临供应缺口",
+      "summary": "中东供应扰动令欧洲航煤库存偏低，韩国等亚洲炼厂成为增量供应方。",
+      "why": "炼化、航运、航空成本和区域价差都可能受影响，是典型周期传导链。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/business/energy/europe-faces-q4-jet-fuel-supply-deficit-even-south-korea-becomes-latest-big-2026-09-21/",
+      "publishedAt": "2026-09-21"
+    }
+  ]
+}
