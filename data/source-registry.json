@@ -120,9 +120,9 @@
     }
   ],
   "integrationNotes": {
-    "Wind": "Wind 官方提供 Client API、Server API、FTP/Filesync/HTML Widget 等数据服务；专业数据接入需对应授权。",
-    "Bloomberg": "Bloomberg 官方提供 Desktop/Server/B-PIPE/Web API；数据权限由客户 entitlement 决定。",
-    "WSJ": "当前只聚合公开可索引的标题/摘要并链接原文，不绕过付费墙。",
-    "SeekingAlpha": "接入官方 All News 与 Wall Street Breakfast RSS；不复制或再分发其受许可限制的市场数据。"
+    "Wind": "官方提供 Client API、Server API、FTP/Filesync/HTML Widget；专业数据接入需对应授权。",
+    "Bloomberg": "官方提供 Desktop/Server/B-PIPE/Web API；数据权限由客户 entitlement 决定。",
+    "WSJ": "当前聚合公开可索引的标题/摘要并链接原文，不绕过付费墙。",
+    "SeekingAlpha": "接入官方 All News 与 Wall Street Breakfast RSS；专业API/数据Feed需商业授权。"
   }
 }
