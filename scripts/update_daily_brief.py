@@ -39,6 +39,25 @@ QUERIES = [
  ("宏观","中国","人民币 央行 宏观 财联社 证券时报 when:1d"),
  ("消费","中国","消费 零售 餐饮 旅游 财联社 商务部 when:1d"),
  ("周期","中国","原油 铜 化工 航运 财联社 when:1d"),
+ # Professional publisher public/indexed layer
+ ("宏观","全球","site:bloomberg.com markets economy central banks when:1d"),
+ ("科技","全球","site:bloomberg.com AI semiconductors technology when:1d"),
+ ("大宗商品","全球","site:bloomberg.com commodities oil gold copper when:1d"),
+ ("期货","全球","site:bloomberg.com futures bonds commodities when:1d"),
+ ("政治","全球","site:bloomberg.com geopolitics trade sanctions when:1d"),
+ ("宏观","美国","site:wsj.com economy Fed markets bonds when:1d"),
+ ("科技","美国","site:wsj.com technology AI chips when:1d"),
+ ("消费","美国","site:wsj.com consumer retail spending when:1d"),
+ ("大宗商品","全球","site:wsj.com commodities oil gold when:1d"),
+ ("政治","全球","site:wsj.com politics trade geopolitics markets when:1d"),
+ ("宏观","中国","site:wind.com.cn 宏观 市场 万得 when:1d"),
+ ("消费","中国","site:wind.com.cn 消费 行业 万得 when:1d"),
+ ("周期","中国","site:wind.com.cn 周期 大宗 期货 万得 when:1d"),
+]
+
+SA_FEEDS=[
+ ("宏观","美国","https://seekingalpha.com/tag/wall-st-breakfast.xml"),
+ ("全球","全球","https://seekingalpha.com/market_currents.xml"),
 ]
 
 MAX_AGE_HOURS=36
@@ -67,10 +86,22 @@ def parse_feed(xml, theme, region):
         out.append({"theme":theme,"region":region,"title":title,"summary":"","why":"","source":source or "Google News","url":link,"publishedAt":dt.isoformat(),"freshness":"recent"})
     return out
 
+def fetch_direct_rss(url, theme, region):
+    req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 AssetNote/1.0"})
+    with urllib.request.urlopen(req,timeout=20) as r:
+        return parse_feed(r.read(),theme,region)
+
 def main():
     items=[]; seen=set()
     for theme,region,q in QUERIES:
         try: feed=parse_feed(fetch(q),theme,region)
+        except Exception: continue
+        for x in feed:
+            key=re.sub(r"\W+","",x["title"].lower())
+            if key in seen: continue
+            seen.add(key); items.append(x)
+    for theme,region,url in SA_FEEDS:
+        try: feed=fetch_direct_rss(url,theme,region)
         except Exception: continue
         for x in feed:
             key=re.sub(r"\W+","",x["title"].lower())
