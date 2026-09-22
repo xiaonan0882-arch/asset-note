@@ -1,8 +1,19 @@
 {
-  "asOf": "2026-09-22T00:44:00Z",
+  "asOf": "2026-09-22T00:50:00Z",
   "title": "每日市场研究",
   "freshnessRule": "今日动态仅展示最近36小时；官方低频数据单列并显示发布日期。",
   "items": [
+    {
+      "theme": "政治",
+      "region": "全球",
+      "title": "联合国大会期间，美伊接触与俄乌能源停火议题成为市场关注点",
+      "summary": "美国与伊朗潜在外交接触影响油价风险溢价；法国总统马克龙称与美国总统讨论了俄乌能源设施停火构想。",
+      "why": "政治新闻只转化为投资变量时才进入研究：重点观察是否改变能源流量、制裁、贸易规则、财政或货币政策，而不是判断政治人物优劣。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/macron-says-he-discussed-ukraine-russia-energy-truce-ideas-with-trump-2026-09-22/",
+      "publishedAt": "2026-09-22T01:00:00Z",
+      "freshness": "recent"
+    },
     {
       "theme": "周期",
       "region": "全球",
@@ -15,6 +26,28 @@
       "freshness": "recent"
     },
     {
+      "theme": "期货",
+      "region": "全球",
+      "title": "Brent与WTI期货围绕美伊潜在接触小幅反弹",
+      "summary": "9月22日亚洲早盘，Brent 11月期货约100.57美元/桶，WTI 11月合约约92.49美元/桶；市场仍高度敏感于外交与运输消息。",
+      "why": "期货价格反映的是边际预期；同时观察期限结构、库存、运费和实际流量，避免只用单日涨跌判断供需。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/business/energy/oil-rises-slightly-ahead-potential-us-iran-talks-2026-09-22/",
+      "publishedAt": "2026-09-22T00:34:18Z",
+      "freshness": "recent"
+    },
+    {
+      "theme": "大宗商品",
+      "region": "美国",
+      "title": "美国战略石油储备降至1982年以来最低水平",
+      "summary": "美国能源部数据显示，战略石油储备降至约2.846亿桶，反映持续释放储备以稳定供应。",
+      "why": "SPR水平影响美国应对进一步供给冲击的缓冲能力，是油价风险溢价的重要背景变量。",
+      "source": "Reuters / U.S. DOE",
+      "url": "https://www.reuters.com/business/energy/oil-stocks-us-strategic-petroleum-reserve-fall-lowest-level-since-1982-2026-09-21/",
+      "publishedAt": "2026-09-21T18:00:00Z",
+      "freshness": "recent"
+    },
+    {
       "theme": "科技",
       "region": "美国",
       "title": "AMD市值首次突破1万亿美元，AI交易重新升温",
@@ -23,6 +56,39 @@
       "source": "Reuters",
       "url": "https://www.reuters.com/business/amd-becomes-latest-chipmaker-reach-1-trillion-valuation-ai-demand-2026-09-21/",
       "publishedAt": "2026-09-21T14:21:12Z",
+      "freshness": "recent"
+    },
+    {
+      "theme": "大宗商品",
+      "region": "全球",
+      "title": "黄金在美联储进一步加息预期与美元走强下回落",
+      "summary": "9月21日现货黄金下跌约0.6%至4349.94美元/盎司附近，美国黄金期货跌约0.9%；高利率提高持有无息黄金的机会成本。",
+      "why": "黄金同时受地缘避险与实际利率/美元约束；判断时要把避险需求和利率方向拆开。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/india/gold-eases-firmer-dollar-profit-taking-mideast-conflict-focus-2026-09-21/",
+      "publishedAt": "2026-09-21T10:00:00Z",
+      "freshness": "recent"
+    },
+    {
+      "theme": "消费",
+      "region": "中国",
+      "title": "商务部9月21日更新消费结构：服务零售继续快于商品",
+      "summary": "商务部称1-8月社会消费商品和服务零售总额同比增长2.5%；服务零售额增长4.9%，旅游咨询租赁、文体休闲服务保持较快增长。",
+      "why": "对茶饮、餐饮和本地生活研究，总量弱并不排除结构机会；更应跟踪服务消费、渠道迁移和单品牌份额。",
+      "source": "商务部",
+      "url": "https://cif.mofcom.gov.cn/cif/html/ConsumerGoods/2026/9/1789953010650.html",
+      "publishedAt": "2026-09-21T09:10:10+08:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "周期",
+      "region": "全球",
+      "title": "霍尔木兹替代运输维持原油流动，但运费成本显著抬升",
+      "summary": "中东生产商扩大阿曼湾船对船转运，9月相关装载量预计约250万桶/日；VLCC海湾至中国运费升至每桶30美元以上。",
+      "why": "周期链条里“油价没继续涨”不代表冲击消失，物流成本和区域价差本身也会重分配利润。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/commentary/reuters-open-interest/hormuz-shuttles-keep-oil-flowing-high-cost-2026-09-21/",
+      "publishedAt": "2026-09-21T06:00:36Z",
       "freshness": "recent"
     },
     {
@@ -59,6 +125,17 @@
       "freshness": "recent"
     },
     {
+      "theme": "政治",
+      "region": "中国",
+      "title": "中美高层会晤临近，贸易、AI与地缘议题进入市场观察窗口",
+      "summary": "市场关注即将举行的中美高层会晤，议题预计涉及贸易、AI及地缘关系；人民币近期走强也被市场放在这一背景下观察。",
+      "why": "不要预判谈判结果；用关税、出口管制、汇率、企业订单和资本流动等可验证变量评估市场影响。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/asia-pacific/yuan-hits-fresh-multi-year-peak-pboc-eases-curb-ahead-trump-xi-summit-2026-09-21/",
+      "publishedAt": "2026-09-21T03:51:14Z",
+      "freshness": "recent"
+    },
+    {
       "theme": "宏观",
       "region": "美国",
       "title": "美债收益率仍处高位：9月21日10年期约4.96%",
@@ -67,28 +144,6 @@
       "source": "U.S. Treasury / Federal Reserve",
       "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve",
       "publishedAt": "2026-09-21",
-      "freshness": "recent"
-    },
-    {
-      "theme": "消费",
-      "region": "中国",
-      "title": "商务部9月21日更新消费结构：服务零售继续快于商品",
-      "summary": "商务部称1-8月社会消费商品和服务零售总额同比增长2.5%；服务零售额增长4.9%，旅游咨询租赁、文体休闲服务保持较快增长。",
-      "why": "对茶饮、餐饮和本地生活研究，总量弱并不排除结构机会；更应跟踪服务消费、渠道迁移和单品牌份额。",
-      "source": "商务部",
-      "url": "https://cif.mofcom.gov.cn/cif/html/ConsumerGoods/2026/9/1789953010650.html",
-      "publishedAt": "2026-09-21T09:10:10+08:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "周期",
-      "region": "全球",
-      "title": "霍尔木兹替代运输维持原油流动，但运费成本显著抬升",
-      "summary": "中东生产商扩大阿曼湾船对船转运，9月相关装载量预计约250万桶/日；VLCC海湾至中国运费升至每桶30美元以上。",
-      "why": "周期链条里“油价没继续涨”不代表冲击消失，物流成本和区域价差本身也会重分配利润。",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/commentary/reuters-open-interest/hormuz-shuttles-keep-oil-flowing-high-cost-2026-09-21/",
-      "publishedAt": "2026-09-21T06:00:36Z",
       "freshness": "recent"
     }
   ],
