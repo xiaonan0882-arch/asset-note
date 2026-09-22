@@ -1,105 +1,123 @@
 {
-  "asOf": "2026-09-21T14:00:00+08:00",
+  "asOf": "2026-09-22T00:44:00Z",
   "title": "每日市场研究",
+  "freshnessRule": "今日动态仅展示最近36小时；官方低频数据单列并显示发布日期。",
   "items": [
     {
-      "theme": "科技",
+      "theme": "周期",
       "region": "全球",
-      "title": "AI芯片需求继续支撑亚洲科技股，韩国科技股走强",
-      "summary": "亚洲市场受AI芯片需求支撑，韩国股市上涨；同时全球债券收益率仍处高位，科技估值面临利率约束。",
-      "why": "科技主线仍强，但“盈利兑现 vs 估值压缩”会同时发生，不能只看产业趋势。",
+      "title": "油价在连续回落后小幅反弹，市场等待美伊潜在接触",
+      "summary": "9月22日亚洲早盘，Brent 11月合约约100.57美元/桶；市场认为反弹更像此前下跌后的空头回补，外交进展仍是短线核心变量。",
+      "why": "对周期判断不要只看油价方向，还要同时看霍尔木兹通行、运费、实际出口量与通胀预期。",
       "source": "Reuters",
-      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-21/",
-      "publishedAt": "2026-09-21"
+      "url": "https://www.reuters.com/business/energy/oil-rises-slightly-ahead-potential-us-iran-talks-2026-09-22/",
+      "publishedAt": "2026-09-22T00:34:18Z",
+      "freshness": "recent"
     },
     {
       "theme": "科技",
-      "region": "中国",
-      "title": "中国收紧人形机器人IPO审核，商业化质量重要性上升",
-      "summary": "监管层提高对人形机器人上市项目的审核标准，重点关注真实需求、收入质量与估值。",
-      "why": "从“讲故事”转向“看商业化”，对高估值科技主题是重要风格信号。",
+      "region": "美国",
+      "title": "AMD市值首次突破1万亿美元，AI交易重新升温",
+      "summary": "AMD 9月21日上涨约9.6%并创历史新高；Intel、Qualcomm及费城半导体指数同步走强，市场重新交易AI资本开支扩张。",
+      "why": "产业趋势强不等于任何价格都值得买；继续跟踪AI资本开支、收入兑现和估值三者是否匹配。",
       "source": "Reuters",
-      "url": "https://www.reuters.com/business/finance/china-slows-humanoid-robot-ipo-rush-hype-outruns-reality-2026-09-21/",
-      "publishedAt": "2026-09-21"
+      "url": "https://www.reuters.com/business/amd-becomes-latest-chipmaker-reach-1-trillion-valuation-ai-demand-2026-09-21/",
+      "publishedAt": "2026-09-21T14:21:12Z",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "全球",
+      "title": "IFR首次给出人形机器人行业级销量：2025年约7000台",
+      "summary": "IFR统计显示，2025年全球工业及专业服务用途人形机器人销量约7000台，当前商业化规模仍很小，很多设备用于研发和数据生成。",
+      "why": "机器人主题应区分演示、研发采购和真正生产性需求，重点跟踪订单、单位经济性和量产爬坡。",
+      "source": "Reuters / IFR",
+      "url": "https://www.reuters.com/technology/humanoid-robot-sales-tally-hit-7000-globally-last-year-2026-09-21/",
+      "publishedAt": "2026-09-21T05:05:23Z",
+      "freshness": "recent"
     },
     {
       "theme": "科技",
       "region": "日韩",
-      "title": "韩国出口受AI芯片驱动，半导体已占出口较高比重",
-      "summary": "韩国年内出口刷新纪录，AI芯片和存储器成为核心拉动项。",
-      "why": "韩国是观察全球AI资本开支、存储价格和半导体景气的高频窗口。",
+      "title": "台湾启动先进封装产业园，TSMC将建设验证与人才设施",
+      "summary": "高雄先进封装产业园9月21日动工，TSMC计划建设技术验证实验室和人才培训中心，先进封装继续成为AI算力供应链扩产重点。",
+      "why": "AI硬件研究可继续沿GPU→HBM→先进封装→设备材料拆链条，而不是只盯芯片设计公司。",
       "source": "Reuters",
-      "url": "https://www.investing.com/news/economic-indicators/south-korea-exports-surpass-fullyear-record-hit-7094-billion-ytd-4890167",
-      "publishedAt": "2026-09-05"
+      "url": "https://www.reuters.com/world/asia-pacific/taiwan-breaks-ground-advanced-packaging-park-anchored-by-tsmc-2026-09-21/",
+      "publishedAt": "2026-09-21T04:28:01Z",
+      "freshness": "recent"
+    },
+    {
+      "theme": "宏观",
+      "region": "中国",
+      "title": "人民币升至三年半高位，央行对升值的抑制有所减弱",
+      "summary": "9月21日在岸人民币一度升至6.6950附近；央行中间价升至2023年2月以来最强水平，中美高层会晤前汇率稳定成为重要观察变量。",
+      "why": "人民币走强会影响外资风险偏好、出口企业换汇和港股/A股估值，但短期政策稳定不等于长期升值趋势已经确立。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/asia-pacific/yuan-hits-fresh-multi-year-peak-pboc-eases-curb-ahead-trump-xi-summit-2026-09-21/",
+      "publishedAt": "2026-09-21T03:51:14Z",
+      "freshness": "recent"
     },
     {
       "theme": "宏观",
       "region": "美国",
-      "title": "美联储加息25bp至3.75%-4.00%",
-      "summary": "美联储9月16日上调政策利率，强调通胀仍偏高、经济活动稳健。",
-      "why": "更高利率直接影响成长股估值、黄金机会成本、美元和全球流动性。",
+      "title": "美债收益率仍处高位：9月21日10年期约4.96%",
+      "summary": "美国财政部最新日度曲线显示，9月21日10年期国债收益率约4.96%，30年期约5.29%；高利率仍是成长股估值的重要约束。",
+      "why": "科技股上涨时仍要把盈利上修和无风险利率变化分开看；利率高位意味着估值扩张需要更强盈利兑现。",
+      "source": "U.S. Treasury / Federal Reserve",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve",
+      "publishedAt": "2026-09-21",
+      "freshness": "recent"
+    },
+    {
+      "theme": "消费",
+      "region": "中国",
+      "title": "商务部9月21日更新消费结构：服务零售继续快于商品",
+      "summary": "商务部称1-8月社会消费商品和服务零售总额同比增长2.5%；服务零售额增长4.9%，旅游咨询租赁、文体休闲服务保持较快增长。",
+      "why": "对茶饮、餐饮和本地生活研究，总量弱并不排除结构机会；更应跟踪服务消费、渠道迁移和单品牌份额。",
+      "source": "商务部",
+      "url": "https://cif.mofcom.gov.cn/cif/html/ConsumerGoods/2026/9/1789953010650.html",
+      "publishedAt": "2026-09-21T09:10:10+08:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "周期",
+      "region": "全球",
+      "title": "霍尔木兹替代运输维持原油流动，但运费成本显著抬升",
+      "summary": "中东生产商扩大阿曼湾船对船转运，9月相关装载量预计约250万桶/日；VLCC海湾至中国运费升至每桶30美元以上。",
+      "why": "周期链条里“油价没继续涨”不代表冲击消失，物流成本和区域价差本身也会重分配利润。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/commentary/reuters-open-interest/hormuz-shuttles-keep-oil-flowing-high-cost-2026-09-21/",
+      "publishedAt": "2026-09-21T06:00:36Z",
+      "freshness": "recent"
+    }
+  ],
+  "latestData": [
+    {
+      "theme": "消费",
+      "region": "中国",
+      "title": "国家统计局：1-8月社零+1.1%，8月+0.4%",
+      "summary": "1-8月餐饮收入同比+2.4%；饮料+5.5%、烟酒+12.4%、化妆品+6.1%、金银珠宝-1.5%。",
+      "source": "国家统计局",
+      "url": "https://www.stats.gov.cn/english/PressRelease/202609/t20260916_1965341.html",
+      "publishedAt": "2026-09-16"
+    },
+    {
+      "theme": "宏观",
+      "region": "韩国",
+      "title": "韩国央行9月货币政策报告：基准利率已连续上调至3.00%",
+      "summary": "韩国央行称通胀预计较长时间高于目标，同时出口和投资强劲、消费恢复。",
+      "source": "Bank of Korea",
+      "url": "https://www.bok.or.kr/eng/bbs/E0000628/view.do?depth=400215&menuNo=400215&nttId=11064614",
+      "publishedAt": "2026-09-10"
+    },
+    {
+      "theme": "宏观",
+      "region": "美国",
+      "title": "美联储H.15：有效联邦基金利率9月18日为3.88%",
+      "summary": "H.15为美联储工作日更新的官方利率数据，可用于跟踪政策利率和美债收益率变化。",
       "source": "Federal Reserve",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
-      "publishedAt": "2026-09-16"
-    },
-    {
-      "theme": "宏观",
-      "region": "日韩",
-      "title": "日本央行将政策利率提高至1.25%",
-      "summary": "日本央行将政策利率升至31年高位，政策重心从推动通胀转向防止通胀过冲。",
-      "why": "日本利率上行会影响日元、全球资金回流与跨市场估值。",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/world/asia-pacific/bank-japan-set-raise-interest-rates-31-year-high-2026-09-17/",
-      "publishedAt": "2026-09-18"
-    },
-    {
-      "theme": "宏观",
-      "region": "中国",
-      "title": "中国内需偏弱、工业和出口相对更强",
-      "summary": "8月社零同比增长0.4%，而工业产出和高科技出口表现更强，经济结构分化明显。",
-      "why": "消费复苏仍需看收入与信心，而制造和科技出口更强，资产表现可能继续分化。",
-      "source": "NBS / Reuters",
-      "url": "https://www.stats.gov.cn/english/PressRelease/202609/t20260916_1965341.html",
-      "publishedAt": "2026-09-16"
-    },
-    {
-      "theme": "消费",
-      "region": "中国",
-      "title": "1-8月社零同比+1.1%，餐饮收入同比+2.4%",
-      "summary": "服务消费仍相对强于商品消费，线上服务零售增速也高于整体。",
-      "why": "对茶饮、餐饮、旅游和本地生活研究，应更关注结构性份额变化，而不是只看总量。",
-      "source": "NBS",
-      "url": "https://www.stats.gov.cn/english/PressRelease/202609/t20260916_1965341.html",
-      "publishedAt": "2026-09-16"
-    },
-    {
-      "theme": "消费",
-      "region": "全球",
-      "title": "全球奢侈品需求分化，美国年轻消费者支撑部分品牌",
-      "summary": "部分美国传统品牌凭借年轻消费者实现增长，但全球奢侈品需求仍受旅游与宏观环境扰动。",
-      "why": "奢侈品要区分品牌势能、客群结构与地区暴露，不能只看行业总盘。",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/business/retail-consumer/new-york-fashion-week-leans-into-american-legacy-brand-revival-2026-09-03/",
-      "publishedAt": "2026-09-03"
-    },
-    {
-      "theme": "周期",
-      "region": "全球",
-      "title": "霍尔木兹海峡运输受扰，但中东原油流量暂未完全中断",
-      "summary": "海峡船舶通行明显减少，但沙特出口回升，油价在高位波动。",
-      "why": "油价同时影响通胀、央行政策、化工运输成本和新能源相对吸引力。",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/world/middle-east/vessels-trickle-through-strait-hormuz-mideast-tension-persists-2026-09-21/",
-      "publishedAt": "2026-09-21"
-    },
-    {
-      "theme": "周期",
-      "region": "全球",
-      "title": "欧洲四季度航煤仍面临供应缺口",
-      "summary": "中东供应扰动令欧洲航煤库存偏低，韩国等亚洲炼厂成为增量供应方。",
-      "why": "炼化、航运、航空成本和区域价差都可能受影响，是典型周期传导链。",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/business/energy/europe-faces-q4-jet-fuel-supply-deficit-even-south-korea-becomes-latest-big-2026-09-21/",
+      "url": "https://www.federalreserve.gov/releases/h15/",
       "publishedAt": "2026-09-21"
     }
   ]
