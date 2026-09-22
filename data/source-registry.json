@@ -36,18 +36,55 @@
       ]
     },
     {
-      "name": "全球官方",
+      "name": "全球宏观",
       "sources": [
         "IMF",
         "World Bank",
         "OECD",
-        "IEA",
-        "OPEC",
-        "WTO"
+        "WTO",
+        "BIS"
       ]
     },
     {
-      "name": "高频新闻",
+      "name": "大宗商品",
+      "sources": [
+        "EIA",
+        "IEA",
+        "OPEC",
+        "LME",
+        "LBMA",
+        "World Gold Council",
+        "USDA",
+        "行业协会与公司公告"
+      ]
+    },
+    {
+      "name": "期货/衍生品",
+      "sources": [
+        "CME Group",
+        "CFTC",
+        "ICE",
+        "COMEX/NYMEX",
+        "上海期货交易所 SHFE",
+        "上海国际能源交易中心 INE",
+        "大连商品交易所 DCE",
+        "郑州商品交易所 CZCE",
+        "广州期货交易所 GFEX"
+      ]
+    },
+    {
+      "name": "政治/地缘",
+      "sources": [
+        "Reuters",
+        "AP",
+        "政府/议会/外交部门官方公告",
+        "联合国 UN",
+        "欧盟 EU",
+        "G7/G20 官方材料"
+      ]
+    },
+    {
+      "name": "高频财经新闻",
       "sources": [
         "Reuters",
         "Financial Times",
@@ -70,17 +107,6 @@
         "Samsung Electronics",
         "SK hynix",
         "IFR"
-      ]
-    },
-    {
-      "name": "周期产业",
-      "sources": [
-        "EIA",
-        "IEA",
-        "OPEC",
-        "LME",
-        "CME",
-        "行业协会与公司公告"
       ]
     }
   ]
