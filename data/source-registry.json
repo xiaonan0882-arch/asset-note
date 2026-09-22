@@ -1,0 +1,87 @@
+{
+  "updatedAt": "2026-09-22",
+  "policy": "今日动态只展示最近36小时；超过36小时的内容不混入“今日热点”。较低频的官方数据单列为“最新官方数据”，显示实际发布日期。",
+  "groups": [
+    {
+      "name": "中国官方",
+      "sources": [
+        "国家统计局 NBS",
+        "中国人民银行 PBOC",
+        "商务部 MOFCOM",
+        "海关总署 GACC",
+        "工信部 MIIT",
+        "国家发改委 NDRC"
+      ]
+    },
+    {
+      "name": "美国官方",
+      "sources": [
+        "Federal Reserve",
+        "U.S. Treasury",
+        "BLS",
+        "BEA",
+        "U.S. Census Bureau",
+        "EIA"
+      ]
+    },
+    {
+      "name": "日韩官方",
+      "sources": [
+        "Bank of Japan",
+        "Statistics Bureau of Japan",
+        "METI Japan",
+        "Bank of Korea",
+        "Statistics Korea",
+        "Korea Customs Service"
+      ]
+    },
+    {
+      "name": "全球官方",
+      "sources": [
+        "IMF",
+        "World Bank",
+        "OECD",
+        "IEA",
+        "OPEC",
+        "WTO"
+      ]
+    },
+    {
+      "name": "高频新闻",
+      "sources": [
+        "Reuters",
+        "Financial Times",
+        "Nikkei Asia",
+        "CNBC",
+        "财联社",
+        "证券时报",
+        "上海证券报"
+      ]
+    },
+    {
+      "name": "科技产业",
+      "sources": [
+        "公司IR/公告",
+        "SEC/交易所公告",
+        "TSMC",
+        "NVIDIA",
+        "AMD",
+        "Micron",
+        "Samsung Electronics",
+        "SK hynix",
+        "IFR"
+      ]
+    },
+    {
+      "name": "周期产业",
+      "sources": [
+        "EIA",
+        "IEA",
+        "OPEC",
+        "LME",
+        "CME",
+        "行业协会与公司公告"
+      ]
+    }
+  ]
+}
