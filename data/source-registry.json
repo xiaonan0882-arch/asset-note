@@ -3,6 +3,15 @@
   "policy": "今日动态只展示最近36小时；超过36小时的内容不混入“今日热点”。较低频的官方数据单列为“最新官方数据”，显示实际发布日期。",
   "groups": [
     {
+      "name": "专业金融资讯",
+      "sources": [
+        "Wind 万得（公开资讯层；终端/API需授权）",
+        "Bloomberg（公开新闻层；Terminal/B-PIPE/Web API需授权）",
+        "The Wall Street Journal（公开标题/摘要层；全文需订阅授权）",
+        "Seeking Alpha（官方RSS；更深层API/数据Feed需商业授权）"
+      ]
+    },
+    {
       "name": "中国官方",
       "sources": [
         "国家统计局 NBS",
@@ -109,5 +118,11 @@
         "IFR"
       ]
     }
-  ]
+  ],
+  "integrationNotes": {
+    "Wind": "Wind 官方提供 Client API、Server API、FTP/Filesync/HTML Widget 等数据服务；专业数据接入需对应授权。",
+    "Bloomberg": "Bloomberg 官方提供 Desktop/Server/B-PIPE/Web API；数据权限由客户 entitlement 决定。",
+    "WSJ": "当前只聚合公开可索引的标题/摘要并链接原文，不绕过付费墙。",
+    "SeekingAlpha": "接入官方 All News 与 Wall Street Breakfast RSS；不复制或再分发其受许可限制的市场数据。"
+  }
 }
