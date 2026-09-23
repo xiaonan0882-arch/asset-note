@@ -1,8 +1,63 @@
 {
-  "asOf": "2026-09-22T22:58:49.547562+00:00",
+  "asOf": "2026-09-23T01:31:57.845577+00:00",
   "title": "每日市场研究",
   "freshnessRule": "今日动态仅展示最近36小时；官方低频数据单列并显示发布日期。",
   "items": [
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "电报解读 - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBfcHJ0UTNfVVJrLVN0RER1Q0x3OGJxc0dNSjVKVW1Tank0Tm81Tko5MXY5OTBZRnlxYlo2TFFhOUNQYUdxeVJQMg?oc=5",
+      "publishedAt": "2026-09-23T00:36:00+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Trump says he supports U.S. diesel export ban; Bessent says studying feasibility",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4645794-trump-says-he-supports-us-diesel-export-ban-bessent-says-studying-feasibility?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-22T23:50:45+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "全线爆发；黄仁勋：英伟达明年芯片销量将翻倍；特朗普 - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ERTJIM1dSZFZyMFk4RTRJUk5BQ1o5eWF3aTlpdDVYVlA1bGMyY1FKR090ZkM1X2RiZW1seFdoWm1UVGlEQzBJcw?oc=5",
+      "publishedAt": "2026-09-22T23:19:15+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "南方财经全媒体集团 - sfccn.com",
+      "summary": "",
+      "why": "",
+      "source": "sfccn.com",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9FQlRQZzRFMVBJOW4xbW9yYW9KM1diM1pTY0EtS2pMbmRwLXNwdGE0bGdwc1BxZWpJRFdheS04cnF4alRHeERYcHE5eV9lM1hSaVJ5ODVnNjJfb0U1WjJtcVcwZC00dw?oc=5",
+      "publishedAt": "2026-09-22T23:17:56+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Aytu outlines $49M-$54M FY27 operating expense plan as it targets 66%-67% gross margin in Q4 FY27",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4645795-aytu-outlines-49m-54m-fy27-operating-expense-plan-as-it-targets-66-percentminus-67-percent?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-22T23:11:08+00:00",
+      "freshness": "recent"
+    },
     {
       "theme": "全球",
       "region": "全球",
@@ -59,36 +114,14 @@
       "freshness": "recent"
     },
     {
-      "theme": "全球",
-      "region": "全球",
-      "title": "U.S. crude stockpiles rose 1.8M barrels last week, API says",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4645787-u-s-crude-stockpiles-rose-1_8m-barrels-last-week-api-says?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-22T22:05:24+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Here are the major earnings before the open Wednesday",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4645400-here-are-the-major-earnings-before-the-open-wednesday?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-22T22:00:24+00:00",
-      "freshness": "recent"
-    },
-    {
       "theme": "科技",
       "region": "中国",
-      "title": "【早报】美股半导体板块，深V反弹；原油大跌、黄金微涨；事关电力，重磅规划发布 - 财联社",
+      "title": "科技股究竟因何调整？四大原因讨论最多 - 财联社",
       "summary": "",
       "why": "",
       "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE52WEpUWmhya09LbzIzTXM1VnFoTU9IdzVoRUN2TWkwYWQteW53S3hMUVVqdXlOakh5UmxhXzM5Sm1rWTVaTDRvdg?oc=5",
-      "publishedAt": "2026-09-22T17:39:37+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFB0Y295RnJuLU5KdUhPSTVhcGptdTNMV2hYVWt6dWQxeXhVN3YtdzNvT1d3NkxDSjZmZUFaaFE0enNkVFlpNldwOQ?oc=5",
+      "publishedAt": "2026-09-22T21:01:26+00:00",
       "freshness": "recent"
     },
     {
@@ -100,17 +133,6 @@
       "source": "Google News",
       "url": "https://seekingalpha.com/article/4948670-wall-street-lunch-metas-muse-teams-with-shopify-after-amazon-ban?source=feed_tag_wall_st_breakfast",
       "publishedAt": "2026-09-22T15:20:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "SpaceX、AMD财报出炉；大基金三期出手！入股正芯半导体 - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE05NmVDY0RkODVYaWd3dmtQMm5iXzMxc0NhVTVkdDltOGxJZEcxZFF2SEZscjlkRU9ZbEUwbVBUc3FDaHVTbF9zUQ?oc=5",
-      "publishedAt": "2026-09-22T13:09:03+00:00",
       "freshness": "recent"
     },
     {
@@ -149,17 +171,6 @@
     {
       "theme": "科技",
       "region": "中国",
-      "title": "韩国金融改革“大动作”：将国家增长基金规模扩至200万亿韩元 - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1MakFMTVBSNEZTZUJpZTBNaTBOazdwODEtd1pUSHV0VmE5RXlaWE91aGVIbE1XU0FsMEVzdmlneVZ3a19VUnRjdg?oc=5",
-      "publishedAt": "2026-09-22T06:51:14+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
       "title": "9月22日午间涨停快报：58股涨停，出版、化学制药领涨，华瓷股份6连板-电报君 - 金融界",
       "summary": "",
       "why": "",
@@ -171,34 +182,12 @@
     {
       "theme": "科技",
       "region": "中国",
-      "title": "Meta智能体点燃人工智能概念 澜起科技涨近14%领跑 - 新浪财经_金融信息服务商",
+      "title": "Meta智能体点燃人工智能概念 澜起科技涨近14%领跑 港美股资讯 - hstong.com",
       "summary": "",
       "why": "",
-      "source": "新浪财经_金融信息服务商",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5LTHpLd1JSb1JsQnFDbHQ3b045ZmJzS0xueFE3WDJHVGJWMHZRRkw5aUFsQ1VtWFViMjc4WVZRY2VDVlBxdUh5U1Vud1FRNi12SmRMdW5nQ01Zc1ZVVWFHdXphQ2c2VGdQaVN5UzVXUDhrWWpKQ2M4Nw?oc=5",
+      "source": "hstong.com",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5mNmx2SWFCUUhKalBJd3ZHS2NTZjlOUlR1b0NFRnluUG9JcDFzOUdHYlpCbjhhUU85S3NvdnNrRExLRHRZMzh6eWQtUkRqMWlDNHVRVjBNczNYY1JnS0h2UFl3?oc=5",
       "publishedAt": "2026-09-22T02:12:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "Meta 新品与上海楼市，如何影响了9 月 22 日的开盘？|中国长城|综艺股份|禾盛新材|龙芯中科|海光信息|国芯科技|华瓷股份|国芳集团|会稽山|世联行|绿地控股|内蒙新华|新华文轩|南华生物|瑞康医药|华纺股份|龙头股份|meta|arm|英特尔|amd|沪指|深成指|创业板指|cpu概 - 手机新浪网",
-      "summary": "",
-      "why": "",
-      "source": "手机新浪网",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBEZHNSQzUyWHhJZXpLTHNWakQtcDE0VXhFbVd2ZWRXT2V2WVJ1SUZORm1RWmRnV3JMdFljUXYwbGJmRkhVTnZUUVJ0MC1aS3Q2MnBhYldzWkl6ZVBKamVsVzc1MA?oc=5",
-      "publishedAt": "2026-09-22T01:33:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "投资界24h| 港交所启动咨询：赴港IPO开始变了；26亿，字节买走北京一块地；湖北社保科创基金正式投入运营 - 投资界",
-      "summary": "",
-      "why": "",
-      "source": "投资界",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9xU2RTSDczYkJvVTFWamV4V1B1Vm5QZ1FXRi1kQXBoRVZVT0poaWRrLVVLZXRjdU9FVkVCR0ZEMzMyQm5JTDFKUDVSZmY3YXB2VEVXNzhB?oc=5",
-      "publishedAt": "2026-09-22T00:54:00+00:00",
       "freshness": "recent"
     },
     {
@@ -210,28 +199,6 @@
       "source": "Google News",
       "url": "https://seekingalpha.com/article/4948329-wall-street-lunch-pinstripe-suits-aim-for-pinstripes-stake?source=feed_tag_wall_st_breakfast",
       "publishedAt": "2026-09-21T15:35:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "宏观",
-      "region": "美国",
-      "title": "Busy Week For Geopolitics",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/article/4948239-busy-week-for-geopolitics?source=feed_tag_wall_st_breakfast",
-      "publishedAt": "2026-09-21T11:30:35+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "宏观",
-      "region": "美国",
-      "title": "Wall Street Breakfast Podcast: Musk's Texas Tunnel Vision",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/article/4948268-wall-street-breakfast-podcast-musks-texas-tunnel-vision?source=feed_tag_wall_st_breakfast",
-      "publishedAt": "2026-09-21T11:00:00+00:00",
       "freshness": "recent"
     }
   ],
