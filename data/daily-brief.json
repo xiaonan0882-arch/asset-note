@@ -1,83 +1,116 @@
 {
-  "asOf": "2026-09-23T18:25:00.289719+00:00",
+  "asOf": "2026-09-23T22:18:44.369527+00:00",
   "title": "每日市场研究",
   "freshnessRule": "今日动态仅展示最近36小时；官方低频数据单列并显示发布日期。",
   "items": [
     {
       "theme": "全球",
       "region": "全球",
-      "title": "REX AI Equity Premium Income ETF declares $0.2517 dividend",
+      "title": "Smurfit Westrock to buy Empresas' Chile containerboard business in $420M deal",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4646227-rex-ai-equity-premium-income-etf-declares-0_2517-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-23T18:19:16+00:00",
+      "url": "https://seekingalpha.com/news/4646397-smurfit-westrock-to-buy-empresas-chile-containerboard-business-in-420m-deal?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-23T22:11:26+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "Is DraftKings betting big on losing gamblers?",
+      "title": "First Merchants prices $100M subordinated notes",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4646217-is-draftkings-betting-big-on-losing-gamblers?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-23T18:15:57+00:00",
+      "url": "https://seekingalpha.com/news/4646398-first-merchants-prices-100m-subordinated-notes?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-23T22:05:03+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "UltraShort 7-10 Year Treasury declares quarterly distribution of $0.1529",
+      "title": "Arcturus sees positive results from mid-stage trial of RCT-810 in OTC deficiency",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4646226-ultrashort-7-10-year-treasury-declares-quarterly-distribution-of-01529?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-23T18:15:47+00:00",
+      "url": "https://seekingalpha.com/news/4646395-arcturus-sees-positive-results-mid-stage-trial-rctminus-810-otc-deficiency?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-23T22:04:06+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "REX FANG & Innovation Equity Premium Income ETF declares $0.2105 dividend",
+      "title": "Here are the major earnings before the open Thursday",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4646225-rex-fang-and-innovation-equity-premium-income-etf-declares-0_2105-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-23T18:15:32+00:00",
+      "url": "https://seekingalpha.com/news/4645959-here-are-the-major-earnings-before-the-open-thursday?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-23T22:00:23+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "UltraShort 20+ Year Treasury declares quarterly distribution of $0.2265",
+      "title": "Runway Growth Finance to refinance $33M debt via notes offering",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4646224-ultrashort-20-year-treasury-declares-quarterly-distribution-of-02265?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-23T18:13:04+00:00",
+      "url": "https://seekingalpha.com/news/4646394-runway-growth-finance-to-refinance-33m-debt-via-notes-offering?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-23T21:45:59+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "UltraPro Short S&P500 declares quarterly distribution of $0.3830",
+      "title": "Auranova Resources announces up to $4M private placement",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4646223-ultrapro-short-sp500-declares-quarterly-distribution-of-03830?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-23T18:11:50+00:00",
+      "url": "https://seekingalpha.com/news/4646393-auranova-resources-announces-up-to-4m-private-placement?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-23T21:38:05+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "UltraPro Short Russell2000 declares quarterly distribution of $0.2690",
+      "title": "Lomiko Metals shareholders approve $0.13/share takeover",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4646222-ultrapro-short-russell2000-declares-quarterly-distribution-of-02690?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-23T18:10:53+00:00",
+      "url": "https://seekingalpha.com/news/4646392-lomiko-metals-shareholders-approve-013share-takeover?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-23T21:35:59+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "英伟达股东会摘要：黄仁勋豪言AI投资回报率的问题“已有答案” - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBUS1QxajZRN255MHRmZHpGQXFBOGM3M2IzaEJ3OVRpVEpXTlpuamJma0tBSzJRV2ZjZXlqTkJxem5teHZtWExLQw?oc=5",
+      "publishedAt": "2026-09-23T20:52:24+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "SpaceX、AMD财报出炉；大基金三期出手！入股正芯半导体 - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE05NmVDY0RkODVYaWd3dmtQMm5iXzMxc0NhVTVkdDltOGxJZEcxZFF2SEZscjlkRU9ZbEUwbVBUc3FDaHVTbF9zUQ?oc=5",
+      "publishedAt": "2026-09-23T17:35:44+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "【早报】美股半导体板块，深V反弹；原油大跌、黄金微涨；事关电力，重磅规划发布 - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE52WEpUWmhya09LbzIzTXM1VnFoTU9IdzVoRUN2TWkwYWQteW53S3hMUVVqdXlOakh5UmxhXzM5Sm1rWTVaTDRvdg?oc=5",
+      "publishedAt": "2026-09-23T17:33:34+00:00",
       "freshness": "recent"
     },
     {
@@ -105,17 +138,6 @@
     {
       "theme": "科技",
       "region": "中国",
-      "title": "贝索斯驳斥“AI抢饭碗”论：未来十年将迎多个黄金时代 - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5CQmVPR05xSHFMV2xLdk8xYkVvTDBfdUlMa3ZHQkRReG9COW9lVnNBWkdubEJZY1pYbm1CRmVDOGtRV184RjVYWA?oc=5",
-      "publishedAt": "2026-09-23T09:20:52+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
       "title": "港股收盘 | 三大指数集体走弱 海外大模型降价潮引发AI股跳水 - 财联社",
       "summary": "",
       "why": "",
@@ -133,17 +155,6 @@
       "source": "财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE8zRDBRQ1BEa0hCb08wcWFSczZGeEVCdE92aFhYQUN3MWxxOU9md3Q2VlVhQTJiV2s1a0d2d3F1OUpIZU5TT203Qw?oc=5",
       "publishedAt": "2026-09-23T07:59:34+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "里昂：看好韩国半导体于Agentic AI供应链关键地位 予SK海力士“高度确信跑赢大市”评级 - 东方财富",
-      "summary": "",
-      "why": "",
-      "source": "东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1HcXVXMTRXYXZSWkI0Wms3Z0VydWJaX2hUemZJeVBfTVZYU0lRUjZyTUZ3R0tnaDJDVE1OUDJsdFB6aEc3Nmt3SHdsSFZrUlR2N1VRNWtoOUpWRUIwZG5Scg?oc=5",
-      "publishedAt": "2026-09-23T05:05:12+00:00",
       "freshness": "recent"
     },
     {
@@ -177,17 +188,6 @@
       "source": "新浪财经",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5WTmdfMkVZU3J2UkpmQzlmVGF6cWNhZS1qbUVVWTVQN09xTWdpV2phY0xvNk5FNHVEbHNWTEdVWFRNZ0pTLWpBNWxHRnZCN3BKTXhxR3l4a0Jub2RVY2wyZ2dzOWpWeERYeEJrUlNSaU5nYnRnSVcxVQ?oc=5",
       "publishedAt": "2026-09-23T02:55:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "【早报】美股大反弹；3大存储巨头，遭集体诉讼；金银下跌，油价收涨 - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9ocE9zTlNLLUVBa3ZkUk5iRFp6bkxleEFJWlpCQlQxNy1KTzlaUlUwSzk0M0ptdnp6LWJqckJha3l6R3F3b1d4SQ?oc=5",
-      "publishedAt": "2026-09-23T01:28:25+00:00",
       "freshness": "recent"
     },
     {
@@ -232,17 +232,6 @@
       "source": "Google News",
       "url": "https://seekingalpha.com/article/4948573-new-power-dynamics-in-hollywood?source=feed_tag_wall_st_breakfast",
       "publishedAt": "2026-09-22T11:20:45+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "宏观",
-      "region": "美国",
-      "title": "Wall Street Breakfast Podcast: Tech Rally Takes A Breath",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/article/4948570-wall-street-breakfast-podcast-tech-rally-takes-a-breath?source=feed_tag_wall_st_breakfast",
-      "publishedAt": "2026-09-22T10:15:00+00:00",
       "freshness": "recent"
     }
   ],
