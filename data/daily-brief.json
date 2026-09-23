@@ -1,8 +1,107 @@
 {
-  "asOf": "2026-09-23T01:31:57.845577+00:00",
+  "asOf": "2026-09-23T07:47:03.876080+00:00",
   "title": "每日市场研究",
   "freshnessRule": "今日动态仅展示最近36小时；官方低频数据单列并显示发布日期。",
   "items": [
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Germany's business activity accelerates in September as services return to growth",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4645822-germany-business-activity-accelerates-in-september-as-services-return-to-growth?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-23T07:39:28+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "France flash composite PMI rises to 25-month high as business activity rebounds",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4645821-france-flash-composite-pmi-rises-to-25-month-high-as-business-activity-rebounds?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-23T07:21:26+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Millrose Properties announces pricing of $1B senior notes offering",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4645826-millrose-properties-announces-pricing-of-1b-senior-notes-offering?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-23T07:15:34+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "InnovAge prices 10M share secondary offering at $9.25",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4645824-innovage-prices-10m-share-secondary-offering-at-925?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-23T06:46:21+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Apollo caps private credit fund redemptions for third straight quarter",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4645800-apollo-caps-private-credit-fund-redemptions-for-third-straight-quarter?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-23T06:43:02+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Stitch Fix Q4 2026 Earnings Preview",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4645820-stitch-fix-q4-2026-earnings-preview?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-23T06:34:00+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Paychex Q1 2027 Earnings Preview",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4645819-paychex-q1-2027-earnings-preview?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-23T06:32:25+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "【早报】美股大反弹；3大存储巨头，遭集体诉讼；金银下跌，油价收涨 - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9ocE9zTlNLLUVBa3ZkUk5iRFp6bkxleEFJWlpCQlQxNy1KTzlaUlUwSzk0M0ptdnp6LWJqckJha3l6R3F3b1d4SQ?oc=5",
+      "publishedAt": "2026-09-23T01:28:25+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "券商晨会精华：AI算力建设驱动矢量网络分析仪需求 - 手机网易网",
+      "summary": "",
+      "why": "",
+      "source": "手机网易网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5wYlZ2OWlhcDVoT1hkUkhCYWRNSnNXWHhrSzU0WFhQRGluTVBBdTN6OVdhOWVXV0FHbkNSdkFzNWJyVkstRkljQjFoRk1TSTBFWG54ZXBSQWJlRTNVa3p0X0xR?oc=5",
+      "publishedAt": "2026-09-23T00:52:03+00:00",
+      "freshness": "recent"
+    },
     {
       "theme": "科技",
       "region": "中国",
@@ -15,102 +114,25 @@
       "freshness": "recent"
     },
     {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Trump says he supports U.S. diesel export ban; Bessent says studying feasibility",
+      "theme": "科技",
+      "region": "中国",
+      "title": "9.23周三盘前：财经资讯+隔夜全球要闻！1.医药生物2.房地产开发3.人工智能AI应用4.固态电池5.网络安全，机器人#中金公司A股股票9月23日复牌# ​|中金公司|医药生物|房地产开发|人工智能ai应用|固态电池|网络安全|机器人|meta|paypal|理想汽车|特斯拉|deepseek| - 手机新浪网",
       "summary": "",
       "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4645794-trump-says-he-supports-us-diesel-export-ban-bessent-says-studying-feasibility?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-22T23:50:45+00:00",
+      "source": "手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9pM05IOHpVY3g2TjZnNWhaZHpzZWF2VFBXZDBkVER4UUxNY1VKUHgyclFoQThUcFBfc0x3NmlVYWs3aXpFalRWVUgzUjN5dU8tak5nNnJJcUNheXlMUnd0R243bw?oc=5",
+      "publishedAt": "2026-09-22T23:28:00+00:00",
       "freshness": "recent"
     },
     {
       "theme": "科技",
       "region": "中国",
-      "title": "全线爆发；黄仁勋：英伟达明年芯片销量将翻倍；特朗普 - 财联社",
+      "title": "南方财经全媒体集团 - 南方财经",
       "summary": "",
       "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ERTJIM1dSZFZyMFk4RTRJUk5BQ1o5eWF3aTlpdDVYVlA1bGMyY1FKR090ZkM1X2RiZW1seFdoWm1UVGlEQzBJcw?oc=5",
-      "publishedAt": "2026-09-22T23:19:15+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "南方财经全媒体集团 - sfccn.com",
-      "summary": "",
-      "why": "",
-      "source": "sfccn.com",
+      "source": "南方财经",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9FQlRQZzRFMVBJOW4xbW9yYW9KM1diM1pTY0EtS2pMbmRwLXNwdGE0bGdwc1BxZWpJRFdheS04cnF4alRHeERYcHE5eV9lM1hSaVJ5ODVnNjJfb0U1WjJtcVcwZC00dw?oc=5",
       "publishedAt": "2026-09-22T23:17:56+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Aytu outlines $49M-$54M FY27 operating expense plan as it targets 66%-67% gross margin in Q4 FY27",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4645795-aytu-outlines-49m-54m-fy27-operating-expense-plan-as-it-targets-66-percentminus-67-percent?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-22T23:11:08+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Exxon sees Brazil’s offshore Foz do Amazonas as next South American energy prize",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4645788-exxon-sees-brazils-offshore-foz-do-amazonas-as-next-south-american-energy-prize?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-22T22:42:55+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Sagicor prices C$350M senior notes",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4645792-sagicor-prices-c350m-senior-notes?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-22T22:33:32+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "DelphX launches C$56K private placement",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4645791-delphx-launches-c56k-private-placement?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-22T22:31:44+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Orosur Mining announces C$14M private placement",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4645790-orosur-mining-announces-c14m-private-placement?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-22T22:30:05+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Stingray renews share buyback program",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4645789-stingray-renews-share-buyback-program?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-22T22:26:39+00:00",
       "freshness": "recent"
     },
     {
@@ -166,39 +188,6 @@
       "source": "Google News",
       "url": "https://seekingalpha.com/article/4948570-wall-street-breakfast-podcast-tech-rally-takes-a-breath?source=feed_tag_wall_st_breakfast",
       "publishedAt": "2026-09-22T10:15:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "9月22日午间涨停快报：58股涨停，出版、化学制药领涨，华瓷股份6连板-电报君 - 金融界",
-      "summary": "",
-      "why": "",
-      "source": "金融界",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9CS0JkYUl3V01ZemRNMDFtUC1oakRINVZlMkVDT0lWaVpLVXh2QTlfcW9QQ08yVFZMelN2ekcxaHZzeU1qclplVEQ3Y1piQ3c0eXVPSEljaXQ4RU5oZm1GUzJuQmc3WGpxTFI3N19Ma1Frd3dZ?oc=5",
-      "publishedAt": "2026-09-22T04:30:08+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "Meta智能体点燃人工智能概念 澜起科技涨近14%领跑 港美股资讯 - hstong.com",
-      "summary": "",
-      "why": "",
-      "source": "hstong.com",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5mNmx2SWFCUUhKalBJd3ZHS2NTZjlOUlR1b0NFRnluUG9JcDFzOUdHYlpCbjhhUU85S3NvdnNrRExLRHRZMzh6eWQtUkRqMWlDNHVRVjBNczNYY1JnS0h2UFl3?oc=5",
-      "publishedAt": "2026-09-22T02:12:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "宏观",
-      "region": "美国",
-      "title": "Wall Street Lunch: Pinstripe Suits Aim For Pinstripes Stake",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/article/4948329-wall-street-lunch-pinstripe-suits-aim-for-pinstripes-stake?source=feed_tag_wall_st_breakfast",
-      "publishedAt": "2026-09-21T15:35:00+00:00",
       "freshness": "recent"
     }
   ],
