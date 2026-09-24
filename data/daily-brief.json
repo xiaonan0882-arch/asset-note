@@ -1,83 +1,83 @@
 {
-  "asOf": "2026-09-24T18:26:16.879296+00:00",
+  "asOf": "2026-09-24T22:26:36.148169+00:00",
   "title": "每日市场研究",
   "freshnessRule": "今日动态仅展示最近36小时；官方低频数据单列并显示发布日期。",
   "items": [
     {
       "theme": "全球",
       "region": "全球",
-      "title": "First Trust NASDAQ-100 Ex-Technology Sector Idx Fd ETF declares $0.1919 dividend",
+      "title": "Ecopetrol chooses presidential ally Gutierrez as new CEO",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4646847-first-trust-nasdaqminus-100-ex-technology-sector-idx-fd-etf-declares-0_1919-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-24T18:17:09+00:00",
+      "url": "https://seekingalpha.com/news/4646939-ecopetrol-chooses-presidential-ally-gutierrez-as-new-ceo?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-24T22:14:26+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "First Trust NASDAQ ABA Community Bank Index Fund ETF declares $0.3585 dividend",
+      "title": "CenterPoint Energy selected for $50M DOE grid upgrade award",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4646846-first-trust-nasdaq-aba-community-bank-index-fund-etf-declares-0_3585-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-24T18:16:48+00:00",
+      "url": "https://seekingalpha.com/news/4646944-centerpoint-energy-selected-for-50m-doe-grid-upgrade-award?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-24T22:04:38+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "First Trust Value Line Dividend Index Fund ETF declares $0.2562 dividend",
+      "title": "Voyageur Pharmaceuticals to settle $192,300 debt with shares",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4646845-first-trust-value-line-dividend-index-fund-etf-declares-0_2562-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-24T18:16:26+00:00",
+      "url": "https://seekingalpha.com/news/4646943-voyageur-pharmaceuticals-to-settle-192300-debt-with-shares?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-24T22:02:42+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "First Trust Bloomberg Inflation Sensitive Equity ETF declares $0.1337 dividend",
+      "title": "Bluerock Acquisition II prices $150M IPO",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4646844-first-trust-bloomberg-inflation-sensitive-equity-etf-declares-0_1337-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-24T18:16:05+00:00",
+      "url": "https://seekingalpha.com/news/4646942-bluerock-acquisition-ii-prices-150m-ipo?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-24T21:58:56+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "First Trust Growth Strength ETF declares $0.0088 dividend",
+      "title": "Planet Ventures CEO resigns",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4646843-first-trust-growth-strength-etf-declares-0_0088-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-24T18:15:42+00:00",
+      "url": "https://seekingalpha.com/news/4646938-planet-ventures-ceo-resigns?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-24T21:21:18+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "First Trust Dividend Strength ETF declares $0.3094 dividend",
+      "title": "Gold likely continues to struggle as bond yields surge, Forex.com analyst says",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4646842-first-trust-dividend-strength-etf-declares-0_3094-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-24T18:15:21+00:00",
+      "url": "https://seekingalpha.com/news/4646928-gold-likely-continues-to-struggle-as-bond-yields-surge-forex-com-analyst-says?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-24T21:15:25+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "First Trust Capital Strength ETF declares $0.3332 dividend",
+      "title": "Golar LNG prices $500M senior notes offering",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4646841-first-trust-capital-strength-etf-declares-0_3332-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-24T18:15:01+00:00",
+      "url": "https://seekingalpha.com/news/4646937-golar-lng-prices-500m-senior-notes-offering?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-24T21:08:48+00:00",
       "freshness": "recent"
     },
     {
@@ -116,23 +116,23 @@
     {
       "theme": "科技",
       "region": "中国",
+      "title": "港股风向标｜恒指短线反攻25000点遇阻 美债风险发酵炒作情绪降温 - 搜狐网",
+      "summary": "",
+      "why": "",
+      "source": "搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWDluamhneTlSdm1lcTFZUHItcmc0NEQtQWg4bkR5Vk1YOGpkdlhnd2otVmptSkVqdnY1RVIyYjk4eFhONUI1eUs2MmFUN3FQTkhNWjdWdnBRbWRNQlkzOUR2c1lUbjhrT3BXdTlsekFXWnBzaUpsTk14ZnhIamJDUjZ0d1pvSzJGNjBTbw?oc=5",
+      "publishedAt": "2026-09-24T12:58:13+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
       "title": "SpaceX、AMD财报出炉；大基金三期出手！入股正芯半导体 - 财联社",
       "summary": "",
       "why": "",
       "source": "财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE05NmVDY0RkODVYaWd3dmtQMm5iXzMxc0NhVTVkdDltOGxJZEcxZFF2SEZscjlkRU9ZbEUwbVBUc3FDaHVTbF9zUQ?oc=5",
       "publishedAt": "2026-09-24T12:55:45+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "港股风向标｜恒指短线反攻25000点遇阻 美债风险发酵炒作情绪降温 - 搜狐网",
-      "summary": "",
-      "why": "",
-      "source": "搜狐网",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRmc5QWs3ZmFJLUMySmtMOWFkNWtJTlVIOEk4anYtQS00ZlhYaWk5Z0VlNmdJUmxmVDJ2VF9SV01RMDJmWDI3aDV4bVM0UHR5eE1TTUE1QnRqa1MtSGdvelFEX2dnbWJzaXhXZXBqNTZTZ09oejNpUzhQZHBVQU9Da0NvT0ZOSkRFWGNF?oc=5",
-      "publishedAt": "2026-09-24T12:50:05+00:00",
       "freshness": "recent"
     },
     {
@@ -164,7 +164,7 @@
       "summary": "",
       "why": "",
       "source": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVHpKdFdFR2M1RWEtbV9ZdGFBM09DWFZmeUdBX1lMMFBCTU9Ydm1VSF9tNVg5c0tKM1RpRUdSS2NPTWtSUk1VaWxwYlcyMWg2RVpkcnF6aWFkaUsxTVd4UTZSWkM1VFpBVUNMblZCaFlnQ3hSM1FocG9LYkd1bFR1VkVGbEFhR1dlRWczckdxWjlhbUNwMjNkelV2bXgwanlocUZUSzZUUnVSZmEzZ3Noa0JJa2hlNjZ6VWNNRUJTdExRZ3dhYnAwVGJjZE5PZw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQMjZrNFMwZmRJUHUwaFlXOHhfbk9na0ZGYWZkSlRFc29NYzRQdHF0RG92dlJGLWpzTGI5SFZValp6UFIzQnRRR3JnZ1pZZ2xra1BSSW9EcWF5RTNxYWJBQkUyakJpTVM3OGZlUjF1b1B4b3RMa3Y3eHN0VTNHdWtHbkNlOEw4NkRwNkhkNWFOZENlWUhibUpBeXVlZVcwaFo3XzhHTFFGOU54SWUwc0VEaElqUDZPamEtTThlQThlYUVsZW82cENVMVJIODJxUQ?oc=5",
       "publishedAt": "2026-09-24T10:32:00+00:00",
       "freshness": "recent"
     },
@@ -204,10 +204,10 @@
     {
       "theme": "科技",
       "region": "中国",
-      "title": "A股三大股指集体收跌，创业板跌超2%，机器人逆势拉升，算力硬件、有色金属下挫，恒指、恒科指亦承压 - 华尔街见闻",
+      "title": "A股三大股指集体收跌，创业板跌超2%，机器人逆势拉升，算力硬件、有色金属下挫，恒指、恒科指亦承压 - wallstreetcn.com",
       "summary": "",
       "why": "",
-      "source": "华尔街见闻",
+      "source": "wallstreetcn.com",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0xTTBBeGlCNndHYXo3ZXpxZ2ZwZWMtLWx0M3JPSXp5Z2ZNbVFLRzZMZ0VyZGhSUnFHQXZGZC1hb21nd0kxLU5ycmc5eVRtVUI3bTk0?oc=5",
       "publishedAt": "2026-09-24T08:49:28+00:00",
       "freshness": "recent"
@@ -215,12 +215,23 @@
     {
       "theme": "宏观",
       "region": "美国",
-      "title": "（更正）亚洲股市上涨 受中国降息及美股业绩预期提振 - Reuters",
+      "title": "（更正）亚洲股市上涨 受中国降息及美股业绩预期提振 - reuters.com",
       "summary": "",
       "why": "",
-      "source": "Reuters",
+      "source": "reuters.com",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBkWWYwOHRlQUcxOU5mWUFhcWxNS0s4U0lNUWxmc196Q0lHQUxtUjhPR1JCWjhHTGdjUDBpZjN4X0t2aE1kYzNDRDRDT3dkWld1Z0h3a0UyOThTbV84?oc=5",
       "publishedAt": "2026-09-24T00:48:49+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "宏观",
+      "region": "美国",
+      "title": "债券市场正遭遇一场完美风暴 - 华尔街日报中文网",
+      "summary": "",
+      "why": "",
+      "source": "华尔街日报中文网",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMEV6T053T3pSSTRoWVY1VndCVGp5WFk1WHcwck9WUi1LN2FYLThGeVFRMHBjemN6dnpPc2JmMUJDbk1BYnlVaWExOGZDcTRBcWwyTEhWcmxIOV9RTVA0RnJnNmQ4dkg1dG1rRmFkSTk4QnNhUl9hQ0o4WEZjRTZLZUZSc3o2bnQ3?oc=5",
+      "publishedAt": "2026-09-24T00:21:00+00:00",
       "freshness": "recent"
     },
     {
