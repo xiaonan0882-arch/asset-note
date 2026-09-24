@@ -1,8 +1,74 @@
 {
-  "asOf": "2026-09-23T22:18:44.369527+00:00",
+  "asOf": "2026-09-24T01:26:24.450012+00:00",
   "title": "每日市场研究",
   "freshnessRule": "今日动态仅展示最近36小时；官方低频数据单列并显示发布日期。",
   "items": [
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Rollins cut to neutral at Piper on impact from agentic AI",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4646403-rollins-cut-to-neutral-at-piper-on-impact-from-agentic-ai?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-24T01:20:07+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "GRAIL's Galleri test wins endorsement from FDA panel",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4646404-grail-galleri-test-wins-endorsement-from-fda-panel?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-24T00:57:24+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Crude oil rebounds after losing streak; diesel futures drop after export restriction talk",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4646401-crude-oil-rebounds-after-losing-streak-diesel-futures-drop-after-export-restriction-talk?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-23T23:57:10+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "【早报】美股光通信、存储股，全线回调；原油收涨、黄金下挫；台积电：将上调晶圆代工价格；中际旭创，回购近8亿 - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBndS12d3dRekdvbXFXbDlmVENSSzRWVWZEOVhvbms2T0lsVUlCWWJHd0VkRG1QbTVYMG9ucmFVZkR0QlFYZUIwdA?oc=5",
+      "publishedAt": "2026-09-23T23:12:57+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Knife River urged to explore sale by activist Starboard Value",
+      "summary": "",
+      "why": "",
+      "source": "WSJ",
+      "url": "https://seekingalpha.com/news/4646400-knife-river-urged-to-explore-sale-by-activist-starboard-value---wsj?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-23T22:44:21+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Gossamer Bio submits NDA for seralutinib for pulmonary arterial hypertension",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4646399-gossamer-bio-submits-nda-seralutinib-pulmonary-arterial-hypertension?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-23T22:16:27+00:00",
+      "freshness": "recent"
+    },
     {
       "theme": "全球",
       "region": "全球",
@@ -23,61 +89,6 @@
       "source": "Google News",
       "url": "https://seekingalpha.com/news/4646398-first-merchants-prices-100m-subordinated-notes?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
       "publishedAt": "2026-09-23T22:05:03+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Arcturus sees positive results from mid-stage trial of RCT-810 in OTC deficiency",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4646395-arcturus-sees-positive-results-mid-stage-trial-rctminus-810-otc-deficiency?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-23T22:04:06+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Here are the major earnings before the open Thursday",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4645959-here-are-the-major-earnings-before-the-open-thursday?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-23T22:00:23+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Runway Growth Finance to refinance $33M debt via notes offering",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4646394-runway-growth-finance-to-refinance-33m-debt-via-notes-offering?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-23T21:45:59+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Auranova Resources announces up to $4M private placement",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4646393-auranova-resources-announces-up-to-4m-private-placement?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-23T21:38:05+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Lomiko Metals shareholders approve $0.13/share takeover",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4646392-lomiko-metals-shareholders-approve-013share-takeover?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-23T21:35:59+00:00",
       "freshness": "recent"
     },
     {
@@ -138,12 +149,34 @@
     {
       "theme": "科技",
       "region": "中国",
+      "title": "贝索斯驳斥“AI抢饭碗”论：未来十年将迎多个黄金时代 - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5CQmVPR05xSHFMV2xLdk8xYkVvTDBfdUlMa3ZHQkRReG9COW9lVnNBWkdubEJZY1pYbm1CRmVDOGtRV184RjVYWA?oc=5",
+      "publishedAt": "2026-09-23T09:20:52+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
       "title": "港股收盘 | 三大指数集体走弱 海外大模型降价潮引发AI股跳水 - 财联社",
       "summary": "",
       "why": "",
       "source": "财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBuNEFvNXVIOUpoY05RMTEtX0ZoUkVJYVo0X1N0V3JCaDQtenhxUFlVTFlCU1ZGSDRhTWhvS3d1cTFfbnN5Tkk1LQ?oc=5",
       "publishedAt": "2026-09-23T08:28:00+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "SpaceX市值一夜涨超2500亿元，美股存储芯片大涨，布油跌破95美元 - 东方财富",
+      "summary": "",
+      "why": "",
+      "source": "东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5ad1JTZzZOcTdlZDRtVkI1NTczZFI4RHRoTHNfaERkSlRKa2JCN0FPSjZkWjJ5LVdaMks0M1h1aFJzWjRUU1Nwdm55SVZTMTlLYVdhQW0xX3BCREJjQWdMR0xUUQ?oc=5",
+      "publishedAt": "2026-09-23T08:26:29+00:00",
       "freshness": "recent"
     },
     {
@@ -169,17 +202,6 @@
       "freshness": "recent"
     },
     {
-      "theme": "科技",
-      "region": "中国",
-      "title": "券商9月去哪调研？电子、机械最受关注 - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE03dXNtU1VOWlZxYTAtX2pLb2N5YV9FelVtc1JxbGc3LWNVNldoTGxGQ0xxbmh4WUEyeHZrUnMtRXJsWkdNLVpFQg?oc=5",
-      "publishedAt": "2026-09-23T04:13:29+00:00",
-      "freshness": "recent"
-    },
-    {
       "theme": "周期",
       "region": "中国",
       "title": "煤化工崛起：能源安全与绿色转型“双重担当”丨活力中国调研行 - 新浪财经",
@@ -191,28 +213,6 @@
       "freshness": "recent"
     },
     {
-      "theme": "科技",
-      "region": "中国",
-      "title": "南方财经全媒体集团 - 南方财经",
-      "summary": "",
-      "why": "",
-      "source": "南方财经",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9FQlRQZzRFMVBJOW4xbW9yYW9KM1diM1pTY0EtS2pMbmRwLXNwdGE0bGdwc1BxZWpJRFdheS04cnF4alRHeERYcHE5eV9lM1hSaVJ5ODVnNjJfb0U1WjJtcVcwZC00dw?oc=5",
-      "publishedAt": "2026-09-22T23:17:56+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "【早报】美股芯片、光通信股全线反弹，半导体指数大涨5.6%；油价冲高回落，金银探底企稳 - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1uQ0RKUFpLYlQyVnRyYzhiNVZkSkV2bFBCMHpZS1N3RS1rNTU4NTBVNWdiYjZISXpXQlM1d0FLaWpOLXBLaTR4eA?oc=5",
-      "publishedAt": "2026-09-22T22:40:42+00:00",
-      "freshness": "recent"
-    },
-    {
       "theme": "宏观",
       "region": "美国",
       "title": "Wall Street Lunch: Meta's Muse Teams With Shopify After Amazon Ban",
@@ -221,17 +221,6 @@
       "source": "Google News",
       "url": "https://seekingalpha.com/article/4948670-wall-street-lunch-metas-muse-teams-with-shopify-after-amazon-ban?source=feed_tag_wall_st_breakfast",
       "publishedAt": "2026-09-22T15:20:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "宏观",
-      "region": "美国",
-      "title": "New Power Dynamics In Hollywood",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/article/4948573-new-power-dynamics-in-hollywood?source=feed_tag_wall_st_breakfast",
-      "publishedAt": "2026-09-22T11:20:45+00:00",
       "freshness": "recent"
     }
   ],
