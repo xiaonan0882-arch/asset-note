@@ -1,39 +1,94 @@
 {
-  "asOf": "2026-09-24T01:26:24.450012+00:00",
+  "asOf": "2026-09-24T07:38:05.278053+00:00",
   "title": "每日市场研究",
   "freshnessRule": "今日动态仅展示最近36小时；官方低频数据单列并显示发布日期。",
   "items": [
     {
       "theme": "全球",
       "region": "全球",
-      "title": "Rollins cut to neutral at Piper on impact from agentic AI",
+      "title": "Tesla FSD misread speed limits in Belgium tests, road-safety group finds",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4646403-rollins-cut-to-neutral-at-piper-on-impact-from-agentic-ai?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-24T01:20:07+00:00",
+      "url": "https://seekingalpha.com/news/4646413-tesla-fsd-misread-speed-limits-in-belgium-tests-road-safety-group-finds?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-24T07:30:22+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "GRAIL's Galleri test wins endorsement from FDA panel",
+      "title": "Decisive Dividend appoints subsidiary President Mark Burleigh as COO, reaffirms muted tariff impact",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4646404-grail-galleri-test-wins-endorsement-from-fda-panel?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-24T00:57:24+00:00",
+      "url": "https://seekingalpha.com/news/4646419-decisive-dividend-appoints-subsidiary-president-mark-burleigh-as-coo-reaffirms-muted-tariff-impact?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-24T07:27:20+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "Crude oil rebounds after losing streak; diesel futures drop after export restriction talk",
+      "title": "Elmet Group to acquire 5% stake in Masan High-Tech Materials for $125M",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4646401-crude-oil-rebounds-after-losing-streak-diesel-futures-drop-after-export-restriction-talk?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-23T23:57:10+00:00",
+      "url": "https://seekingalpha.com/news/4646418-elmet-group-to-acquire-5-stake-in-masan-high-tech-materials-for-125m?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-24T06:54:07+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "EU car market grows in August, with BEVs taking 21.7% share",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4646411-eu-car-market-grows-in-august-with-bevs-taking-217-share?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-24T06:44:11+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Jacobs wins contract extension for thyssenkrupp direct reduction plant in Germany",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4646430-jacobs-wins-contract-extension-for-thyssenkrupp-direct-reduction-plant-in-germany?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-24T06:42:19+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Google DeepMind nears launch of Gemini 4 AI model: report",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4646406-google-deepmind-nears-launch-of-gemini-4-ai-model-report?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-24T06:20:13+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Asian stocks mixed amid Wall Street drag; NSE debuts and Chinese stocks fall despite trade truce",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4646421-asian-stocks-mixed-amid-wall-street-drag-nse-debuts-and-chinese-stocks-fall-despite-trade-truce?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-24T06:13:46+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "宏观",
+      "region": "美国",
+      "title": "债券市场正遭遇一场完美风暴 - 华尔街日报中文网",
+      "summary": "",
+      "why": "",
+      "source": "华尔街日报中文网",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMEV6T053T3pSSTRoWVY1VndCVGp5WFk1WHcwck9WUi1LN2FYLThGeVFRMHBjemN6dnpPc2JmMUJDbk1BYnlVaWExOGZDcTRBcWwyTEhWcmxIOV9RTVA0RnJnNmQ4dkg1dG1rRmFkSTk4QnNhUl9hQ0o4WEZjRTZLZUZSc3o2bnQ3?oc=5",
+      "publishedAt": "2026-09-24T00:21:00+00:00",
       "freshness": "recent"
     },
     {
@@ -45,50 +100,6 @@
       "source": "财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBndS12d3dRekdvbXFXbDlmVENSSzRWVWZEOVhvbms2T0lsVUlCWWJHd0VkRG1QbTVYMG9ucmFVZkR0QlFYZUIwdA?oc=5",
       "publishedAt": "2026-09-23T23:12:57+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Knife River urged to explore sale by activist Starboard Value",
-      "summary": "",
-      "why": "",
-      "source": "WSJ",
-      "url": "https://seekingalpha.com/news/4646400-knife-river-urged-to-explore-sale-by-activist-starboard-value---wsj?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-23T22:44:21+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Gossamer Bio submits NDA for seralutinib for pulmonary arterial hypertension",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4646399-gossamer-bio-submits-nda-seralutinib-pulmonary-arterial-hypertension?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-23T22:16:27+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Smurfit Westrock to buy Empresas' Chile containerboard business in $420M deal",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4646397-smurfit-westrock-to-buy-empresas-chile-containerboard-business-in-420m-deal?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-23T22:11:26+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "First Merchants prices $100M subordinated notes",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4646398-first-merchants-prices-100m-subordinated-notes?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-23T22:05:03+00:00",
       "freshness": "recent"
     },
     {
@@ -122,6 +133,17 @@
       "source": "财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE52WEpUWmhya09LbzIzTXM1VnFoTU9IdzVoRUN2TWkwYWQteW53S3hMUVVqdXlOakh5UmxhXzM5Sm1rWTVaTDRvdg?oc=5",
       "publishedAt": "2026-09-23T17:33:34+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "第三代半导体风口再起：AI电源订单放量，GaN成本逼近硅基｜点金回顾 - 新浪财经",
+      "summary": "",
+      "why": "",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9BX0M3ZWE1ZlJpcjZ1SV9RVkw5TXJpRXhjdDh4aGhiTXdYYW0tOGNVUmNjVkQxWXIyQTlWcHFiNGhyTGpxaXdpek0xSVNybFM5OVdCeC16WmFmdHZySm1TaWRIdm10Nnl0c1hDcmN2ZkhPdF9lVFE?oc=5",
+      "publishedAt": "2026-09-23T12:34:00+00:00",
       "freshness": "recent"
     },
     {
@@ -160,17 +182,6 @@
     {
       "theme": "科技",
       "region": "中国",
-      "title": "港股收盘 | 三大指数集体走弱 海外大模型降价潮引发AI股跳水 - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBuNEFvNXVIOUpoY05RMTEtX0ZoUkVJYVo0X1N0V3JCaDQtenhxUFlVTFlCU1ZGSDRhTWhvS3d1cTFfbnN5Tkk1LQ?oc=5",
-      "publishedAt": "2026-09-23T08:28:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
       "title": "SpaceX市值一夜涨超2500亿元，美股存储芯片大涨，布油跌破95美元 - 东方财富",
       "summary": "",
       "why": "",
@@ -199,28 +210,6 @@
       "source": "Google News",
       "url": "https://seekingalpha.com/article/4949062-wall-street-lunch-morgan-stanley-employee-accidentally-leaks-details-on-100-plus-deals?source=feed_tag_wall_st_breakfast",
       "publishedAt": "2026-09-23T05:04:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "周期",
-      "region": "中国",
-      "title": "煤化工崛起：能源安全与绿色转型“双重担当”丨活力中国调研行 - 新浪财经",
-      "summary": "",
-      "why": "",
-      "source": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5WTmdfMkVZU3J2UkpmQzlmVGF6cWNhZS1qbUVVWTVQN09xTWdpV2phY0xvNk5FNHVEbHNWTEdVWFRNZ0pTLWpBNWxHRnZCN3BKTXhxR3l4a0Jub2RVY2wyZ2dzOWpWeERYeEJrUlNSaU5nYnRnSVcxVQ?oc=5",
-      "publishedAt": "2026-09-23T02:55:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "宏观",
-      "region": "美国",
-      "title": "Wall Street Lunch: Meta's Muse Teams With Shopify After Amazon Ban",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/article/4948670-wall-street-lunch-metas-muse-teams-with-shopify-after-amazon-ban?source=feed_tag_wall_st_breakfast",
-      "publishedAt": "2026-09-22T15:20:00+00:00",
       "freshness": "recent"
     }
   ],
