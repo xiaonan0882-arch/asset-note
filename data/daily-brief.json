@@ -1,8 +1,63 @@
 {
-  "asOf": "2026-09-24T22:26:36.148169+00:00",
+  "asOf": "2026-09-25T01:33:01.334861+00:00",
   "title": "每日市场研究",
   "freshnessRule": "今日动态仅展示最近36小时；官方低频数据单列并显示发布日期。",
   "items": [
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "People Inc. jumps on report of MGM takeover interest",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4646949-people-inc-jumps-on-report-of-mgm-takeover-interest?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-25T00:53:29+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Costco outlines $7.5B FY2027 capex plan as it targets 33 warehouse openings",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4646948-costco-outlines-7_5b-fy2027-capex-plan-as-it-targets-33-warehouse-openings?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-25T00:00:36+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Brent crude jumps above $106 after Houthi attack against Saudi sites",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4646946-brent-crude-jumps-above-106-after-houthi-attack-against-saudi-sites?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-24T23:57:05+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Scholastic forecasts 2%-4% revenue growth and $135M-$145M adjusted EBITDA for fiscal 2027 as Book Fairs enter fall season",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4646947-scholastic-forecasts-2-percentminus-4-percent-revenue-growth-and-135m-145m-adjusted-ebitda?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-24T23:00:32+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "First Solar leads big solar sector drop as high borrowing costs threaten project financing",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4646945-first-solar-leads-big-solar-sector-drop-as-high-borrowing-costs-threaten-project-financing?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-24T22:57:17+00:00",
+      "freshness": "recent"
+    },
     {
       "theme": "全球",
       "region": "全球",
@@ -12,6 +67,17 @@
       "source": "Google News",
       "url": "https://seekingalpha.com/news/4646939-ecopetrol-chooses-presidential-ally-gutierrez-as-new-ceo?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
       "publishedAt": "2026-09-24T22:14:26+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "【早报】美存储股集体跳水；原油大跌、黄金走弱；长鑫科技将被纳入MSCI中国全股票指数 - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5mM19wd1kyWjlLR1l1ZEE2Q3JVZ29OOWhLRG9RNTU0MkpGNjFOTzY2REtobXNWaEotZDY3c19MUm5GdUlKMUN0Xw?oc=5",
+      "publishedAt": "2026-09-24T22:07:02+00:00",
       "freshness": "recent"
     },
     {
@@ -26,58 +92,14 @@
       "freshness": "recent"
     },
     {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Voyageur Pharmaceuticals to settle $192,300 debt with shares",
+      "theme": "宏观",
+      "region": "中国",
+      "title": "有关货币政策，央行最新部署！ - 新浪财经",
       "summary": "",
       "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4646943-voyageur-pharmaceuticals-to-settle-192300-debt-with-shares?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-24T22:02:42+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Bluerock Acquisition II prices $150M IPO",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4646942-bluerock-acquisition-ii-prices-150m-ipo?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-24T21:58:56+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Planet Ventures CEO resigns",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4646938-planet-ventures-ceo-resigns?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-24T21:21:18+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Gold likely continues to struggle as bond yields surge, Forex.com analyst says",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4646928-gold-likely-continues-to-struggle-as-bond-yields-surge-forex-com-analyst-says?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-24T21:15:25+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Golar LNG prices $500M senior notes offering",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4646937-golar-lng-prices-500m-senior-notes-offering?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-24T21:08:48+00:00",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5hN3d3Z1htRWpoVWRnUmFNa0JLbkJGWFVtWWJoaE03RmZlSUg4Q2k2aWd0TGhBaGtWNTUwSWV6YkxIYjlTeDlOS2UyMGl4MVc2VE8yVnpZWlloUkQtX0pUNXFlMHUzajBGSHktOVM5Y0thMjJpUFE?oc=5",
+      "publishedAt": "2026-09-24T19:10:00+00:00",
       "freshness": "recent"
     },
     {
@@ -92,14 +114,25 @@
       "freshness": "recent"
     },
     {
-      "theme": "科技",
+      "theme": "消费",
       "region": "中国",
-      "title": "【早报】美股半导体板块，深V反弹；原油大跌、黄金微涨；事关电力，重磅规划发布 - 财联社",
+      "title": "普陀消费券明天开抢，中秋餐饮消费红包再加码！ - 新浪财经",
       "summary": "",
       "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE52WEpUWmhya09LbzIzTXM1VnFoTU9IdzVoRUN2TWkwYWQteW53S3hMUVVqdXlOakh5UmxhXzM5Sm1rWTVaTDRvdg?oc=5",
-      "publishedAt": "2026-09-24T14:35:40+00:00",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0wWGpkZlk0MGZuRWo4SE5qNVk1TzBzNkI2Q0lQSEtGNTViYTR4ZEVvT1ktSkt0bkx5WlhjSndfSmJMc3o0Z1RDT2REN09TSi0wT09QMFdERE93RlBzaERxSFFMcEEycEdUQUJVQW1HaG1wZkVFR2drMA?oc=5",
+      "publishedAt": "2026-09-24T15:31:00+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "宏观",
+      "region": "中国",
+      "title": "【财闻联播】源杰科技：第一、第二、第三、第五大股东，要减持！600亿龙头，实控人被刑拘 - 新浪财经",
+      "summary": "",
+      "why": "",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNzNQZTR2RURxWDVPVG9qRVNrT3lJb1d0RkNaQlVzdkJCNjJfb1hzVk5iTy1zaWhNLVZSZXViWFl6T1lGelA5azdVM0U3Ni0xdEtXQlFQa3Itc0huWXpzbGpfX0o3NVhJTEhNRkpYQ2FPY19xYUdpU1lRa2l6dUNWVg?oc=5",
+      "publishedAt": "2026-09-24T14:30:00+00:00",
       "freshness": "recent"
     },
     {
@@ -116,23 +149,23 @@
     {
       "theme": "科技",
       "region": "中国",
-      "title": "港股风向标｜恒指短线反攻25000点遇阻 美债风险发酵炒作情绪降温 - 搜狐网",
-      "summary": "",
-      "why": "",
-      "source": "搜狐网",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWDluamhneTlSdm1lcTFZUHItcmc0NEQtQWg4bkR5Vk1YOGpkdlhnd2otVmptSkVqdnY1RVIyYjk4eFhONUI1eUs2MmFUN3FQTkhNWjdWdnBRbWRNQlkzOUR2c1lUbjhrT3BXdTlsekFXWnBzaUpsTk14ZnhIamJDUjZ0d1pvSzJGNjBTbw?oc=5",
-      "publishedAt": "2026-09-24T12:58:13+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
       "title": "SpaceX、AMD财报出炉；大基金三期出手！入股正芯半导体 - 财联社",
       "summary": "",
       "why": "",
       "source": "财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE05NmVDY0RkODVYaWd3dmtQMm5iXzMxc0NhVTVkdDltOGxJZEcxZFF2SEZscjlkRU9ZbEUwbVBUc3FDaHVTbF9zUQ?oc=5",
       "publishedAt": "2026-09-24T12:55:45+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "港股风向标｜恒指短线反攻25000点遇阻 美债风险发酵炒作情绪降温 - 搜狐网",
+      "summary": "",
+      "why": "",
+      "source": "搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRmc5QWs3ZmFJLUMySmtMOWFkNWtJTlVIOEk4anYtQS00ZlhYaWk5Z0VlNmdJUmxmVDJ2VF9SV01RMDJmWDI3aDV4bVM0UHR5eE1TTUE1QnRqa1MtSGdvelFEX2dnbWJzaXhXZXBqNTZTZ09oejNpUzhQZHBVQU9Da0NvT0ZOSkRFWGNF?oc=5",
+      "publishedAt": "2026-09-24T12:50:05+00:00",
       "freshness": "recent"
     },
     {
@@ -144,17 +177,6 @@
       "source": "Google News",
       "url": "https://seekingalpha.com/article/4949350-all-cards-on-the-table-at-trump-xi-summit?source=feed_tag_wall_st_breakfast",
       "publishedAt": "2026-09-24T11:30:28+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "【早报】美股大反弹；3大存储巨头，遭集体诉讼；金银下跌，油价收涨 - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9ocE9zTlNLLUVBa3ZkUk5iRFp6bkxleEFJWlpCQlQxNy1KTzlaUlUwSzk0M0ptdnp6LWJqckJha3l6R3F3b1d4SQ?oc=5",
-      "publishedAt": "2026-09-24T11:24:07+00:00",
       "freshness": "recent"
     },
     {
@@ -193,6 +215,17 @@
     {
       "theme": "科技",
       "region": "中国",
+      "title": "摩根士丹利：中国工业首次从“追赶”到“领跑”，80万亿新增资本开支利好哪些赛道？ - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1UY3BqSnBJOU5SVWJOVkpDRVRiajl2WGRCaHp3SHkxTTd2WDRZOEQtSFMtaXlpc2hEUGZTN01ObEk0RG55RXFCSQ?oc=5",
+      "publishedAt": "2026-09-24T09:27:39+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
       "title": "独家丨监管明确险资港股通ETF投资口径，南向“长钱活水”可期 - 财联社",
       "summary": "",
       "why": "",
@@ -210,50 +243,6 @@
       "source": "wallstreetcn.com",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0xTTBBeGlCNndHYXo3ZXpxZ2ZwZWMtLWx0M3JPSXp5Z2ZNbVFLRzZMZ0VyZGhSUnFHQXZGZC1hb21nd0kxLU5ycmc5eVRtVUI3bTk0?oc=5",
       "publishedAt": "2026-09-24T08:49:28+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "宏观",
-      "region": "美国",
-      "title": "（更正）亚洲股市上涨 受中国降息及美股业绩预期提振 - reuters.com",
-      "summary": "",
-      "why": "",
-      "source": "reuters.com",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBkWWYwOHRlQUcxOU5mWUFhcWxNS0s4U0lNUWxmc196Q0lHQUxtUjhPR1JCWjhHTGdjUDBpZjN4X0t2aE1kYzNDRDRDT3dkWld1Z0h3a0UyOThTbV84?oc=5",
-      "publishedAt": "2026-09-24T00:48:49+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "宏观",
-      "region": "美国",
-      "title": "债券市场正遭遇一场完美风暴 - 华尔街日报中文网",
-      "summary": "",
-      "why": "",
-      "source": "华尔街日报中文网",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMEV6T053T3pSSTRoWVY1VndCVGp5WFk1WHcwck9WUi1LN2FYLThGeVFRMHBjemN6dnpPc2JmMUJDbk1BYnlVaWExOGZDcTRBcWwyTEhWcmxIOV9RTVA0RnJnNmQ4dkg1dG1rRmFkSTk4QnNhUl9hQ0o4WEZjRTZLZUZSc3o2bnQ3?oc=5",
-      "publishedAt": "2026-09-24T00:21:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "宏观",
-      "region": "美国",
-      "title": "Trump Backs Diesel Export Ban",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/article/4948926-trump-backs-diesel-export-ban?source=feed_tag_wall_st_breakfast",
-      "publishedAt": "2026-09-23T11:30:36+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "宏观",
-      "region": "美国",
-      "title": "Wall Street Breakfast Podcast: US Diesel Dilemma",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/article/4948952-wall-street-breakfast-podcast-us-diesel-dilemma?source=feed_tag_wall_st_breakfast",
-      "publishedAt": "2026-09-23T11:00:00+00:00",
       "freshness": "recent"
     }
   ],
