@@ -1,8 +1,85 @@
 {
-  "asOf": "2026-09-26T13:07:56.454212+00:00",
+  "asOf": "2026-09-26T17:12:09.068071+00:00",
   "title": "每日市场研究",
   "freshnessRule": "今日动态仅展示最近36小时；官方低频数据单列并显示发布日期。",
   "items": [
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Trump, Xi agree to 'super intelligence' discussions amid AI concerns",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4647376-trump-xi-agree-super-intelligence-discussions-amid-ai-concerns?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-26T17:03:25+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "US Army Reserve seeks feedback on potential readiness for action in Cuba: CBS",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4647375-us-army-reserve-seeks-feedback-potential-readiness-action-cuba?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-26T16:34:45+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "TikTok in $100M+ settlement with Alabama",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4647374-tiktok-100m-settlement-alabama?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-26T16:12:31+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Real estate stocks slump amid rising bond yields, sector rotation into technology",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4647295-real-estate-stocks-slump-amid-rising-bond-yields-sector-rotation-into-technology?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-26T16:00:21+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "SA Asks: Is now the time to buy streaming stocks? If so, which ones?",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4647367-sa-asks-is-now-the-time-to-buy-streaming-stocks-if-so-which-ones?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-26T16:00:01+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "CNN barred from travelling with Trump on Air Force One on Saturday",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4647373-cnn-barred-travelling-trump-air-force-one-saturday?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-26T15:50:04+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Trump, Xi agree to cut tariffs on $30B worth of goods",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4647372-trump-xi-agree-cut-tariffs-30b-worth-goods?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-26T15:13:02+00:00",
+      "freshness": "recent"
+    },
     {
       "theme": "宏观",
       "region": "美国",
@@ -15,23 +92,23 @@
       "freshness": "recent"
     },
     {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Left for dead in the Amazon era, Toys \"R\" Us is growing again",
+      "theme": "科技",
+      "region": "中国",
+      "title": "【早报】深夜，美股半导体板块剧烈分化；高盛：SpaceX的AI收入将激增100倍 - 财联社",
       "summary": "",
       "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4647044-left-for-dead-in-the-amazon-era-toys-r-us-is-growing-again?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-26T11:00:41+00:00",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1aOHhnWTVSaFhxdjFwcFFfaHZJdVlIaElZX3ZYdEtkRWI3bG5OYmkzU2xfc3M2UmdNM0MzUU0tLVd6RU83VXJIaw?oc=5",
+      "publishedAt": "2026-09-26T07:54:30+00:00",
       "freshness": "recent"
     },
     {
       "theme": "科技",
       "region": "中国",
-      "title": "摩根士丹利：中国工业首次从“追赶”到“领跑”，80万亿新增资本开支利好哪些赛道？ - cls.cn",
+      "title": "摩根士丹利：中国工业首次从“追赶”到“领跑”，80万亿新增资本开支利好哪些赛道？ - 财联社",
       "summary": "",
       "why": "",
-      "source": "cls.cn",
+      "source": "财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1UY3BqSnBJOU5SVWJOVkpDRVRiajl2WGRCaHp3SHkxTTd2WDRZOEQtSFMtaXlpc2hEUGZTN01ObEk0RG55RXFCSQ?oc=5",
       "publishedAt": "2026-09-26T04:45:08+00:00",
       "freshness": "recent"
@@ -39,10 +116,10 @@
     {
       "theme": "科技",
       "region": "中国",
-      "title": "韩国金融改革“大动作”：将国家增长基金规模扩至200万亿韩元 - cls.cn",
+      "title": "韩国金融改革“大动作”：将国家增长基金规模扩至200万亿韩元 - 财联社",
       "summary": "",
       "why": "",
-      "source": "cls.cn",
+      "source": "财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1MakFMTVBSNEZTZUJpZTBNaTBOazdwODEtd1pUSHV0VmE5RXlaWE91aGVIbE1XU0FsMEVzdmlneVZ3a19VUnRjdg?oc=5",
       "publishedAt": "2026-09-26T02:51:56+00:00",
       "freshness": "recent"
@@ -50,10 +127,10 @@
     {
       "theme": "科技",
       "region": "中国",
-      "title": "Meta Muse引爆AI新叙事：Agent带热CPU后，IC载板能否成为下一个增量环节？ - 富途牛牛",
+      "title": "Meta Muse引爆AI新叙事：Agent带热CPU后，IC载板能否成为下一个增量环节？ - news.futunn.com",
       "summary": "",
       "why": "",
-      "source": "富途牛牛",
+      "source": "news.futunn.com",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRDVYOXVlNDVqQzRORW5BRHRyWnJNRk96ZHdjVWRhZmswQklrUlo3SEs1TXVOSTB5X1IxU2pNUk1ycmJWLXBjdGZ2dzRoVWNFeF9WOGJ3djJSX2FJaXNRQkt3cDZzTV9qbXQweHhXTmpnQWpGSmJ5TkI5UldKUllUMzZxMFNfMzFmQVRwYTBaREsxUQ?oc=5",
       "publishedAt": "2026-09-26T02:11:55+00:00",
       "freshness": "recent"
@@ -61,10 +138,10 @@
     {
       "theme": "科技",
       "region": "中国",
-      "title": "【早报】华为发布V2版“韬定律”论文；豆包、千问：智能体功能将下线 - cls.cn",
+      "title": "【早报】华为发布V2版“韬定律”论文；豆包、千问：智能体功能将下线 - 财联社",
       "summary": "",
       "why": "",
-      "source": "cls.cn",
+      "source": "财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE45UTNLTFBBOUk3T3ExVGhUaDZzdUdhWERldmVzRzVHZjJZZUJoSWZKbkZsZlZ3UG82a0hid1ZSZmFIaXVrN25VeQ?oc=5",
       "publishedAt": "2026-09-26T01:09:50+00:00",
       "freshness": "recent"
@@ -83,100 +160,23 @@
     {
       "theme": "科技",
       "region": "中国",
-      "title": "科技股究竟因何调整？四大原因讨论最多 - cls.cn",
+      "title": "科技股究竟因何调整？四大原因讨论最多 - 财联社",
       "summary": "",
       "why": "",
-      "source": "cls.cn",
+      "source": "财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFB0Y295RnJuLU5KdUhPSTVhcGptdTNMV2hYVWt6dWQxeXhVN3YtdzNvT1d3NkxDSjZmZUFaaFE0enNkVFlpNldwOQ?oc=5",
       "publishedAt": "2026-09-26T00:14:30+00:00",
       "freshness": "recent"
     },
     {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Trump said to weigh range of options for lowering diesel costs without full export ban",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4647366-trump-said-to-weigh-range-of-options-for-lowering-diesel-costs-without-full-export-ban?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-25T23:55:08+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "U.S. grain futures pull back from sharp losses with China ag deal news pending",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4647365-us-grain-futures-pull-back-from-sharp-losses-with-china-ag-deal-news-pending?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-25T22:42:32+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Eli Lilly's Olumiant receives expanded alopecia indication for children 12 and up",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4647363-eli-lilly-olumiant-receives-expanded-alopecia-indication-children-12-and-up?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-25T21:56:56+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Northrop Grumman's strategic deterrent deal gets $111.4M boost",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4647362-northrop-grummans-strategic-deterrent-deal-gets-1114m-boost?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-25T21:50:56+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Gold edges higher but falls for the week on hawkish Fed expectations",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4647354-gold-edges-higher-but-falls-for-the-week-on-hawkish-fed-expectations?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-25T21:50:13+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Southland Holdings receives NYSE American compliance notice",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4647364-southland-holdings-receives-nyse-american-compliance-notice?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-25T21:48:15+00:00",
-      "freshness": "recent"
-    },
-    {
       "theme": "科技",
       "region": "中国",
-      "title": "美股收盘：美伊谈判消息缓和“美债风暴” 三大指数携手走高 - QQ News",
+      "title": "美股收盘：美伊谈判消息缓和“美债风暴” 三大指数携手走高 - 腾讯新闻",
       "summary": "",
       "why": "",
-      "source": "QQ News",
+      "source": "腾讯新闻",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAwbHdNSWYxbV9VRDg0bkNzN2pFRDZTRGJXNmpiMldMaEZCVVZDTmdiN1RYUGVrZEtuUHp0Wm9MZlp6R1VJTnVzbnNPYVhCUGR3S2cyQ21yaw?oc=5",
       "publishedAt": "2026-09-25T21:40:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "新浪网· - 手机新浪网",
-      "summary": "",
-      "why": "",
-      "source": "手机新浪网",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1GTzcwQi1yakVrMW1kNzd6M0E5dncxS2Jha3F3NGNKNF8tRURsQ2lDbVZkSldQVFBUY3dlbHNRWEtsc2hjV2JfMk4yOWEzcEJXczl3THM1ZVRwUk16SF93aE9vdw?oc=5",
-      "publishedAt": "2026-09-25T13:12:00+00:00",
       "freshness": "recent"
     },
     {
