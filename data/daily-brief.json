@@ -1,15 +1,37 @@
 {
-  "asOf": "2026-09-26T07:45:01.341988+00:00",
+  "asOf": "2026-09-26T13:07:56.454212+00:00",
   "title": "每日市场研究",
   "freshnessRule": "今日动态仅展示最近36小时；官方低频数据单列并显示发布日期。",
   "items": [
     {
-      "theme": "科技",
-      "region": "中国",
-      "title": "摩根士丹利：中国工业首次从“追赶”到“领跑”，80万亿新增资本开支利好哪些赛道？ - 财联社",
+      "theme": "宏观",
+      "region": "美国",
+      "title": "What Moved Markets This Week",
       "summary": "",
       "why": "",
-      "source": "财联社",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/article/4949959-what-moved-markets-this-week?source=feed_tag_wall_st_breakfast",
+      "publishedAt": "2026-09-26T12:25:48+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Left for dead in the Amazon era, Toys \"R\" Us is growing again",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4647044-left-for-dead-in-the-amazon-era-toys-r-us-is-growing-again?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-26T11:00:41+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "摩根士丹利：中国工业首次从“追赶”到“领跑”，80万亿新增资本开支利好哪些赛道？ - cls.cn",
+      "summary": "",
+      "why": "",
+      "source": "cls.cn",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1UY3BqSnBJOU5SVWJOVkpDRVRiajl2WGRCaHp3SHkxTTd2WDRZOEQtSFMtaXlpc2hEUGZTN01ObEk0RG55RXFCSQ?oc=5",
       "publishedAt": "2026-09-26T04:45:08+00:00",
       "freshness": "recent"
@@ -17,10 +39,10 @@
     {
       "theme": "科技",
       "region": "中国",
-      "title": "韩国金融改革“大动作”：将国家增长基金规模扩至200万亿韩元 - 财联社",
+      "title": "韩国金融改革“大动作”：将国家增长基金规模扩至200万亿韩元 - cls.cn",
       "summary": "",
       "why": "",
-      "source": "财联社",
+      "source": "cls.cn",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1MakFMTVBSNEZTZUJpZTBNaTBOazdwODEtd1pUSHV0VmE5RXlaWE91aGVIbE1XU0FsMEVzdmlneVZ3a19VUnRjdg?oc=5",
       "publishedAt": "2026-09-26T02:51:56+00:00",
       "freshness": "recent"
@@ -28,10 +50,21 @@
     {
       "theme": "科技",
       "region": "中国",
-      "title": "【早报】华为发布V2版“韬定律”论文；豆包、千问：智能体功能将下线 - 财联社",
+      "title": "Meta Muse引爆AI新叙事：Agent带热CPU后，IC载板能否成为下一个增量环节？ - 富途牛牛",
       "summary": "",
       "why": "",
-      "source": "财联社",
+      "source": "富途牛牛",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRDVYOXVlNDVqQzRORW5BRHRyWnJNRk96ZHdjVWRhZmswQklrUlo3SEs1TXVOSTB5X1IxU2pNUk1ycmJWLXBjdGZ2dzRoVWNFeF9WOGJ3djJSX2FJaXNRQkt3cDZzTV9qbXQweHhXTmpnQWpGSmJ5TkI5UldKUllUMzZxMFNfMzFmQVRwYTBaREsxUQ?oc=5",
+      "publishedAt": "2026-09-26T02:11:55+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "【早报】华为发布V2版“韬定律”论文；豆包、千问：智能体功能将下线 - cls.cn",
+      "summary": "",
+      "why": "",
+      "source": "cls.cn",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE45UTNLTFBBOUk3T3ExVGhUaDZzdUdhWERldmVzRzVHZjJZZUJoSWZKbkZsZlZ3UG82a0hid1ZSZmFIaXVrN25VeQ?oc=5",
       "publishedAt": "2026-09-26T01:09:50+00:00",
       "freshness": "recent"
@@ -39,21 +72,21 @@
     {
       "theme": "科技",
       "region": "中国",
-      "title": "油价大跌、黄金走强；SpaceX、AMD财报出炉；大基金三期出手！入股正芯半导体 - 财联社",
+      "title": "美股史上最大半导体IPO要来了？主角是SK海力士子公司 - finance.sina.com.cn",
       "summary": "",
       "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE05NmVDY0RkODVYaWd3dmtQMm5iXzMxc0NhVTVkdDltOGxJZEcxZFF2SEZscjlkRU9ZbEUwbVBUc3FDaHVTbF9zUQ?oc=5",
-      "publishedAt": "2026-09-26T00:52:42+00:00",
+      "source": "finance.sina.com.cn",
+      "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxPbXYtbVlrTU9kU0laNG1iZmpzTm5xellTM3pBSk8xaXRNeVEtVTJ2dnd3dmVjNl9TRERNQkVheER1SGh1UV9oU2UzcTZzSGFhSVhxSS1ieGZhd2hfajAyblg0NW1JaUNWWTAwa29XY0RjY0gzRjB5SU1XcERHeExsd0JTTFNyaVAwSEFlWWRjU2l6QWVGZmc4ek9Fd3BJc0ZubVc2dUNQejRGNWRfQ1Fxc3dWdXFYdGUtQTZZOGNLNF8zdkhMcFYtRVNsTEpXSEpITi1BMU5INEtnQUFUWkpwT3Atc3haZ1hqQjNQdWJjeExMR2dNaFVjYXVtU1MxRjNLVlVhbTA4ZVhnaTdZczA5dWZPVm1xTS1nazQtNDMzNWdGaDZBbUJiUEJHa21LbjdNemZ2UVJ1VGFWa2dJNjJPYmZmLXBNQU4wYW9HM1ZCWG9kdw?oc=5",
+      "publishedAt": "2026-09-26T00:58:24+00:00",
       "freshness": "recent"
     },
     {
       "theme": "科技",
       "region": "中国",
-      "title": "科技股究竟因何调整？四大原因讨论最多 - 财联社",
+      "title": "科技股究竟因何调整？四大原因讨论最多 - cls.cn",
       "summary": "",
       "why": "",
-      "source": "财联社",
+      "source": "cls.cn",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFB0Y295RnJuLU5KdUhPSTVhcGptdTNMV2hYVWt6dWQxeXhVN3YtdzNvT1d3NkxDSjZmZUFaaFE0enNkVFlpNldwOQ?oc=5",
       "publishedAt": "2026-09-26T00:14:30+00:00",
       "freshness": "recent"
@@ -125,36 +158,14 @@
       "freshness": "recent"
     },
     {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Rio Tinto gets up to $995M defense logistics deal: Details inside",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4647361-rio-tinto-gets-up-to-995m-defense-logistics-deal-details-inside?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-25T21:40:29+00:00",
-      "freshness": "recent"
-    },
-    {
       "theme": "科技",
       "region": "中国",
-      "title": "科技股暴跌只是“健康回调”？美知名投行：AI主题拥有“绝对主导地位”！ - 财联社",
+      "title": "美股收盘：美伊谈判消息缓和“美债风暴” 三大指数携手走高 - QQ News",
       "summary": "",
       "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9OeFNoZS1hUWhMa2plU2ItYTFtVlpOaUhxSURvenJsMW4ydm9ISWJyaGF5YWFQS2V5MDVpSmswMFlIWXUtT2tMWQ?oc=5",
-      "publishedAt": "2026-09-25T20:41:24+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "美股半导体股深夜拉升，ARM涨超5%，科技巨头走势分化，微软大涨3%，Meta跌2.7%，美伊被曝探讨阶段性协议 - finance.sina.cn",
-      "summary": "",
-      "why": "",
-      "source": "finance.sina.cn",
-      "url": "https://news.google.com/rss/articles/CBMi9gRBVV95cUxOckVWTjBUOGpoV2JZd3E1V2VBbE1sTEV1S1R3d015WU5Qa1l5N0Q0aF9meUVNLUUxaFB5ZE12aEdVUHp6NnE1NWMtWDliSFlFQjVVal9EQlB3REJ0d3h4SEdzNVl3cXN2cmk4X25mR3pFU283NVVNUFM4NEtUd1c1QmhpOWtsellxMmIwd0xuWjd5Y3oyYUN6bVB4OElybFZKVURfelpaSl9qaWZfRXREaHpSUnloempVbEs1bjZpclZZaHRCSzJqd0xyV1Nla3I3c0FUZXhqQnFmQ1VrZXdlbTM4b3hqSGY2ZVdwVk1sZmpLcVowUm5vLWRGdFBTdUJxcWNrWVVBRlBCT1ZTSUhMOHBzSVdOT3gwbm1oTy1Gb1luZ1lBT3JqY1MyUlZYb1lfY2ZZYkNjODkzTTNaMmMybG9wQ3l6RW1TQklOWmxDQjR5T0tZdzNTcFcxTHZOSG9tdjV2aU9VaUIyY21hMFpGbW9pZldEUk1McEE1dHN2UmI5cHBXN3hZeVdFMGFlZUZFNmsxYXdKTFlzbnFXczBsVHNEYkEyOHowRGlIWnRtbXRYc2lCM01ESmEwaXhEbVZ0a0lrM3dVMDVNdlptY2k1a0EtMVduRUdfOFY5UWpjVUpGUVRORE82Z0FlX2NxNUI0QkJmT253NVo0QkkyTnpGa2xzZmljclR5TGJ0MGowOVduU2RfdThOZUJMN012eHZqemNVWXVDOFJYWFpUWTNQZnBRUDcxWmVhVHlXZnhFRF9yU2NVakN4dEdGcTZ4TEVBUkdWb1Fra202SWJHNnBKQzRBZWMySHhvM0lwUTF3VnZNTGx0b0E?oc=5",
-      "publishedAt": "2026-09-25T14:13:00+00:00",
+      "source": "QQ News",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAwbHdNSWYxbV9VRDg0bkNzN2pFRDZTRGJXNmpiMldMaEZCVVZDTmdiN1RYUGVrZEtuUHp0Wm9MZlp6R1VJTnVzbnNPYVhCUGR3S2cyQ21yaw?oc=5",
+      "publishedAt": "2026-09-25T21:40:00+00:00",
       "freshness": "recent"
     },
     {
