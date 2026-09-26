@@ -1,8 +1,30 @@
 {
-  "asOf": "2026-09-26T19:53:14.509119+00:00",
+  "asOf": "2026-09-26T22:53:25.960172+00:00",
   "title": "每日市场研究",
   "freshnessRule": "今日动态仅展示最近36小时；官方低频数据单列并显示发布日期。",
   "items": [
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Apple owes Taction Technology $5.7B for violating haptics patents",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4647381-apple-owes-taction-technology-5_7b-violating-haptics-patents?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-26T21:31:04+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Trump OKs new fuel economy standards, ends Biden EV mandate",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4647380-trump-oks-new-fuel-economy-standards-ends-biden-ev-mandate?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-26T20:20:10+00:00",
+      "freshness": "recent"
+    },
     {
       "theme": "全球",
       "region": "全球",
@@ -23,6 +45,17 @@
       "source": "Google News",
       "url": "https://seekingalpha.com/news/4647378-kalshi-loses-appeals-court-ruling-on-state-regulation-of-prediction-markets?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
       "publishedAt": "2026-09-26T18:27:19+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "【早报】美联储放鹰；存储、半导体板块大跌，中概股逆势大涨；油价下跌，黄金收涨；英格兰、比利时晋级世界杯16强 - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBZRk83dERvMWRQSlcxQUlXRWJxNll1eHlsSEY4Zl9ab1pCWnNTZ2RhNm5vVzBLN3hKbnNPcnh0MDQ0aDRTOWZmeQ?oc=5",
+      "publishedAt": "2026-09-26T18:06:59+00:00",
       "freshness": "recent"
     },
     {
@@ -70,28 +103,6 @@
       "freshness": "recent"
     },
     {
-      "theme": "全球",
-      "region": "全球",
-      "title": "TikTok in $100M+ settlement with Alabama",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4647374-tiktok-100m-settlement-alabama?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-26T16:12:31+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Real estate stocks slump amid rising bond yields, sector rotation into technology",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4647295-real-estate-stocks-slump-amid-rising-bond-yields-sector-rotation-into-technology?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-26T16:00:21+00:00",
-      "freshness": "recent"
-    },
-    {
       "theme": "宏观",
       "region": "美国",
       "title": "What Moved Markets This Week",
@@ -100,6 +111,17 @@
       "source": "Google News",
       "url": "https://seekingalpha.com/article/4949959-what-moved-markets-this-week?source=feed_tag_wall_st_breakfast",
       "publishedAt": "2026-09-26T12:25:48+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "新浪网· - 手机新浪网",
+      "summary": "",
+      "why": "",
+      "source": "手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9PcGY5VFJ3OUMtOTJ1VUtiUmgwZW9vamJsQldTU0Z0WFVhNC01Mmw1SE5SVld6SnJtdjYtQk54NDFfLUxGeTJMMm5xb2ZNSTJNNEh1SjVqQm5kS0hxNVVzZEc1OA?oc=5",
+      "publishedAt": "2026-09-26T11:10:00+00:00",
       "freshness": "recent"
     },
     {
@@ -116,23 +138,23 @@
     {
       "theme": "科技",
       "region": "中国",
-      "title": "美股史上最大半导体IPO要来了？主角是SK海力士子公司 - 东方财富",
-      "summary": "",
-      "why": "",
-      "source": "东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9XVUJwUi1qcGJwcG5EckVsUFBwemhRNUJja191TWEtVWxWUXhkWV9nVzNNRU9ldWVHWl9XVEVOMUtuR2VlMHhxTDZMcUNWVUVQcDk4U3ZfU1dxSWxnaTNRbENqcw?oc=5",
-      "publishedAt": "2026-09-26T05:13:15+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
       "title": "摩根士丹利：中国工业首次从“追赶”到“领跑”，80万亿新增资本开支利好哪些赛道？ - 财联社",
       "summary": "",
       "why": "",
       "source": "财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1UY3BqSnBJOU5SVWJOVkpDRVRiajl2WGRCaHp3SHkxTTd2WDRZOEQtSFMtaXlpc2hEUGZTN01ObEk0RG55RXFCSQ?oc=5",
       "publishedAt": "2026-09-26T04:45:08+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "韩国金融改革“大动作”：将国家增长基金规模扩至200万亿韩元 - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1MakFMTVBSNEZTZUJpZTBNaTBOazdwODEtd1pUSHV0VmE5RXlaWE91aGVIbE1XU0FsMEVzdmlneVZ3a19VUnRjdg?oc=5",
+      "publishedAt": "2026-09-26T02:51:56+00:00",
       "freshness": "recent"
     },
     {
@@ -158,28 +180,6 @@
       "freshness": "recent"
     },
     {
-      "theme": "科技",
-      "region": "中国",
-      "title": "【早报】美股大反弹；3大存储巨头，遭集体诉讼；金银下跌，油价收涨 - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9ocE9zTlNLLUVBa3ZkUk5iRFp6bkxleEFJWlpCQlQxNy1KTzlaUlUwSzk0M0ptdnp6LWJqckJha3l6R3F3b1d4SQ?oc=5",
-      "publishedAt": "2026-09-25T23:05:54+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "美股收盘：美伊谈判消息缓和“美债风暴” 三大指数携手走高 - 腾讯新闻",
-      "summary": "",
-      "why": "",
-      "source": "腾讯新闻",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAwbHdNSWYxbV9VRDg0bkNzN2pFRDZTRGJXNmpiMldMaEZCVVZDTmdiN1RYUGVrZEtuUHp0Wm9MZlp6R1VJTnVzbnNPYVhCUGR3S2cyQ21yaw?oc=5",
-      "publishedAt": "2026-09-25T21:40:00+00:00",
-      "freshness": "recent"
-    },
-    {
       "theme": "宏观",
       "region": "美国",
       "title": "AI Infrastructure Buildout Risks",
@@ -188,17 +188,6 @@
       "source": "Google News",
       "url": "https://seekingalpha.com/article/4949702-ai-infrastructure-buildout-risks?source=feed_tag_wall_st_breakfast",
       "publishedAt": "2026-09-25T11:30:04+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "宏观",
-      "region": "美国",
-      "title": "Wall Street Breakfast Podcast: Costco Checks Out Strong",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/article/4949709-wall-street-breakfast-podcast-costco-checks-out-strong?source=feed_tag_wall_st_breakfast",
-      "publishedAt": "2026-09-25T10:30:00+00:00",
       "freshness": "recent"
     }
   ],
