@@ -1,8 +1,52 @@
 {
-  "asOf": "2026-09-26T17:12:09.068071+00:00",
+  "asOf": "2026-09-26T19:53:14.509119+00:00",
   "title": "每日市场研究",
   "freshnessRule": "今日动态仅展示最近36小时；官方低频数据单列并显示发布日期。",
   "items": [
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Boeing identifies 737 MAX software glitch that could impact navigation: WSJ",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4647379-boeing-identifies-737-max-software-glitch-could-impact-navigation?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-26T18:45:55+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Kalshi loses appeals court ruling on state regulation of prediction markets",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4647378-kalshi-loses-appeals-court-ruling-on-state-regulation-of-prediction-markets?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-26T18:27:19+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "【早报】特朗普：对多晶硅及其衍生产品加征关税；美存储股再遭重挫；原油走强、黄金微跌；宇树科技发行价定了 - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBKOGZ6ejN0YWR3YkZWVXU3YndmcUwyUGF0WFFRc2xGRkhSUm5lTjNSbm9LZlo2Mmx0WklVdWxSOFMxYnRHZnVsYw?oc=5",
+      "publishedAt": "2026-09-26T18:05:56+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Foreign capital investment into US equities hits record",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4647377-foreign-capital-investment-into-us-equities-hits-record?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-26T18:04:09+00:00",
+      "freshness": "recent"
+    },
     {
       "theme": "全球",
       "region": "全球",
@@ -48,39 +92,6 @@
       "freshness": "recent"
     },
     {
-      "theme": "全球",
-      "region": "全球",
-      "title": "SA Asks: Is now the time to buy streaming stocks? If so, which ones?",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4647367-sa-asks-is-now-the-time-to-buy-streaming-stocks-if-so-which-ones?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-26T16:00:01+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "CNN barred from travelling with Trump on Air Force One on Saturday",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4647373-cnn-barred-travelling-trump-air-force-one-saturday?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-26T15:50:04+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Trump, Xi agree to cut tariffs on $30B worth of goods",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4647372-trump-xi-agree-cut-tariffs-30b-worth-goods?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-26T15:13:02+00:00",
-      "freshness": "recent"
-    },
-    {
       "theme": "宏观",
       "region": "美国",
       "title": "What Moved Markets This Week",
@@ -105,6 +116,17 @@
     {
       "theme": "科技",
       "region": "中国",
+      "title": "美股史上最大半导体IPO要来了？主角是SK海力士子公司 - 东方财富",
+      "summary": "",
+      "why": "",
+      "source": "东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9XVUJwUi1qcGJwcG5EckVsUFBwemhRNUJja191TWEtVWxWUXhkWV9nVzNNRU9ldWVHWl9XVEVOMUtuR2VlMHhxTDZMcUNWVUVQcDk4U3ZfU1dxSWxnaTNRbENqcw?oc=5",
+      "publishedAt": "2026-09-26T05:13:15+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
       "title": "摩根士丹利：中国工业首次从“追赶”到“领跑”，80万亿新增资本开支利好哪些赛道？ - 财联社",
       "summary": "",
       "why": "",
@@ -116,21 +138,10 @@
     {
       "theme": "科技",
       "region": "中国",
-      "title": "韩国金融改革“大动作”：将国家增长基金规模扩至200万亿韩元 - 财联社",
+      "title": "Meta Muse引爆AI新叙事：Agent带热CPU后，IC载板能否成为下一个增量环节？ - 富途牛牛",
       "summary": "",
       "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1MakFMTVBSNEZTZUJpZTBNaTBOazdwODEtd1pUSHV0VmE5RXlaWE91aGVIbE1XU0FsMEVzdmlneVZ3a19VUnRjdg?oc=5",
-      "publishedAt": "2026-09-26T02:51:56+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "Meta Muse引爆AI新叙事：Agent带热CPU后，IC载板能否成为下一个增量环节？ - news.futunn.com",
-      "summary": "",
-      "why": "",
-      "source": "news.futunn.com",
+      "source": "富途牛牛",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRDVYOXVlNDVqQzRORW5BRHRyWnJNRk96ZHdjVWRhZmswQklrUlo3SEs1TXVOSTB5X1IxU2pNUk1ycmJWLXBjdGZ2dzRoVWNFeF9WOGJ3djJSX2FJaXNRQkt3cDZzTV9qbXQweHhXTmpnQWpGSmJ5TkI5UldKUllUMzZxMFNfMzFmQVRwYTBaREsxUQ?oc=5",
       "publishedAt": "2026-09-26T02:11:55+00:00",
       "freshness": "recent"
@@ -149,23 +160,12 @@
     {
       "theme": "科技",
       "region": "中国",
-      "title": "美股史上最大半导体IPO要来了？主角是SK海力士子公司 - finance.sina.com.cn",
-      "summary": "",
-      "why": "",
-      "source": "finance.sina.com.cn",
-      "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxPbXYtbVlrTU9kU0laNG1iZmpzTm5xellTM3pBSk8xaXRNeVEtVTJ2dnd3dmVjNl9TRERNQkVheER1SGh1UV9oU2UzcTZzSGFhSVhxSS1ieGZhd2hfajAyblg0NW1JaUNWWTAwa29XY0RjY0gzRjB5SU1XcERHeExsd0JTTFNyaVAwSEFlWWRjU2l6QWVGZmc4ek9Fd3BJc0ZubVc2dUNQejRGNWRfQ1Fxc3dWdXFYdGUtQTZZOGNLNF8zdkhMcFYtRVNsTEpXSEpITi1BMU5INEtnQUFUWkpwT3Atc3haZ1hqQjNQdWJjeExMR2dNaFVjYXVtU1MxRjNLVlVhbTA4ZVhnaTdZczA5dWZPVm1xTS1nazQtNDMzNWdGaDZBbUJiUEJHa21LbjdNemZ2UVJ1VGFWa2dJNjJPYmZmLXBNQU4wYW9HM1ZCWG9kdw?oc=5",
-      "publishedAt": "2026-09-26T00:58:24+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "科技股究竟因何调整？四大原因讨论最多 - 财联社",
+      "title": "【早报】美股大反弹；3大存储巨头，遭集体诉讼；金银下跌，油价收涨 - 财联社",
       "summary": "",
       "why": "",
       "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFB0Y295RnJuLU5KdUhPSTVhcGptdTNMV2hYVWt6dWQxeXhVN3YtdzNvT1d3NkxDSjZmZUFaaFE0enNkVFlpNldwOQ?oc=5",
-      "publishedAt": "2026-09-26T00:14:30+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9ocE9zTlNLLUVBa3ZkUk5iRFp6bkxleEFJWlpCQlQxNy1KTzlaUlUwSzk0M0ptdnp6LWJqckJha3l6R3F3b1d4SQ?oc=5",
+      "publishedAt": "2026-09-25T23:05:54+00:00",
       "freshness": "recent"
     },
     {
