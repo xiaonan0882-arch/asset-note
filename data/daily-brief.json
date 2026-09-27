@@ -1,28 +1,138 @@
 {
-  "asOf": "2026-09-27T08:13:33.346344+00:00",
+  "asOf": "2026-09-27T14:01:57.708320+00:00",
   "title": "每日市场研究",
   "freshnessRule": "今日动态仅展示最近36小时；官方低频数据单列并显示发布日期。",
   "items": [
     {
-      "theme": "科技",
-      "region": "中国",
-      "title": "电报解读 - 财联社",
+      "theme": "全球",
+      "region": "全球",
+      "title": "Trending stocks on Wall Street this week amid geopolitical developments",
       "summary": "",
       "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE55c1poYURCSzl2Wnp4ejR2M2JhTU8zeXFjaE5mOFA0MTVpdTJlX1pueE82MUwtTUpETlpGaEVOSGNXa2c1TUI0dA?oc=5",
-      "publishedAt": "2026-09-27T06:32:00+00:00",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4647017-trending-stocks-on-wall-street-this-week-amid-geopolitical-developments?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-27T13:29:19+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "UK holds five on terror suspicion near U.S.-used air base",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4647393-uk-holds-five-on-terror-suspicion-near-u-s-used-air-base?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-27T13:26:44+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Barrick averts strike at Mali gold complex after union deal",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4647392-barrick-averts-strike-at-mali-gold-complex-after-union-deal?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-27T13:23:21+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Notable healthcare headlines for the week: Eli Lilly, Novo Nordisk, and Centene in focus",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4647316-notable-healthcare-headlines-for-the-week-eli-lilly-novo-nordisk-and-centene-in-focus?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-27T13:05:20+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "AI boom’s biggest risk may be the money spigot running dry",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4647389-ai-boom-s-biggest-risk-may-be-the-money-spigot-running-dry?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-27T13:02:21+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Private credit redemption pressure eases as fund performance improves",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4647388-private-credit-redemption-pressure-eases-as-fund-performance-improves?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-27T12:43:32+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Find alpha in the revenue growth fog",
+      "summary": "",
+      "why": "",
+      "source": "Goldman",
+      "url": "https://seekingalpha.com/news/4647387-find-alpha-in-the-revenue-growth-fog-goldman?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-27T12:18:13+00:00",
       "freshness": "recent"
     },
     {
       "theme": "科技",
       "region": "中国",
-      "title": "【早报】美股芯片股大跌；中概股逆势走强；原油飙升、黄金收涨；A股又一波回购潮来了 - 财联社",
+      "title": "【早报】美股半导体板块，深V反弹；原油大跌、黄金微涨；事关电力，重磅规划发布 - 财联社",
       "summary": "",
       "why": "",
       "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBfMzZvODEwVVVXWEpJYnVxTE93UF9OUnpHWV9nMkJlUXc4Vl9URzZnMXNrX0hUaVJ3UWo4MHB1UDNtOGNWc19EZg?oc=5",
-      "publishedAt": "2026-09-27T05:20:43+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE52WEpUWmhya09LbzIzTXM1VnFoTU9IdzVoRUN2TWkwYWQteW53S3hMUVVqdXlOakh5UmxhXzM5Sm1rWTVaTDRvdg?oc=5",
+      "publishedAt": "2026-09-27T12:04:37+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "宏观",
+      "region": "美国",
+      "title": "Wall Street Week Ahead",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/article/4950033-wall-street-week-ahead?source=feed_tag_wall_st_breakfast",
+      "publishedAt": "2026-09-27T10:29:08+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "部分涨幅或超50%！半导体12英寸硅片长约“涨声”起 - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9YcENTWXNNVGsxeWpkaG1IdW1vYU9KVnRoTzBQNDZScVc1MEZCSGdrSzR3VlFvMHJ3aUsyaVRfOE9aV1p1TXN2Wg?oc=5",
+      "publishedAt": "2026-09-27T08:05:25+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "【早报】前5个月电子行业净利润增长翻倍；SpaceX拟收购光模块公司 - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFA1b1daTTdzcXV1b0RCWkJxdTBEeFk5Rmw4cmFnUlVfOWthamtjWjgwZWR2TVdqOGFFeDNsS3N2RmJJRzRXNVhXNw?oc=5",
+      "publishedAt": "2026-09-27T08:01:00+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "科技股暴跌只是“健康回调”？美知名投行：AI主题拥有“绝对主导地位”！ - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9OeFNoZS1hUWhMa2plU2ItYTFtVlpOaUhxSURvenJsMW4ydm9ISWJyaGF5YWFQS2V5MDVpSmswMFlIWXUtT2tMWQ?oc=5",
+      "publishedAt": "2026-09-27T07:33:18+00:00",
       "freshness": "recent"
     },
     {
@@ -59,17 +169,6 @@
       "freshness": "recent"
     },
     {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Sheffield says Exxon launched 'smear campaign' to keep him off company's board",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4647174-sheffield-says-exxon-launched-smear-campaign-to-keep-him-off-companys-board?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-27T00:25:52+00:00",
-      "freshness": "recent"
-    },
-    {
       "theme": "科技",
       "region": "中国",
       "title": "财联社创投通：一级市场本周143起融资，深蓝航天完成近20亿元新融资 - 搜狐网",
@@ -81,83 +180,6 @@
       "freshness": "recent"
     },
     {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Apple owes Taction Technology $5.7B for violating haptics patents",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4647381-apple-owes-taction-technology-5_7b-violating-haptics-patents?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-26T21:31:04+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Trump OKs new fuel economy standards, ends Biden EV mandate",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4647380-trump-oks-new-fuel-economy-standards-ends-biden-ev-mandate?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-26T20:20:10+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Boeing identifies 737 MAX software glitch that could impact navigation: WSJ",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4647379-boeing-identifies-737-max-software-glitch-could-impact-navigation?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-26T18:45:55+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Kalshi loses appeals court ruling on state regulation of prediction markets",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4647378-kalshi-loses-appeals-court-ruling-on-state-regulation-of-prediction-markets?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-26T18:27:19+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Foreign capital investment into US equities hits record",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4647377-foreign-capital-investment-into-us-equities-hits-record?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-26T18:04:09+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Trump, Xi agree to 'super intelligence' discussions amid AI concerns",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4647376-trump-xi-agree-super-intelligence-discussions-amid-ai-concerns?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-26T17:03:25+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "AI“包场”数贸会：王兴兴谈机器人攻克毫米级误差，安全厂商开始“以AI制AI” - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5zRVJkUzZZWjBQWi1yeHFocE1VMFVTc0tsSDI3MXdBYWpJeWRZYzh0YlVWdlk1TmNzQ0xzRWdVdkhhcGZnQmE4UQ?oc=5",
-      "publishedAt": "2026-09-26T13:58:27+00:00",
-      "freshness": "recent"
-    },
-    {
       "theme": "宏观",
       "region": "美国",
       "title": "What Moved Markets This Week",
@@ -166,17 +188,6 @@
       "source": "Google News",
       "url": "https://seekingalpha.com/article/4949959-what-moved-markets-this-week?source=feed_tag_wall_st_breakfast",
       "publishedAt": "2026-09-26T12:25:48+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "新浪网· - 手机新浪网",
-      "summary": "",
-      "why": "",
-      "source": "手机新浪网",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9PcGY5VFJ3OUMtOTJ1VUtiUmgwZW9vamJsQldTU0Z0WFVhNC01Mmw1SE5SVld6SnJtdjYtQk54NDFfLUxGeTJMMm5xb2ZNSTJNNEh1SjVqQm5kS0hxNVVzZEc1OA?oc=5",
-      "publishedAt": "2026-09-26T11:10:00+00:00",
       "freshness": "recent"
     }
   ],
