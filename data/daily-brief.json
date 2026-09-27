@@ -1,8 +1,41 @@
 {
-  "asOf": "2026-09-26T22:53:25.960172+00:00",
+  "asOf": "2026-09-27T01:29:27.335796+00:00",
   "title": "每日市场研究",
   "freshnessRule": "今日动态仅展示最近36小时；官方低频数据单列并显示发布日期。",
   "items": [
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Sheffield says Exxon launched 'smear campaign' to keep him off company's board",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4647174-sheffield-says-exxon-launched-smear-campaign-to-keep-him-off-companys-board?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-27T00:25:52+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "财联社创投通：一级市场本周143起融资，深蓝航天完成近20亿元新融资 - 搜狐网",
+      "summary": "",
+      "why": "",
+      "source": "搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVDhjRUtDS1B5M1ZFOHNJR0RDZXZEUWFEbUs4RHJ3cEZsYkhnRlBsSTJuX1ZXNzNyMFo4OWFnSUNDb0NuNFlnMTZqNWpaejl2bzJlc0Q3bndHMTFtcmtYblI4Mnc1bTl0aHJNbnByd3dlVmdqX3V6blAtVkhpa0lpOWk0eVBZRnA3?oc=5",
+      "publishedAt": "2026-09-26T23:01:00+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "AI“包场”数贸会：王兴兴谈机器人攻克毫米级误差，安全厂商开始“以AI制AI” - 富途牛牛",
+      "summary": "",
+      "why": "",
+      "source": "富途牛牛",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQeGdqVEMtSmloTEp5ZXR3dHYwWVpkWkUySWVYa1J3NVNsQ2ZZRWdndnY1OEdUakJ5bVVGeDcwWTNxemJmZ2tDMm9SalZfVkh5N2hXX0UtRHpkMF9qUE5FQUtfZXVNdmFMOU9qWnZQdnh4MWl1cTVpVXNFOExiVWU1c3pUcVhBVDFHVXZ1VFd4UU55MjBoNVFXeFV1WWZGUQ?oc=5",
+      "publishedAt": "2026-09-26T21:57:57+00:00",
+      "freshness": "recent"
+    },
     {
       "theme": "全球",
       "region": "全球",
@@ -48,28 +81,6 @@
       "freshness": "recent"
     },
     {
-      "theme": "科技",
-      "region": "中国",
-      "title": "【早报】美联储放鹰；存储、半导体板块大跌，中概股逆势大涨；油价下跌，黄金收涨；英格兰、比利时晋级世界杯16强 - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBZRk83dERvMWRQSlcxQUlXRWJxNll1eHlsSEY4Zl9ab1pCWnNTZ2RhNm5vVzBLN3hKbnNPcnh0MDQ0aDRTOWZmeQ?oc=5",
-      "publishedAt": "2026-09-26T18:06:59+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "【早报】特朗普：对多晶硅及其衍生产品加征关税；美存储股再遭重挫；原油走强、黄金微跌；宇树科技发行价定了 - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBKOGZ6ejN0YWR3YkZWVXU3YndmcUwyUGF0WFFRc2xGRkhSUm5lTjNSbm9LZlo2Mmx0WklVdWxSOFMxYnRHZnVsYw?oc=5",
-      "publishedAt": "2026-09-26T18:05:56+00:00",
-      "freshness": "recent"
-    },
-    {
       "theme": "全球",
       "region": "全球",
       "title": "Foreign capital investment into US equities hits record",
@@ -89,17 +100,6 @@
       "source": "Google News",
       "url": "https://seekingalpha.com/news/4647376-trump-xi-agree-super-intelligence-discussions-amid-ai-concerns?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
       "publishedAt": "2026-09-26T17:03:25+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "US Army Reserve seeks feedback on potential readiness for action in Cuba: CBS",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4647375-us-army-reserve-seeks-feedback-potential-readiness-action-cuba?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-26T16:34:45+00:00",
       "freshness": "recent"
     },
     {
@@ -138,6 +138,17 @@
     {
       "theme": "科技",
       "region": "中国",
+      "title": "【早报】美股光通信、存储股，全线回调；原油收涨、黄金下挫；台积电：将上调晶圆代工价格；中际旭创，回购近8亿 - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBndS12d3dRekdvbXFXbDlmVENSSzRWVWZEOVhvbms2T0lsVUlCWWJHd0VkRG1QbTVYMG9ucmFVZkR0QlFYZUIwdA?oc=5",
+      "publishedAt": "2026-09-26T04:51:27+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
       "title": "摩根士丹利：中国工业首次从“追赶”到“领跑”，80万亿新增资本开支利好哪些赛道？ - 财联社",
       "summary": "",
       "why": "",
@@ -166,28 +177,6 @@
       "source": "富途牛牛",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRDVYOXVlNDVqQzRORW5BRHRyWnJNRk96ZHdjVWRhZmswQklrUlo3SEs1TXVOSTB5X1IxU2pNUk1ycmJWLXBjdGZ2dzRoVWNFeF9WOGJ3djJSX2FJaXNRQkt3cDZzTV9qbXQweHhXTmpnQWpGSmJ5TkI5UldKUllUMzZxMFNfMzFmQVRwYTBaREsxUQ?oc=5",
       "publishedAt": "2026-09-26T02:11:55+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "【早报】华为发布V2版“韬定律”论文；豆包、千问：智能体功能将下线 - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE45UTNLTFBBOUk3T3ExVGhUaDZzdUdhWERldmVzRzVHZjJZZUJoSWZKbkZsZlZ3UG82a0hid1ZSZmFIaXVrN25VeQ?oc=5",
-      "publishedAt": "2026-09-26T01:09:50+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "宏观",
-      "region": "美国",
-      "title": "AI Infrastructure Buildout Risks",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/article/4949702-ai-infrastructure-buildout-risks?source=feed_tag_wall_st_breakfast",
-      "publishedAt": "2026-09-25T11:30:04+00:00",
       "freshness": "recent"
     }
   ],
