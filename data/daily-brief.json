@@ -1,8 +1,63 @@
 {
-  "asOf": "2026-09-27T01:29:27.335796+00:00",
+  "asOf": "2026-09-27T08:13:33.346344+00:00",
   "title": "每日市场研究",
   "freshnessRule": "今日动态仅展示最近36小时；官方低频数据单列并显示发布日期。",
   "items": [
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "电报解读 - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE55c1poYURCSzl2Wnp4ejR2M2JhTU8zeXFjaE5mOFA0MTVpdTJlX1pueE82MUwtTUpETlpGaEVOSGNXa2c1TUI0dA?oc=5",
+      "publishedAt": "2026-09-27T06:32:00+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "【早报】美股芯片股大跌；中概股逆势走强；原油飙升、黄金收涨；A股又一波回购潮来了 - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBfMzZvODEwVVVXWEpJYnVxTE93UF9OUnpHWV9nMkJlUXc4Vl9URzZnMXNrX0hUaVJ3UWo4MHB1UDNtOGNWc19EZg?oc=5",
+      "publishedAt": "2026-09-27T05:20:43+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "SpaceX、AMD财报出炉；大基金三期出手！入股正芯半导体 - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE05NmVDY0RkODVYaWd3dmtQMm5iXzMxc0NhVTVkdDltOGxJZEcxZFF2SEZscjlkRU9ZbEUwbVBUc3FDaHVTbF9zUQ?oc=5",
+      "publishedAt": "2026-09-27T04:46:23+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "【早报】美股光通信、存储股，全线回调；原油收涨、黄金下挫；台积电：将上调晶圆代工价格；中际旭创，回购近8亿 - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBndS12d3dRekdvbXFXbDlmVENSSzRWVWZEOVhvbms2T0lsVUlCWWJHd0VkRG1QbTVYMG9ucmFVZkR0QlFYZUIwdA?oc=5",
+      "publishedAt": "2026-09-27T04:06:10+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "韩国金融改革“大动作”：将国家增长基金规模扩至200万亿韩元 - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1MakFMTVBSNEZTZUJpZTBNaTBOazdwODEtd1pUSHV0VmE5RXlaWE91aGVIbE1XU0FsMEVzdmlneVZ3a19VUnRjdg?oc=5",
+      "publishedAt": "2026-09-27T00:36:47+00:00",
+      "freshness": "recent"
+    },
     {
       "theme": "全球",
       "region": "全球",
@@ -23,17 +78,6 @@
       "source": "搜狐网",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVDhjRUtDS1B5M1ZFOHNJR0RDZXZEUWFEbUs4RHJ3cEZsYkhnRlBsSTJuX1ZXNzNyMFo4OWFnSUNDb0NuNFlnMTZqNWpaejl2bzJlc0Q3bndHMTFtcmtYblI4Mnc1bTl0aHJNbnByd3dlVmdqX3V6blAtVkhpa0lpOWk0eVBZRnA3?oc=5",
       "publishedAt": "2026-09-26T23:01:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "AI“包场”数贸会：王兴兴谈机器人攻克毫米级误差，安全厂商开始“以AI制AI” - 富途牛牛",
-      "summary": "",
-      "why": "",
-      "source": "富途牛牛",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQeGdqVEMtSmloTEp5ZXR3dHYwWVpkWkUySWVYa1J3NVNsQ2ZZRWdndnY1OEdUakJ5bVVGeDcwWTNxemJmZ2tDMm9SalZfVkh5N2hXX0UtRHpkMF9qUE5FQUtfZXVNdmFMOU9qWnZQdnh4MWl1cTVpVXNFOExiVWU1c3pUcVhBVDFHVXZ1VFd4UU55MjBoNVFXeFV1WWZGUQ?oc=5",
-      "publishedAt": "2026-09-26T21:57:57+00:00",
       "freshness": "recent"
     },
     {
@@ -103,6 +147,17 @@
       "freshness": "recent"
     },
     {
+      "theme": "科技",
+      "region": "中国",
+      "title": "AI“包场”数贸会：王兴兴谈机器人攻克毫米级误差，安全厂商开始“以AI制AI” - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5zRVJkUzZZWjBQWi1yeHFocE1VMFVTc0tsSDI3MXdBYWpJeWRZYzh0YlVWdlk1TmNzQ0xzRWdVdkhhcGZnQmE4UQ?oc=5",
+      "publishedAt": "2026-09-26T13:58:27+00:00",
+      "freshness": "recent"
+    },
+    {
       "theme": "宏观",
       "region": "美国",
       "title": "What Moved Markets This Week",
@@ -122,61 +177,6 @@
       "source": "手机新浪网",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9PcGY5VFJ3OUMtOTJ1VUtiUmgwZW9vamJsQldTU0Z0WFVhNC01Mmw1SE5SVld6SnJtdjYtQk54NDFfLUxGeTJMMm5xb2ZNSTJNNEh1SjVqQm5kS0hxNVVzZEc1OA?oc=5",
       "publishedAt": "2026-09-26T11:10:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "【早报】深夜，美股半导体板块剧烈分化；高盛：SpaceX的AI收入将激增100倍 - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1aOHhnWTVSaFhxdjFwcFFfaHZJdVlIaElZX3ZYdEtkRWI3bG5OYmkzU2xfc3M2UmdNM0MzUU0tLVd6RU83VXJIaw?oc=5",
-      "publishedAt": "2026-09-26T07:54:30+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "【早报】美股光通信、存储股，全线回调；原油收涨、黄金下挫；台积电：将上调晶圆代工价格；中际旭创，回购近8亿 - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBndS12d3dRekdvbXFXbDlmVENSSzRWVWZEOVhvbms2T0lsVUlCWWJHd0VkRG1QbTVYMG9ucmFVZkR0QlFYZUIwdA?oc=5",
-      "publishedAt": "2026-09-26T04:51:27+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "摩根士丹利：中国工业首次从“追赶”到“领跑”，80万亿新增资本开支利好哪些赛道？ - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1UY3BqSnBJOU5SVWJOVkpDRVRiajl2WGRCaHp3SHkxTTd2WDRZOEQtSFMtaXlpc2hEUGZTN01ObEk0RG55RXFCSQ?oc=5",
-      "publishedAt": "2026-09-26T04:45:08+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "韩国金融改革“大动作”：将国家增长基金规模扩至200万亿韩元 - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1MakFMTVBSNEZTZUJpZTBNaTBOazdwODEtd1pUSHV0VmE5RXlaWE91aGVIbE1XU0FsMEVzdmlneVZ3a19VUnRjdg?oc=5",
-      "publishedAt": "2026-09-26T02:51:56+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "Meta Muse引爆AI新叙事：Agent带热CPU后，IC载板能否成为下一个增量环节？ - 富途牛牛",
-      "summary": "",
-      "why": "",
-      "source": "富途牛牛",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRDVYOXVlNDVqQzRORW5BRHRyWnJNRk96ZHdjVWRhZmswQklrUlo3SEs1TXVOSTB5X1IxU2pNUk1ycmJWLXBjdGZ2dzRoVWNFeF9WOGJ3djJSX2FJaXNRQkt3cDZzTV9qbXQweHhXTmpnQWpGSmJ5TkI5UldKUllUMzZxMFNfMzFmQVRwYTBaREsxUQ?oc=5",
-      "publishedAt": "2026-09-26T02:11:55+00:00",
       "freshness": "recent"
     }
   ],
