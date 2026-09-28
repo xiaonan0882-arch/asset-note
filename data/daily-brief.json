@@ -1,8 +1,19 @@
 {
-  "asOf": "2026-09-27T22:14:12.883934+00:00",
+  "asOf": "2026-09-28T00:50:32.448474+00:00",
   "title": "每日市场研究",
   "freshnessRule": "今日动态仅展示最近36小时；官方低频数据单列并显示发布日期。",
   "items": [
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Oil climbs, stock futures slip as Trump rejects Iran’s Hormuz proposal",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4647414-oil-climbs-stock-futures-slip-as-trump-rejects-irans-hormuz-proposal?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-27T23:51:58+00:00",
+      "freshness": "recent"
+    },
     {
       "theme": "全球",
       "region": "全球",
@@ -67,17 +78,6 @@
       "source": "Google News",
       "url": "https://seekingalpha.com/news/4647409-u-s-pours-billions-into-critical-minerals-push-to-loosen-china-s-grip?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
       "publishedAt": "2026-09-27T21:01:23+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Greenbriar is said to near $1.8B deal for Spectrum Control",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4647411-greenbriar-is-said-to-near-1_8b-deal-for-spectrum-control?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-27T21:01:05+00:00",
       "freshness": "recent"
     },
     {
@@ -147,6 +147,17 @@
       "freshness": "recent"
     },
     {
+      "theme": "科技",
+      "region": "中国",
+      "title": "【早报】美股半导体板块，深V反弹；原油大跌、黄金微涨；事关电力，重磅规划发布 - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE52WEpUWmhya09LbzIzTXM1VnFoTU9IdzVoRUN2TWkwYWQteW53S3hMUVVqdXlOakh5UmxhXzM5Sm1rWTVaTDRvdg?oc=5",
+      "publishedAt": "2026-09-27T12:04:37+00:00",
+      "freshness": "recent"
+    },
+    {
       "theme": "宏观",
       "region": "美国",
       "title": "Wall Street Week Ahead",
@@ -160,45 +171,23 @@
     {
       "theme": "科技",
       "region": "中国",
-      "title": "Meta Muse引爆AI新叙事，IC载板能否成为下一个增量环节？ - 新浪财经",
-      "summary": "",
-      "why": "",
-      "source": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBpVkpNM3pJbmtoM0V3MTdLZzRZc3JSVE1pQTlIdW9rX21fWGFMNEd4alc0a0FvSFhlM2pId0Z3eEtNcVAtSjJTMHR5XzdLRklYRE5TaG9lVC1iWVlkbjc2M2lTcGpMV3lnaldWcUp6TjZSNUJwcEE?oc=5",
-      "publishedAt": "2026-09-27T00:40:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "韩国金融改革“大动作”：将国家增长基金规模扩至200万亿韩元 - 财联社",
+      "title": "【早报】美股芯片股大跌；中概股逆势走强；原油飙升、黄金收涨；A股又一波回购潮来了 - 财联社",
       "summary": "",
       "why": "",
       "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1MakFMTVBSNEZTZUJpZTBNaTBOazdwODEtd1pUSHV0VmE5RXlaWE91aGVIbE1XU0FsMEVzdmlneVZ3a19VUnRjdg?oc=5",
-      "publishedAt": "2026-09-27T00:36:47+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBfMzZvODEwVVVXWEpJYnVxTE93UF9OUnpHWV9nMkJlUXc4Vl9URzZnMXNrX0hUaVJ3UWo4MHB1UDNtOGNWc19EZg?oc=5",
+      "publishedAt": "2026-09-27T05:20:43+00:00",
       "freshness": "recent"
     },
     {
       "theme": "科技",
       "region": "中国",
-      "title": "财联社创投通：一级市场本周143起融资，深蓝航天完成近20亿元新融资 - 搜狐网",
+      "title": "SpaceX、AMD财报出炉；大基金三期出手！入股正芯半导体 - 财联社",
       "summary": "",
       "why": "",
-      "source": "搜狐网",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVDhjRUtDS1B5M1ZFOHNJR0RDZXZEUWFEbUs4RHJ3cEZsYkhnRlBsSTJuX1ZXNzNyMFo4OWFnSUNDb0NuNFlnMTZqNWpaejl2bzJlc0Q3bndHMTFtcmtYblI4Mnc1bTl0aHJNbnByd3dlVmdqX3V6blAtVkhpa0lpOWk0eVBZRnA3?oc=5",
-      "publishedAt": "2026-09-26T23:01:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "宏观",
-      "region": "美国",
-      "title": "What Moved Markets This Week",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/article/4949959-what-moved-markets-this-week?source=feed_tag_wall_st_breakfast",
-      "publishedAt": "2026-09-26T12:25:48+00:00",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE05NmVDY0RkODVYaWd3dmtQMm5iXzMxc0NhVTVkdDltOGxJZEcxZFF2SEZscjlkRU9ZbEUwbVBUc3FDaHVTbF9zUQ?oc=5",
+      "publishedAt": "2026-09-27T04:46:23+00:00",
       "freshness": "recent"
     }
   ],
