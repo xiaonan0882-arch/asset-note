@@ -1,8 +1,52 @@
 {
-  "asOf": "2026-09-28T22:03:25.515143+00:00",
+  "asOf": "2026-09-29T01:59:43.376464+00:00",
   "title": "每日市场研究",
   "freshnessRule": "今日动态仅展示最近36小时；官方低频数据单列并显示发布日期。",
   "items": [
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Anthropic IPO prospectus states AI could pose 'existential risks to humanity': report",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4647825-anthropic-ipo-prospectus-states-ai-could-pose-existential-risks-humanity?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-29T01:50:49+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Lockheed Martin's unit gets $155.7M boost for Navy combat systems",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4647824-lockheed-martins-unit-gets-1557m-boost-for-navy-combat-systems?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-28T22:11:49+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Magic Empire Global prices $3M offering at $1.12 per unit",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4647823-magic-empire-global-prices-3m-offering-at-112-per-unit?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-28T22:04:52+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "82亿美元！AMD官宣收购李飞飞World Labs 人才与模型尽入囊中 - 凤凰网科技",
+      "summary": "",
+      "why": "",
+      "source": "凤凰网科技",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE8zZXFqYXdseGxLcGJtc1BRWTBoNkppR243T0R4bXdybmozSWRTcDg3RHQxd3ItenhEU1ZuX3FQd1VZc0pNa042TmNzUDk?oc=5",
+      "publishedAt": "2026-09-28T22:03:29+00:00",
+      "freshness": "recent"
+    },
     {
       "theme": "全球",
       "region": "全球",
@@ -45,39 +89,6 @@
       "source": "Google News",
       "url": "https://seekingalpha.com/news/4647820-tempramed-upsizes-private-placement-to-c16m?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
       "publishedAt": "2026-09-28T21:57:53+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Summit Therapeutics rises after AstraZeneca commits $2B investment",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4647818-summit-therapeutics-rises-after-astrazeneca-commits-2b-investment?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-28T21:49:37+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Boston Scientific wins up to $135.7M U.S. defense health contract",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4647817-boston-scientific-wins-up-to-1357m-us-defense-health-contract?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-28T21:45:19+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Faraday Future sells robotics business to AIxCrypto",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4647807-faraday-future-sells-robotics-business-to-aixcrypto?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-28T21:41:56+00:00",
       "freshness": "recent"
     },
     {
@@ -125,17 +136,6 @@
       "freshness": "recent"
     },
     {
-      "theme": "科技",
-      "region": "中国",
-      "title": "海外研选 | 美银：AI基建融资突破1.37万亿美元 信用风险开始重估 - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE01aWY0U3FpNE54STloU3lzbFkza2htZVBYOWFycl8wMmJ3SWV2eHl6WUh2ckxTT0FxZDhHal9BcEtNeTV4Zm1Rbw?oc=5",
-      "publishedAt": "2026-09-28T12:04:38+00:00",
-      "freshness": "recent"
-    },
-    {
       "theme": "宏观",
       "region": "美国",
       "title": "Open-Weight Models On The Rise",
@@ -147,17 +147,6 @@
       "freshness": "recent"
     },
     {
-      "theme": "科技",
-      "region": "中国",
-      "title": "【早报】华为发布V2版“韬定律”论文；豆包、千问：智能体功能将下线 - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE45UTNLTFBBOUk3T3ExVGhUaDZzdUdhWERldmVzRzVHZjJZZUJoSWZKbkZsZlZ3UG82a0hid1ZSZmFIaXVrN25VeQ?oc=5",
-      "publishedAt": "2026-09-28T11:12:21+00:00",
-      "freshness": "recent"
-    },
-    {
       "theme": "宏观",
       "region": "美国",
       "title": "Wall Street Breakfast Podcast: SK Hynix Hit By IPO Concerns",
@@ -166,6 +155,17 @@
       "source": "Google News",
       "url": "https://seekingalpha.com/article/4950210-wall-street-breakfast-podcast-sk-hynix-hit-by-ipo-concerns?source=feed_tag_wall_st_breakfast",
       "publishedAt": "2026-09-28T11:00:00+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "韩国金融改革“大动作”：将国家增长基金规模扩至200万亿韩元 - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1MakFMTVBSNEZTZUJpZTBNaTBOazdwODEtd1pUSHV0VmE5RXlaWE91aGVIbE1XU0FsMEVzdmlneVZ3a19VUnRjdg?oc=5",
+      "publishedAt": "2026-09-28T09:26:54+00:00",
       "freshness": "recent"
     },
     {
@@ -191,14 +191,14 @@
       "freshness": "recent"
     },
     {
-      "theme": "宏观",
+      "theme": "科技",
       "region": "中国",
-      "title": "瑞士央行行长：瑞郎回落系长期升值趋势中的逆流 - 新浪财经",
+      "title": "油价大跌、黄金走强；SpaceX、AMD财报出炉；大基金三期出手！入股正芯半导体 - 财联社",
       "summary": "",
       "why": "",
-      "source": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZnFtTkFpa180YmE2RzFSUjlVV3lUU2lBc2NDbENaMS11NHVCVThCeUFoaGZ6OXd0UmpJR2RSRnZCMVB4QnlBMGZvMUkxZnp5OTVrV1psUFhEYUVxcV8tOFNYUFF2SzFjeXBKX2pmc0ZTLXZNdjhDY0RJSFcyWVNPZzJaWDFrYzE0MW1pZWhIU0NPNnhoV09oN3U1c3h4RjNHY3Q5bXlWc2hkVERvY0tJUXFzNWp5Ml9MRUgyaGNJUW5VbnNJelFrd2tnd1NYX2JjZFdnb1l4YVI?oc=5",
-      "publishedAt": "2026-09-27T23:48:00+00:00",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE05NmVDY0RkODVYaWd3dmtQMm5iXzMxc0NhVTVkdDltOGxJZEcxZFF2SEZscjlkRU9ZbEUwbVBUc3FDaHVTbF9zUQ?oc=5",
+      "publishedAt": "2026-09-28T05:35:39+00:00",
       "freshness": "recent"
     },
     {
@@ -210,17 +210,6 @@
       "source": "Google News",
       "url": "https://seekingalpha.com/article/4950067-wall-street-brunch-ai-safety-crunch-time?source=feed_tag_wall_st_breakfast",
       "publishedAt": "2026-09-27T18:41:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "宏观",
-      "region": "美国",
-      "title": "Wall Street Week Ahead",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/article/4950033-wall-street-week-ahead?source=feed_tag_wall_st_breakfast",
-      "publishedAt": "2026-09-27T10:29:08+00:00",
       "freshness": "recent"
     }
   ],
