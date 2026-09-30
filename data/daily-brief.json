@@ -1,83 +1,116 @@
 {
-  "asOf": "2026-09-30T06:46:11.643914+00:00",
+  "asOf": "2026-09-30T13:46:39.557961+00:00",
   "title": "每日市场研究",
   "freshnessRule": "今日动态仅展示最近36小时；官方低频数据单列并显示发布日期。",
   "items": [
     {
       "theme": "全球",
       "region": "全球",
-      "title": "US lawmakers, including Sen. Warren, push regulators to block $33B AES buyout: Reuters",
+      "title": "Wall Street moved higher after the latest PCE inflation report",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4648337-us-lawmakers-including-sen-warren-push-regulators-to-block-aes-buyout?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-30T06:40:04+00:00",
+      "url": "https://seekingalpha.com/news/4648513-wall-street-moved-higher-after-the-latest-pce-inflation-report?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-30T13:42:42+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "First Graphene inks 3-year strategic deal with Vector to commercialize PureGRAPH®",
+      "title": "Navitas Semiconductor gets HSR early termination for Claros deal",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4648324-first-graphene-inks-3-year-strategic-deal-with-vector-to-commercialize-puregraph?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-30T06:37:46+00:00",
+      "url": "https://seekingalpha.com/news/4648532-navitas-semiconductor-gets-hsr-early-termination-for-claros-deal?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-30T13:41:41+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "Roche launches newborn screening test for three severe genetic conditions",
+      "title": "Vanguard Ultra-Short Treasury ETF declares monthly distribution of $0.2260",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4648336-roche-launches-newborn-screening-test-for-three-severe-genetic-conditions?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-30T06:33:08+00:00",
+      "url": "https://seekingalpha.com/news/4648548-vanguard-ultra-short-treasury-etf-declares-monthly-distribution-of-02260?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-30T13:40:41+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "AbbVie reports positive phase 2 data for Zumilokibart in atopic dermatitis",
+      "title": "Vanguard Core Tax-Exempt Bond ETF declares monthly distribution of $0.2137",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4648334-abbvie-reports-positive-phase-2-data-for-zumilokibart-in-atopic-dermatitis?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-30T06:25:15+00:00",
+      "url": "https://seekingalpha.com/news/4648547-vanguard-core-tax-exempt-bond-etf-declares-monthly-distribution-of-02137?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-30T13:40:19+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "Pyxis Oncology shares slide after pricing $110M registered public offering",
+      "title": "Vanguard Core Bond ETF declares monthly distribution of $0.2923",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4648328-pyxis-oncology-shares-slide-after-pricing-110m-registered-public-offering?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-30T06:16:49+00:00",
+      "url": "https://seekingalpha.com/news/4648546-vanguard-core-bond-etf-declares-monthly-distribution-of-02923?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-30T13:40:00+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "DeepSeek unveils Huawei AI chip software to challenge Nvidia",
+      "title": "Vanguard 0-3 Month Treasury Bill ETF declares monthly distribution of $0.2177",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4648333-deepseek-unveils-huawei-ai-chip-software-to-challenge-nvidia?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-30T06:07:13+00:00",
+      "url": "https://seekingalpha.com/news/4648545-vanguard-0-3-month-treasury-bill-etf-declares-monthly-distribution-of-02177?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-30T13:39:41+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "Draganfly closes $10M registered direct offering at $5.35 per share",
+      "title": "Vanguard Ultra-Short Bond ETF declares monthly distribution of $0.1811",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4648323-draganfly-closes-10m-registered-direct-offering-at-535-per-share?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-09-30T05:52:24+00:00",
+      "url": "https://seekingalpha.com/news/4648544-vanguard-ultra-short-bond-etf-declares-monthly-distribution-of-01811?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-09-30T13:39:19+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "宏观",
+      "region": "美国",
+      "title": "States Move To Rein In Fuel Prices",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/article/4950924-states-move-to-rein-in-fuel-prices?source=feed_tag_wall_st_breakfast",
+      "publishedAt": "2026-09-30T11:30:04+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "宏观",
+      "region": "美国",
+      "title": "Wall Street Breakfast Podcast: Target Extends Value Drive",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/article/4950958-wall-street-breakfast-podcast-target-extends-value-drive?source=feed_tag_wall_st_breakfast",
+      "publishedAt": "2026-09-30T11:00:00+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "港股IPO市场热度高 369家公司排队聆讯处理中 - cj.sina.com.cn",
+      "summary": "",
+      "why": "",
+      "source": "cj.sina.com.cn",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNjZTYjJRMnhoZVMySGVSZm1SRWQ2WGJmc3V1LUg0aVZDYVdrMV9DTHpGamVEaW1NYm1OZHh0cHlMcDdtd0MzcUtGVzd6UjNDYjJOclhCVjF6X2s4RHdlVWFiZ0tLQTgzZXNDZVFTNHlaUXJvN1pjRmItaVBiRFBiZW4zTWhWbVRvVVE?oc=5",
+      "publishedAt": "2026-09-30T09:51:24+00:00",
       "freshness": "recent"
     },
     {
@@ -105,12 +138,34 @@
     {
       "theme": "科技",
       "region": "中国",
-      "title": "【早报】前5个月电子行业净利润增长翻倍；SpaceX拟收购光模块公司 - 财联社",
+      "title": "08:40:47【盘前题材挖掘】 - 财联社",
       "summary": "",
       "why": "",
       "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFA1b1daTTdzcXV1b0RCWkJxdTBEeFk5Rmw4cmFnUlVfOWthamtjWjgwZWR2TVdqOGFFeDNsS3N2RmJJRzRXNVhXNw?oc=5",
-      "publishedAt": "2026-09-30T03:34:10+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5iM2Z4UzZjdVlURFZWRlUwd1hYUE9CVDlkVUJoZGVHUXhEUHBNT19kX2hwbG1GdU5STHJVbllmbWpUVVlUMGplbQ?oc=5",
+      "publishedAt": "2026-09-30T03:08:44+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "半导体涨不过CRO？这行情是在逗我玩吗|人工智能|半导体|医药|中特估_新浪新闻 - sina.cn",
+      "summary": "",
+      "why": "",
+      "source": "sina.cn",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9FMDZHUHg2b3FnNHM5aUoyazA4Z21kTFBhNHg4RUdXa2JHYk5BbDZSVjFScEtwa2l4X21lTHdqX0xrNmxPOVRlRkRjYWh1VU82NFo2M1dpVy1GV1hicldFRzZYTQ?oc=5",
+      "publishedAt": "2026-09-30T02:29:00+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "海外映射带动港股物理AI概念走强 欢创科技上市首日涨超200% - 东方财富",
+      "summary": "",
+      "why": "",
+      "source": "东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5hZkt3YWFBaGNvbUIwWHJBLVE5THFHbTRjcUpjRnNyWVpCVW5IWW9CM1VZdERsd05vYW5jRXlMN0VtX0ltWE9VT29XeGxpVFNoSFE0RjAtNHBTaU9aVGg0V25MUV9CZw?oc=5",
+      "publishedAt": "2026-09-29T22:19:59+00:00",
       "freshness": "recent"
     },
     {
@@ -147,17 +202,6 @@
       "freshness": "recent"
     },
     {
-      "theme": "科技",
-      "region": "中国",
-      "title": "电报解读 - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBubGRNOTRDeFpWMXByLW5ob1U5dXFabEZPSldyRjh0QXBOU0tGTEFXc0lpWXhqOEdvVi1kZVp3YnVrb0NSekE?oc=5",
-      "publishedAt": "2026-09-29T13:36:00+00:00",
-      "freshness": "recent"
-    },
-    {
       "theme": "宏观",
       "region": "美国",
       "title": "No Sanctions Relief For Iran",
@@ -177,28 +221,6 @@
       "source": "Google News",
       "url": "https://seekingalpha.com/article/4950621-wall-street-breakfast-podcast-federal-boost-for-navitas?source=feed_tag_wall_st_breakfast",
       "publishedAt": "2026-09-29T11:05:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "AMD史上第二大收购：82亿美元拿下李飞飞AI实验室World Labs - 搜狐网",
-      "summary": "",
-      "why": "",
-      "source": "搜狐网",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUkxZMHUxdGJRQUJaWlBHNEg0UHBULURzbEZIUVF4OGpLbnFOTVNRV0U4ME11ZHp4TG55czM2TXZtT2FhRDJBUEstVzc3WmZ1NnoyOTZIcGhIZGxxbC1peU5kRnNIV19wMUREbWdzRnlEOG9TOTFzRFo4M2JLRG9iRXVrVEcwTWF0NlBLckl1SEN2VXFMYm1xUDJWaTczWXM?oc=5",
-      "publishedAt": "2026-09-29T07:29:32+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "斥资10亿美元！三星加码AI基建 英伟达已参与其中 - finance.sina.com.cn",
-      "summary": "",
-      "why": "",
-      "source": "finance.sina.com.cn",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8xb1M3c2RHNWdRQTg5M2dpR2U3LTM1US1ySGdDZkNCdWM1TkpXT3dWRVBEbm45UW9uODdyTTNheEp1MzlWUkExbU5ETU9iU0lEZ0k5VjVHVS1IanZ6T3cyRVRJUjB0QXZQMHBFWkxMQVQ4SzlfU3FmOXlLVGM?oc=5",
-      "publishedAt": "2026-09-29T07:06:49+00:00",
       "freshness": "recent"
     }
   ],
