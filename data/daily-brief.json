@@ -1,83 +1,94 @@
 {
-  "asOf": "2026-10-01T19:33:21.574444+00:00",
+  "asOf": "2026-10-01T23:54:10.131093+00:00",
   "title": "每日市场研究",
   "freshnessRule": "今日动态仅展示最近36小时；官方低频数据单列并显示发布日期。",
   "items": [
     {
       "theme": "全球",
       "region": "全球",
-      "title": "Fed's Bowman is seeing improved market liquidity from eSLR recalibrations for the biggest banks",
+      "title": "Dallas Fed's Logan estimates at least two more 25-bp rate hikes are needed",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4649459-feds-bowman-is-seeing-improved-market-liquidity-from-eslr-recalibrations-for-the-biggest-banks?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-01T19:30:05+00:00",
+      "url": "https://seekingalpha.com/news/4649588-dallas-feds-logan-estimates-at-least-two-more-25-bp-rate-hikes-are-needed?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-01T23:28:32+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "Occidental Petroleum raised to Buy at Goldman on strong debt reduction, dividend growth potential",
+      "title": "Algoma expects 65% drop in Q3 steel shipments after turbine outage",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4649478-occidental-petroleum-raised-to-buy-on-strong-debt-reduction-dividend-growth-potential?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-01T19:23:29+00:00",
+      "url": "https://seekingalpha.com/news/4649596-algoma-expects-65-percent-drop-in-q3-steel-shipments-after-turbine-outage?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-01T22:36:50+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "SA Asks: Does AMD still have upside after its latest rally?",
+      "title": "Venture Global signs 20-year LNG supply deal with ConocoPhillips",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4649462-sa-asks-does-amd-still-have-upside-after-its-latest-rally?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-01T19:06:33+00:00",
+      "url": "https://seekingalpha.com/news/4649595-venture-global-signs-20-year-lng-supply-deal-with-conocophillips?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-01T22:21:34+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "iShares GNMA Bond ETF declares monthly distribution of $0.2314",
+      "title": "ChronoScale expands and adds new AI deals towards $1B revenue run rate",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4649477-ishares-gnma-bond-etf-declares-monthly-distribution-of-02314?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-01T19:03:34+00:00",
+      "url": "https://seekingalpha.com/news/4649593-chronoscale-expands-and-adds-new-ai-deals-towards-1b-revenue-run-rate?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-01T21:56:10+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "iShares Government Money Market ETF declares monthly distribution of $0.2314",
+      "title": "Oceaneering secures up to $154M U.S. Navy contract",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4649475-ishares-government-money-market-etf-declares-monthly-distribution-of-02314?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-01T19:01:29+00:00",
+      "url": "https://seekingalpha.com/news/4649592-oceaneering-secures-up-to-154m-us-navy-contract?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-01T21:49:09+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "iShares US & Intl High Yield Corp Bond ETF declares monthly distribution of $0.2314",
+      "title": "Sagimet closes down after acne drug denifanstat data, closing of stock offering",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4649474-ishares-us-intl-high-yield-corp-bond-etf-declares-monthly-distribution-of-02314?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-01T18:59:47+00:00",
+      "url": "https://seekingalpha.com/news/4649587-sagimet-closes-down-after-acne-drug-denifanstat-data-closing-stock-offering?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-01T21:41:57+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "Consolidated Edison upgraded at Wells Fargo as buffer against AI trade rotation",
+      "title": "Plaid Technologies appoints Guy Bourgeois as interim CFO",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4649455-consolidated-edison-upgraded-at-wells-fargo-as-buffer-against-ai-trade-rotation?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-01T18:58:40+00:00",
+      "url": "https://seekingalpha.com/news/4649591-plaid-technologies-appoints-guy-bourgeois-as-interim-cfo?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-01T21:40:34+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "【早报】特朗普：对多晶硅及其衍生产品加征关税；美存储股再遭重挫；原油走强、黄金微跌；宇树科技发行价定了 - cls.cn",
+      "summary": "",
+      "why": "",
+      "source": "cls.cn",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBKOGZ6ejN0YWR3YkZWVXU3YndmcUwyUGF0WFFRc2xGRkhSUm5lTjNSbm9LZlo2Mmx0WklVdWxSOFMxYnRHZnVsYw?oc=5",
+      "publishedAt": "2026-10-01T17:59:31+00:00",
       "freshness": "recent"
     },
     {
@@ -92,6 +103,28 @@
       "freshness": "recent"
     },
     {
+      "theme": "科技",
+      "region": "中国",
+      "title": "【早报】美股大反弹；3大存储巨头，遭集体诉讼；金银下跌，油价收涨 - cls.cn",
+      "summary": "",
+      "why": "",
+      "source": "cls.cn",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9ocE9zTlNLLUVBa3ZkUk5iRFp6bkxleEFJWlpCQlQxNy1KTzlaUlUwSzk0M0ptdnp6LWJqckJha3l6R3F3b1d4SQ?oc=5",
+      "publishedAt": "2026-10-01T16:32:26+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "国兴智能发布11款特种机器人 产品已进入全球36个国家和地区 - 新浪财经",
+      "summary": "",
+      "why": "",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5JY29KSWItXzBkRE92QzdBRjdjVkhoNWNzbUtFZUsyLWxTZkxULU1VcEMxVG9lT1Bvd0l3ZGNpRU5LUmZTcC0zOVliS2hUYnJCY21kYXdJM2pBQ01vNGt5MGFSZ0JTVWNIdFo3SHBLYnRvcWRUMnNRRQ?oc=5",
+      "publishedAt": "2026-10-01T11:43:00+00:00",
+      "freshness": "recent"
+    },
+    {
       "theme": "宏观",
       "region": "美国",
       "title": "Treasuries' Worst Quarter Since '94",
@@ -100,6 +133,17 @@
       "source": "Google News",
       "url": "https://seekingalpha.com/article/4951265-treasuries-worst-quarter-since-94?source=feed_tag_wall_st_breakfast",
       "publishedAt": "2026-10-01T11:30:44+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "“不要做空马斯克”成华尔街暗语？AI与机器人叙事升温，特斯拉(TSLA.US)空头撤退、持有评级飙升 - 新浪财经",
+      "summary": "",
+      "why": "",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPclF5RWVTLWloLVRFUldmWFN2c1ZRZE1rRFhhU3N4enZ6VDE2MmV1ZF8wUHNTelNtclI3NTVMYnhXYnEwTnV6RW0zaFFRR0VQZm5CV1ROdEV4cW9JTXA0ek1COVdLSzI5ZGRDV3J1VDlZZXRFd0I1VmxaTll6Q3BZaEU1a1ZnV3dBYWJnNHVB?oc=5",
+      "publishedAt": "2026-10-01T11:06:00+00:00",
       "freshness": "recent"
     },
     {
@@ -116,21 +160,10 @@
     {
       "theme": "科技",
       "region": "中国",
-      "title": "【早报】美股芯片股大跌；中概股逆势走强；原油飙升、黄金收涨；A股又一波回购潮来了 - 财联社",
+      "title": "【早报】美股存储、半导体板块连日大跌；一批A股公司中报业绩预计大增；油价微升、黄金走强；西班牙晋级世界杯16强 - cls.cn",
       "summary": "",
       "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBfMzZvODEwVVVXWEpJYnVxTE93UF9OUnpHWV9nMkJlUXc4Vl9URzZnMXNrX0hUaVJ3UWo4MHB1UDNtOGNWc19EZg?oc=5",
-      "publishedAt": "2026-10-01T07:56:54+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "【早报】美股存储、半导体板块连日大跌；一批A股公司中报业绩预计大增；油价微升、黄金走强；西班牙晋级世界杯16强 - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
+      "source": "cls.cn",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBNYmRrQjlUZko5NDdxa2lkeGFrUGUtVFBqb3ZHSDVza1U2Y0tlQ0wxSUo0eGQ3QzFwb19nZDZRQmgzUjIxSkN4cg?oc=5",
       "publishedAt": "2026-10-01T07:45:59+00:00",
       "freshness": "recent"
@@ -138,45 +171,34 @@
     {
       "theme": "科技",
       "region": "中国",
-      "title": "【早报】美存储股集体跳水；原油大跌、黄金走弱；长鑫科技将被纳入MSCI中国全股票指数 - 财联社",
+      "title": "消费者根本无路可退：AI泡沫就算破裂 内存也不会降价！ - 新浪财经",
       "summary": "",
       "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5mM19wd1kyWjlLR1l1ZEE2Q3JVZ29OOWhLRG9RNTU0MkpGNjFOTzY2REtobXNWaEotZDY3c19MUm5GdUlKMUN0Xw?oc=5",
-      "publishedAt": "2026-10-01T06:27:25+00:00",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRzhkNnAwamptRHNqTTN5ZFpuakcwbHlFck9pYjUtYlFqTFA2em9RaDRkWnRUeWlqY1N3aF9oVndMWldrdTlTTVVrNFlGVll4cXVsLXR6ZE5vS1B6SkFqWnl4S01RS0xQZ1NVUHBDS25lbjBnWDZxTTM4c0xfRDlXRy1Bdno3dw?oc=5",
+      "publishedAt": "2026-10-01T07:38:00+00:00",
       "freshness": "recent"
     },
     {
       "theme": "科技",
       "region": "中国",
-      "title": "AMD豪掷550亿元，买下李飞飞公司 - timeline.sohu.com",
+      "title": "SpaceX、AMD财报出炉；大基金三期出手！入股正芯半导体 - cls.cn",
       "summary": "",
       "why": "",
-      "source": "timeline.sohu.com",
+      "source": "cls.cn",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE05NmVDY0RkODVYaWd3dmtQMm5iXzMxc0NhVTVkdDltOGxJZEcxZFF2SEZscjlkRU9ZbEUwbVBUc3FDaHVTbF9zUQ?oc=5",
+      "publishedAt": "2026-10-01T07:02:57+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "AMD豪掷550亿元，买下李飞飞公司 - 搜狐网",
+      "summary": "",
+      "why": "",
+      "source": "搜狐网",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1aTzBhTUtfb04xaWNZWTFSWG9CZm5tU0tsRlJRNFdwYVRHczA0VmgzU2JaWnktWU95bmFWRFllZHdmdF9oWG9jMjFyVEhYenU1MWNmSW1QOG1JdDFkQ2E1OQ?oc=5",
       "publishedAt": "2026-10-01T05:18:27+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "82亿美元！AMD官宣收购李飞飞World Labs 人才与模型尽入囊中 - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1YT2x6UWdoQ3EzdFRJWDZocF9fdEpHM21reVNEeHdQaHpMUXA3ZkQyYmZTMkgyQWVISW8xek9yOVdmTzU0NXR1Sw?oc=5",
-      "publishedAt": "2026-09-30T23:58:41+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "【早报】伊朗：已为与美战事重开做好准备；特朗普：预计本周与伊朗谈判；原油高开、黄金下跌；武契奇宣布辞职 - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9NLXdxd3d6djdXZUFIb2pGenpJM2VPZVQyMVlnX3VDWm1jNWtfVG03Q1R4NnBnVjh4Z01WcDY1ZjZHUlhJQUl6Qg?oc=5",
-      "publishedAt": "2026-09-30T22:25:35+00:00",
       "freshness": "recent"
     },
     {
@@ -188,50 +210,6 @@
       "source": "Google News",
       "url": "https://seekingalpha.com/article/4951173-wall-street-lunch-micron-on-tap?source=feed_tag_wall_st_breakfast",
       "publishedAt": "2026-09-30T20:35:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "【早报】深夜，美股半导体板块剧烈分化；高盛：SpaceX的AI收入将激增100倍 - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1aOHhnWTVSaFhxdjFwcFFfaHZJdVlIaElZX3ZYdEtkRWI3bG5OYmkzU2xfc3M2UmdNM0MzUU0tLVd6RU83VXJIaw?oc=5",
-      "publishedAt": "2026-09-30T20:23:12+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "韩国金融改革“大动作”：将国家增长基金规模扩至200万亿韩元 - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1MakFMTVBSNEZTZUJpZTBNaTBOazdwODEtd1pUSHV0VmE5RXlaWE91aGVIbE1XU0FsMEVzdmlneVZ3a19VUnRjdg?oc=5",
-      "publishedAt": "2026-09-30T19:56:15+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "宏观",
-      "region": "美国",
-      "title": "States Move To Rein In Fuel Prices",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/article/4950924-states-move-to-rein-in-fuel-prices?source=feed_tag_wall_st_breakfast",
-      "publishedAt": "2026-09-30T11:30:04+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "宏观",
-      "region": "美国",
-      "title": "Wall Street Breakfast Podcast: Target Extends Value Drive",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/article/4950958-wall-street-breakfast-podcast-target-extends-value-drive?source=feed_tag_wall_st_breakfast",
-      "publishedAt": "2026-09-30T11:00:00+00:00",
       "freshness": "recent"
     }
   ],
