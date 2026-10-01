@@ -1,83 +1,138 @@
 {
-  "asOf": "2026-10-01T05:58:43.361913+00:00",
+  "asOf": "2026-10-01T13:20:02.128202+00:00",
   "title": "每日市场研究",
   "freshnessRule": "今日动态仅展示最近36小时；官方低频数据单列并显示发布日期。",
   "items": [
     {
       "theme": "全球",
       "region": "全球",
-      "title": "CollPlant Biotechnologies GAAP EPS of -$0.87, revenue of $11.43M; reaffirms FY 2026 outlook",
+      "title": "Blackstone announces $1B investment to launch defense technology company",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4648834-collplant-biotechnologies-gaap-eps-of-087-revenue-of-1143m-reaffirms-fy-2026-outlook?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-01T05:54:31+00:00",
+      "url": "https://seekingalpha.com/news/4649022-blackstone-announces-1b-investment-to-launch-defense-technology-company?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-01T13:16:03+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "Recon Technology GAAP EPS of -$39.28, revenue of $16.2M",
+      "title": "Keurig Dr Pepper names a CEO for the coffee business ahead of the business split",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4648833-recon-technology-gaap-eps-of--3928-revenue-of-162m?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-01T05:52:09+00:00",
+      "url": "https://seekingalpha.com/news/4649018-keurig-dr-pepper-names-a-ceo-for-the-coffee-business-ahead-of-business-split?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-01T13:15:24+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "Netflix Co-CEO Sarandos says growth slower than desired, touts live content",
+      "title": "S&P 500 equal weight index is on track for seventh straight weekly decline",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4648815-netflix-co-ceo-sarandos-says-growth-slower-than-desired-touts-live-content?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-01T05:46:27+00:00",
+      "url": "https://seekingalpha.com/news/4649031-sp-500-equal-weight-index-is-on-track-for-seventh-straight-weekly-decline?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-01T13:11:41+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "Asian markets trade mixed amid rebound in oil prices; Australian trade and PMI slump",
+      "title": "ProShares Shrt Bitcoin ETF declares monthly distribution of $0.0390",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4648824-asian-markets-trade-mixed-amid-rebound-in-oil-prices-australian-trade-and-pmi-slump?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-01T05:43:48+00:00",
+      "url": "https://seekingalpha.com/news/4649043-proshares-shrt-bitcoin-etf-declares-monthly-distribution-of-00390?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-01T13:09:48+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "Trump touts $200B South Korean investment for Texas power, nuclear, and Alaska LNG",
+      "title": "ProShares K-1 Free Crude Oil ETF declares monthly distribution of $2.5728",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4648820-trump-touts-200b-south-korean-investment-for-texas-power-nuclear-and-alaska-lng?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-01T05:35:03+00:00",
+      "url": "https://seekingalpha.com/news/4649042-proshares-k-1-free-crude-oil-etf-declares-monthly-distribution-of-25728?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-01T13:09:01+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "BOJ signals accelerated rate tightening amid persistent inflation risks",
+      "title": "ProShares Bitcoin ETF declares monthly distribution of $0.017381",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4648829-boj-signals-accelerated-rate-tightening-amid-persistent-inflation-risks?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-01T05:25:06+00:00",
+      "url": "https://seekingalpha.com/news/4649040-proshares-bitcoin-etf-declares-monthly-distribution-of-00173?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-01T13:08:36+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "Australia's manufacturing PMI contracts to 49.6 in September, sharpest fall in 21 months",
+      "title": "ProShares Investment Grade—Interest Rate Hedged ETF declares monthly distribution of $0.3355",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4648828-australias-manufacturing-pmi-contracts-to-496-in-september-sharpest-fall-in-21-months?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-01T05:21:08+00:00",
+      "url": "https://seekingalpha.com/news/4649039-proshares-investment-gradeinterest-rate-hedged-etf-declares-monthly-distribution-of-03355?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-01T13:08:18+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "宏观",
+      "region": "美国",
+      "title": "Treasuries' Worst Quarter Since '94",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/article/4951265-treasuries-worst-quarter-since-94?source=feed_tag_wall_st_breakfast",
+      "publishedAt": "2026-10-01T11:30:44+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "“不要做空马斯克”成华尔街暗语？AI与机器人叙事升温，特斯拉(TSLA.US)空头撤退、持有评级飙升 - finance.sina.com.cn",
+      "summary": "",
+      "why": "",
+      "source": "finance.sina.com.cn",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPclF5RWVTLWloLVRFUldmWFN2c1ZRZE1rRFhhU3N4enZ6VDE2MmV1ZF8wUHNTelNtclI3NTVMYnhXYnEwTnV6RW0zaFFRR0VQZm5CV1ROdEV4cW9JTXA0ek1COVdLSzI5ZGRDV3J1VDlZZXRFd0I1VmxaTll6Q3BZaEU1a1ZnV3dBYWJnNHVB?oc=5",
+      "publishedAt": "2026-10-01T11:06:00+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "宏观",
+      "region": "美国",
+      "title": "Wall Street Breakfast Podcast: Constellation's Big Power Play",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/article/4951300-wall-street-breakfast-podcast-constellations-big-power-play?source=feed_tag_wall_st_breakfast",
+      "publishedAt": "2026-10-01T11:00:00+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "【早报】美股存储、半导体板块连日大跌；一批A股公司中报业绩预计大增；油价微升、黄金走强；西班牙晋级世界杯16强 - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBNYmRrQjlUZko5NDdxa2lkeGFrUGUtVFBqb3ZHSDVza1U2Y0tlQ0wxSUo0eGQ3QzFwb19nZDZRQmgzUjIxSkN4cg?oc=5",
+      "publishedAt": "2026-10-01T07:45:59+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "AMD豪掷550亿元，买下李飞飞公司 - 搜狐网",
+      "summary": "",
+      "why": "",
+      "source": "搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1aTzBhTUtfb04xaWNZWTFSWG9CZm5tU0tsRlJRNFdwYVRHczA0VmgzU2JaWnktWU95bmFWRFllZHdmdF9oWG9jMjFyVEhYenU1MWNmSW1QOG1JdDFkQ2E1OQ?oc=5",
+      "publishedAt": "2026-10-01T05:18:27+00:00",
       "freshness": "recent"
     },
     {
@@ -100,6 +155,17 @@
       "source": "Google News",
       "url": "https://seekingalpha.com/article/4951173-wall-street-lunch-micron-on-tap?source=feed_tag_wall_st_breakfast",
       "publishedAt": "2026-09-30T20:35:00+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "【早报】深夜，美股半导体板块剧烈分化；高盛：SpaceX的AI收入将激增100倍 - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1aOHhnWTVSaFhxdjFwcFFfaHZJdVlIaElZX3ZYdEtkRWI3bG5OYmkzU2xfc3M2UmdNM0MzUU0tLVd6RU83VXJIaw?oc=5",
+      "publishedAt": "2026-09-30T20:23:12+00:00",
       "freshness": "recent"
     },
     {
@@ -136,17 +202,6 @@
       "freshness": "recent"
     },
     {
-      "theme": "科技",
-      "region": "中国",
-      "title": "SpaceX、AMD财报出炉；大基金三期出手！入股正芯半导体 - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE05NmVDY0RkODVYaWd3dmtQMm5iXzMxc0NhVTVkdDltOGxJZEcxZFF2SEZscjlkRU9ZbEUwbVBUc3FDaHVTbF9zUQ?oc=5",
-      "publishedAt": "2026-09-30T13:25:50+00:00",
-      "freshness": "recent"
-    },
-    {
       "theme": "宏观",
       "region": "美国",
       "title": "States Move To Rein In Fuel Prices",
@@ -166,50 +221,6 @@
       "source": "Google News",
       "url": "https://seekingalpha.com/article/4950958-wall-street-breakfast-podcast-target-extends-value-drive?source=feed_tag_wall_st_breakfast",
       "publishedAt": "2026-09-30T11:00:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "港股IPO市场热度高 369家公司排队聆讯处理中 - finance.sina.com.cn",
-      "summary": "",
-      "why": "",
-      "source": "finance.sina.com.cn",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNjZTYjJRMnhoZVMySGVSZm1SRWQ2WGJmc3V1LUg0aVZDYVdrMV9DTHpGamVEaW1NYm1OZHh0cHlMcDdtd0MzcUtGVzd6UjNDYjJOclhCVjF6X2s4RHdlVWFiZ0tLQTgzZXNDZVFTNHlaUXJvN1pjRmItaVBiRFBiZW4zTWhWbVRvVVE?oc=5",
-      "publishedAt": "2026-09-30T09:51:24+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "AMD豪掷550亿元，买下李飞飞公司- 21世纪经济报道 - ZAKER新闻",
-      "summary": "",
-      "why": "",
-      "source": "ZAKER新闻",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5OMDRLSVJtV1JKbjFoSkhFYmdQQzc1bjJpRlo2bXkyc1BJME5tTEx2SzNuNVk4UEJDb1gxVl9hT3VERDFXYzJRZzJXX1RwSFRrcTVfV3BTckNNbUlvSG13RmM2el9DWnEwWmVmbkxBRVNwdEJQZ3Uw?oc=5",
-      "publishedAt": "2026-09-30T08:10:53+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "海外映射带动港股物理AI概念走强 欢创科技上市首日涨超200% - 东方财富",
-      "summary": "",
-      "why": "",
-      "source": "东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5hZkt3YWFBaGNvbUIwWHJBLVE5THFHbTRjcUpjRnNyWVpCVW5IWW9CM1VZdERsd05vYW5jRXlMN0VtX0ltWE9VT29XeGxpVFNoSFE0RjAtNHBTaU9aVGg0V25MUV9CZw?oc=5",
-      "publishedAt": "2026-09-30T07:24:45+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "宏观",
-      "region": "美国",
-      "title": "Wall Street Lunch: Anthropic Targets Up To $2T Raise (Judgment Day Possible)",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/article/4950765-wall-street-lunch-anthropic-targets-up-to-2t-raise-ipo-filing-shows?source=feed_tag_wall_st_breakfast",
-      "publishedAt": "2026-09-29T18:23:00+00:00",
       "freshness": "recent"
     }
   ],
