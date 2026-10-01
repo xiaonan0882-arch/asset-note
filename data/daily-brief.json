@@ -1,83 +1,94 @@
 {
-  "asOf": "2026-10-01T13:20:02.128202+00:00",
+  "asOf": "2026-10-01T19:33:21.574444+00:00",
   "title": "每日市场研究",
   "freshnessRule": "今日动态仅展示最近36小时；官方低频数据单列并显示发布日期。",
   "items": [
     {
       "theme": "全球",
       "region": "全球",
-      "title": "Blackstone announces $1B investment to launch defense technology company",
+      "title": "Fed's Bowman is seeing improved market liquidity from eSLR recalibrations for the biggest banks",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4649022-blackstone-announces-1b-investment-to-launch-defense-technology-company?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-01T13:16:03+00:00",
+      "url": "https://seekingalpha.com/news/4649459-feds-bowman-is-seeing-improved-market-liquidity-from-eslr-recalibrations-for-the-biggest-banks?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-01T19:30:05+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "Keurig Dr Pepper names a CEO for the coffee business ahead of the business split",
+      "title": "Occidental Petroleum raised to Buy at Goldman on strong debt reduction, dividend growth potential",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4649018-keurig-dr-pepper-names-a-ceo-for-the-coffee-business-ahead-of-business-split?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-01T13:15:24+00:00",
+      "url": "https://seekingalpha.com/news/4649478-occidental-petroleum-raised-to-buy-on-strong-debt-reduction-dividend-growth-potential?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-01T19:23:29+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "S&P 500 equal weight index is on track for seventh straight weekly decline",
+      "title": "SA Asks: Does AMD still have upside after its latest rally?",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4649031-sp-500-equal-weight-index-is-on-track-for-seventh-straight-weekly-decline?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-01T13:11:41+00:00",
+      "url": "https://seekingalpha.com/news/4649462-sa-asks-does-amd-still-have-upside-after-its-latest-rally?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-01T19:06:33+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "ProShares Shrt Bitcoin ETF declares monthly distribution of $0.0390",
+      "title": "iShares GNMA Bond ETF declares monthly distribution of $0.2314",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4649043-proshares-shrt-bitcoin-etf-declares-monthly-distribution-of-00390?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-01T13:09:48+00:00",
+      "url": "https://seekingalpha.com/news/4649477-ishares-gnma-bond-etf-declares-monthly-distribution-of-02314?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-01T19:03:34+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "ProShares K-1 Free Crude Oil ETF declares monthly distribution of $2.5728",
+      "title": "iShares Government Money Market ETF declares monthly distribution of $0.2314",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4649042-proshares-k-1-free-crude-oil-etf-declares-monthly-distribution-of-25728?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-01T13:09:01+00:00",
+      "url": "https://seekingalpha.com/news/4649475-ishares-government-money-market-etf-declares-monthly-distribution-of-02314?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-01T19:01:29+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "ProShares Bitcoin ETF declares monthly distribution of $0.017381",
+      "title": "iShares US & Intl High Yield Corp Bond ETF declares monthly distribution of $0.2314",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4649040-proshares-bitcoin-etf-declares-monthly-distribution-of-00173?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-01T13:08:36+00:00",
+      "url": "https://seekingalpha.com/news/4649474-ishares-us-intl-high-yield-corp-bond-etf-declares-monthly-distribution-of-02314?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-01T18:59:47+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "ProShares Investment Grade—Interest Rate Hedged ETF declares monthly distribution of $0.3355",
+      "title": "Consolidated Edison upgraded at Wells Fargo as buffer against AI trade rotation",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4649039-proshares-investment-gradeinterest-rate-hedged-etf-declares-monthly-distribution-of-03355?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-01T13:08:18+00:00",
+      "url": "https://seekingalpha.com/news/4649455-consolidated-edison-upgraded-at-wells-fargo-as-buffer-against-ai-trade-rotation?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-01T18:58:40+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "宏观",
+      "region": "美国",
+      "title": "Wall Street Lunch: All About AI",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/article/4951435-wall-street-lunch-all-about-ai?source=feed_tag_wall_st_breakfast",
+      "publishedAt": "2026-10-01T17:35:00+00:00",
       "freshness": "recent"
     },
     {
@@ -89,17 +100,6 @@
       "source": "Google News",
       "url": "https://seekingalpha.com/article/4951265-treasuries-worst-quarter-since-94?source=feed_tag_wall_st_breakfast",
       "publishedAt": "2026-10-01T11:30:44+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "“不要做空马斯克”成华尔街暗语？AI与机器人叙事升温，特斯拉(TSLA.US)空头撤退、持有评级飙升 - finance.sina.com.cn",
-      "summary": "",
-      "why": "",
-      "source": "finance.sina.com.cn",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPclF5RWVTLWloLVRFUldmWFN2c1ZRZE1rRFhhU3N4enZ6VDE2MmV1ZF8wUHNTelNtclI3NTVMYnhXYnEwTnV6RW0zaFFRR0VQZm5CV1ROdEV4cW9JTXA0ek1COVdLSzI5ZGRDV3J1VDlZZXRFd0I1VmxaTll6Q3BZaEU1a1ZnV3dBYWJnNHVB?oc=5",
-      "publishedAt": "2026-10-01T11:06:00+00:00",
       "freshness": "recent"
     },
     {
@@ -116,6 +116,17 @@
     {
       "theme": "科技",
       "region": "中国",
+      "title": "【早报】美股芯片股大跌；中概股逆势走强；原油飙升、黄金收涨；A股又一波回购潮来了 - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBfMzZvODEwVVVXWEpJYnVxTE93UF9OUnpHWV9nMkJlUXc4Vl9URzZnMXNrX0hUaVJ3UWo4MHB1UDNtOGNWc19EZg?oc=5",
+      "publishedAt": "2026-10-01T07:56:54+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
       "title": "【早报】美股存储、半导体板块连日大跌；一批A股公司中报业绩预计大增；油价微升、黄金走强；西班牙晋级世界杯16强 - 财联社",
       "summary": "",
       "why": "",
@@ -127,10 +138,21 @@
     {
       "theme": "科技",
       "region": "中国",
-      "title": "AMD豪掷550亿元，买下李飞飞公司 - 搜狐网",
+      "title": "【早报】美存储股集体跳水；原油大跌、黄金走弱；长鑫科技将被纳入MSCI中国全股票指数 - 财联社",
       "summary": "",
       "why": "",
-      "source": "搜狐网",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5mM19wd1kyWjlLR1l1ZEE2Q3JVZ29OOWhLRG9RNTU0MkpGNjFOTzY2REtobXNWaEotZDY3c19MUm5GdUlKMUN0Xw?oc=5",
+      "publishedAt": "2026-10-01T06:27:25+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "AMD豪掷550亿元，买下李飞飞公司 - timeline.sohu.com",
+      "summary": "",
+      "why": "",
+      "source": "timeline.sohu.com",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1aTzBhTUtfb04xaWNZWTFSWG9CZm5tU0tsRlJRNFdwYVRHczA0VmgzU2JaWnktWU95bmFWRFllZHdmdF9oWG9jMjFyVEhYenU1MWNmSW1QOG1JdDFkQ2E1OQ?oc=5",
       "publishedAt": "2026-10-01T05:18:27+00:00",
       "freshness": "recent"
@@ -144,6 +166,17 @@
       "source": "财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1YT2x6UWdoQ3EzdFRJWDZocF9fdEpHM21reVNEeHdQaHpMUXA3ZkQyYmZTMkgyQWVISW8xek9yOVdmTzU0NXR1Sw?oc=5",
       "publishedAt": "2026-09-30T23:58:41+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "【早报】伊朗：已为与美战事重开做好准备；特朗普：预计本周与伊朗谈判；原油高开、黄金下跌；武契奇宣布辞职 - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9NLXdxd3d6djdXZUFIb2pGenpJM2VPZVQyMVlnX3VDWm1jNWtfVG03Q1R4NnBnVjh4Z01WcDY1ZjZHUlhJQUl6Qg?oc=5",
+      "publishedAt": "2026-09-30T22:25:35+00:00",
       "freshness": "recent"
     },
     {
@@ -177,28 +210,6 @@
       "source": "财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1MakFMTVBSNEZTZUJpZTBNaTBOazdwODEtd1pUSHV0VmE5RXlaWE91aGVIbE1XU0FsMEVzdmlneVZ3a19VUnRjdg?oc=5",
       "publishedAt": "2026-09-30T19:56:15+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "【早报】美股芯片、光通信股全线反弹，半导体指数大涨5.6%；油价冲高回落，金银探底企稳 - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1uQ0RKUFpLYlQyVnRyYzhiNVZkSkV2bFBCMHpZS1N3RS1rNTU4NTBVNWdiYjZISXpXQlM1d0FLaWpOLXBLaTR4eA?oc=5",
-      "publishedAt": "2026-09-30T15:02:24+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "【早报】美股大反弹；3大存储巨头，遭集体诉讼；金银下跌，油价收涨 - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9ocE9zTlNLLUVBa3ZkUk5iRFp6bkxleEFJWlpCQlQxNy1KTzlaUlUwSzk0M0ptdnp6LWJqckJha3l6R3F3b1d4SQ?oc=5",
-      "publishedAt": "2026-09-30T13:35:30+00:00",
       "freshness": "recent"
     },
     {
