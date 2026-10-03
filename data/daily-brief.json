@@ -1,8 +1,19 @@
 {
-  "asOf": "2026-10-02T22:58:59.929878+00:00",
+  "asOf": "2026-10-03T02:00:21.292888+00:00",
   "title": "每日市场研究",
   "freshnessRule": "今日动态仅展示最近36小时；官方低频数据单列并显示发布日期。",
   "items": [
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Oil prices drop as G7 nations pledge to release diesel stocks; Saudis said planning attack on Houthis",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4650005-oil-prices-drop-as-g7-nations-pledge-to-release-diesel-stocks-saudis-said-planning-attack-on-houthis?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-02T23:59:08+00:00",
+      "freshness": "recent"
+    },
     {
       "theme": "全球",
       "region": "全球",
@@ -70,28 +81,6 @@
       "freshness": "recent"
     },
     {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Safe Bulkers Cum Red Perp Pfd Shs Series C declares $0.50 dividend",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4649999-safe-bulkers-cum-red-perp-pfd-shs-series-c-declares-0_50-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-02T21:11:04+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "特斯拉财报会实录：大举押注机器人、自动驾驶与储能 资本开支持续扩张 - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5FUGRIYVVDS2s2MmV0akUzUzk4eVhSU0I0b25pUmY1NlJlNUZLalExLVJvaG5XalItb2hXQXRNN2NOUFJUeHVSag?oc=5",
-      "publishedAt": "2026-10-02T18:31:13+00:00",
-      "freshness": "recent"
-    },
-    {
       "theme": "科技",
       "region": "中国",
       "title": "【早报】美股芯片股大跌；中概股逆势走强；原油飙升、黄金收涨；A股又一波回购潮来了 - 财联社",
@@ -111,17 +100,6 @@
       "source": "Bad News Is Good News",
       "url": "https://seekingalpha.com/article/4951635-wall-street-lunch-jobs-report-bad-news-is-good-news?source=feed_tag_wall_st_breakfast",
       "publishedAt": "2026-10-02T15:30:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "财联社7月14日讯（记者 周晓雅） 又一次调整之际，基金经理对科技赛道的分歧也在加大。 - content.foshanplus.com",
-      "summary": "",
-      "why": "",
-      "source": "content.foshanplus.com",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9pbG1ZbkgzZkJCcVpYU2dTeEpGZEVWRDBzTUxnQmtRQ3ZaUW1yeU9taEpNRkVudWp0SldQQkJXR0N4dXM3WjNIeHJuU1JMUlpzNUxGQ214Vmg4aVFobFRTbWpYc1NkSkp0OHJUMDlBMnBTSjJMdzYzeFFR?oc=5",
-      "publishedAt": "2026-10-02T14:42:13+00:00",
       "freshness": "recent"
     },
     {
@@ -149,12 +127,12 @@
     {
       "theme": "科技",
       "region": "中国",
-      "title": "【早报】美股半导体板块，深V反弹；原油大跌、黄金微涨；事关电力，重磅规划发布 - 财联社",
+      "title": "【早报】美联储放鹰；存储、半导体板块大跌，中概股逆势大涨；油价下跌，黄金收涨；英格兰、比利时晋级世界杯16强 - 财联社",
       "summary": "",
       "why": "",
       "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE52WEpUWmhya09LbzIzTXM1VnFoTU9IdzVoRUN2TWkwYWQteW53S3hMUVVqdXlOakh5UmxhXzM5Sm1rWTVaTDRvdg?oc=5",
-      "publishedAt": "2026-10-02T01:10:26+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBZRk83dERvMWRQSlcxQUlXRWJxNll1eHlsSEY4Zl9ab1pCWnNTZ2RhNm5vVzBLN3hKbnNPcnh0MDQ0aDRTOWZmeQ?oc=5",
+      "publishedAt": "2026-10-02T02:30:56+00:00",
       "freshness": "recent"
     },
     {
@@ -166,28 +144,6 @@
       "source": "Google News",
       "url": "https://seekingalpha.com/article/4951435-wall-street-lunch-all-about-ai?source=feed_tag_wall_st_breakfast",
       "publishedAt": "2026-10-01T17:35:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "宏观",
-      "region": "美国",
-      "title": "Treasuries' Worst Quarter Since '94",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/article/4951265-treasuries-worst-quarter-since-94?source=feed_tag_wall_st_breakfast",
-      "publishedAt": "2026-10-01T11:30:44+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "宏观",
-      "region": "美国",
-      "title": "Wall Street Breakfast Podcast: Constellation's Big Power Play",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/article/4951300-wall-street-breakfast-podcast-constellations-big-power-play?source=feed_tag_wall_st_breakfast",
-      "publishedAt": "2026-10-01T11:00:00+00:00",
       "freshness": "recent"
     }
   ],
