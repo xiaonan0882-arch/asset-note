@@ -1,8 +1,107 @@
 {
-  "asOf": "2026-10-03T08:08:51.295355+00:00",
+  "asOf": "2026-10-03T13:24:56.752242+00:00",
   "title": "每日市场研究",
   "freshnessRule": "今日动态仅展示最近36小时；官方低频数据单列并显示发布日期。",
   "items": [
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Communication services sector rises in Q3; Meta Platforms leads gains",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4649792-communication-services-sector-rises-in-q3-meta-platforms-leads-gains?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-03T13:05:40+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Meta’s Justin Osofsky joins Nscale as COO ahead of IPO: Bloomberg",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4650015-metas-justin-osofsky-joins-nscale-coo-ahead-ipo?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-03T12:41:58+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Trump sweetens election offer: now $5,000 available to every American",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4650014-trump-sweetens-election-offer-now-5000-available-to-every-american?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-03T12:05:00+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "The little humanoid robots that could",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4649840-the-little-humanoid-robots-that-could?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-03T11:00:47+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "宏观",
+      "region": "美国",
+      "title": "What Moved Markets This Week",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/article/4951763-what-moved-markets-this-week?source=feed_tag_wall_st_breakfast",
+      "publishedAt": "2026-10-03T10:36:10+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "【早报】美股芯片股大跌；中概股逆势走强；原油飙升、黄金收涨；A股又一波回购潮来了 - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBfMzZvODEwVVVXWEpJYnVxTE93UF9OUnpHWV9nMkJlUXc4Vl9URzZnMXNrX0hUaVJ3UWo4MHB1UDNtOGNWc19EZg?oc=5",
+      "publishedAt": "2026-10-03T08:38:35+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "“RISC-V第一股”奕斯伟计算冲刺港股，RISC-V跑进AI主战场 - 手机新浪网",
+      "summary": "",
+      "why": "",
+      "source": "手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNN0ttcDNJTlpiSEtkLXE5ZFBkcnlMN3U5SjI3SEI0a1NoRnVQREZhc1NBSkk0WWRmeWtOSzRUd1FXNmJTV3ZpR0JvaUVCbDBUTndLdXpJRHBHdWVoSkxmR3E3dEhaMk9JUmpvQ3R0NjM4R013aFQycWZHUlBKdzc2TEx3?oc=5",
+      "publishedAt": "2026-10-03T07:46:19+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "【早报】华为发布V2版“韬定律”论文；豆包、千问：智能体功能将下线 - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE45UTNLTFBBOUk3T3ExVGhUaDZzdUdhWERldmVzRzVHZjJZZUJoSWZKbkZsZlZ3UG82a0hid1ZSZmFIaXVrN25VeQ?oc=5",
+      "publishedAt": "2026-10-03T03:07:49+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "【早报】美股大反弹；3大存储巨头，遭集体诉讼；金银下跌，油价收涨 - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9ocE9zTlNLLUVBa3ZkUk5iRFp6bkxleEFJWlpCQlQxNy1KTzlaUlUwSzk0M0ptdnp6LWJqckJha3l6R3F3b1d4SQ?oc=5",
+      "publishedAt": "2026-10-03T02:43:48+00:00",
+      "freshness": "recent"
+    },
     {
       "theme": "全球",
       "region": "全球",
@@ -37,47 +136,14 @@
       "freshness": "recent"
     },
     {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Gold futures turn lower as weak U.S. payrolls fail to sustain gains",
+      "theme": "科技",
+      "region": "中国",
+      "title": "作为基于AI概念的半导体设备牛股，截至上个交易日收盘， Aehr的年内涨幅已经达到256%，过去一年股价翻了近4倍 - content.foshanplus.com",
       "summary": "",
       "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4649985-gold-futures-turn-lower-as-weak-us-payrolls-fail-to-sustain-gains?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-02T21:35:27+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Most and least shorted utilities stocks with up to $2B market cap as of September end",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4649589-most-and-least-shorted-utilities-stocks-with-up-to-2b-market-cap-as-of-september-end?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-02T21:30:39+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "FDA extends review for Novo Nordisk's denecimig for hemophilia A",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4650001-fda-extends-review-novo-nordisk-denecimig-hemophilia-a?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-02T21:27:32+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Western Digital retreats 10% amid storage selloff",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4649991-western-digital-retreats-10-amid-storage-selloff?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-02T21:17:15+00:00",
+      "source": "content.foshanplus.com",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1QMC1iYWtxQVdXWDhoWWlmWGhiMVpTT2stb1FXaHNYX0d4ME4ySGZYSlJNbzRrem1ud3pFb3BBX3lXbDAtb1FIX2NPaEZ1U3pxQkhsLXZJUnpXbXg2UkZPcmg0a0h2MWZUM2JtRDFma2pFYXl1aUNYbWF3?oc=5",
+      "publishedAt": "2026-10-02T21:35:30+00:00",
       "freshness": "recent"
     },
     {
@@ -94,12 +160,12 @@
     {
       "theme": "科技",
       "region": "中国",
-      "title": "【早报】美股芯片股大跌；中概股逆势走强；原油飙升、黄金收涨；A股又一波回购潮来了 - 财联社",
+      "title": "特斯拉财报会实录：大举押注机器人、自动驾驶与储能 资本开支持续扩张 - 财联社",
       "summary": "",
       "why": "",
       "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBfMzZvODEwVVVXWEpJYnVxTE93UF9OUnpHWV9nMkJlUXc4Vl9URzZnMXNrX0hUaVJ3UWo4MHB1UDNtOGNWc19EZg?oc=5",
-      "publishedAt": "2026-10-02T16:44:47+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5FUGRIYVVDS2s2MmV0akUzUzk4eVhSU0I0b25pUmY1NlJlNUZLalExLVJvaG5XalItb2hXQXRNN2NOUFJUeHVSag?oc=5",
+      "publishedAt": "2026-10-02T18:31:13+00:00",
       "freshness": "recent"
     },
     {
@@ -111,6 +177,17 @@
       "source": "Bad News Is Good News",
       "url": "https://seekingalpha.com/article/4951635-wall-street-lunch-jobs-report-bad-news-is-good-news?source=feed_tag_wall_st_breakfast",
       "publishedAt": "2026-10-02T15:30:00+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "财联社7月14日讯（记者 周晓雅） 又一次调整之际，基金经理对科技赛道的分歧也在加大。 - content.foshanplus.com",
+      "summary": "",
+      "why": "",
+      "source": "content.foshanplus.com",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9pbG1ZbkgzZkJCcVpYU2dTeEpGZEVWRDBzTUxnQmtRQ3ZaUW1yeU9taEpNRkVudWp0SldQQkJXR0N4dXM3WjNIeHJuU1JMUlpzNUxGQ214Vmg4aVFobFRTbWpYc1NkSkp0OHJUMDlBMnBTSjJMdzYzeFFR?oc=5",
+      "publishedAt": "2026-10-02T14:42:13+00:00",
       "freshness": "recent"
     },
     {
