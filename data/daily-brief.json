@@ -1,8 +1,19 @@
 {
-  "asOf": "2026-10-03T21:18:49.884493+00:00",
+  "asOf": "2026-10-04T00:40:08.063089+00:00",
   "title": "每日市场研究",
   "freshnessRule": "今日动态仅展示最近36小时；官方低频数据单列并显示发布日期。",
   "items": [
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Middle East crude exports recover to near pre-war levels but oil products still lag, analysts say",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4650004-middle-east-crude-exports-recover-to-near-pre-war-levels-but-oil-products-still-lag-analysts-say?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-04T00:25:38+00:00",
+      "freshness": "recent"
+    },
     {
       "theme": "全球",
       "region": "全球",
@@ -70,17 +81,6 @@
       "freshness": "recent"
     },
     {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Trump offering $90 to Medicare enrollees to cover premiums",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4650019-trump-offering-90-medicare-enrollees?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-03T16:33:35+00:00",
-      "freshness": "recent"
-    },
-    {
       "theme": "科技",
       "region": "中国",
       "title": "【早报】伊朗：已为与美战事重开做好准备；特朗普：预计本周与伊朗谈判；原油高开、黄金下跌；武契奇宣布辞职 - 财联社",
@@ -116,6 +116,17 @@
     {
       "theme": "科技",
       "region": "中国",
+      "title": "【早报】美联储放鹰；存储、半导体板块大跌，中概股逆势大涨；油价下跌，黄金收涨；英格兰、比利时晋级世界杯16强 - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBZRk83dERvMWRQSlcxQUlXRWJxNll1eHlsSEY4Zl9ab1pCWnNTZ2RhNm5vVzBLN3hKbnNPcnh0MDQ0aDRTOWZmeQ?oc=5",
+      "publishedAt": "2026-10-03T09:37:07+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
       "title": "【早报】美股芯片股大跌；中概股逆势走强；原油飙升、黄金收涨；A股又一波回购潮来了 - 财联社",
       "summary": "",
       "why": "",
@@ -138,45 +149,12 @@
     {
       "theme": "科技",
       "region": "中国",
-      "title": "【早报】华为发布V2版“韬定律”论文；豆包、千问：智能体功能将下线 - 财联社",
+      "title": "【早报】美股半导体板块，深V反弹；原油大跌、黄金微涨；事关电力，重磅规划发布 - 财联社",
       "summary": "",
       "why": "",
       "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE45UTNLTFBBOUk3T3ExVGhUaDZzdUdhWERldmVzRzVHZjJZZUJoSWZKbkZsZlZ3UG82a0hid1ZSZmFIaXVrN25VeQ?oc=5",
-      "publishedAt": "2026-10-03T03:07:49+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "【早报】美股大反弹；3大存储巨头，遭集体诉讼；金银下跌，油价收涨 - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9ocE9zTlNLLUVBa3ZkUk5iRFp6bkxleEFJWlpCQlQxNy1KTzlaUlUwSzk0M0ptdnp6LWJqckJha3l6R3F3b1d4SQ?oc=5",
-      "publishedAt": "2026-10-03T02:43:48+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "【早报】深夜，美股半导体板块剧烈分化；高盛：SpaceX的AI收入将激增100倍 - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1aOHhnWTVSaFhxdjFwcFFfaHZJdVlIaElZX3ZYdEtkRWI3bG5OYmkzU2xfc3M2UmdNM0MzUU0tLVd6RU83VXJIaw?oc=5",
-      "publishedAt": "2026-10-02T22:16:38+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "作为基于AI概念的半导体设备牛股，截至上个交易日收盘， Aehr的年内涨幅已经达到256%，过去一年股价翻了近4倍 - content.foshanplus.com",
-      "summary": "",
-      "why": "",
-      "source": "content.foshanplus.com",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1QMC1iYWtxQVdXWDhoWWlmWGhiMVpTT2stb1FXaHNYX0d4ME4ySGZYSlJNbzRrem1ud3pFb3BBX3lXbDAtb1FIX2NPaEZ1U3pxQkhsLXZJUnpXbXg2UkZPcmg0a0h2MWZUM2JtRDFma2pFYXl1aUNYbWF3?oc=5",
-      "publishedAt": "2026-10-02T21:35:30+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE52WEpUWmhya09LbzIzTXM1VnFoTU9IdzVoRUN2TWkwYWQteW53S3hMUVVqdXlOakh5UmxhXzM5Sm1rWTVaTDRvdg?oc=5",
+      "publishedAt": "2026-10-03T02:18:45+00:00",
       "freshness": "recent"
     },
     {
@@ -188,28 +166,6 @@
       "source": "Bad News Is Good News",
       "url": "https://seekingalpha.com/article/4951635-wall-street-lunch-jobs-report-bad-news-is-good-news?source=feed_tag_wall_st_breakfast",
       "publishedAt": "2026-10-02T15:30:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "宏观",
-      "region": "美国",
-      "title": "Is The Labor Market Still Resilient?",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/article/4951545-is-the-labor-market-still-resilient?source=feed_tag_wall_st_breakfast",
-      "publishedAt": "2026-10-02T11:18:02+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "宏观",
-      "region": "美国",
-      "title": "Wall Street Breakfast Podcast: No Sprint For Nike Yet",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/article/4951578-wall-street-breakfast-podcast-no-sprint-for-nike-yet?source=feed_tag_wall_st_breakfast",
-      "publishedAt": "2026-10-02T11:05:00+00:00",
       "freshness": "recent"
     }
   ],
