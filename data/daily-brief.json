@@ -1,50 +1,83 @@
 {
-  "asOf": "2026-10-04T13:13:43.490543+00:00",
+  "asOf": "2026-10-04T17:36:40.758894+00:00",
   "title": "每日市场研究",
   "freshnessRule": "今日动态仅展示最近36小时；官方低频数据单列并显示发布日期。",
   "items": [
     {
       "theme": "全球",
       "region": "全球",
-      "title": "OPEC+ holds November oil output targets steady amid supply squeeze",
+      "title": "Iran says Strait of Hormuz will stay closed until U.S. meets 7 conditions",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4650030-opec-holds-november-oil-output-targets-steady-amid-supply-squeeze?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-04T13:06:59+00:00",
+      "url": "https://seekingalpha.com/news/4650041-iran-says-strait-of-hormuz-will-stay-closed-until-u-s-meets-7-conditions?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-04T17:31:21+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "Notable healthcare headlines for the week: Pfizer, Sanofi, and Novartis in focus",
+      "title": "Ulta Beauty tops consumer discretionary gainers in Q3; MGM Resorts declines",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4650002-notable-healthcare-headlines-for-the-week-pfizer-sanofi-and-novartis-in-focus?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-04T13:05:49+00:00",
+      "url": "https://seekingalpha.com/news/4649479-ulta-beauty-tops-consumer-discretionary-gainers-in-q3-mgm-resorts-declines?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-04T17:05:46+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "Paramount’s $52B debt sale highlights rising cost of corporate borrowing",
+      "title": "Trump adviser Hassett calls on Powell to leave Fed board after renovation report",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4650029-paramount-s-52b-debt-sale-highlights-rising-cost-of-corporate-borrowing?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-04T12:58:55+00:00",
+      "url": "https://seekingalpha.com/news/4650040-trump-adviser-hassett-calls-on-powell-to-leave-fed-board-after-renovation-report?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-04T16:38:18+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "Earnings week ahead: PEP, DAL, STZ, TLRY, LEVI, and more",
+      "title": "SoftBank’s Son warns of AI safety risks despite $65B OpenAI bet",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4649837-earnings-week-ahead-pep-dal-stz-tlry-levi-and-more?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-04T12:07:58+00:00",
+      "url": "https://seekingalpha.com/news/4650039-softbank-s-son-warns-of-ai-safety-risks-despite-65b-openai-bet?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-04T16:22:51+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Starknet's STRK coin extends surge as trading volume jumps",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4650038-starknets-strk-coin-extends-surge-as-trading-volume-jumps?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-04T16:10:25+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "AI rally defies 24-yr high in Treasury yields, but risks are building",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4650037-ai-rally-defies-24-yr-high-in-treasury-yields-but-risks-are-building?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-04T15:34:05+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Consumer staples sector falls 3% in Q3 as oil, inflation and tech rotation weigh",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4649201-consumer-staples-sector-falls-3-in-q3-as-oil-inflation-and-tech-rotation-weigh?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-04T15:05:27+00:00",
       "freshness": "recent"
     },
     {
@@ -81,17 +114,6 @@
       "freshness": "recent"
     },
     {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Middle East crude exports recover to near pre-war levels but oil products still lag, analysts say",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4650004-middle-east-crude-exports-recover-to-near-pre-war-levels-but-oil-products-still-lag-analysts-say?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-04T00:25:38+00:00",
-      "freshness": "recent"
-    },
-    {
       "theme": "科技",
       "region": "中国",
       "title": "【早报】特朗普：对多晶硅及其衍生产品加征关税；美存储股再遭重挫；原油走强、黄金微跌；宇树科技发行价定了 - 财联社",
@@ -100,28 +122,6 @@
       "source": "财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBKOGZ6ejN0YWR3YkZWVXU3YndmcUwyUGF0WFFRc2xGRkhSUm5lTjNSbm9LZlo2Mmx0WklVdWxSOFMxYnRHZnVsYw?oc=5",
       "publishedAt": "2026-10-03T21:52:37+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Key deals this week: Onsemi, Mattel, Nebius, Advanced Micro Devices, and more",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4650021-key-deals-this-week-onsemi-mattel-nebius-advanced-micro-devices-and-more?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-03T19:15:36+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Utilities fall 13% in quarter; Constellation Energy gains as PG&E leads declines",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4649472-utilities-fall-13-percent-in-quarter-constellation-energy-gains-as-pg-and-e-leads-declines?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-03T19:05:45+00:00",
       "freshness": "recent"
     },
     {
