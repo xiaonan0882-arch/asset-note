@@ -1,8 +1,74 @@
 {
-  "asOf": "2026-10-04T06:53:02.613829+00:00",
+  "asOf": "2026-10-04T13:13:43.490543+00:00",
   "title": "每日市场研究",
   "freshnessRule": "今日动态仅展示最近36小时；官方低频数据单列并显示发布日期。",
   "items": [
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "OPEC+ holds November oil output targets steady amid supply squeeze",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4650030-opec-holds-november-oil-output-targets-steady-amid-supply-squeeze?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-04T13:06:59+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Notable healthcare headlines for the week: Pfizer, Sanofi, and Novartis in focus",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4650002-notable-healthcare-headlines-for-the-week-pfizer-sanofi-and-novartis-in-focus?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-04T13:05:49+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Paramount’s $52B debt sale highlights rising cost of corporate borrowing",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4650029-paramount-s-52b-debt-sale-highlights-rising-cost-of-corporate-borrowing?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-04T12:58:55+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Earnings week ahead: PEP, DAL, STZ, TLRY, LEVI, and more",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4649837-earnings-week-ahead-pep-dal-stz-tlry-levi-and-more?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-04T12:07:58+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "宏观",
+      "region": "美国",
+      "title": "Wall Street Week Ahead",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/article/4951837-wall-street-week-ahead?source=feed_tag_wall_st_breakfast",
+      "publishedAt": "2026-10-04T11:47:54+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "高榕、五源、经纬、砺思接连募资，一级市场风向变了！ - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9yMmZnZXYyeDdVWTRqSjdhYWF3WlZ4VEppaTJPemVkY0sxd0lGaXlKRERXTnl1VkF0NHZoazhIczhRb0VnU2hVZw?oc=5",
+      "publishedAt": "2026-10-04T09:13:00+00:00",
+      "freshness": "recent"
+    },
     {
       "theme": "科技",
       "region": "中国",
@@ -23,6 +89,17 @@
       "source": "Google News",
       "url": "https://seekingalpha.com/news/4650004-middle-east-crude-exports-recover-to-near-pre-war-levels-but-oil-products-still-lag-analysts-say?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
       "publishedAt": "2026-10-04T00:25:38+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "【早报】特朗普：对多晶硅及其衍生产品加征关税；美存储股再遭重挫；原油走强、黄金微跌；宇树科技发行价定了 - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBKOGZ6ejN0YWR3YkZWVXU3YndmcUwyUGF0WFFRc2xGRkhSUm5lTjNSbm9LZlo2Mmx0WklVdWxSOFMxYnRHZnVsYw?oc=5",
+      "publishedAt": "2026-10-03T21:52:37+00:00",
       "freshness": "recent"
     },
     {
@@ -48,61 +125,6 @@
       "freshness": "recent"
     },
     {
-      "theme": "全球",
-      "region": "全球",
-      "title": "AbbVie, Amgen, Pfizer, GSK among participants in new 340B rebate pilot",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4650023-abbvie-among-participants-new-340b-rebate-pilot?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-03T18:37:23+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "SA Asks: Is Walmart a buy, sell or hold right now?",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4650022-sa-asks-is-walmart-a-buy-sell-or-hold-right-now?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-03T18:01:30+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Disney licenses a series of titles including 'Ice Age’ to Netflix",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4650020-disney-licenses-series-titles-netflix?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-03T17:22:21+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Energy sector outperforms S&P 500 in Q3 as oil prices rise",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4649212-energy-sector-outperforms-sp-500-in-q3-as-oil-prices-rise?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-03T17:05:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "【早报】伊朗：已为与美战事重开做好准备；特朗普：预计本周与伊朗谈判；原油高开、黄金下跌；武契奇宣布辞职 - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9NLXdxd3d6djdXZUFIb2pGenpJM2VPZVQyMVlnX3VDWm1jNWtfVG03Q1R4NnBnVjh4Z01WcDY1ZjZHUlhJQUl6Qg?oc=5",
-      "publishedAt": "2026-10-03T11:37:14+00:00",
-      "freshness": "recent"
-    },
-    {
       "theme": "宏观",
       "region": "美国",
       "title": "What Moved Markets This Week",
@@ -111,39 +133,6 @@
       "source": "Google News",
       "url": "https://seekingalpha.com/article/4951763-what-moved-markets-this-week?source=feed_tag_wall_st_breakfast",
       "publishedAt": "2026-10-03T10:36:10+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "前三季度哪些基金业绩最差？追错方向，多只逼近腰斩 - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFB2aTNrZ2VsemNhbFJoWWZuaXF5Vkh5ekVEWm94ZVZDMTV6ZERRRXhmd1RFZmtmUm1VVkNuZkRIT2ZBUUJ3Vm9ybA?oc=5",
-      "publishedAt": "2026-10-03T10:11:23+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "【早报】美联储放鹰；存储、半导体板块大跌，中概股逆势大涨；油价下跌，黄金收涨；英格兰、比利时晋级世界杯16强 - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBZRk83dERvMWRQSlcxQUlXRWJxNll1eHlsSEY4Zl9ab1pCWnNTZ2RhNm5vVzBLN3hKbnNPcnh0MDQ0aDRTOWZmeQ?oc=5",
-      "publishedAt": "2026-10-03T09:37:07+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "“RISC-V第一股”奕斯伟计算冲刺港股，RISC-V跑进AI主战场 - 手机新浪网",
-      "summary": "",
-      "why": "",
-      "source": "手机新浪网",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNN0ttcDNJTlpiSEtkLXE5ZFBkcnlMN3U5SjI3SEI0a1NoRnVQREZhc1NBSkk0WWRmeWtOSzRUd1FXNmJTV3ZpR0JvaUVCbDBUTndLdXpJRHBHdWVoSkxmR3E3dEhaMk9JUmpvQ3R0NjM4R013aFQycWZHUlBKdzc2TEx3?oc=5",
-      "publishedAt": "2026-10-03T07:46:19+00:00",
       "freshness": "recent"
     }
   ],
