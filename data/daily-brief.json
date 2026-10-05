@@ -1,8 +1,52 @@
 {
-  "asOf": "2026-10-04T21:29:05.476997+00:00",
+  "asOf": "2026-10-05T00:57:21.616859+00:00",
   "title": "每日市场研究",
   "freshnessRule": "今日动态仅展示最近36小时；官方低频数据单列并显示发布日期。",
   "items": [
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "高榕、五源、经纬、砺思接连募资，一级市场风向变了！ - 新浪财经",
+      "summary": "",
+      "why": "",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTVZNUE9laVhrMkZ6THhTZTVQZjZuVWhudWN2aUQwaE9PWTVQVHc4WjFWT2RCWktZeUwyem5ueldWTXgwY0RtQnFHWjNHb2lPa1Itb19kYjFfMF9DSTRkU0E5LV91bE9fUmFvRGtkWlRTMXFERU5ES1Itd19TSTJuMjJzOA?oc=5",
+      "publishedAt": "2026-10-04T22:52:30+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "U.K. is said to plan tariffs on Chinese EVs under pressure from EU",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4650049-uk-is-said-to-plan-tariffs-on-chinese-evs-under-pressure-from-eu?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-04T22:51:09+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "【早报】美股芯片股大跌；中概股逆势走强；原油飙升、黄金收涨；A股又一波回购潮来了 - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBfMzZvODEwVVVXWEpJYnVxTE93UF9OUnpHWV9nMkJlUXc4Vl9URzZnMXNrX0hUaVJ3UWo4MHB1UDNtOGNWc19EZg?oc=5",
+      "publishedAt": "2026-10-04T22:45:45+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "CSL strikes $1.6B deal with Alentis for experimental kidney, liver drug",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4650048-csl-strikes-16b-deal-with-alentis-for-experimental-kidney-liver-drug?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-04T22:41:08+00:00",
+      "freshness": "recent"
+    },
     {
       "theme": "全球",
       "region": "全球",
@@ -59,39 +103,6 @@
       "freshness": "recent"
     },
     {
-      "theme": "全球",
-      "region": "全球",
-      "title": "SA Asks: What was the biggest takeaway from Tesla's Q3 deliveries report?",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4650043-sa-asks-what-was-the-biggest-takeaway-from-teslas-q3-deliveries-report?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-04T18:19:07+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "SA Asks: Is Moderna's stock now a sell after the recent run-up?",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4650042-sa-asks-is-modernas-stock-now-a-sell-after-the-recent-run-up?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-04T17:36:11+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "云深处、博睿康等企业回复问询 47家公司因财报更新审核状态变为“中止”｜科创板IPO周报 - 新浪财经",
-      "summary": "",
-      "why": "",
-      "source": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1oX2laMUJFcW55M0ZwODVUOU1KcTl1TXZLSGZJUTNpWmVkVHdTZzhqNUFxdVoyRjkxVXRMSU1vVVlGZHgzeUhyTmpETTBfM000S2lVbV9mY25pNVNMdzZJVWtLaTVFbzQxdlNNbjBmdWpQbV9PUlJJbg?oc=5",
-      "publishedAt": "2026-10-04T14:48:00+00:00",
-      "freshness": "recent"
-    },
-    {
       "theme": "宏观",
       "region": "美国",
       "title": "Wall Street Week Ahead",
@@ -100,17 +111,6 @@
       "source": "Google News",
       "url": "https://seekingalpha.com/article/4951837-wall-street-week-ahead?source=feed_tag_wall_st_breakfast",
       "publishedAt": "2026-10-04T11:47:54+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "高榕、五源、经纬、砺思接连募资，一级市场风向变了！ - 手机网易网",
-      "summary": "",
-      "why": "",
-      "source": "手机网易网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBUQTB0Rks0M3RPNTMxUWJZME03T2cyZko1eW5hTFVoLVNVOUFHUWRsa2pkcDRmNDVyWG5XdUtsSXNBZGRnUmE5cW5PaVYwQ201TmxOWVpxT204emJBN0k1a0Nn?oc=5",
-      "publishedAt": "2026-10-04T09:29:36+00:00",
       "freshness": "recent"
     },
     {
@@ -127,45 +127,12 @@
     {
       "theme": "科技",
       "region": "中国",
-      "title": "【早报】高达100%，美国将对进口无人机及零部件征收关税；美存储股集体走强；原油、黄金双双下行 - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFB1czJfRUxlbU1SY1JHeTV2eHVuc0RIVnZOejZ2VkFIOGtEYmIybUt3dDdoLUVOM2g0VjdVb0ZTZGRnX2JSSU9zQQ?oc=5",
-      "publishedAt": "2026-10-04T03:44:05+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
       "title": "韩国金融改革“大动作”：将国家增长基金规模扩至200万亿韩元 - 财联社",
       "summary": "",
       "why": "",
       "source": "财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1MakFMTVBSNEZTZUJpZTBNaTBOazdwODEtd1pUSHV0VmE5RXlaWE91aGVIbE1XU0FsMEVzdmlneVZ3a19VUnRjdg?oc=5",
       "publishedAt": "2026-10-04T02:38:34+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "【早报】特朗普：对多晶硅及其衍生产品加征关税；美存储股再遭重挫；原油走强、黄金微跌；宇树科技发行价定了 - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBKOGZ6ejN0YWR3YkZWVXU3YndmcUwyUGF0WFFRc2xGRkhSUm5lTjNSbm9LZlo2Mmx0WklVdWxSOFMxYnRHZnVsYw?oc=5",
-      "publishedAt": "2026-10-03T21:52:37+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "宏观",
-      "region": "美国",
-      "title": "What Moved Markets This Week",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/article/4951763-what-moved-markets-this-week?source=feed_tag_wall_st_breakfast",
-      "publishedAt": "2026-10-03T10:36:10+00:00",
       "freshness": "recent"
     }
   ],
