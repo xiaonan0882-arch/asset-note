@@ -1,83 +1,94 @@
 {
-  "asOf": "2026-10-07T16:31:42.672691+00:00",
+  "asOf": "2026-10-07T22:00:11.219688+00:00",
   "title": "每日市场研究",
   "freshnessRule": "今日动态仅展示最近36小时；官方低频数据单列并显示发布日期。",
   "items": [
     {
       "theme": "全球",
       "region": "全球",
-      "title": "ChatGPT, Gemini see daily active user increases as Meta's Muse nears 2M: BofA",
+      "title": "Clean Air Metals announces C$150,000 flow-through financing",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4651077-chatgpt-gemini-see-daily-active-user-increases-as-metas-muse-nears-2m-bofa?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-07T16:25:26+00:00",
+      "url": "https://seekingalpha.com/news/4651194-clean-air-metals-announces-c150000-flow-through-financing?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-07T21:57:07+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "SFL to sell seven oil tankers to Trafigura in $275M deal",
+      "title": "Alvopetro wins four Brazil blocks in ANP Concession Round",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4651081-sfl-to-sell-seven-oil-tankers-to-trafigura-in-275m-deal?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-07T16:24:19+00:00",
+      "url": "https://seekingalpha.com/news/4651193-alvopetro-wins-four-brazil-blocks-in-anp-concession-round?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-07T21:54:56+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "Protean Funds adds BNVVF and SCAHF; exits DSVSF",
+      "title": "Valneva falls as UK revokes marketing authorization for chikungunya vaccine",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4651080-protean-funds-adds-bnvvf-and-scahf-exits-dsvsf?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-07T16:24:18+00:00",
+      "url": "https://seekingalpha.com/news/4651192-valneva-falls-uk-revokes-marketing-authorization-chikungunya-vaccine?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-07T21:41:05+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "Wells Fargo faces probe over allegedly favoring Black, other minority homeownership",
+      "title": "Park Aerospace Q2 Earnings Preview",
       "summary": "",
       "why": "",
-      "source": "report",
-      "url": "https://seekingalpha.com/news/4651076-wells-fargo-faces-probe-over-allegedly-favoring-black-other-minority-homeownership---report?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-07T16:20:33+00:00",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4651127-park-aerospace-q2-earnings-preview?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-07T21:35:00+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "T-Strive Digital Credit Preferred Income ETF declares $0.0553 dividend",
+      "title": "Cruz Battery Metals sets 1-for-10 reverse stock split; CFO change",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4651086-t-strive-digital-credit-preferred-income-etf-declares-0_0553-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-07T16:19:19+00:00",
+      "url": "https://seekingalpha.com/news/4651191-cruz-battery-metals-sets-1-for-10-reverse-stock-split-cfo-change?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-07T21:27:37+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "TDAQ Lift ETF declares $0.0865 dividend",
+      "title": "Gold futures slump to two-month low on stronger dollar, high yields",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4651085-tdaq-lift-etf-declares-0_0865-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-07T16:18:07+00:00",
+      "url": "https://seekingalpha.com/news/4651189-gold-futures-slump-to-two-month-low-on-stronger-dollar-high-yields?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-07T21:25:08+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "Roundhill Ether Covered Call Strategy ETF declares $0.0739 dividend",
+      "title": "CF Industries declares $0.60 dividend",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4651084-roundhill-ether-covered-call-strategy-etf-declares-0_0739-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-07T16:16:47+00:00",
+      "url": "https://seekingalpha.com/news/4651190-cf-industries-declares-0_60-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-07T21:09:21+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "宏观",
+      "region": "美国",
+      "title": "Wall Street Lunch: Skydance Bet On Technology, AI To Reshape Entertainment Business",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/article/4952527-wall-street-lunch-skydance-bet-on-technology-ai-to-reshape-entertainment-business?source=feed_tag_wall_st_breakfast",
+      "publishedAt": "2026-10-07T17:30:00+00:00",
       "freshness": "recent"
     },
     {
@@ -89,17 +100,6 @@
       "source": "新浪财经",
       "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPRFNuQW02WGQySXJydkp2bzJ3V1FvSVBlMXVoVEJwM1lBRjlQTHJQSGd6VmhCQ2RFMDVLNEkwdHN1c3RyN194cWl5THBHNGEzRmk5Sml1YWRoQlBZdWdjZmFVRHJvbWY0SjcwZU9HcXpyRlE2OWZDOGpRVVp4VThNcElYb1p5UUxEUUxzOUpGc0ppbjlvbzlQLVl5MnlyeklaUHlKc2lIZVNRZTg0RGx6UE96djl4LU94V1RickJ4cEtIRWw3N2dwVGZ3Mnp2bFg3Y2dpa2RFNVgycUQ5RERnclc1WHo4aC1rUHFTS1g4Sy1saWVQTU1JMg?oc=5",
       "publishedAt": "2026-10-07T14:38:03+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "央企改革、内存、AI算力、CPO、服务器、折叠屏......月度投研复盘丨公告臻选 - 新浪财经",
-      "summary": "",
-      "why": "",
-      "source": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9pTGdfRHdzejVUV19seWp2aWZRWEZXeE5pZGdyZmpJREt3QnJzcXE3U0pLcGtTUUdKWVlET2RjNzZaNmVHM19jTURYbXpsYnFIQVh5dFlQb1U3ckRiSldOU2dER0hkWml1VW1wQnlfZlBjaDczQlE?oc=5",
-      "publishedAt": "2026-10-07T11:42:00+00:00",
       "freshness": "recent"
     },
     {
@@ -138,12 +138,12 @@
     {
       "theme": "科技",
       "region": "中国",
-      "title": "比亚迪九月销量46 万辆|财联社|飞龙股份|华海药业 - 手机新浪网",
+      "title": "【早报】美股存储、半导体板块连日大跌；一批A股公司中报业绩预计大增；油价微升、黄金走强；西班牙晋级世界杯16强 - 财联社",
       "summary": "",
       "why": "",
-      "source": "手机新浪网",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBHNTFFdTVRUERiNjlfSjZ2c2RQRW42ZFRqazZhc0tHUUpEWTA4c1dUWERjbDJCaEl2R2NJT2dRd0luMFVtbjZEd1RVcjdRbm91N2JRc0ZBdFQ3QzdDdnJlOE5nMA?oc=5",
-      "publishedAt": "2026-10-07T07:52:00+00:00",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBNYmRrQjlUZko5NDdxa2lkeGFrUGUtVFBqb3ZHSDVza1U2Y0tlQ0wxSUo0eGQ3QzFwb19nZDZRQmgzUjIxSkN4cg?oc=5",
+      "publishedAt": "2026-10-07T08:19:45+00:00",
       "freshness": "recent"
     },
     {
@@ -171,6 +171,17 @@
     {
       "theme": "科技",
       "region": "中国",
+      "title": "你准备好了吗？假期股市消息面汇总:创新药、房地产、科技半导体、固态电池 - 手机新浪网",
+      "summary": "",
+      "why": "",
+      "source": "手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1iWVN0RWVaZE1YSjlTdElOUTFNRC02M3h2WXhNdXFjMFRCblpXOEdOdWFiTlQ0MUR0MmRrUUQzV0lITWNiM2J5d2dBVmRiUDU3alBJUk9EV0E4eGExZDJFd1JjYw?oc=5",
+      "publishedAt": "2026-10-07T04:44:00+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
       "title": "新浪网· - 手机新浪网",
       "summary": "",
       "why": "",
@@ -188,17 +199,6 @@
       "source": "财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE52WEpUWmhya09LbzIzTXM1VnFoTU9IdzVoRUN2TWkwYWQteW53S3hMUVVqdXlOakh5UmxhXzM5Sm1rWTVaTDRvdg?oc=5",
       "publishedAt": "2026-10-07T03:16:40+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "宏观",
-      "region": "美国",
-      "title": "法国债券交易如何反噬投资者？ - 华尔街日报中文版",
-      "summary": "",
-      "why": "",
-      "source": "华尔街日报中文版",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE50YTVTTEVGdXNMU2dxUXM3RW1XLXlhZ2JlSGxoV0JoWW5HXzZJX1FBbGVZSVMxXzMtRUZFR21oQk1jaWk3REFnaVhxT1hnNjNJajBHTjVwOA?oc=5",
-      "publishedAt": "2026-10-06T16:41:40+00:00",
       "freshness": "recent"
     },
     {
