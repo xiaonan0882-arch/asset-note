@@ -1,8 +1,85 @@
 {
-  "asOf": "2026-10-08T16:30:45.391874+00:00",
+  "asOf": "2026-10-08T22:06:03.749435+00:00",
   "title": "每日市场研究",
   "freshnessRule": "今日动态仅展示最近36小时；官方低频数据单列并显示发布日期。",
   "items": [
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Here are the major earnings before the open Friday",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4651239-here-are-the-major-earnings-before-the-open-friday?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-08T22:00:30+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Here are the major earnings before the open Thursday",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4650987-here-are-the-major-earnings-before-the-open-thursday?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-08T22:00:00+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Canadian Utilities Limited 5.6 CUM2ND PF JJ declares CAD 0.35 dividend",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4651619-canadian-utilities-limited-5_6-cum2nd-pf-jj-declares-cad-0_35-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-08T21:53:37+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Canadian Utilities Limited 4.75% 2ND PFD HH declares CAD 0.2969 dividend",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4651618-canadian-utilities-limited-4_75-percent-2nd-pfd-hh-declares-cad-0_2969-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-08T21:53:17+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Canadian Utilities Limited 5.25% RED PFD EE declares CAD 0.3281 dividend",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4651617-canadian-utilities-limited-5_25-percent-red-pfd-ee-declares-cad-0_3281-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-08T21:50:21+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Canadian Utilities Limited 2ND PFD SER DD declares CAD 0.2812 dividend",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4651616-canadian-utilities-limited-2nd-pfd-ser-dd-declares-cad-0_2812-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-08T21:50:02+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Canadian Utilities Limited CUMRED PFDSHS CC declares CAD 0.2812 dividend",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4651615-canadian-utilities-limited-cumred-pfdshs-cc-declares-cad-0_2812-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-08T21:49:35+00:00",
+      "freshness": "recent"
+    },
     {
       "theme": "宏观",
       "region": "美国",
@@ -15,80 +92,25 @@
       "freshness": "recent"
     },
     {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Waymo gets $5B in debt funding from outside lenders",
+      "theme": "科技",
+      "region": "中国",
+      "title": "美股收盘：OpenAI年化营收低于此前报道 AI概念股承压 纳指跌逾1% - 财联社",
       "summary": "",
       "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4651471-waymo-gets-5b-in-debt-funding-from-outside-lenders?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-08T16:22:19+00:00",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE0xcGZabzBrMkN2MkVDeEtCOGEtMDhXdHJlYWJJdGczYjZyNUp2azhqWFVjR3AzN2I1UjZKbXFTOV9vLU1VUl9VSQ?oc=5",
+      "publishedAt": "2026-10-08T15:46:00+00:00",
       "freshness": "recent"
     },
     {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Mortgage rates near 7.5%, rises for seventh consecutive week",
+      "theme": "宏观",
+      "region": "中国",
+      "title": "汇率之争，央行定调 - 新浪财经",
       "summary": "",
       "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4651468-mortgage-rates-near-75-rises-for-seventh-consecutive-week?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-08T16:20:53+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "SA Asks: What should Skydance investors watch for post-merger? (Update)",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4651134-sa-asks-what-should-skydance-investors-watch-for-post-merger?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-08T16:19:15+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Endeavour Silver reports higher Q3 production but sees full year at low end of guidance",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4651467-endeavour-silver-reports-higher-q3-production-but-sees-full-year-at-low-wend-of-guidance?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-08T16:13:05+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Apple to hold smart-home theme event next week",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4651472-apple-to-hold-smart-home-theme-event-next-week?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-08T16:10:36+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "FanDuel outpaces DraftKings after four weeks of NFL football",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4651305-fanduel-outpaces-draftkings-after-four-weeks-of-nfl-football?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-08T16:08:57+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "ServiceTitan in focus as BTIG says it's 'incrementally excited' about AI opportunity",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4651470-servicetitan-in-focus-as-btig-says-its-incrementally-excited-about-ai-opportunity?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-08T16:05:26+00:00",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1KZWsybzN3RFFObUtWSlRyZjh3QjVQQTBQUEpORU9faWc0RDE0Mk5rUldXTHpRSkdDU243clU0dkxzQXVwSXY1WjMtMEJwcVZGQm5RZi1kX3hXOV82LUZ1TzYxcmtNTnlBZWpoaEZZY3JLQ3hQREE?oc=5",
+      "publishedAt": "2026-10-08T15:06:00+00:00",
       "freshness": "recent"
     },
     {
@@ -105,12 +127,23 @@
     {
       "theme": "科技",
       "region": "中国",
-      "title": "Muse、Gemini智能体激战正酣 分析师却仍押注芯片股“躺赢”？ 港美股资讯 - www.hstong.com",
+      "title": "Muse、Gemini智能体激战正酣 分析师却仍押注芯片股“躺赢”？ 港美股资讯 - 华盛通",
       "summary": "",
       "why": "",
-      "source": "www.hstong.com",
+      "source": "华盛通",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9icGVPNWdHYUdxVEdxZTh0aW1YNmUwZ0Jud3JmNTRlMmNtMEZ1TXJJZ1BEVkxWaHhwaXRFV0l3WUs5V1E3UjNZTzdOV0p5Sjh6Z1VjbXozY3FTYTg0WWpyRlB3?oc=5",
       "publishedAt": "2026-10-08T13:50:00+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "宏观",
+      "region": "中国",
+      "title": "央行权威阐述：人民币汇率双向浮动特征更加明显，弹性增强｜快讯 - 新浪财经",
+      "summary": "",
+      "why": "",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBLbUloeFBSS3JpYjZzY01rWGQyNVZ6c1hLcHlkc002QVJxaFJGSkFyTDIzNTZsXzVWcnRTd0k0bE5XYmpRSzVhY0hxcGtxQXlVZWRqNUdILWZ5SUhma0UzV0t2cWtRdHBOYlQ1bkdld25XN2FoQ1ZxMw?oc=5",
+      "publishedAt": "2026-10-08T13:49:00+00:00",
       "freshness": "recent"
     },
     {
@@ -122,6 +155,17 @@
       "source": "财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBlUlBkNVdaVGxNUG1fbEJ0YjhMYjZHZ3hleHY2aXI3MkRsNTNqVlZyWFJ6ZUMxcTBUT3Qyb3JRblZqTEdudzlWbQ?oc=5",
       "publishedAt": "2026-10-08T13:24:40+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "港股市场显著下挫 恒指、恒科双双创近期新低 AI硬件股领跌 - 新浪财经",
+      "summary": "",
+      "why": "",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1jWDBabHZMaDdyOEZsdDBCcW1EaTYxaVVWaVp3SXRlbkJZem1VLURUbmI0RDhOR3Y0TzE1SEl3cU5oQkF2YjFldnNkQkxXS3k4UEQtNzBMcGJ4RFpzUEgxdWQyU1FVRURwWGJHZERMLXNKSlVUN3F1Mg?oc=5",
+      "publishedAt": "2026-10-08T11:36:00+00:00",
       "freshness": "recent"
     },
     {
@@ -149,6 +193,17 @@
     {
       "theme": "科技",
       "region": "中国",
+      "title": "恒仔收评：外围扰动加剧，AI硬件板块回调 - 新浪财经",
+      "summary": "",
+      "why": "",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9HekYzOXRQV1ZfZXJXdkZvSW5Wc2lRWFB2bGhKZHdvNG02bEhvTXNoVkFMUUdTcThIY3BsUFJwQnRPT1VvNVVKMlh6Rno2bTlKMXBuUG5tREZ3MFJmRTR5QXNGRUtnOWM2Q3J2ZG9KbVlQWUFyUEE?oc=5",
+      "publishedAt": "2026-10-08T09:43:00+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
       "title": "内存涨价挤压下游利润 三星手机计划四季度最高减产30% - 财联社",
       "summary": "",
       "why": "",
@@ -158,14 +213,14 @@
       "freshness": "recent"
     },
     {
-      "theme": "科技",
+      "theme": "宏观",
       "region": "中国",
-      "title": "“亚洲股王”释放AI产业链利好 台积电三季度营收增逾5成 - 财联社",
+      "title": "离岸人民币盘中升破6.70关口 - 新浪财经",
       "summary": "",
       "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1FY1NKbkhmNl9reU4xWjBLUmtQd0NyNThhNW91cFowU2Y3MHpPbGhwNTVQekRZdDN2bndHMW9CSHFzaF8wZ05TNg?oc=5",
-      "publishedAt": "2026-10-08T07:56:12+00:00",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5aZG5GZG9WZTBZdXJxcW9jNUdtdmNsVGUxdG5BRVVrUGluTFl4NVVEREtJekZoNzNfY1VtQklhN1BmQWlCSXRLV0pma05jRzRIVUxGM1FwQnJtLWRwM3o1YWhOb0U5MjNWM254cW9qSm52Slg0eHc?oc=5",
+      "publishedAt": "2026-10-08T08:40:00+00:00",
       "freshness": "recent"
     },
     {
@@ -182,34 +237,12 @@
     {
       "theme": "科技",
       "region": "中国",
-      "title": "瑞萨电子扩展GaN产品组合，率先推出面向AI数据中心和机器人应用的低压GaN FET - 新浪财经",
+      "title": "创业板指跌逾2% 科创50跌超3.3% - 手机网易网",
       "summary": "",
       "why": "",
-      "source": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1wb0xULWtEam9vNks5aG5NTG5kVTBjWDg5ZFhNX1h1MFNJdFd6RkpXMWk5RXdKQXBYa280QjVCY21IYmNtM2Z4R2djWW85RE1qUlFIZHhpSzNnR2dYZ1ZOUE9hbmR6d09VcTRSaF93cnJfNVVkRjNGRUltaGxScVE?oc=5",
-      "publishedAt": "2026-10-08T05:41:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "黄仁勋焦虑AI需求降温，曝英伟达拟再投10亿美元加码人形机器人企业Figure - 新浪财经",
-      "summary": "",
-      "why": "",
-      "source": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9URTBzTnRqSVJ1ZUJ3YTE4T1k2eFJhYVFGVFRaako4QkxLWFVvNE1hamVxTDVrejMyLVY3ajNacDNNX1JtXzlDTDRQTGJWcFBkeXFLMHRiNFVXMklOVXo1TEtWNkVNYjAyOGVIdXA1UzZlWi1vbHIwbEJiRUI?oc=5",
-      "publishedAt": "2026-10-08T02:02:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "从Hugging Face到Figure机器人：英伟达如何用千亿资本押注AI生态未来 - 富途牛牛",
-      "summary": "",
-      "why": "",
-      "source": "富途牛牛",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPV2FGbmw2STVLZG5kS3dzNE1oRWhESUhvTW1TR0UydTNuaG5VWUVIbWZOM2RkWkVWU2V3RWQ1UDRucEJYeHhKUEEwQTFmay1PZGdpR18ycnljXzdpOEdsS0VSc1VxR19Wa1U4bHNwSmpId3ZRWi1pTEFsV3FoYlJQVlFkM3dsZTI0YVFCQm5lUkV2Ym54MjNhYVhBaU9VMzA?oc=5",
-      "publishedAt": "2026-10-08T01:36:14+00:00",
+      "source": "手机网易网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ZbFZndFFIZ0Q1MjNaOFhtWUlzUjRWSC1UQ05rYWkwZHdKRUljeEd2ZzkzaEM3VHBmS1NETDBDWjl5ajVVeHZOaXB1b0lNVTBvSWt2TEdvRkZMQWdkTFRrVmNn?oc=5",
+      "publishedAt": "2026-10-08T03:26:17+00:00",
       "freshness": "recent"
     },
     {
