@@ -1,83 +1,138 @@
 {
-  "asOf": "2026-10-09T09:08:07.304562+00:00",
+  "asOf": "2026-10-09T16:15:07.291479+00:00",
   "title": "每日市场研究",
   "freshnessRule": "今日动态仅展示最近36小时；官方低频数据单列并显示发布日期。",
   "items": [
     {
       "theme": "全球",
       "region": "全球",
-      "title": "FS KKR Capital declares $0.44 dividend and $0.20 special distribution",
+      "title": "Wall Street perks up as tech pain eases",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4651669-fs-kkr-capital-declares-044-dividend-and-020-special-distribution?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-09T08:58:44+00:00",
+      "url": "https://seekingalpha.com/news/4651757-wall-street-perks-up-as-tech-pain-eases?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-09T16:13:05+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "VEON launches Starlink mobile connectivity in Bangladesh, first in South Asia",
+      "title": "Glaukos' iDose TR meets primary goal in phase 4 trial",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4651668-veon-launches-starlink-mobile-connectivity-in-bangladesh-first-in-south-asia?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-09T08:57:16+00:00",
+      "url": "https://seekingalpha.com/news/4651824-glaukos-idose-tr-meets-primary-goal-phase-4-trial?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-09T16:10:45+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "Skydance is 'positioned to win in every vertical,' Ellison says",
+      "title": "EU-China understanding could halve Chinese hybrid car exports",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4651653-skydance-is-positioned-to-win-in-every-vertical-ellison-says?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-09T08:56:58+00:00",
+      "url": "https://seekingalpha.com/news/4651822-eu-china-understanding-could-halve-chinese-hybrid-car-exports?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-09T16:04:11+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "Retension Pharmaceuticals prices upsized IPO at $12 per share",
+      "title": "Johnson & Johnson says long-term data boosts Icotyde for plaque psoriasis",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4651659-retension-pharmaceuticals-prices-upsized-ipo-at-12-per-share?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-09T08:43:07+00:00",
+      "url": "https://seekingalpha.com/news/4651820-johnson-and-johnson-says-long-term-data-boosts-icotyde-plaque-psoriasis?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-09T15:54:38+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "Eli Lilly-backed TRexBio prices $117M US IPO at $14 per share",
+      "title": "Nvidia to invest in rival d-Matrix: report",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4651627-eli-lilly-backed-trexbio-prices-117m-us-ipo-at-14-per-share?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-09T08:43:05+00:00",
+      "url": "https://seekingalpha.com/news/4651819-nvidia-to-invest-in-rival-d-matrix-report?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-09T15:29:38+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "Stock index futures advance after tech selloff on AI revenue concerns",
+      "title": "S&P 500’s top five stocks match market cap of bottom 434, Batnick says",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4651665-sp500-nasdaq-dow-jones-outlook-stock-market?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-09T08:25:32+00:00",
+      "url": "https://seekingalpha.com/news/4651817-sp-500s-top-five-stocks-match-market-cap-of-bottom-434-batnick-says?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-09T15:22:38+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "Industrial Logistics Properties declares $0.10 dividend",
+      "title": "Teva gains approval of monthly olanzapine injection for schizophrenia",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4651666-industrial-logistics-properties-declares-010-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-09T08:24:54+00:00",
+      "url": "https://seekingalpha.com/news/4651816-teva-gains-approval-monthly-olanzapine-injection-schizophrenia?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-09T15:21:43+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "大摩看好AI半导体行情：台积电确定性强，盛美半导体、慧荣科技目标价上行空间超50% - 新浪财经",
+      "summary": "",
+      "why": "",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbElCaGxLSUZzR0g1VjZNLXlxWXhjS05MU2djQk5FV0RQQkphdGVEYnh0NHR0ZzdUU1VNUU1vMFFhNm5yRWl2R1J0dXhNYjlXWnJrYW15WGV6eVlpYWRsdmo0ekR5Qm1jYWZfRGU0SklGY04yalpReEUtTjJZMTdtVzZqeU5VRUVEbktRTUxR?oc=5",
+      "publishedAt": "2026-10-09T13:56:00+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "宏观",
+      "region": "美国",
+      "title": "America Continues To Spend Far More Than It Has",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/article/4953013-america-continues-to-spend-far-more-than-it-has?source=feed_tag_wall_st_breakfast",
+      "publishedAt": "2026-10-09T11:30:24+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "宏观",
+      "region": "美国",
+      "title": "Wall Street Breakfast Podcast: Telecom Stocks Lose Signal",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/article/4953042-wall-street-breakfast-podcast-telecom-stocks-lose-signal?source=feed_tag_wall_st_breakfast",
+      "publishedAt": "2026-10-09T10:55:00+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "宏观",
+      "region": "中国",
+      "title": "生意社小苏打10月9日均线下穿 均差为0.00元/吨 - 新浪财经",
+      "summary": "",
+      "why": "",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVDdwc18xbHYxRlJYRHJVMEhzMHF5c0c2SXJ2cEVBZTJtYS1Wd21QSDJJcUlQTXdyWXdpZzhSYWt3VHVuZmo3NTR0TXBMNHhlX2lIU3NmdmNqdi1SbDcta0p6QVV3Tzd0UXR0Umg0Q3NjNDVhUll4ZmFoWmlhaFNSM1lwOXZnUkxrSHc?oc=5",
+      "publishedAt": "2026-10-09T10:15:00+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "宏观",
+      "region": "中国",
+      "title": "宏观偏空 沪锌期货在2.6万关口附近展开拉锯 - 新浪财经",
+      "summary": "",
+      "why": "",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPWDRGNkJwWjFaUlJXLTlEMFhfU3NSSTdCNEs2eXRtbkRxRlNVSU5jZVNfLXh3dHlpS1R2TTdBQUVGdkFmeGVnN3FuaVI0Qnd4OVp6ZDZab19KOGlROTUzdDh5TG85U2Itc1dwZmllc3VEZ2tOMzgwVndaem41d2pzMXJzLVNwWjlFTnJTMDZtU25MQmRxdWdpRXl1UEtUT3hPU0l2bDduRU9tOUZib1MzSlZYSlQ5NTdNcTJTbnFZR3pCRDJQNF9xbWd2SU9PSm9TeGNqY3oyUUpDVzhvcVRtU1I4MA?oc=5",
+      "publishedAt": "2026-10-09T06:40:00+00:00",
       "freshness": "recent"
     },
     {
@@ -92,14 +147,25 @@
       "freshness": "recent"
     },
     {
+      "theme": "消费",
+      "region": "中国",
+      "title": "财政部：有力有效实施更加积极的财政政策 支持全方位扩大国内需求 - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ycDFSN2x0NDQtLUh5WEtMZl9ZdVRrMXBLX0VCV3R6eHJCSXVISXhqN1hvZmowZjFydWpTQzZwVkNPWTZOSWROUg?oc=5",
+      "publishedAt": "2026-10-09T03:59:00+00:00",
+      "freshness": "recent"
+    },
+    {
       "theme": "宏观",
       "region": "中国",
-      "title": "央行为什么发布关于人民币汇率的政策立场 - 新浪财经",
+      "title": "玉渊谭天丨央行为什么发布关于人民币汇率的政策立场 - 新浪财经",
       "summary": "",
       "why": "",
       "source": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE83TExqRFdQQXhyc2VTNHNFQW9QTWtfWFdTdnlVdjVqWDlhX0pRX2habmcxVDJTUTRnRFBoSW5TbnBYelFMR2VRUUNsNnQwYzJPckhrVVlYeUw0cW0xMTQzZHRmcWV2OWxSTjlPNlc2T09KbkM1OHFsTA?oc=5",
-      "publishedAt": "2026-10-09T05:54:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBQbDZ2ZFVad1FfTDlxR3lRN0V0TDVBXy13WEFSYlhfODAzbXZhSXk3SWx0QVZlN2lMaXNyeFhZZnZHcUNraWZGbmpwOXoxOVdEZ3RrcVVpSUdvOEtPUjJTODBjR2xRWXBrWGF6a2RKelhLNndpdEcxNA?oc=5",
+      "publishedAt": "2026-10-09T03:36:00+00:00",
       "freshness": "recent"
     },
     {
@@ -127,12 +193,56 @@
     {
       "theme": "宏观",
       "region": "中国",
+      "title": "央行系统阐明人民币汇率政策立场 - 新浪财经",
+      "summary": "",
+      "why": "",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1rRHM4S1ZncVJTcXgzWm85R2d3eE52OFVnQ05Hd2tIS3dQOGVkdTd2ZVFXVUU5RFlUMV9Db1A0Mjhyd2p0YU05QVZzYWh2OGgzNUo1TTM5V2p2ODlYdk00OTAyb24zU29xS0JzalM4bGlPOVNISG5QXw?oc=5",
+      "publishedAt": "2026-10-09T01:34:00+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "特斯拉财报会实录：大举押注机器人、自动驾驶与储能 资本开支持续扩张 - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5FUGRIYVVDS2s2MmV0akUzUzk4eVhSU0I0b25pUmY1NlJlNUZLalExLVJvaG5XalItb2hXQXRNN2NOUFJUeHVSag?oc=5",
+      "publishedAt": "2026-10-09T00:51:59+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "宏观",
+      "region": "中国",
       "title": "视频丨央行发布人民币汇率政策立场：中国正积极推动经济增长模式转型 - 新浪财经",
       "summary": "",
       "why": "",
       "source": "新浪财经",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1UY29yVDl6V3UybzZfaU11N1cxNjg4UlBPd0N4N29IeXRLMEtuUEtYckZfX3VUU0EtYUJtckR6UkxEbmUxLVNMV0VtZ0VSeDRCVktET2stcFNBcDU3NjFwaGQzMVlQNXdOWVI0WWJYQ0UxUW9pNTNPNQ?oc=5",
       "publishedAt": "2026-10-09T00:34:00+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "【早报】美股存储、半导体板块，全线重挫；原油飙升、黄金收涨；多家A股公司三季报预增 - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1JT2RsRktmMlVEbnhET0xpak1yRWYxYThUUUFFMGVaT18tTmV3NHVmeExhVmVEVG16RTROelR0QVZsYTRJdFVfbA?oc=5",
+      "publishedAt": "2026-10-08T23:18:38+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "海外研选日报1008 | 瑞银：具身智能相关市场2035年或达4020亿美元 - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5kSWxHd2VOcks1LWdmRkVlcHlWakFQZm03Nm9EN1p5OTVTeWNpaFBNc1prcFBSNTJyRmtKc0tXMk91WTRIWnFsLQ?oc=5",
+      "publishedAt": "2026-10-08T21:22:45+00:00",
       "freshness": "recent"
     },
     {
@@ -170,17 +280,6 @@
     },
     {
       "theme": "宏观",
-      "region": "中国",
-      "title": "央行系统阐明人民币汇率政策立场 - 新浪财经",
-      "summary": "",
-      "why": "",
-      "source": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9pcGlCUkdEd3gwbHFVQ2NaVW5Yd2txcG5BYzdHZlBWelNGNjBlZnRVVVFQR1BvRWRoaFJDNTkwUV95V2QzbGp6UDNOaklRanNyMkVUWmMzTEtXam1FbjhjbWFlVGVMS1VxWms4ZEZwcmkzWHJwVjZPVQ?oc=5",
-      "publishedAt": "2026-10-08T17:15:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "宏观",
       "region": "美国",
       "title": "Wall Street Lunch: Starbucks Puts Chipotle On Its Takeover Menu",
       "summary": "",
@@ -188,72 +287,6 @@
       "source": "Google News",
       "url": "https://seekingalpha.com/article/4952846-wall-street-lunch-starbucks-puts-chipotle-on-its-takeover-menu?source=feed_tag_wall_st_breakfast",
       "publishedAt": "2026-10-08T16:27:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "宏观",
-      "region": "中国",
-      "title": "坚持让市场在汇率形成中发挥决定性作用 - 新浪财经",
-      "summary": "",
-      "why": "",
-      "source": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBtOGctVXg3MGJlUkxDR0JPQ3RLLVFnRVFxdTVtUHJrYlZ2b2RFQVNfakVHZGlZZ3h1a3FmcGxGTG1OWEpjcUViOXBsMkFVZGRtbDNjc1UxZ0Y3ODRKbHRzRHoyWTlVaGZORnV5M1dNaWZpMUhLV2FXVg?oc=5",
-      "publishedAt": "2026-10-08T16:00:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "韩国金融改革“大动作”：将国家增长基金规模扩至200万亿韩元 - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1MakFMTVBSNEZTZUJpZTBNaTBOazdwODEtd1pUSHV0VmE5RXlaWE91aGVIbE1XU0FsMEVzdmlneVZ3a19VUnRjdg?oc=5",
-      "publishedAt": "2026-10-08T15:51:05+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "宏观",
-      "region": "中国",
-      "title": "汇率之争，央行定调 - 新浪财经",
-      "summary": "",
-      "why": "",
-      "source": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1KZWsybzN3RFFObUtWSlRyZjh3QjVQQTBQUEpORU9faWc0RDE0Mk5rUldXTHpRSkdDU243clU0dkxzQXVwSXY1WjMtMEJwcVZGQm5RZi1kX3hXOV82LUZ1TzYxcmtNTnlBZWpoaEZZY3JLQ3hQREE?oc=5",
-      "publishedAt": "2026-10-08T15:06:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "Muse、Gemini智能体激战正酣 分析师却仍押注芯片股“躺赢”？ 港美股资讯 - 华盛通",
-      "summary": "",
-      "why": "",
-      "source": "华盛通",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9icGVPNWdHYUdxVEdxZTh0aW1YNmUwZ0Jud3JmNTRlMmNtMEZ1TXJJZ1BEVkxWaHhwaXRFV0l3WUs5V1E3UjNZTzdOV0p5Sjh6Z1VjbXozY3FTYTg0WWpyRlB3?oc=5",
-      "publishedAt": "2026-10-08T13:50:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "消费",
-      "region": "中国",
-      "title": "财政部：有力有效实施更加积极的财政政策 支持全方位扩大国内需求 - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ycDFSN2x0NDQtLUh5WEtMZl9ZdVRrMXBLX0VCV3R6eHJCSXVISXhqN1hvZmowZjFydWpTQzZwVkNPWTZOSWROUg?oc=5",
-      "publishedAt": "2026-10-08T13:26:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "三星预计营业利润首次突破800亿美元 - 新浪财经",
-      "summary": "",
-      "why": "",
-      "source": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPTW1EaUtFM01oLVJxREtYc2RBb0NhQ2c5NjZoYVlQZ0lXZlUyV0NHM1NkajFmSm9MRW9wd3FYRUk5aTRSemdOczJGR25BdmFTd3BNWFFaSk8zMlFhWTJhZVhtV3Y5N3ZReDdMeWZ0cGR0RHphSmdYQ0FjM2JoN0pGNnlMUXdaMXBMeExsREczSENrWjNPYm5pWm5MM3JsczE4SDB3OXVsSnd6Q2NjWWgwRXMwWWRMcGVhUlRiZE1PR2tmUWFwWEtqQ1JaSHJJUURLN3BIdFA0QXM3U25tZXc?oc=5",
-      "publishedAt": "2026-10-08T11:48:00+00:00",
       "freshness": "recent"
     },
     {
@@ -276,17 +309,6 @@
       "source": "Google News",
       "url": "https://seekingalpha.com/article/4952735-wall-street-breakfast-podcast-f-35-parts-go-off-radar?source=feed_tag_wall_st_breakfast",
       "publishedAt": "2026-10-08T10:50:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "美国半导体：私有半导体公司概览（第五版） - 富途牛牛",
-      "summary": "",
-      "why": "",
-      "source": "富途牛牛",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNYUgyeDdJQ1k0VmV6S3ZrQl9XMjBVNWdxb1pRWWFINldKS1hqYXJzNG41bjZvS3ZORzFIRmpEYTV3WGxNZWI3MWZ2TnRiLVlaakk1blM4TW5vZUpLYkJsVmVCOEVWWHVZVEpUZUxZYjV0RGRTWEU5NUdCaVh6WjhXNnhLVnYyVXpPejB4d3g0U0JYVk9WdVU5ZXNRN0pidkJ4ZnZpcmhiRlowcjIzX3dyTE13YWx0QQ?oc=5",
-      "publishedAt": "2026-10-08T10:36:31+00:00",
       "freshness": "recent"
     }
   ],
