@@ -1,28 +1,83 @@
 {
-  "asOf": "2026-10-10T13:45:07.792833+00:00",
+  "asOf": "2026-10-10T18:38:23.324760+00:00",
   "title": "每日市场研究",
   "freshnessRule": "今日动态仅展示最近36小时；官方低频数据单列并显示发布日期。",
   "items": [
     {
       "theme": "全球",
       "region": "全球",
-      "title": "U.S. issues AI reporting mandate after Anthropic breaches: Axios",
+      "title": "China passenger vehicle retail market slumps 24% in September",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4651904-us-issues-ai-reporting-mandate-after-anthropic-breaches?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-10T13:18:07+00:00",
+      "url": "https://seekingalpha.com/news/4651911-china-passenger-vehicle-retail-market-slumps-24-september?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-10T17:55:18+00:00",
       "freshness": "recent"
     },
     {
       "theme": "全球",
       "region": "全球",
-      "title": "Salesforce CEO Marc Benioff joins Trump’s AI rebranding",
+      "title": "Flight disruptions growing after missile attack on Saudi airport",
       "summary": "",
       "why": "",
       "source": "Google News",
-      "url": "https://seekingalpha.com/news/4651903-salesforce-ceo-benioff-joins-trumps-ai-rebranding?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-10T11:56:21+00:00",
+      "url": "https://seekingalpha.com/news/4651910-flight-disruptions-after-blast-saudi-airport?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-10T16:52:32+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Philips investors’ move to probe company over 2021 recall denied by Dutch court",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4651909-philips-wins-dutch-court-battle-2021-recall?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-10T16:17:00+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Real estate stocks outperform broader markets",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4651848-real-estate-stocks-outperform-broader-markets?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-10T16:00:30+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Insider trades: P&G, Marvell Technology, TSMC among notable names",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4651902-insider-trades-pg-marvell-technology-tsmc-among-notable-names?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-10T15:03:46+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Hospital group files lawsuit to stop 340B rebate pilot again",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4651907-hospital-group-sues-stop-340b-rebate-pilot-again?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-10T14:57:14+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Notable analyst calls this week: Procter & Gamble, Palantir and SentinelOne among top picks",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4651867-notable-analyst-calls-this-week-procter-and-gamble-palantir-and-sentinelone-among-top-picks?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-10T14:10:43+00:00",
       "freshness": "recent"
     },
     {
@@ -39,6 +94,17 @@
     {
       "theme": "科技",
       "region": "中国",
+      "title": "太炸裂！Anthropic二季度营收达逾115亿美元 同比实现14倍暴涨 - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5TQmI4dFp2Wl9qQmo2R25VaVpIbjdaQWFfd1d6d080LUVaNjc3clAtQnZ4ZTFWV3BrMEpQMDFvdDZxdm5oTDlVSQ?oc=5",
+      "publishedAt": "2026-10-10T09:20:39+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
       "title": "【早报】美股存储、半导体板块，全线重挫；原油飙升、黄金收涨；多家A股公司三季报预增 - 财联社",
       "summary": "",
       "why": "",
@@ -48,58 +114,14 @@
       "freshness": "recent"
     },
     {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Trump turns to Russia in bid to lower diesel prices, but analysts see minimal impact",
+      "theme": "科技",
+      "region": "中国",
+      "title": "比特网早报：新AI模型在视频对话中的表现几可乱真，软银寻求海湾资本 - 比特网",
       "summary": "",
       "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4651899-trump-turns-to-russia-in-bid-to-lower-diesel-prices-but-analysts-see-minimal-impact?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-09T23:50:41+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Lockheed unveils next-gen Patriot interceptor to defend against hypersonic threats",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4651898-lockheed-unveils-next-gen-patriot-interceptor-to-defend-against-hypersonic-threats?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-09T22:17:08+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Alignment Healthcare downgraded at BofA after CMS Star Rating for MA contract",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4651897-alignment-healthcare-downgraded-bofa-after-cms-star-rating-ma-contract?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-09T21:59:09+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Gold snaps two-week losing streak; some analysts say may have found bottom",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4651893-gold-snaps-two-week-losing-streak-some-analysts-say-may-have-found-bottom?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-09T21:50:04+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Integra LifeSciences prices $450M in 9.5% secured notes",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4651896-integra-lifesciences-prices-450m-in-9_5-percent-secured-notes?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-09T21:38:06+00:00",
+      "source": "比特网",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBzWURDb2daaUtKNUptLXhXa214NnVyU0ozR0d0X05fUVBFeTRFYlVjLU9OZkpXSmVRcHFjT1Q4cVE1Wi05R1JidVRpNHg2VGRUTXhV?oc=5",
+      "publishedAt": "2026-10-10T01:55:56+00:00",
       "freshness": "recent"
     },
     {
@@ -122,17 +144,6 @@
       "source": "财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBKOGZ6ejN0YWR3YkZWVXU3YndmcUwyUGF0WFFRc2xGRkhSUm5lTjNSbm9LZlo2Mmx0WklVdWxSOFMxYnRHZnVsYw?oc=5",
       "publishedAt": "2026-10-09T19:41:51+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "大摩看好AI半导体行情：台积电确定性强，盛美半导体、慧荣科技目标价上行空间超50% - 新浪财经",
-      "summary": "",
-      "why": "",
-      "source": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbElCaGxLSUZzR0g1VjZNLXlxWXhjS05MU2djQk5FV0RQQkphdGVEYnh0NHR0ZzdUU1VNUU1vMFFhNm5yRWl2R1J0dXhNYjlXWnJrYW15WGV6eVlpYWRsdmo0ekR5Qm1jYWZfRGU0SklGY04yalpReEUtTjJZMTdtVzZqeU5VRUVEbktRTUxR?oc=5",
-      "publishedAt": "2026-10-09T13:56:00+00:00",
       "freshness": "recent"
     },
     {
