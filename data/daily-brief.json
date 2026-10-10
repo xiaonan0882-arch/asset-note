@@ -1,8 +1,52 @@
 {
-  "asOf": "2026-10-10T07:10:48.997910+00:00",
+  "asOf": "2026-10-10T13:45:07.792833+00:00",
   "title": "每日市场研究",
   "freshnessRule": "今日动态仅展示最近36小时；官方低频数据单列并显示发布日期。",
   "items": [
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "U.S. issues AI reporting mandate after Anthropic breaches: Axios",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4651904-us-issues-ai-reporting-mandate-after-anthropic-breaches?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-10T13:18:07+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Salesforce CEO Marc Benioff joins Trump’s AI rebranding",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4651903-salesforce-ceo-benioff-joins-trumps-ai-rebranding?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-10T11:56:21+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "宏观",
+      "region": "美国",
+      "title": "What Moved Markets This Week",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/article/4953253-what-moved-markets-this-week?source=feed_tag_wall_st_breakfast",
+      "publishedAt": "2026-10-10T10:40:05+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "【早报】美股存储、半导体板块，全线重挫；原油飙升、黄金收涨；多家A股公司三季报预增 - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1JT2RsRktmMlVEbnhET0xpak1yRWYxYThUUUFFMGVaT18tTmV3NHVmeExhVmVEVG16RTROelR0QVZsYTRJdFVfbA?oc=5",
+      "publishedAt": "2026-10-10T03:33:56+00:00",
+      "freshness": "recent"
+    },
     {
       "theme": "全球",
       "region": "全球",
@@ -59,28 +103,6 @@
       "freshness": "recent"
     },
     {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Gran Tierra Energy expects $315M cash from $1.33B business sale",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4651894-gran-tierra-energy-expects-315m-cash-from-133b-business-sale?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-09T21:35:13+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Eli Lilly-backed TRex Bio closes day flat after IPO",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4651892-eli-lilly-backed-trex-bio-closes-day-flat-after-ipo?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-09T21:30:20+00:00",
-      "freshness": "recent"
-    },
-    {
       "theme": "科技",
       "region": "中国",
       "title": "AI芯片越造越多，数据中心电却不够用：半导体出货预期面临考验 - 富途牛牛",
@@ -114,17 +136,6 @@
       "freshness": "recent"
     },
     {
-      "theme": "科技",
-      "region": "中国",
-      "title": "韩国金融改革“大动作”：将国家增长基金规模扩至200万亿韩元 - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1MakFMTVBSNEZTZUJpZTBNaTBOazdwODEtd1pUSHV0VmE5RXlaWE91aGVIbE1XU0FsMEVzdmlneVZ3a19VUnRjdg?oc=5",
-      "publishedAt": "2026-10-09T13:23:43+00:00",
-      "freshness": "recent"
-    },
-    {
       "theme": "宏观",
       "region": "美国",
       "title": "America Continues To Spend Far More Than It Has",
@@ -136,28 +147,6 @@
       "freshness": "recent"
     },
     {
-      "theme": "科技",
-      "region": "中国",
-      "title": "【早报】美股芯片股大跌；中概股逆势走强；原油飙升、黄金收涨；A股又一波回购潮来了 - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBfMzZvODEwVVVXWEpJYnVxTE93UF9OUnpHWV9nMkJlUXc4Vl9URzZnMXNrX0hUaVJ3UWo4MHB1UDNtOGNWc19EZg?oc=5",
-      "publishedAt": "2026-10-09T11:22:05+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "大摩看多SpaceX：“Tera’Merica”潜力被低估，企业AI与算力扩张打开增长空间 - 新浪财经",
-      "summary": "",
-      "why": "",
-      "source": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9FczZaOW5lNkFVUE5vQjJ4RS1kYXZRZ1pmLWtoNEhaYUU1SXZ1NW0zRW1UekU5d1JEanZOaXNUT2k3VzhVZzVTWmhGbVNoSUJWQ2RaMEdmTndycE15d3BBcjZ6eGZtWGRhaXk0SG9hZ3M1VkZyWjFxVnI3dkw?oc=5",
-      "publishedAt": "2026-10-09T11:12:00+00:00",
-      "freshness": "recent"
-    },
-    {
       "theme": "宏观",
       "region": "美国",
       "title": "Wall Street Breakfast Podcast: Telecom Stocks Lose Signal",
@@ -166,39 +155,6 @@
       "source": "Google News",
       "url": "https://seekingalpha.com/article/4953042-wall-street-breakfast-podcast-telecom-stocks-lose-signal?source=feed_tag_wall_st_breakfast",
       "publishedAt": "2026-10-09T10:55:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "宏观",
-      "region": "中国",
-      "title": "央行行长潘功胜会见高盛集团总裁兼首席运营官温泽恩 - 新浪财经",
-      "summary": "",
-      "why": "",
-      "source": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPUGhQbTdkeVFCVzdIeUsybklOdjlCVFdLZC1KMTJnVHFPNVJNMXRuamZWRnNGZ3M5WHJmMXpkM0xzRGZmcHlhTTZwWlpRRE0tMGhXYTRYems5NDA4SHJiUWFkRTYyZW9nUlMxVWwyY0NTMWZQYjV0MVBNRXZTUmg0YWk5UUtmQ2F5UHdNSUROMmVlLXJpdXFITXQ2WWVfRk9BVXppb1gySkZ4dTJfckVBMkM3VlpmNHdBV0wtUnhzenlRbm5EM29qek5UNFJ4elNLcWc?oc=5",
-      "publishedAt": "2026-10-09T10:44:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "宏观",
-      "region": "中国",
-      "title": "生意社乙醇10月9日均差为10.73元/吨 由正向缩小重新扩大 - 新浪财经",
-      "summary": "",
-      "why": "",
-      "source": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVmdqbFhlZW10RktBdmVZdmlPQVIxY29jMTR1TzN2dC04el9td0Z5Sm9HN2ZhX0JwWUE5Wm5mbzV6VVA4NzNLeTZQb1RLbDUzQ2FNTVNyczE4M3JNa1k2bDUxZ0tubkxzTXBsZ0FxT2lITlpKTjRNWW44aTYyc2I5dUI5M2c4Vl8zNlE?oc=5",
-      "publishedAt": "2026-10-09T10:15:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "宏观",
-      "region": "中国",
-      "title": "生意社硫酸钾10月9日均差为-3.66元/吨 由负向扩大转为缩小 - 新浪财经",
-      "summary": "",
-      "why": "",
-      "source": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPdnIwdnZQQy1rM2pwcDdCXzJVMVY4bVhpTk5aQ3h3bVBOXzg3M2JuN0RqYXliT0ZQYzZmMGctdzV3aVdJVVNKOEp2MWNTQV9MR1UzcWNVZTR0VWpSbEdqNm9BaWVidXh6dEhWZXhHeW1sUmJVeFMtcklRZlV2Y3lCOFYwWWRadnF6dnc?oc=5",
-      "publishedAt": "2026-10-09T10:15:00+00:00",
       "freshness": "recent"
     }
   ],
