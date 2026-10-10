@@ -1,8 +1,52 @@
 {
-  "asOf": "2026-10-10T18:38:23.324760+00:00",
+  "asOf": "2026-10-10T22:40:27.383395+00:00",
   "title": "每日市场研究",
   "freshnessRule": "今日动态仅展示最近36小时；官方低频数据单列并显示发布日期。",
   "items": [
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "SA Asks: Is now the time to buy quantum stocks? If so, which ones?",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4651914-sa-asks-is-now-the-time-to-buy-quantum-stocks-if-so-which-ones?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-10T19:57:56+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Key deals this week: Option Care Health, PTC, Energy Transfer and more",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4651908-key-deals-this-week-option-care-health-ptc-energy-transfer-and-more?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-10T19:15:40+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Nvidia in talks to buy ‘open’ model startup Reflection AI: FT",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4651913-nvidia-buy-open-model-startup-reflection-ai?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-10T19:12:18+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Cliffs unit is said to proceed with Canada layoffs despite govt. ultimatum",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4651912-cliffs-plans-canada-layoffs-despite-govt-ultimatum?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-10T18:41:39+00:00",
+      "freshness": "recent"
+    },
     {
       "theme": "全球",
       "region": "全球",
@@ -37,50 +81,6 @@
       "freshness": "recent"
     },
     {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Real estate stocks outperform broader markets",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4651848-real-estate-stocks-outperform-broader-markets?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-10T16:00:30+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Insider trades: P&G, Marvell Technology, TSMC among notable names",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4651902-insider-trades-pg-marvell-technology-tsmc-among-notable-names?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-10T15:03:46+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Hospital group files lawsuit to stop 340B rebate pilot again",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4651907-hospital-group-sues-stop-340b-rebate-pilot-again?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-10T14:57:14+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Notable analyst calls this week: Procter & Gamble, Palantir and SentinelOne among top picks",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4651867-notable-analyst-calls-this-week-procter-and-gamble-palantir-and-sentinelone-among-top-picks?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-10T14:10:43+00:00",
-      "freshness": "recent"
-    },
-    {
       "theme": "宏观",
       "region": "美国",
       "title": "What Moved Markets This Week",
@@ -89,61 +89,6 @@
       "source": "Google News",
       "url": "https://seekingalpha.com/article/4953253-what-moved-markets-this-week?source=feed_tag_wall_st_breakfast",
       "publishedAt": "2026-10-10T10:40:05+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "太炸裂！Anthropic二季度营收达逾115亿美元 同比实现14倍暴涨 - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5TQmI4dFp2Wl9qQmo2R25VaVpIbjdaQWFfd1d6d080LUVaNjc3clAtQnZ4ZTFWV3BrMEpQMDFvdDZxdm5oTDlVSQ?oc=5",
-      "publishedAt": "2026-10-10T09:20:39+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "【早报】美股存储、半导体板块，全线重挫；原油飙升、黄金收涨；多家A股公司三季报预增 - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1JT2RsRktmMlVEbnhET0xpak1yRWYxYThUUUFFMGVaT18tTmV3NHVmeExhVmVEVG16RTROelR0QVZsYTRJdFVfbA?oc=5",
-      "publishedAt": "2026-10-10T03:33:56+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "比特网早报：新AI模型在视频对话中的表现几可乱真，软银寻求海湾资本 - 比特网",
-      "summary": "",
-      "why": "",
-      "source": "比特网",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBzWURDb2daaUtKNUptLXhXa214NnVyU0ozR0d0X05fUVBFeTRFYlVjLU9OZkpXSmVRcHFjT1Q4cVE1Wi05R1JidVRpNHg2VGRUTXhV?oc=5",
-      "publishedAt": "2026-10-10T01:55:56+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "AI芯片越造越多，数据中心电却不够用：半导体出货预期面临考验 - 富途牛牛",
-      "summary": "",
-      "why": "",
-      "source": "富途牛牛",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPLXVXbl8tb05fdTFmQzcyRWw4dTNRaDRPR2xjbzNuZElkSDdIS0Nua3M4Q0hGZEhEemh1UURqaE9Bc3JCanExel9IblhKVDlFeVl0cFVfSHF3b2NHQjY4alZaWW1EbWtVYXVhNmhDbGZIQzBCUGNOcWFfNEwwSmlkaV9XbzZiWFJoODIxd3dWdVAtNzZjSmFFc1JR?oc=5",
-      "publishedAt": "2026-10-09T20:52:16+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "【早报】特朗普：对多晶硅及其衍生产品加征关税；美存储股再遭重挫；原油走强、黄金微跌；宇树科技发行价定了 - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBKOGZ6ejN0YWR3YkZWVXU3YndmcUwyUGF0WFFRc2xGRkhSUm5lTjNSbm9LZlo2Mmx0WklVdWxSOFMxYnRHZnVsYw?oc=5",
-      "publishedAt": "2026-10-09T19:41:51+00:00",
       "freshness": "recent"
     },
     {
