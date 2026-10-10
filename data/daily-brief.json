@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-10T00:53:53.342485+00:00",
+  "asOf": "2026-10-10T07:10:48.997910+00:00",
   "title": "每日市场研究",
   "freshnessRule": "今日动态仅展示最近36小时；官方低频数据单列并显示发布日期。",
   "items": [
@@ -92,6 +92,39 @@
       "freshness": "recent"
     },
     {
+      "theme": "科技",
+      "region": "中国",
+      "title": "【早报】特朗普：对多晶硅及其衍生产品加征关税；美存储股再遭重挫；原油走强、黄金微跌；宇树科技发行价定了 - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBKOGZ6ejN0YWR3YkZWVXU3YndmcUwyUGF0WFFRc2xGRkhSUm5lTjNSbm9LZlo2Mmx0WklVdWxSOFMxYnRHZnVsYw?oc=5",
+      "publishedAt": "2026-10-09T19:41:51+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "大摩看好AI半导体行情：台积电确定性强，盛美半导体、慧荣科技目标价上行空间超50% - 新浪财经",
+      "summary": "",
+      "why": "",
+      "source": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbElCaGxLSUZzR0g1VjZNLXlxWXhjS05MU2djQk5FV0RQQkphdGVEYnh0NHR0ZzdUU1VNUU1vMFFhNm5yRWl2R1J0dXhNYjlXWnJrYW15WGV6eVlpYWRsdmo0ekR5Qm1jYWZfRGU0SklGY04yalpReEUtTjJZMTdtVzZqeU5VRUVEbktRTUxR?oc=5",
+      "publishedAt": "2026-10-09T13:56:00+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "韩国金融改革“大动作”：将国家增长基金规模扩至200万亿韩元 - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1MakFMTVBSNEZTZUJpZTBNaTBOazdwODEtd1pUSHV0VmE5RXlaWE91aGVIbE1XU0FsMEVzdmlneVZ3a19VUnRjdg?oc=5",
+      "publishedAt": "2026-10-09T13:23:43+00:00",
+      "freshness": "recent"
+    },
+    {
       "theme": "宏观",
       "region": "美国",
       "title": "America Continues To Spend Far More Than It Has",
@@ -149,17 +182,6 @@
     {
       "theme": "宏观",
       "region": "中国",
-      "title": "生意社小苏打10月9日均线下穿 均差为0.00元/吨 - 新浪财经",
-      "summary": "",
-      "why": "",
-      "source": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVDdwc18xbHYxRlJYRHJVMEhzMHF5c0c2SXJ2cEVBZTJtYS1Wd21QSDJJcUlQTXdyWXdpZzhSYWt3VHVuZmo3NTR0TXBMNHhlX2lIU3NmdmNqdi1SbDcta0p6QVV3Tzd0UXR0Umg0Q3NjNDVhUll4ZmFoWmlhaFNSM1lwOXZnUkxrSHc?oc=5",
-      "publishedAt": "2026-10-09T10:15:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "宏观",
-      "region": "中国",
       "title": "生意社乙醇10月9日均差为10.73元/吨 由正向缩小重新扩大 - 新浪财经",
       "summary": "",
       "why": "",
@@ -177,105 +199,6 @@
       "source": "新浪财经",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPdnIwdnZQQy1rM2pwcDdCXzJVMVY4bVhpTk5aQ3h3bVBOXzg3M2JuN0RqYXliT0ZQYzZmMGctdzV3aVdJVVNKOEp2MWNTQV9MR1UzcWNVZTR0VWpSbEdqNm9BaWVidXh6dEhWZXhHeW1sUmJVeFMtcklRZlV2Y3lCOFYwWWRadnF6dnc?oc=5",
       "publishedAt": "2026-10-09T10:15:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "宏观",
-      "region": "中国",
-      "title": "宏观偏空 沪锌期货在2.6万关口附近展开拉锯 - 新浪财经",
-      "summary": "",
-      "why": "",
-      "source": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOWU9nYjFNT3I5eGZiQlNIa3NpaHBaUlp0VFVwb1lRR190X1NMMm9qZUF4NmpwZWlFUmlrakQxSGNPWUxDbmdncEdVYkl1cXlSQTZTNkZ4X3BZcjJWZm1ETXJmRm5iVTBYaEdERVduLXNlajJxVFJsb3g4TTM0SFRqR2h0OTQzajhDajFSbXVvWEJMVUlzbkNYVW9YUk4tX1haMWNCQkVhN2hpaU55YTU2dFpRdGdpUkJfZHFlQTRtVm0xcTFlXzFFVVcxbzQ3QzAtRmdQaHdRWjJaRWxvdGY5U01R?oc=5",
-      "publishedAt": "2026-10-09T06:40:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "宏观",
-      "region": "全球",
-      "title": "中国电气化2030: 能源安全推动电动车与电力布局: BI网络研讨会回放 - Bloomberg.com",
-      "summary": "",
-      "why": "",
-      "source": "Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMi7wJBVV95cUxNcU1ocVRtS2FLcUpMOTdHTzFULUc0VjUtTVlEUF9CQW9JZF9rN21aaG9ta1QwMVNuUHRXUGJxWVp3Y29KZGJ4MFJjcURsSm9XcTRUazFQcU9FV2lZWlgxc0VGVlg2aENBYnVxWk5LWF9lQUZvRTZscHF5bjNncWQxMEhIdWxHNmlRbXdMWXByZGo5RHJRbHVMcll4TkJZcnNfb3U1RFNOVW4zSTlzZ01aNEpYdnhudGk0a2VNX0kyalRZMWF6NEM5TTFOejZMOTdrMThqamFRazR5SkVPYlp4cVRrU3d6NG8wTFdUSy1SZ2RGelRzS2xsRkd4b3N2RGRtcjRJcm5EaWlSXzVFdVhQaXdlV1hIUWtOM3FNcmNYZ0Etei1ZTkliYzl5U3lLd0VhT296YW16ZXQ4Znd5NUNESlJDdDV5cVZ1MS0xS3RQR3NhMXgzU2dvMnFWVnNXcjVqcjNMbldUUVpTTFphbEdF?oc=5",
-      "publishedAt": "2026-10-09T06:17:04+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "消费",
-      "region": "中国",
-      "title": "财政部：有力有效实施更加积极的财政政策 支持全方位扩大国内需求 - 财联社",
-      "summary": "",
-      "why": "",
-      "source": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ycDFSN2x0NDQtLUh5WEtMZl9ZdVRrMXBLX0VCV3R6eHJCSXVISXhqN1hvZmowZjFydWpTQzZwVkNPWTZOSWROUg?oc=5",
-      "publishedAt": "2026-10-09T03:59:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "宏观",
-      "region": "中国",
-      "title": "玉渊谭天丨央行为什么发布关于人民币汇率的政策立场 - 新浪财经",
-      "summary": "",
-      "why": "",
-      "source": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBQbDZ2ZFVad1FfTDlxR3lRN0V0TDVBXy13WEFSYlhfODAzbXZhSXk3SWx0QVZlN2lMaXNyeFhZZnZHcUNraWZGbmpwOXoxOVdEZ3RrcVVpSUdvOEtPUjJTODBjR2xRWXBrWGF6a2RKelhLNndpdEcxNA?oc=5",
-      "publishedAt": "2026-10-09T03:36:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "AI硬件缘何重挫？OpenAI营收不及预期，三星/台积电反向上演“印钞机”时刻-E点即通 - 金融界",
-      "summary": "",
-      "why": "",
-      "source": "金融界",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ZUTFVYVJhckE5REVzVzBGU0JxVDdwMmZudGxuYmJrMEluek9hQWdOTkJxR1NJMGhjUGpzdVZRMjZKY21uTS1UVUdFTHlxTWFCQW52ZU50dkhPeHhGdnczbndNeUJadEpwRm1QdWdGaV8?oc=5",
-      "publishedAt": "2026-10-09T03:29:56+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "【早报】美股存储、半导体板块，全线重挫；原油飙升、黄金收涨；多家A股公司三季报预增 - 东方财富",
-      "summary": "",
-      "why": "",
-      "source": "东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9DZ2JGSXVzanpFRno0d0ZRbkxYRUxndmxvS21ZNFF6cy1jZjhDMDZJRTRmTHkxVHZ1eUtRSVFwS1lyaEFiOVlFQkk2eEM1VmxiaDVwR1h4TXEzVXdJNU9ENF96MWNQUQ?oc=5",
-      "publishedAt": "2026-10-09T02:23:07+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "科技",
-      "region": "中国",
-      "title": "OpenAI被曝年化收入不及预期，多只美股半导体股集体下挫 - 新浪财经",
-      "summary": "",
-      "why": "",
-      "source": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1sZEhOaEd1cDJRN25xeGlJMkNVQU1lZ0UxT0lqa3dreWNRUFhKdjcyckY3Z1lfRlhiYlpsYmdHSFpyZHhqTW9rRm03ZjFsU1ZrZ0tEQlhrTTZ6S2RvUU5lclZuVXgyckRncjktYkFUYk5fUkF0c2ZaUU5tdzRPZlk?oc=5",
-      "publishedAt": "2026-10-09T01:46:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "宏观",
-      "region": "中国",
-      "title": "央行系统阐明人民币汇率政策立场 - 新浪财经",
-      "summary": "",
-      "why": "",
-      "source": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1rRHM4S1ZncVJTcXgzWm85R2d3eE52OFVnQ05Hd2tIS3dQOGVkdTd2ZVFXVUU5RFlUMV9Db1A0Mjhyd2p0YU05QVZzYWh2OGgzNUo1TTM5V2p2ODlYdk00OTAyb24zU29xS0JzalM4bGlPOVNISG5QXw?oc=5",
-      "publishedAt": "2026-10-09T01:34:00+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "宏观",
-      "region": "美国",
-      "title": "Wall Street Lunch: Starbucks Puts Chipotle On Its Takeover Menu",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/article/4952846-wall-street-lunch-starbucks-puts-chipotle-on-its-takeover-menu?source=feed_tag_wall_st_breakfast",
-      "publishedAt": "2026-10-08T16:27:00+00:00",
       "freshness": "recent"
     }
   ],
