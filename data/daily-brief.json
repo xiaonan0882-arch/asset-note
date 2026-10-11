@@ -1,8 +1,30 @@
 {
-  "asOf": "2026-10-10T22:40:27.383395+00:00",
+  "asOf": "2026-10-11T01:56:06.552821+00:00",
   "title": "每日市场研究",
   "freshnessRule": "今日动态仅展示最近36小时；官方低频数据单列并显示发布日期。",
   "items": [
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Lockheed Martin raises dividend by 4.3% to $3.60",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4651916-lockheed-martin-raises-dividend-by-43-to-360?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-11T01:09:38+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "全球",
+      "region": "全球",
+      "title": "Trump says Ukraine should replace Zelenskyy, stop hitting Russian refineries",
+      "summary": "",
+      "why": "",
+      "source": "Google News",
+      "url": "https://seekingalpha.com/news/4651915-trump-says-ukraine-should-replace-zelenskyy-stop-hitting-russian-refineries?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "publishedAt": "2026-10-11T00:30:09+00:00",
+      "freshness": "recent"
+    },
     {
       "theme": "全球",
       "region": "全球",
@@ -59,25 +81,14 @@
       "freshness": "recent"
     },
     {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Flight disruptions growing after missile attack on Saudi airport",
+      "theme": "科技",
+      "region": "中国",
+      "title": "太炸裂！Anthropic二季度营收达逾115亿美元 同比实现14倍暴涨 - 财联社",
       "summary": "",
       "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4651910-flight-disruptions-after-blast-saudi-airport?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-10T16:52:32+00:00",
-      "freshness": "recent"
-    },
-    {
-      "theme": "全球",
-      "region": "全球",
-      "title": "Philips investors’ move to probe company over 2021 recall denied by Dutch court",
-      "summary": "",
-      "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/news/4651909-philips-wins-dutch-court-battle-2021-recall?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "publishedAt": "2026-10-10T16:17:00+00:00",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5TQmI4dFp2Wl9qQmo2R25VaVpIbjdaQWFfd1d6d080LUVaNjc3clAtQnZ4ZTFWV3BrMEpQMDFvdDZxdm5oTDlVSQ?oc=5",
+      "publishedAt": "2026-10-10T16:49:30+00:00",
       "freshness": "recent"
     },
     {
@@ -92,25 +103,47 @@
       "freshness": "recent"
     },
     {
-      "theme": "宏观",
-      "region": "美国",
-      "title": "America Continues To Spend Far More Than It Has",
+      "theme": "科技",
+      "region": "中国",
+      "title": "科技速递：新AI模型在视频对话中的表现几可乱真，软银寻求海湾资本 - 天极网",
       "summary": "",
       "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/article/4953013-america-continues-to-spend-far-more-than-it-has?source=feed_tag_wall_st_breakfast",
-      "publishedAt": "2026-10-09T11:30:24+00:00",
+      "source": "天极网",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1IWkxEcGVfZ2RoZmk2a3pCOEZTd2M0eHVDRXhObTA0dnMtTXR2T2lvM0JYUGx3dnN6c011ejVyUE5yWlVGWkRNUk5TYmxPTXNHVmVZ?oc=5",
+      "publishedAt": "2026-10-10T06:00:00+00:00",
       "freshness": "recent"
     },
     {
-      "theme": "宏观",
-      "region": "美国",
-      "title": "Wall Street Breakfast Podcast: Telecom Stocks Lose Signal",
+      "theme": "科技",
+      "region": "中国",
+      "title": "【早报】美股存储、半导体板块，全线重挫；原油飙升、黄金收涨；多家A股公司三季报预增 - 财联社",
       "summary": "",
       "why": "",
-      "source": "Google News",
-      "url": "https://seekingalpha.com/article/4953042-wall-street-breakfast-podcast-telecom-stocks-lose-signal?source=feed_tag_wall_st_breakfast",
-      "publishedAt": "2026-10-09T10:55:00+00:00",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1JT2RsRktmMlVEbnhET0xpak1yRWYxYThUUUFFMGVaT18tTmV3NHVmeExhVmVEVG16RTROelR0QVZsYTRJdFVfbA?oc=5",
+      "publishedAt": "2026-10-10T03:33:56+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "【早报】美股大反弹；3大存储巨头，遭集体诉讼；金银下跌，油价收涨 - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9ocE9zTlNLLUVBa3ZkUk5iRFp6bkxleEFJWlpCQlQxNy1KTzlaUlUwSzk0M0ptdnp6LWJqckJha3l6R3F3b1d4SQ?oc=5",
+      "publishedAt": "2026-10-10T03:15:39+00:00",
+      "freshness": "recent"
+    },
+    {
+      "theme": "科技",
+      "region": "中国",
+      "title": "【早报】美股半导体板块，深V反弹；原油大跌、黄金微涨；事关电力，重磅规划发布 - 财联社",
+      "summary": "",
+      "why": "",
+      "source": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE52WEpUWmhya09LbzIzTXM1VnFoTU9IdzVoRUN2TWkwYWQteW53S3hMUVVqdXlOakh5UmxhXzM5Sm1rWTVaTDRvdg?oc=5",
+      "publishedAt": "2026-10-10T02:23:21+00:00",
       "freshness": "recent"
     }
   ],
